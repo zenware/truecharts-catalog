@@ -20,7 +20,7 @@ jobs:
       - name: catalog tests
         run: |
           echo "Starting Catalog Validation"
-          /usr/local/bin/catalog_validate validate --path "${PWD}/catalog"
+          /usr/local/bin/catalog_validate validate
           
       - uses: actions/checkout@master
 
