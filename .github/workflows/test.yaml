@@ -1,4 +1,7 @@
 name: Sync multiple branches
+
+concurrency: catalog-test
+
 on:
   push:
     branches:
