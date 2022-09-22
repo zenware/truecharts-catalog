@@ -2,6 +2,7 @@
 
 
 
+
 ## [fotosho-0.0.24](https://github.com/truecharts/charts/compare/fotosho-0.0.23...fotosho-0.0.24) (2022-09-21)
 
 ### Chore
@@ -93,7 +94,6 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
