@@ -2,7 +2,16 @@
 
 
 
-## [minecraft-bedrock-1.0.32](https://github.com/truecharts/charts/compare/minecraft-bedrock-1.0.31...minecraft-bedrock-1.0.32) (2022-09-22)
+## [kiwix-serve-1.0.1](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.27...kiwix-serve-1.0.1) (2022-09-23)
+
+### Fix
+
+- Serve all .zim files in the data dir ([#3848](https://github.com/truecharts/charts/issues/3848))
+
+
+
+
+## [kiwix-serve-0.0.27](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.26...kiwix-serve-0.0.27) (2022-09-22)
 
 ### Chore
 
@@ -26,7 +35,7 @@
 
 
 
-## [minecraft-bedrock-1.0.32](https://github.com/truecharts/charts/compare/minecraft-bedrock-1.0.31...minecraft-bedrock-1.0.32) (2022-09-21)
+## [kiwix-serve-0.0.27](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.26...kiwix-serve-0.0.27) (2022-09-21)
 
 ### Chore
 
@@ -49,7 +58,7 @@
 
 
 
-## [minecraft-bedrock-1.0.32](https://github.com/truecharts/charts/compare/minecraft-bedrock-1.0.31...minecraft-bedrock-1.0.32) (2022-09-21)
+## [kiwix-serve-0.0.27](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.26...kiwix-serve-0.0.27) (2022-09-21)
 
 ### Chore
 
@@ -71,7 +80,7 @@
 
 
 
-## [minecraft-bedrock-1.0.32](https://github.com/truecharts/charts/compare/minecraft-bedrock-1.0.31...minecraft-bedrock-1.0.32) (2022-09-20)
+## [kiwix-serve-0.0.27](https://github.com/truecharts/charts/compare/kiwix-serve-0.0.26...kiwix-serve-0.0.27) (2022-09-20)
 
 ### Chore
 
@@ -88,12 +97,3 @@
   - refactor Services SCALE GUI
   - update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
   - split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-
-
-
-## [minecraft-bedrock-1.0.32](https://github.com/truecharts/charts/compare/minecraft-bedrock-1.0.31...minecraft-bedrock-1.0.32) (2022-09-20)
-
-### Chore
-
-- Auto-update chart README [skip ci]
