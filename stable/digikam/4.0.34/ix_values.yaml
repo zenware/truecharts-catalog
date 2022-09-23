@@ -1,0 +1,29 @@
+image:
+  repository: tccr.io/truecharts/digikam
+  pullPolicy: IfNotPresent
+  tag: v7.8.0@sha256:efd7c9f3e2bfbfe45e93d3c7806db4f96fada39d87af51900cd736ccc8e72ffa
+
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+service:
+  main:
+    ports:
+      main:
+        port: 10033
+        targetPort: 3000
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+  varrun:
+    enabled: true
+
+portal:
+  enabled: true
