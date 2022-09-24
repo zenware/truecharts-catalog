@@ -164,186 +164,49 @@ questions:
                 label: Arg
                 schema:
                   type: string
-  - variable: env
-    group: "Container Configuration"
-    label: "Image Environment"
+  - variable: portainer
+    group: Container Configuration
+    label: Portainer Configuration
     schema:
       additional_attrs: true
       type: dict
       attrs:
-        - variable: VERSION
-          label: "Minecraft version"
-          description: "Options: LATEST, PREVIOUS or version number"
-          schema:
-            type: string
-            required: true
-            default: "LATEST"
-        - variable: SERVER_NAME
-          label: "Server Name"
-          schema:
-            type: string
-            required: true
-            default: "Dedicated Server on TrueNAS Scale!"
-        - variable: GAMEMODE
-          label: "Default gamemode"
-          schema:
-            type: string
-            required: true
-            default: "survival"
-            enum:
-              - value: "survival"
-                description: "Survival"
-              - value: "creative"
-                description: "Creative"
-              - value: "adventure"
-                description: "Adventure"
-              - value: "spectator"
-                description: "Spectator"
-        - variable: DIFFICULTY
-          label: "Difficulty"
-          schema:
-            type: string
-            required: true
-            default: "easy"
-            enum:
-              - value: "peaceful"
-                description: "Peaceful"
-              - value: "easy"
-                description: "Easy"
-              - value: "normal"
-                description: "Normal"
-              - value: "hard"
-                description: "Hard"
-        - variable: LEVEL_TYPE
-          label: "Level type"
-          schema:
-            type: string
-            required: true
-            default: "DEFAULT"
-            enum:
-              - value: "DEFAULT"
-                description: "Default"
-              - value: "FLAT"
-                description: "Flat"
-              - value: "LEGACY"
-                description: "Legacy"
-        - variable: ALLOW_CHEATS
-          label: "Enable/Disable Cheats"
-          schema:
-            type: boolean
-            default: false
-        - variable: MAX_PLAYERS
-          label: "Max players"
-          schema:
-            type: int
-            min: 1
-            required: true
-            default: 10
-        - variable: ONLINE_MODE
-          label: "Online mode"
-          schema:
-            type: boolean
-            default: true
-        - variable: WHITE_LIST
-          label: "White list"
-          schema:
-            type: boolean
-            default: false
-        - variable: VIEW_DISTANCE
-          label: "View distance"
-          schema:
-            type: int
-            min: 1
-            required: true
-            default: 32
-        - variable: TICK_DISTANCE
-          label: "Tick distance"
-          schema:
-            type: int
-            min: 1
-            required: true
-            default: 4
-        - variable: PLAYER_IDLE_TIMEOUT
-          label: "Player idle timeout"
-          schema:
-            type: int
-            min: 0
-            required: true
-            default: 30
-        - variable: MAX_THREADS
-          label: "Max threads"
-          schema:
-            type: int
-            min: 1
-            required: true
-            default: 8
-        - variable: LEVEL_NAME
-          label: "Level name"
-          schema:
-            type: string
-            required: true
-            default: "Bedrock level"
-        - variable: LEVEL_SEED
-          label: "Level seed"
+        - variable: logo
+          label: Logo URL
+          description: Specifies the URL to the image to be displayed as a logo in the UI. If not specified, the Portainer logo is used instead.
           schema:
             type: string
             default: ""
-        - variable: DEFAULT_PLAYER_PERMISSION_LEVEL
-          label: "Default player permission level"
+        - variable: templates
+          label: Templates URL
+          description: Specifies the URL to the templates (apps) definitions.
           schema:
             type: string
-            required: true
-            default: "member"
-            enum:
-              - value: "visitor"
-                description: "Visitor"
-              - value: "member"
-                description: "Member"
-              - value: "operator"
-                description: "Operator"
-        - variable: TEXTUREPACK_REQUIRED
-          label: "Require texturepack"
+            default: ""
+        - variable: edge_compute
+          label: Edge Compute
+          description: Automatically enables Edge Compute features.
           schema:
             type: boolean
             default: false
-        - variable: SERVER_AUTHORITATIVE_MOVEMENT
-          label: "Server authoritave movement"
+        - variable: snapshot_interval
+          label: Snapshot Interval
+          description: Specifies the time interval between two environment snapshot jobs expressed as a string. For example 30s, 5m, 1h… Supported by the time.ParseDuration method
           schema:
             type: string
-            required: true
-            default: "server-auth"
-            enum:
-              - value: "client-auth"
-                description: "client-auth"
-              - value: "server-auth"
-                description: "server-auth"
-              - value: "server-auth-with-rewind"
-                description: "server-auth-with-rewind"
-        - variable: PLAYER_MOVEMENT_SCORE_THRESHOLD
-          label: "Player movement score threshold"
+            default: 5m
+        - variable: hide_labels
+          label: Hide Labels
+          description: Hides containers with a specific label in the UI. Format "label=value"
           schema:
-            type: int
-            min: 1
-            required: true
-            default: 20
-        - variable: PLAYER_MOVEMENT_DISTANCE_THRESHOLD
-          label: "Player movement distance threshold"
-          schema:
-            type: string
-            required: true
-            default: "0.3"
-        - variable: PLAYER_MOVEMENT_DURATION_THRESHOLD_IN_MS
-          label: "Player movement duration threshold in MS"
-          schema:
-            type: int
-            min: 1
-            required: true
-            default: 500
-        - variable: CORRECT_PLAYER_MOVEMENT
-          label: "Enable/Disable Player movement correction"
-          schema:
-            type: boolean
-            default: false
+            type: list
+            default: []
+            items:
+              - variable: label
+                label: Label
+                schema:
+                  type: string
+                  default: ""
   - variable: TZ
     label: Timezone
     group: Container Configuration
@@ -458,8 +321,8 @@ questions:
       type: dict
       attrs:
         - variable: main
-          label: "Main Service"
-          description: "The Primary service on which the healthcheck runs, often the webUI"
+          label: Main Service
+          description: The Primary service on which the healthcheck runs, often the webUI
           schema:
             additional_attrs: true
             type: dict
@@ -539,17 +402,17 @@ questions:
                   type: dict
                   attrs:
                     - variable: main
-                      label: "Main Service Port Configuration"
+                      label: Main Service Port Configuration
                       schema:
                         additional_attrs: true
                         type: dict
                         attrs:
                           - variable: port
-                            label: "Port"
-                            description: "This port exposes the container port on the service"
+                            label: Port
+                            description: This port exposes the container port on the service
                             schema:
                               type: int
-                              default: 19132
+                              default: 10400
                               required: true
                           - variable: advanced
                             label: Show Advanced Settings
@@ -568,7 +431,7 @@ questions:
                                   label: Port Type
                                   schema:
                                     type: string
-                                    default: UDP
+                                    default: HTTPS
                                     enum:
                                       - value: HTTP
                                         description: HTTP
@@ -586,11 +449,145 @@ questions:
                                     min: 9000
                                     max: 65535
                                 - variable: targetPort
-                                  label: "Target Port"
-                                  description: "The internal(!) port on the container the Application runs on"
+                                  label: Target Port
+                                  description: The internal(!) port on the container the Application runs on
                                   schema:
                                     type: int
-                                    default: 19132
+                                    default: 9443
+        - variable: edge
+          label: Edge Service
+          description: The Edge Service
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: enabled
+                label: Enable the Service
+                schema:
+                  type: boolean
+                  default: true
+                  hidden: true
+              - variable: type
+                label: Service Type
+                description: "ClusterIP's are only internally available and Loadbalancer exposes the service using the system loadbalancer"
+                schema:
+                  type: string
+                  default: LoadBalancer
+                  enum:
+                    - value: LoadBalancer
+                      description: LoadBalancer (Expose Ports)
+                    - value: ClusterIP
+                      description: ClusterIP (Do Not Expose Ports)
+                    - value: Simple
+                      description: Deprecated CHANGE THIS
+              - variable: loadBalancerIP
+                label: LoadBalancer IP
+                description: "MetalLB Only: Selects the Loadbalancer IP to expose on. Required when using PortalButton with MetalLB"
+                schema:
+                  show_if: [["type", "=", "LoadBalancer"]]
+                  type: string
+                  default: ""
+              - variable: advancedsvcset
+                label: Show Advanced Service Settings
+                schema:
+                  type: boolean
+                  default: false
+                  show_subquestions_if: true
+                  subquestions:
+                    - variable: externalIPs
+                      label: "External IP's"
+                      description: "External IP's"
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: externalIP
+                            label: External IP
+                            schema:
+                              type: string
+                    - variable: ipFamilyPolicy
+                      label: IP Family Policy
+                      description: Specify the IP Policy
+                      schema:
+                        type: string
+                        default: SingleStack
+                        enum:
+                          - value: SingleStack
+                            description: SingleStack
+                          - value: PreferDualStack
+                            description: PreferDualStack
+                          - value: RequireDualStack
+                            description: RequireDualStack
+                    - variable: ipFamilies
+                      label: IP Families
+                      description: The IP Families that should be used
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: ipFamily
+                            label: IP Family
+                            schema:
+                              type: string
+              - variable: ports
+                label: "Service's Port(s) Configuration"
+                schema:
+                  additional_attrs: true
+                  type: dict
+                  attrs:
+                    - variable: edge
+                      label: Edge Service Port Configuration
+                      schema:
+                        additional_attrs: true
+                        type: dict
+                        attrs:
+                          - variable: port
+                            label: Port
+                            description: This port exposes the container port on the service
+                            schema:
+                              type: int
+                              default: 10401
+                              required: true
+                          - variable: advanced
+                            label: Show Advanced Settings
+                            schema:
+                              type: boolean
+                              default: false
+                              show_subquestions_if: true
+                              subquestions:
+                                - variable: enabled
+                                  label: Enable the Port
+                                  schema:
+                                    type: boolean
+                                    hidden: true
+                                    default: true
+                                - variable: protocol
+                                  label: Port Type
+                                  schema:
+                                    type: string
+                                    default: TCP
+                                    enum:
+                                      - value: HTTP
+                                        description: HTTP
+                                      - value: HTTPS
+                                        description: HTTPS
+                                      - value: TCP
+                                        description: TCP
+                                      - value: UDP
+                                        description: UDP
+                                - variable: nodePort
+                                  label: Node Port (Optional)
+                                  description: This port gets exposed to the node. Only considered when service type is NodePort, Simple or LoadBalancer
+                                  schema:
+                                    type: int
+                                    min: 9000
+                                    max: 65535
+                                - variable: targetPort
+                                  label: Target Port
+                                  description: The internal(!) port on the container the Application runs on
+                                  schema:
+                                    type: int
+                                    default: 10401
   - variable: serviceexpert
     group: Networking and Services
     label: Show Expert Config
@@ -887,8 +884,8 @@ questions:
       type: dict
       attrs:
         - variable: config
-          label: "App Config Storage"
-          description: "Stores the Application Configuration."
+          label: App Config Storage
+          description: Stores the Application Configuration.
           schema:
             additional_attrs: true
             type: dict
@@ -1265,6 +1262,176 @@ questions:
                                   label: Value
                                   schema:
                                     type: string
+  - variable: ingress
+    label: ""
+    group: Ingress
+    schema:
+      additional_attrs: true
+      type: dict
+      attrs:
+        - variable: main
+          label: Main Ingress
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: enabled
+                label: Enable Ingress
+                schema:
+                  type: boolean
+                  default: false
+                  show_subquestions_if: true
+                  subquestions:
+                    - variable: hosts
+                      label: Hosts
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: hostEntry
+                            label: Host
+                            schema:
+                              additional_attrs: true
+                              type: dict
+                              attrs:
+                                - variable: host
+                                  label: HostName
+                                  schema:
+                                    type: string
+                                    default: ""
+                                    required: true
+                                - variable: paths
+                                  label: Paths
+                                  schema:
+                                    type: list
+                                    default: []
+                                    items:
+                                      - variable: pathEntry
+                                        label: Host
+                                        schema:
+                                          additional_attrs: true
+                                          type: dict
+                                          attrs:
+                                            - variable: path
+                                              label: Path
+                                              schema:
+                                                type: string
+                                                required: true
+                                                default: "/"
+                                            - variable: pathType
+                                              label: Path Type
+                                              schema:
+                                                type: string
+                                                required: true
+                                                default: Prefix
+                    - variable: tls
+                      label: TLS-Settings
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: tlsEntry
+                            label: Host
+                            schema:
+                              additional_attrs: true
+                              type: dict
+                              attrs:
+                                - variable: hosts
+                                  label: Certificate Hosts
+                                  schema:
+                                    type: list
+                                    default: []
+                                    items:
+                                      - variable: host
+                                        label: Host
+                                        schema:
+                                          type: string
+                                          default: ""
+                                          required: true
+                                - variable: scaleCert
+                                  label: Select TrueNAS SCALE Certificate
+                                  schema:
+                                    type: int
+                                    $ref:
+                                      - "definitions/certificate"
+                    - variable: entrypoint
+                      label: (Advanced) Traefik Entrypoint
+                      description: Entrypoint used by Traefik when using Traefik as Ingress Provider
+                      schema:
+                        type: string
+                        default: websecure
+                        required: true
+                    - variable: middlewares
+                      label: Traefik Middlewares
+                      description: Add previously created Traefik Middlewares to this Ingress
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: name
+                            label: Name
+                            schema:
+                              type: string
+                              default: ""
+                              required: true
+              - variable: expert
+                label: Show Expert Configuration Options
+                schema:
+                  type: boolean
+                  default: false
+                  show_subquestions_if: true
+                  subquestions:
+                    - variable: enableFixedMiddlewares
+                      description: These middlewares enforce a number of best practices.
+                      label: Enable Default Middlewares
+                      schema:
+                        type: boolean
+                        default: true
+                    - variable: ingressClassName
+                      label: IngressClass Name
+                      schema:
+                        type: string
+                        default: ""
+                    - variable: labelsList
+                      label: Labels
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: labelItem
+                            label: Label
+                            schema:
+                              additional_attrs: true
+                              type: dict
+                              attrs:
+                                - variable: name
+                                  label: Name
+                                  schema:
+                                    type: string
+                                - variable: value
+                                  label: Value
+                                  schema:
+                                    type: string
+                    - variable: annotationsList
+                      label: Annotations
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: annotationItem
+                            label: Label
+                            schema:
+                              additional_attrs: true
+                              type: dict
+                              attrs:
+                                - variable: name
+                                  label: Name
+                                  schema:
+                                    type: string
+                                - variable: value
+                                  label: Value
+                                  schema:
+                                    type: string
   - variable: ingressList
     label: Add Manual Custom Ingresses
     group: Ingress
@@ -1483,22 +1650,22 @@ questions:
             type: dict
             attrs:
               - variable: privileged
-                label: "Privileged mode"
+                label: Privileged mode
                 schema:
                   type: boolean
                   default: false
               - variable: readOnlyRootFilesystem
-                label: "ReadOnly Root Filesystem"
+                label: ReadOnly Root Filesystem
                 schema:
                   type: boolean
-                  default: false
+                  default: true
               - variable: allowPrivilegeEscalation
-                label: "Allow Privilege Escalation"
+                label: Allow Privilege Escalation
                 schema:
                   type: boolean
                   default: false
               - variable: runAsNonRoot
-                label: "runAsNonRoot"
+                label: runAsNonRoot
                 schema:
                   type: boolean
                   default: true
@@ -1536,20 +1703,20 @@ questions:
       type: dict
       attrs:
         - variable: runAsUser
-          label: "runAsUser"
-          description: "The UserID of the user running the application"
+          label: runAsUser
+          description: The UserID of the user running the application
           schema:
             type: int
             default: 568
         - variable: runAsGroup
-          label: "runAsGroup"
-          description: "The groupID this App of the user running the application"
+          label: runAsGroup
+          description: The groupID this App of the user running the application
           schema:
             type: int
             default: 568
         - variable: fsGroup
-          label: "fsGroup"
-          description: "The group that should own ALL storage."
+          label: fsGroup
+          description: The group that should own ALL storage.
           schema:
             type: int
             default: 568
