@@ -2,7 +2,29 @@
 
 
 
-## [recipes-8.0.52](https://github.com/truecharts/charts/compare/recipes-8.0.51...recipes-8.0.52) (2022-09-24)
+## [traefik-13.4.0](https://github.com/truecharts/charts/compare/traefik-13.3.11...traefik-13.4.0) (2022-09-25)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+
+  ### Feat
+
+- add RealIP and addPrefix middleware ([#3884](https://github.com/truecharts/charts/issues/3884))
+
+
+
+
+## [traefik-13.3.11](https://github.com/truecharts/charts/compare/traefik-14.0.0...traefik-13.3.11) (2022-09-24)
+
+### Chore
+
+- regex redirect docs ([#3880](https://github.com/truecharts/charts/issues/3880))
+
+
+
+
+## [traefik-13.3.10](https://github.com/truecharts/charts/compare/traefik-13.3.9...traefik-13.3.10) (2022-09-24)
 
 ### Chore
 
@@ -12,17 +34,7 @@
 
 
 
-## [recipes-8.0.51](https://github.com/truecharts/charts/compare/recipes-8.0.50...recipes-8.0.51) (2022-09-23)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#3850](https://github.com/truecharts/charts/issues/3850))
-
-
-
-
-## [recipes-8.0.50](https://github.com/truecharts/charts/compare/recipes-8.0.49...recipes-8.0.50) (2022-09-22)
+## [traefik-13.3.9](https://github.com/truecharts/charts/compare/traefik-13.3.7...traefik-13.3.9) (2022-09-22)
 
 ### Chore
 
@@ -40,14 +52,14 @@
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - refactor Services SCALE GUI
+  - fix prometheus annotations ([#3841](https://github.com/truecharts/charts/issues/3841))
   - update docker general non-major ([#3772](https://github.com/truecharts/charts/issues/3772))
   - update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-  - split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
 
 
 
 
-## [recipes-8.0.50](https://github.com/truecharts/charts/compare/recipes-8.0.49...recipes-8.0.50) (2022-09-21)
+## [traefik-13.3.8](https://github.com/truecharts/charts/compare/traefik-13.3.7...traefik-13.3.8) (2022-09-21)
 
 ### Chore
 
@@ -66,12 +78,11 @@
   - refactor Services SCALE GUI
   - update docker general non-major ([#3772](https://github.com/truecharts/charts/issues/3772))
   - update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-  - split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
 
 
 
 
-## [recipes-8.0.50](https://github.com/truecharts/charts/compare/recipes-8.0.49...recipes-8.0.50) (2022-09-21)
+## [traefik-13.3.8](https://github.com/truecharts/charts/compare/traefik-13.3.7...traefik-13.3.8) (2022-09-21)
 
 ### Chore
 
@@ -86,14 +97,3 @@
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
-  - refactor Services SCALE GUI
-  - update docker general non-major ([#3772](https://github.com/truecharts/charts/issues/3772))
-  - update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-  - split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-
-
-
-## [recipes-8.0.50](https://github.com/truecharts/charts/compare/recipes-8.0.49...recipes-8.0.50) (2022-09-20)
-
-### Chore
