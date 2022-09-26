@@ -164,25 +164,25 @@ questions:
                 label: Arg
                 schema:
                   type: string
-  - variable: blocky
+  - variable: webUI
     group: Container Configuration
-    label: Blocky Configuration
+    label: WebUI Configuration
     schema:
       additional_attrs: true
       type: dict
       attrs:
-        - variable: enableWebUI
+        - variable: enabled
           label: Enable Web UI
           description: Enables Web UI
           schema:
             type: boolean
             default: true
-        - variable: enablePrometheus
-          label: Enable Prometheus Endpoint
-          description: Enables Prometheus Endpoint
+        - variable: apiURL
+          label: API URL
+          description: API URL for webUI, including port. Only used when not using ingress
           schema:
-            type: boolean
-            default: true
+            type: string
+            default: "http://127.0.0.1:4000"
   - variable: overrideDefaults
     group: Container Configuration
     label: Override Default Upstreams
@@ -2628,6 +2628,41 @@ questions:
       $ref:
         - "definitions/gpuConfiguration"
       attrs: []
+  - variable: metrics
+    group: Metrics
+    label: Prometheus Metrics
+    schema:
+      additional_attrs: true
+      type: dict
+      attrs:
+        - variable: enabled
+          label: Enabled
+          description: Enable Prometheus Metrics
+          schema:
+            type: boolean
+            default: false
+            show_subquestions_if: true
+            subquestions:
+              - variable: serviceMonitor
+                label: Service Monitor Settings
+                schema:
+                  additional_attrs: true
+                  type: dict
+                  attrs:
+                    - variable: interval
+                      label: Scrape Interval
+                      description: Scrape interval time
+                      schema:
+                        type: string
+                        default: 1m
+                        required: true
+                    - variable: scrapeTimeout
+                      label: Scrape Timeout
+                      description: Scrape timeout Time
+                      schema:
+                        type: string
+                        default: 30s
+                        required: true
 #  - variable: autoscaling
 #    group: Advanced
 #    label: (Advanced) Horizontal Pod Autoscaler

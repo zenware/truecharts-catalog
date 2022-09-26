@@ -2,6 +2,20 @@
 
 
 
+## [blocky-1.0.7](https://github.com/truecharts/charts/compare/blocky-1.0.6...blocky-1.0.7) (2022-09-26)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+
+  ### Fix
+
+- fix GUI apiurl and prometheus metrics ([#3908](https://github.com/truecharts/charts/issues/3908))
+
+
+
+
 ## [blocky-1.0.6](https://github.com/truecharts/charts/compare/blocky-1.0.5...blocky-1.0.6) (2022-09-25)
 
 ### Chore
@@ -83,17 +97,3 @@
 ### Chore
 
 - move blocky to enterprise ([#3875](https://github.com/truecharts/charts/issues/3875))
-
-
-
-
-## [blocky-0.0.4](https://github.com/truecharts/charts/compare/blocky-0.0.3...blocky-0.0.4) (2022-09-24)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-
-  ### Fix
-
-- Finish up UI ([#3866](https://github.com/truecharts/charts/issues/3866))
-
