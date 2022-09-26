@@ -1,4 +1,4 @@
-A monolithic lancache service capable of caching all CDN's in a single instance.
+A monolithic lancache service capable of caching all CDNs in a single instance.
 
 This App is supplied by TrueCharts, for more information visit the manual: [https://truecharts.org/docs/charts/incubator/lancache-monolithic](https://truecharts.org/docs/charts/incubator/lancache-monolithic)
 

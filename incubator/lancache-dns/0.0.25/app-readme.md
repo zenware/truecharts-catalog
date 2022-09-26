@@ -1,4 +1,4 @@
-DNS Chart service for a steamcache.
+DNS Chart service for a steam cache.
 
 This App is supplied by TrueCharts, for more information visit the manual: [https://truecharts.org/docs/charts/incubator/lancache-dns](https://truecharts.org/docs/charts/incubator/lancache-dns)
 
