@@ -2,6 +2,16 @@
 
 
 
+## [webtop-0.0.33](https://github.com/truecharts/charts/compare/webtop-0.0.32...webtop-0.0.33) (2022-09-26)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - remove docker sock from everywhere ([#3910](https://github.com/truecharts/charts/issues/3910))
+
+
+
+
 ## [webtop-0.0.32](https://github.com/truecharts/charts/compare/webtop-0.0.31...webtop-0.0.32) (2022-09-26)
 
 ### Chore
@@ -87,13 +97,3 @@
   - refactor Services SCALE GUI
   - update docker general non-major ([#3790](https://github.com/truecharts/charts/issues/3790))
   - update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-
-
-
-
-## [webtop-0.0.30](https://github.com/truecharts/charts/compare/webtop-0.0.28...webtop-0.0.30) (2022-09-20)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
