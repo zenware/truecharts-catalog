@@ -1020,7 +1020,7 @@ questions:
                                   schema:
                                     type: int
                                     default: 80
-        - variable: dns-tcp
+        - variable: dnstcp
           label: DNS TCP Service
           description: The DNS TCP service
           schema:
@@ -1101,7 +1101,7 @@ questions:
                   additional_attrs: true
                   type: dict
                   attrs:
-                    - variable: dns-tcp
+                    - variable: dnstcp
                       label: DNS TCP Port Configuration
                       schema:
                         additional_attrs: true
@@ -1154,7 +1154,7 @@ questions:
                                   schema:
                                     type: int
                                     default: 53
-        - variable: dns-udp
+        - variable: dnsudp
           label: DNS UDP Service
           description: The DNS UDP service
           schema:
@@ -1235,7 +1235,7 @@ questions:
                   additional_attrs: true
                   type: dict
                   attrs:
-                    - variable: dns-udp
+                    - variable: dnsudp
                       label: DNS UDP Port Configuration
                       schema:
                         additional_attrs: true
@@ -3491,7 +3491,7 @@ questions:
             default: true
   - variable: donateNag
     group: Documentation
-    label: Please consider supporting TrueCharts, see https://truecharts.org/docs/about/sponsor
+    label: Please consider supporting TrueCharts, see https://truecharts.org/sponsor
     description: Please consider supporting TrueCharts, see
       <br /><a href="https://truecharts.org/sponsor">https://truecharts.org/sponsor</a>
     schema:
