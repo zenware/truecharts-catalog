@@ -1,9 +1,0 @@
-dependencies:
-- name: common
-  repository: https://library-charts.truecharts.org
-  version: 10.6.1
-- name: metallb
-  repository: https://metallb.github.io/metallb
-  version: 0.13.5
-digest: sha256:4696c7deec0f4f0f16488afcda8e08ccee5ab5f95044462326529ae2a6d89d1a
-generated: "2022-09-25T13:49:55.88729503Z"
