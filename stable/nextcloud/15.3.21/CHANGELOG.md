@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update docker general non-major ([#3953](https://github.com/truecharts/charts/issues/3953))
+
+
+
+
+## [nextcloud-15.3.21](https://github.com/truecharts/charts/compare/nextcloud-15.3.20...nextcloud-15.3.21) (2022-09-29)
+
+### Chore
+
 - update docker general non-major ([#3953](https://github.com/truecharts/charts/issues/3953))
 
 
@@ -87,13 +97,3 @@
 
 ## [nextcloud-15.3.16](https://github.com/truecharts/charts/compare/nextcloud-15.3.13...nextcloud-15.3.16) (2022-09-21)
 
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
