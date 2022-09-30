@@ -2,6 +2,19 @@
 
 
 
+## [tailscale-1.1.6](https://github.com/truecharts/charts/compare/tailscale-1.1.5...tailscale-1.1.6) (2022-09-30)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+
+  ### Feat
+
+- Enable userspace by default and update docs ([#3967](https://github.com/truecharts/charts/issues/3967))
+
+
+
+
 ## [tailscale-1.1.5](https://github.com/truecharts/charts/compare/tailscale-1.1.4...tailscale-1.1.5) (2022-09-27)
 
 ### Chore
@@ -81,19 +94,6 @@
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-
-
-
-
-## [tailscale-1.1.1](https://github.com/truecharts/charts/compare/tailscale-1.1.0...tailscale-1.1.1) (2022-09-20)
-
-### Chore
-
-- Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
