@@ -1,4 +1,4 @@
-Simple email relay server for the kavita.
+Simple email relay server for kavita.
 
 This App is supplied by TrueCharts, for more information visit the manual: [https://truecharts.org/docs/charts/incubator/kavitaemail](https://truecharts.org/docs/charts/incubator/kavitaemail)
 
