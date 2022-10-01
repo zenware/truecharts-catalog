@@ -1,4 +1,4 @@
-RedisInsight - The GUI for Redis.
+GUI for Redis.
 
 This App is supplied by TrueCharts, for more information visit the manual: [https://truecharts.org/docs/charts/incubator/redisinsight](https://truecharts.org/docs/charts/incubator/redisinsight)
 
