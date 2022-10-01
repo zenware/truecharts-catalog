@@ -1,0 +1,26 @@
+env:
+  INSTANCE_NAME: ""
+image:
+  pullPolicy: IfNotPresent
+  repository: tccr.io/truecharts/searxng
+  tag: latest@sha256:ca884d236d460962aa6d6f52a47f38f5ee4af964ece905c84340abb20193cc0f
+persistence:
+  config:
+    enabled: true
+    mountPath: /etc/searxng
+podSecurityContext:
+  runAsGroup: 0
+  runAsUser: 0
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+service:
+  main:
+    ports:
+      main:
+        port: 8080
+        protocol: TCP
+        targetPort: 8080
+
+portal:
+  enabled: true
