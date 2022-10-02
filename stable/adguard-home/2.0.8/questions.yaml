@@ -278,8 +278,8 @@ questions:
       type: dict
       attrs:
         - variable: main
-          label: "Main Service"
-          description: "The Primary service on which the healthcheck runs, often the webUI"
+          label: Main Service
+          description: The Primary service on which the healthcheck runs, often the webUI
           schema:
             additional_attrs: true
             type: dict
@@ -359,14 +359,14 @@ questions:
                   type: dict
                   attrs:
                     - variable: main
-                      label: "Main Service Port Configuration"
+                      label: Main Service Port Configuration
                       schema:
                         additional_attrs: true
                         type: dict
                         attrs:
                           - variable: port
-                            label: "Port"
-                            description: "This port exposes the container port on the service"
+                            label: Port
+                            description: This port exposes the container port on the service
                             schema:
                               type: int
                               default: 10232
@@ -406,14 +406,14 @@ questions:
                                     min: 9000
                                     max: 65535
                                 - variable: targetPort
-                                  label: "Target Port"
-                                  description: "The internal(!) port on the container the Application runs on"
+                                  label: Target Port
+                                  description: The internal(!) port on the container the Application runs on
                                   schema:
                                     type: int
-                                    default: 3000
+                                    default: 10232
         - variable: dns-tcp
-          label: "dns-tcp Service"
-          description: "dns-tcp service"
+          label: dns-tcp Service
+          description: dns-tcp service
           schema:
             additional_attrs: true
             type: dict
@@ -493,14 +493,14 @@ questions:
                   type: dict
                   attrs:
                     - variable: dns-tcp
-                      label: "dns-tcp Service Port Configuration"
+                      label: dns-tcp Service Port Configuration
                       schema:
                         additional_attrs: true
                         type: dict
                         attrs:
                           - variable: port
-                            label: "Port"
-                            description: "This port exposes the container port on the service"
+                            label: Port
+                            description: This port exposes the container port on the service
                             schema:
                               type: int
                               default: 53
@@ -540,14 +540,14 @@ questions:
                                     min: 9000
                                     max: 65535
                                 - variable: targetPort
-                                  label: "Target Port"
-                                  description: "The internal(!) port on the container the Application runs on"
+                                  label: Target Port
+                                  description: The internal(!) port on the container the Application runs on
                                   schema:
                                     type: int
                                     default: 53
         - variable: dns-udp
-          label: "dns-udp Service"
-          description: "dns-udp service"
+          label: dns-udp Service
+          description: dns-udp service
           schema:
             additional_attrs: true
             type: dict
@@ -627,14 +627,14 @@ questions:
                   type: dict
                   attrs:
                     - variable: dns-udp
-                      label: "dns-udp Service Port Configuration"
+                      label: dns-udp Service Port Configuration
                       schema:
                         additional_attrs: true
                         type: dict
                         attrs:
                           - variable: port
-                            label: "Port"
-                            description: "This port exposes the container port on the service"
+                            label: Port
+                            description: This port exposes the container port on the service
                             schema:
                               type: int
                               default: 53
@@ -674,148 +674,14 @@ questions:
                                     min: 9000
                                     max: 65535
                                 - variable: targetPort
-                                  label: "Target Port"
-                                  description: "The internal(!) port on the container the Application runs on"
+                                  label: Target Port
+                                  description: The internal(!) port on the container the Application runs on
                                   schema:
                                     type: int
                                     default: 53
-        - variable: dns-http
-          label: "dns-http Service"
-          description: "The dns-http service."
-          schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-              - variable: enabled
-                label: Enable the Service
-                schema:
-                  type: boolean
-                  default: true
-                  hidden: true
-              - variable: type
-                label: Service Type
-                description: "ClusterIP's are only internally available and Loadbalancer exposes the service using the system loadbalancer"
-                schema:
-                  type: string
-                  default: LoadBalancer
-                  enum:
-                    - value: LoadBalancer
-                      description: LoadBalancer (Expose Ports)
-                    - value: ClusterIP
-                      description: ClusterIP (Do Not Expose Ports)
-                    - value: Simple
-                      description: Deprecated CHANGE THIS
-              - variable: loadBalancerIP
-                label: LoadBalancer IP
-                description: "MetalLB Only: Selects the Loadbalancer IP to expose on. Required when using PortalButton with MetalLB"
-                schema:
-                  show_if: [["type", "=", "LoadBalancer"]]
-                  type: string
-                  default: ""
-              - variable: advancedsvcset
-                label: Show Advanced Service Settings
-                schema:
-                  type: boolean
-                  default: false
-                  show_subquestions_if: true
-                  subquestions:
-                    - variable: externalIPs
-                      label: "External IP's"
-                      description: "External IP's"
-                      schema:
-                        type: list
-                        default: []
-                        items:
-                          - variable: externalIP
-                            label: External IP
-                            schema:
-                              type: string
-                    - variable: ipFamilyPolicy
-                      label: IP Family Policy
-                      description: Specify the IP Policy
-                      schema:
-                        type: string
-                        default: SingleStack
-                        enum:
-                          - value: SingleStack
-                            description: SingleStack
-                          - value: PreferDualStack
-                            description: PreferDualStack
-                          - value: RequireDualStack
-                            description: RequireDualStack
-                    - variable: ipFamilies
-                      label: IP Families
-                      description: The IP Families that should be used
-                      schema:
-                        type: list
-                        default: []
-                        items:
-                          - variable: ipFamily
-                            label: IP Family
-                            schema:
-                              type: string
-              - variable: ports
-                label: "Service's Port(s) Configuration"
-                schema:
-                  additional_attrs: true
-                  type: dict
-                  attrs:
-                    - variable: dns-http
-                      label: "dns-http Service Port Configuration"
-                      schema:
-                        additional_attrs: true
-                        type: dict
-                        attrs:
-                          - variable: port
-                            label: "Port"
-                            description: "This port exposes the container port on the service"
-                            schema:
-                              type: int
-                              default: 10233
-                              required: true
-                          - variable: advanced
-                            label: Show Advanced Settings
-                            schema:
-                              type: boolean
-                              default: false
-                              show_subquestions_if: true
-                              subquestions:
-                                - variable: enabled
-                                  label: Enable the Port
-                                  schema:
-                                    type: boolean
-                                    hidden: true
-                                    default: true
-                                - variable: protocol
-                                  label: Port Type
-                                  schema:
-                                    type: string
-                                    default: HTTP
-                                    enum:
-                                      - value: HTTP
-                                        description: HTTP
-                                      - value: HTTPS
-                                        description: HTTPS
-                                      - value: TCP
-                                        description: TCP
-                                      - value: UDP
-                                        description: UDP
-                                - variable: nodePort
-                                  label: Node Port (Optional)
-                                  description: This port gets exposed to the node. Only considered when service type is NodePort, Simple or LoadBalancer
-                                  schema:
-                                    type: int
-                                    min: 9000
-                                    max: 65535
-                                - variable: targetPort
-                                  label: "Target Port"
-                                  description: "The internal(!) port on the container the Application runs on"
-                                  schema:
-                                    type: int
-                                    default: 80
         - variable: dns-https
-          label: "dns-https Service"
-          description: "The dns-https service."
+          label: dns-https Service
+          description: The dns-https service.
           schema:
             additional_attrs: true
             type: dict
@@ -895,14 +761,14 @@ questions:
                   type: dict
                   attrs:
                     - variable: dns-https
-                      label: "dns-https Service Port Configuration"
+                      label: dns-https Service Port Configuration
                       schema:
                         additional_attrs: true
                         type: dict
                         attrs:
                           - variable: port
-                            label: "Port"
-                            description: "This port exposes the container port on the service"
+                            label: Port
+                            description: This port exposes the container port on the service
                             schema:
                               type: int
                               default: 10234
@@ -942,14 +808,14 @@ questions:
                                     min: 9000
                                     max: 65535
                                 - variable: targetPort
-                                  label: "Target Port"
-                                  description: "The internal(!) port on the container the Application runs on"
+                                  label: Target Port
+                                  description: The internal(!) port on the container the Application runs on
                                   schema:
                                     type: int
                                     default: 443
         - variable: dns-https-udp
-          label: "dns-https-udp Service"
-          description: "The dns-https-udp service."
+          label: dns-https-udp Service
+          description: The dns-https-udp service.
           schema:
             additional_attrs: true
             type: dict
@@ -1029,14 +895,14 @@ questions:
                   type: dict
                   attrs:
                     - variable: dns-https-udp
-                      label: "dns-https-udp Service Port Configuration"
+                      label: dns-https-udp Service Port Configuration
                       schema:
                         additional_attrs: true
                         type: dict
                         attrs:
                           - variable: port
-                            label: "Port"
-                            description: "This port exposes the container port on the service"
+                            label: Port
+                            description: This port exposes the container port on the service
                             schema:
                               type: int
                               default: 10234
@@ -1076,14 +942,14 @@ questions:
                                     min: 9000
                                     max: 65535
                                 - variable: targetPort
-                                  label: "Target Port"
-                                  description: "The internal(!) port on the container the Application runs on"
+                                  label: Target Port
+                                  description: The internal(!) port on the container the Application runs on
                                   schema:
                                     type: int
                                     default: 443
         - variable: dns-crypt
-          label: "dns-crypt Service"
-          description: "The dns-crypt service."
+          label: dns-crypt Service
+          description: The dns-crypt service.
           schema:
             additional_attrs: true
             type: dict
@@ -1163,14 +1029,14 @@ questions:
                   type: dict
                   attrs:
                     - variable: dns-crypt
-                      label: "dns-crypt Service Port Configuration"
+                      label: dns-crypt Service Port Configuration
                       schema:
                         additional_attrs: true
                         type: dict
                         attrs:
                           - variable: port
-                            label: "Port"
-                            description: "This port exposes the container port on the service"
+                            label: Port
+                            description: This port exposes the container port on the service
                             schema:
                               type: int
                               default: 5443
@@ -1210,14 +1076,14 @@ questions:
                                     min: 9000
                                     max: 65535
                                 - variable: targetPort
-                                  label: "Target Port"
-                                  description: "The internal(!) port on the container the Application runs on"
+                                  label: Target Port
+                                  description: The internal(!) port on the container the Application runs on
                                   schema:
                                     type: int
                                     default: 5443
         - variable: dns-crypt-udp
-          label: "dns-crypt-udp Service"
-          description: "The dns-crypt-udp service."
+          label: dns-crypt-udp Service
+          description: The dns-crypt-udp service.
           schema:
             additional_attrs: true
             type: dict
@@ -1297,14 +1163,14 @@ questions:
                   type: dict
                   attrs:
                     - variable: dns-crypt-udp
-                      label: "dns-crypt-udp Service Port Configuration"
+                      label: dns-crypt-udp Service Port Configuration
                       schema:
                         additional_attrs: true
                         type: dict
                         attrs:
                           - variable: port
-                            label: "Port"
-                            description: "This port exposes the container port on the service"
+                            label: Port
+                            description: This port exposes the container port on the service
                             schema:
                               type: int
                               default: 5443
@@ -1344,14 +1210,14 @@ questions:
                                     min: 9000
                                     max: 65535
                                 - variable: targetPort
-                                  label: "Target Port"
-                                  description: "The internal(!) port on the container the Application runs on"
+                                  label: Target Port
+                                  description: The internal(!) port on the container the Application runs on
                                   schema:
                                     type: int
                                     default: 5443
         - variable: dns-quic-udp-1
-          label: "dns-quic-udp-1 Service"
-          description: "The dns-quic-udp-1 service."
+          label: dns-quic-udp-1 Service
+          description: The dns-quic-udp-1 service.
           schema:
             additional_attrs: true
             type: dict
@@ -1431,14 +1297,14 @@ questions:
                   type: dict
                   attrs:
                     - variable: dns-quic-udp-1
-                      label: "dns-quic-udp-1 Service Port Configuration"
+                      label: dns-quic-udp-1 Service Port Configuration
                       schema:
                         additional_attrs: true
                         type: dict
                         attrs:
                           - variable: port
-                            label: "Port"
-                            description: "This port exposes the container port on the service"
+                            label: Port
+                            description: This port exposes the container port on the service
                             schema:
                               type: int
                               default: 784
@@ -1478,20 +1344,20 @@ questions:
                                     min: 9000
                                     max: 65535
                                 - variable: targetPort
-                                  label: "Target Port"
-                                  description: "The internal(!) port on the container the Application runs on"
+                                  label: Target Port
+                                  description: The internal(!) port on the container the Application runs on
                                   schema:
                                     type: int
                                     default: 784
                     - variable: dns-quic-udp-2
-                      label: "dns-quic-udp-2 Service Port Configuration"
+                      label: dns-quic-udp-2 Service Port Configuration
                       schema:
                         additional_attrs: true
                         type: dict
                         attrs:
                           - variable: port
-                            label: "Port"
-                            description: "This port exposes the container port on the service"
+                            label: Port
+                            description: This port exposes the container port on the service
                             schema:
                               type: int
                               default: 853
@@ -1531,20 +1397,20 @@ questions:
                                     min: 9000
                                     max: 65535
                                 - variable: targetPort
-                                  label: "Target Port"
-                                  description: "The internal(!) port on the container the Application runs on"
+                                  label: Target Port
+                                  description: The internal(!) port on the container the Application runs on
                                   schema:
                                     type: int
                                     default: 853
                     - variable: dns-quic-udp-3
-                      label: "dns-quic-udp-3 Service Port Configuration"
+                      label: dns-quic-udp-3 Service Port Configuration
                       schema:
                         additional_attrs: true
                         type: dict
                         attrs:
                           - variable: port
-                            label: "Port"
-                            description: "This port exposes the container port on the service"
+                            label: Port
+                            description: This port exposes the container port on the service
                             schema:
                               type: int
                               default: 8853
@@ -1584,8 +1450,8 @@ questions:
                                     min: 9000
                                     max: 65535
                                 - variable: targetPort
-                                  label: "Target Port"
-                                  description: "The internal(!) port on the container the Application runs on"
+                                  label: Target Port
+                                  description: The internal(!) port on the container the Application runs on
                                   schema:
                                     type: int
                                     default: 8853
@@ -1885,8 +1751,8 @@ questions:
       type: dict
       attrs:
         - variable: config
-          label: "App Config Storage"
-          description: "Stores the Application Configuration."
+          label: App Config Storage
+          description: Stores the Application Configuration.
           schema:
             additional_attrs: true
             type: dict
@@ -1969,7 +1835,7 @@ questions:
                 schema:
                   show_if: [["type", "=", "pvc"]]
                   type: string
-                  default: 999Gi
+                  default: 256Gi
               - variable: hostPathType
                 label: (Advanced) hostPath Type
                 schema:
@@ -2062,8 +1928,8 @@ questions:
                                   schema:
                                     type: string
         - variable: data
-          label: "App Data Storage"
-          description: "Stores the Application Data."
+          label: App Data Storage
+          description: Stores the Application Data.
           schema:
             additional_attrs: true
             type: dict
@@ -2146,7 +2012,7 @@ questions:
                 schema:
                   show_if: [["type", "=", "pvc"]]
                   type: string
-                  default: 999Gi
+                  default: 256Gi
               - variable: hostPathType
                 label: (Advanced) hostPath Type
                 schema:
@@ -2348,7 +2214,7 @@ questions:
                 schema:
                   show_if: [["type", "=", "pvc"]]
                   type: string
-                  default: 999Gi
+                  default: 256Gi
               - variable: hostPathType
                 label: (Advanced) Host Path Type
                 schema:
@@ -2448,7 +2314,7 @@ questions:
       type: dict
       attrs:
         - variable: main
-          label: "Main Ingress"
+          label: Main Ingress
           schema:
             additional_attrs: true
             type: dict
@@ -2828,22 +2694,22 @@ questions:
             type: dict
             attrs:
               - variable: privileged
-                label: "Privileged mode"
+                label: Privileged mode
                 schema:
                   type: boolean
                   default: false
               - variable: readOnlyRootFilesystem
-                label: "ReadOnly Root Filesystem"
+                label: ReadOnly Root Filesystem
                 schema:
                   type: boolean
                   default: false
               - variable: allowPrivilegeEscalation
-                label: "Allow Privilege Escalation"
+                label: Allow Privilege Escalation
                 schema:
                   type: boolean
                   default: false
               - variable: runAsNonRoot
-                label: "runAsNonRoot"
+                label: runAsNonRoot
                 schema:
                   type: boolean
                   default: false
@@ -2881,20 +2747,20 @@ questions:
       type: dict
       attrs:
         - variable: runAsUser
-          label: "runAsUser"
-          description: "The UserID of the user running the application"
+          label: runAsUser
+          description: The UserID of the user running the application
           schema:
             type: int
             default: 0
         - variable: runAsGroup
-          label: "runAsGroup"
-          description: "The groupID this App of the user running the application"
+          label: runAsGroup
+          description: The groupID this App of the user running the application
           schema:
             type: int
             default: 0
         - variable: fsGroup
-          label: "fsGroup"
-          description: "The group that should own ALL storage."
+          label: fsGroup
+          description: The group that should own ALL storage.
           schema:
             type: int
             default: 568
@@ -3429,7 +3295,6 @@ questions:
 #                                              description: UDP
 #                                            - value: SCTP
 #                                              description: SCTP
-
   - variable: addons
     group: Addons
     label: ""
@@ -3437,191 +3302,6 @@ questions:
       additional_attrs: true
       type: dict
       attrs:
-        - variable: vpn
-          label: VPN
-          schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-              - variable: type
-                label: Type
-                schema:
-                  type: string
-                  default: disabled
-                  enum:
-                    - value: disabled
-                      description: disabled
-                    - value: openvpn
-                      description: OpenVPN
-                    - value: wireguard
-                      description: Wireguard
-                    - value: tailscale
-                      description: Tailscale
-              - variable: openvpn
-                label: OpenVPN Settings
-                schema:
-                  type: dict
-                  show_if: [["type", "=", "openvpn"]]
-                  attrs:
-                    - variable: username
-                      label: Authentication Username (Optional)
-                      description: Authentication Username, Optional
-                      schema:
-                        type: string
-                        default: ""
-                    - variable: password
-                      label: Authentication Password
-                      description: Authentication Credentials
-                      schema:
-                        type: string
-                        default: ""
-                        required: true
-              - variable: tailscale
-                label: Tailscale Settings
-                schema:
-                  type: dict
-                  show_if: [["type", "=", "tailscale"]]
-                  attrs:
-                    - variable: authkey
-                      label: Authentication Key
-                      description: Provide an auth key to automatically authenticate the node as your user account.
-                      schema:
-                        type: string
-                        private: true
-                        default: ""
-                    - variable: accept_dns
-                      label: Accept DNS
-                      description: Accept DNS configuration from the admin console.
-                      schema:
-                        type: boolean
-                        default: false
-                    - variable: userspace
-                      label: Userspace
-                      description: Userspace Networking mode allows running Tailscale where you do not have access to create a VPN tunnel device.
-                      schema:
-                        type: boolean
-                        default: false
-                    - variable: routes
-                      label: Routes
-                      description: Expose physical subnet routes to your entire Tailscale network.
-                      schema:
-                        type: string
-                        default: ""
-                    - variable: dest_ip
-                      label: Destination IP
-                      description: Tells the DNAT mechanism which Destination IP to set in the IP header, and where to send packets that are matched.
-                      schema:
-                        type: string
-                        default: ""
-                    - variable: sock5_server
-                      label: Sock5 Server
-                      description: Sock5 Server
-                      schema:
-                        type: string
-                        default: ""
-                    - variable: extra_args
-                      label: Extra Args
-                      description: Extra Args
-                      schema:
-                        type: string
-                        default: ""
-                    - variable: daemon_extra_args
-                      label: Tailscale Daemon Extra Args
-                      description: Tailscale Daemon Extra Args
-                      schema:
-                        type: string
-                        default: ""
-              - variable: killSwitch
-                label: Enable Killswitch
-                schema:
-                  type: boolean
-                  show_if: [["type", "!=", "disabled"]]
-                  default: true
-              - variable: excludedNetworks_IPv4
-                label: Killswitch Excluded IPv4 networks
-                description: List of Killswitch Excluded IPv4 Addresses
-                schema:
-                  type: list
-                  show_if: [["type", "!=", "disabled"]]
-                  default: []
-                  items:
-                    - variable: networkv4
-                      label: IPv4 Network
-                      schema:
-                        type: string
-                        required: true
-              - variable: excludedNetworks_IPv6
-                label: Killswitch Excluded IPv6 networks
-                description: "List of Killswitch Excluded IPv6 Addresses"
-                schema:
-                  type: list
-                  show_if: [["type", "!=", "disabled"]]
-                  default: []
-                  items:
-                    - variable: networkv6
-                      label: IPv6 Network
-                      schema:
-                        type: string
-                        required: true
-              - variable: configFile
-                label: VPN Config File Location
-                schema:
-                  type: dict
-                  show_if: [["type", "!=", "disabled"]]
-                  attrs:
-                    - variable: enabled
-                      label: Enabled
-                      schema:
-                        type: boolean
-                        default: true
-                        hidden: true
-                    - variable: type
-                      label: Type
-                      schema:
-                        type: string
-                        default: hostPath
-                        hidden: true
-                    - variable: hostPathType
-                      label: hostPathType
-                      schema:
-                        type: string
-                        default: File
-                        hidden: true
-                    - variable: noMount
-                      label: noMount
-                      schema:
-                        type: boolean
-                        default: true
-                        hidden: true
-                    - variable: hostPath
-                      label: Full Path to File
-                      description: "Path to your local VPN config file for example: /mnt/tank/vpn.conf or /mnt/tank/vpn.ovpn"
-                      schema:
-                        type: string
-                        default: ""
-              - variable: envList
-                label: VPN Environment Variables
-                schema:
-                  type: list
-                  show_if: [["type", "!=", "disabled"]]
-                  default: []
-                  items:
-                    - variable: envItem
-                      label: Environment Variable
-                      schema:
-                        additional_attrs: true
-                        type: dict
-                        attrs:
-                          - variable: name
-                            label: Name
-                            schema:
-                              type: string
-                              required: true
-                          - variable: value
-                            label: Value
-                            schema:
-                              type: string
-                              required: true
         - variable: codeserver
           label: Codeserver
           schema:
@@ -3870,6 +3550,191 @@ questions:
                                   schema:
                                     type: string
                                     required: true
+        - variable: vpn
+          label: VPN
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: type
+                label: Type
+                schema:
+                  type: string
+                  default: disabled
+                  enum:
+                    - value: disabled
+                      description: disabled
+                    - value: openvpn
+                      description: OpenVPN
+                    - value: wireguard
+                      description: Wireguard
+                    - value: tailscale
+                      description: Tailscale
+              - variable: openvpn
+                label: OpenVPN Settings
+                schema:
+                  type: dict
+                  show_if: [["type", "=", "openvpn"]]
+                  attrs:
+                    - variable: username
+                      label: Authentication Username (Optional)
+                      description: Authentication Username, Optional
+                      schema:
+                        type: string
+                        default: ""
+                    - variable: password
+                      label: Authentication Password
+                      description: Authentication Credentials
+                      schema:
+                        type: string
+                        default: ""
+                        required: true
+              - variable: tailscale
+                label: Tailscale Settings
+                schema:
+                  type: dict
+                  show_if: [["type", "=", "tailscale"]]
+                  attrs:
+                    - variable: authkey
+                      label: Authentication Key
+                      description: Provide an auth key to automatically authenticate the node as your user account.
+                      schema:
+                        type: string
+                        private: true
+                        default: ""
+                    - variable: accept_dns
+                      label: Accept DNS
+                      description: Accept DNS configuration from the admin console.
+                      schema:
+                        type: boolean
+                        default: false
+                    - variable: userspace
+                      label: Userspace
+                      description: Userspace Networking mode allows running Tailscale where you do not have access to create a VPN tunnel device.
+                      schema:
+                        type: boolean
+                        default: false
+                    - variable: routes
+                      label: Routes
+                      description: Expose physical subnet routes to your entire Tailscale network.
+                      schema:
+                        type: string
+                        default: ""
+                    - variable: dest_ip
+                      label: Destination IP
+                      description: Tells the DNAT mechanism which Destination IP to set in the IP header, and where to send packets that are matched.
+                      schema:
+                        type: string
+                        default: ""
+                    - variable: sock5_server
+                      label: Sock5 Server
+                      description: Sock5 Server
+                      schema:
+                        type: string
+                        default: ""
+                    - variable: extra_args
+                      label: Extra Args
+                      description: Extra Args
+                      schema:
+                        type: string
+                        default: ""
+                    - variable: daemon_extra_args
+                      label: Tailscale Daemon Extra Args
+                      description: Tailscale Daemon Extra Args
+                      schema:
+                        type: string
+                        default: ""
+              - variable: killSwitch
+                label: Enable Killswitch
+                schema:
+                  type: boolean
+                  show_if: [["type", "!=", "disabled"]]
+                  default: true
+              - variable: excludedNetworks_IPv4
+                label: Killswitch Excluded IPv4 networks
+                description: List of Killswitch Excluded IPv4 Addresses
+                schema:
+                  type: list
+                  show_if: [["type", "!=", "disabled"]]
+                  default: []
+                  items:
+                    - variable: networkv4
+                      label: IPv4 Network
+                      schema:
+                        type: string
+                        required: true
+              - variable: excludedNetworks_IPv6
+                label: Killswitch Excluded IPv6 networks
+                description: "List of Killswitch Excluded IPv6 Addresses"
+                schema:
+                  type: list
+                  show_if: [["type", "!=", "disabled"]]
+                  default: []
+                  items:
+                    - variable: networkv6
+                      label: IPv6 Network
+                      schema:
+                        type: string
+                        required: true
+              - variable: configFile
+                label: VPN Config File Location
+                schema:
+                  type: dict
+                  show_if: [["type", "!=", "disabled"]]
+                  attrs:
+                    - variable: enabled
+                      label: Enabled
+                      schema:
+                        type: boolean
+                        default: true
+                        hidden: true
+                    - variable: type
+                      label: Type
+                      schema:
+                        type: string
+                        default: hostPath
+                        hidden: true
+                    - variable: hostPathType
+                      label: hostPathType
+                      schema:
+                        type: string
+                        default: File
+                        hidden: true
+                    - variable: noMount
+                      label: noMount
+                      schema:
+                        type: boolean
+                        default: true
+                        hidden: true
+                    - variable: hostPath
+                      label: Full Path to File
+                      description: "Path to your local VPN config file for example: /mnt/tank/vpn.conf or /mnt/tank/vpn.ovpn"
+                      schema:
+                        type: string
+                        default: ""
+              - variable: envList
+                label: VPN Environment Variables
+                schema:
+                  type: list
+                  show_if: [["type", "!=", "disabled"]]
+                  default: []
+                  items:
+                    - variable: envItem
+                      label: Environment Variable
+                      schema:
+                        additional_attrs: true
+                        type: dict
+                        attrs:
+                          - variable: name
+                            label: Name
+                            schema:
+                              type: string
+                              required: true
+                          - variable: value
+                            label: Value
+                            schema:
+                              type: string
+                              required: true
   - variable: docs
     group: Documentation
     label: Please read the documentation at https://truecharts.org
