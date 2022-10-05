@@ -2,6 +2,20 @@
 
 
 
+## [authentik-7.1.3](https://github.com/truecharts/charts/compare/authentik-7.1.2...authentik-7.1.3) (2022-10-05)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - split addons in smaller templates ([#3979](https://github.com/truecharts/charts/issues/3979))
+
+  ### Fix
+
+- fix UI for nested subquestions ([#4005](https://github.com/truecharts/charts/issues/4005))
+
+
+
+
 ## [authentik-7.1.2](https://github.com/truecharts/charts/compare/authentik-7.1.1...authentik-7.1.2) (2022-10-01)
 
 ### Chore
@@ -83,17 +97,3 @@
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - refactor Services SCALE GUI
-  - fix prometheus annotations ([#3841](https://github.com/truecharts/charts/issues/3841))
-  - update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-  - split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-
-
-
