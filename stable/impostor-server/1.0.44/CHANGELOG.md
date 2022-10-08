@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major
+
+
+
+
+## [impostor-server-1.0.44](https://github.com/truecharts/charts/compare/impostor-server-1.0.43...impostor-server-1.0.44) (2022-10-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major
 
 
@@ -86,14 +97,3 @@
   - refactor Services SCALE GUI
   - update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
   - split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-
-
-
-## [impostor-server-1.0.40](https://github.com/truecharts/charts/compare/impostor-server-1.0.39...impostor-server-1.0.40) (2022-09-21)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]

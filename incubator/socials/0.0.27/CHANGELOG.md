@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major
+
+
+
+
+## [socials-0.0.27](https://github.com/truecharts/charts/compare/socials-0.0.26...socials-0.0.27) (2022-10-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major
 
 
@@ -86,14 +97,3 @@
   - update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
 
 
-
-
-## [socials-0.0.23](https://github.com/truecharts/charts/compare/socials-0.0.22...socials-0.0.23) (2022-09-21)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]

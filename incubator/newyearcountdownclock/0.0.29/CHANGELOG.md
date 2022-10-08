@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major
+
+
+
+
+## [newyearcountdownclock-0.0.29](https://github.com/truecharts/charts/compare/newyearcountdownclock-0.0.28...newyearcountdownclock-0.0.29) (2022-10-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major
 
 
@@ -86,14 +97,3 @@
 
 
 
-## [newyearcountdownclock-0.0.25](https://github.com/truecharts/charts/compare/newyearcountdownclock-0.0.24...newyearcountdownclock-0.0.25) (2022-09-21)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]

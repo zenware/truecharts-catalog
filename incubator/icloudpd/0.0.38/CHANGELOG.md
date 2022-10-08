@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major
+
+
+
+
+## [icloudpd-0.0.38](https://github.com/truecharts/charts/compare/icloudpd-0.0.37...icloudpd-0.0.38) (2022-10-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major
 
 
@@ -86,14 +97,3 @@
 
 
 
-## [icloudpd-0.0.32](https://github.com/truecharts/charts/compare/icloudpd-0.0.31...icloudpd-0.0.32) (2022-09-21)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]

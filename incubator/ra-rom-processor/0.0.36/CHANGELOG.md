@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major
+
+
+
+
+## [ra-rom-processor-0.0.36](https://github.com/truecharts/charts/compare/ra-rom-processor-0.0.35...ra-rom-processor-0.0.36) (2022-10-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major
 
 
@@ -86,14 +97,3 @@
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - update docker general non-major ([#3772](https://github.com/truecharts/charts/issues/3772))
-  - update docker general non-major ([#3818](https://github.com/truecharts/charts/issues/3818))
-  - update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-

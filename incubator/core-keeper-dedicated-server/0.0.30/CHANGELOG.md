@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major
+
+
+
+
+## [core-keeper-dedicated-server-0.0.30](https://github.com/truecharts/charts/compare/core-keeper-dedicated-server-0.0.29...core-keeper-dedicated-server-0.0.30) (2022-10-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major
 
 
@@ -86,14 +97,3 @@
 
 
 
-## [core-keeper-dedicated-server-0.0.26](https://github.com/truecharts/charts/compare/core-keeper-dedicated-server-0.0.25...core-keeper-dedicated-server-0.0.26) (2022-09-21)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]

@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major
+
+
+
+
+## [n8n-4.0.64](https://github.com/truecharts/charts/compare/n8n-4.0.63...n8n-4.0.64) (2022-10-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major
 
 
@@ -86,14 +97,3 @@
 
   ### Fix
 
-- parse as int when comparing with 0 ([#3824](https://github.com/truecharts/charts/issues/3824))
-
-
-
-
-## [n8n-4.0.57](https://github.com/truecharts/charts/compare/n8n-4.0.54...n8n-4.0.57) (2022-09-21)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]

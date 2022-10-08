@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major
+
+
+
+
+## [wger-1.1.16](https://github.com/truecharts/charts/compare/wger-1.1.15...wger-1.1.16) (2022-10-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major
 
 
@@ -86,14 +97,3 @@
 ## [wger-1.1.7](https://github.com/truecharts/charts/compare/wger-1.1.6...wger-1.1.7) (2022-09-25)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#3898](https://github.com/truecharts/charts/issues/3898))
-
-
-
-
-## [wger-1.1.6](https://github.com/truecharts/charts/compare/wger-1.1.5...wger-1.1.6) (2022-09-23)
-
-### Chore
-

@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major
+
+
+
+
+## [traefik-13.4.8](https://github.com/truecharts/charts/compare/traefik-13.4.7...traefik-13.4.8) (2022-10-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major
 
 
@@ -84,16 +95,5 @@
   - update helm general non-major ([#3898](https://github.com/truecharts/charts/issues/3898))
 
 
-
-
-## [traefik-13.4.0](https://github.com/truecharts/charts/compare/traefik-13.3.11...traefik-13.4.0) (2022-09-25)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-
-  ### Feat
-
-- add RealIP and addPrefix middleware ([#3884](https://github.com/truecharts/charts/issues/3884))
 
 

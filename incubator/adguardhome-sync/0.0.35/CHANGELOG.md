@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major
+
+
+
+
+## [adguardhome-sync-0.0.35](https://github.com/truecharts/charts/compare/adguardhome-sync-0.0.34...adguardhome-sync-0.0.35) (2022-10-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major
 
 
@@ -86,14 +97,3 @@
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - refactor Services SCALE GUI
-  - update docker general non-major ([#3772](https://github.com/truecharts/charts/issues/3772))
-  - update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-  - split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-
-

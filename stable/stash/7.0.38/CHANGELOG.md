@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major
+
+
+
+
+## [stash-7.0.38](https://github.com/truecharts/charts/compare/filestash-0.0.43...stash-7.0.38) (2022-10-07)
+
+### Chore
+
 - update helm general non-major
 
 
@@ -87,13 +97,3 @@
 
 ## [stash-7.0.34](https://github.com/truecharts/charts/compare/stash-7.0.33...stash-7.0.34) (2022-09-21)
 
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]

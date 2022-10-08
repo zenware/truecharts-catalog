@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major
+
+
+
+
+## [kavita-2.0.39](https://github.com/truecharts/charts/compare/kavita-2.0.38...kavita-2.0.39) (2022-10-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major
 
 
@@ -86,14 +97,3 @@
   - update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
   - split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
 
-
-
-
-## [kavita-2.0.35](https://github.com/truecharts/charts/compare/kavita-2.0.34...kavita-2.0.35) (2022-09-21)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]

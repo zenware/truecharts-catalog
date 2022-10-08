@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major
+
+
+
+
+## [raneto-0.0.34](https://github.com/truecharts/charts/compare/raneto-0.0.33...raneto-0.0.34) (2022-10-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major
 
 
@@ -86,14 +97,3 @@
   - Auto-update chart README [skip ci]
   - refactor Services SCALE GUI
   - update docker general non-major ([#3818](https://github.com/truecharts/charts/issues/3818))
-  - update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-  - split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-
-
-
-## [raneto-0.0.30](https://github.com/truecharts/charts/compare/raneto-0.0.28...raneto-0.0.30) (2022-09-21)
-
-### Chore
-
-- Auto-update chart README [skip ci]

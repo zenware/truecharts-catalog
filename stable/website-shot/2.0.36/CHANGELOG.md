@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major
+
+
+
+
+## [website-shot-2.0.36](https://github.com/truecharts/charts/compare/website-shot-2.0.35...website-shot-2.0.36) (2022-10-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major
 
 
@@ -86,14 +97,3 @@
   - refactor Services SCALE GUI
   - update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
 
-
-
-
-## [website-shot-2.0.32](https://github.com/truecharts/charts/compare/website-shot-2.0.31...website-shot-2.0.32) (2022-09-21)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]

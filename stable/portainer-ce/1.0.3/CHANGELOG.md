@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major
+
+
+
+
+## [portainer-ce-1.0.3](https://github.com/truecharts/charts/compare/portainer-ce-1.0.2...portainer-ce-1.0.3) (2022-10-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major
 
 
@@ -84,16 +95,5 @@
 
 - Auto-update chart README [skip ci]
   - bump common to test ([#3888](https://github.com/truecharts/charts/issues/3888))
-
-
-
-
-## [portainer-ce-0.0.2](https://github.com/truecharts/charts/compare/portainer-ce-0.0.1...portainer-ce-0.0.2) (2022-09-25)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - update docker general non-major ([#3881](https://github.com/truecharts/charts/issues/3881))
 
 

@@ -2,6 +2,7 @@
 
 
 
+
 ## [yacreaderlibraryserver-0.0.28](https://github.com/truecharts/charts/compare/yacreaderlibraryserver-0.0.27...yacreaderlibraryserver-0.0.28) (2022-10-07)
 
 ### Chore
@@ -93,7 +94,6 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]

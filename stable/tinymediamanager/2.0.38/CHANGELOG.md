@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major
+
+
+
+
+## [tinymediamanager-2.0.38](https://github.com/truecharts/charts/compare/tinymediamanager-2.0.37...tinymediamanager-2.0.38) (2022-10-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major
 
 
@@ -86,14 +97,3 @@
   - update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
 
 
-
-
-## [tinymediamanager-2.0.34](https://github.com/truecharts/charts/compare/tinymediamanager-2.0.33...tinymediamanager-2.0.34) (2022-09-21)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]

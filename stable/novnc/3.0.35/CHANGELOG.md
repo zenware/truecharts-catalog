@@ -6,6 +6,16 @@
 
 ### Chore
 
+- Auto-update chart README [skip ci]
+  - update helm general non-major
+
+
+
+
+## [novnc-3.0.35](https://github.com/truecharts/charts/compare/prusaslicer-novnc-0.0.36...novnc-3.0.35) (2022-10-07)
+
+### Chore
+
 - update helm general non-major
 
 
@@ -87,13 +97,3 @@
 
 
 
-## [novnc-3.0.31](https://github.com/truecharts/charts/compare/prusaslicer-novnc-0.0.28...novnc-3.0.31) (2022-09-21)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]

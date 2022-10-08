@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major
+
+
+
+
+## [plextraktsync-1.0.8](https://github.com/truecharts/charts/compare/plextraktsync-1.0.7...plextraktsync-1.0.8) (2022-10-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major
 
 
@@ -86,14 +97,3 @@
 
   ### Fix
 
-- cron type does not work ([#3811](https://github.com/truecharts/charts/issues/3811))
-  - add docs and persistence ([#3604](https://github.com/truecharts/charts/issues/3604))
-
-
-
-
-## [post-recording-0.0.24](https://github.com/truecharts/charts/compare/post-recording-0.0.23...post-recording-0.0.24) (2022-09-21)
-
-### Chore
-
-- Auto-update chart README [skip ci]

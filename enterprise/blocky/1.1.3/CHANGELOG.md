@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major
+
+
+
+
+## [blocky-1.1.3](https://github.com/truecharts/charts/compare/blocky-1.1.2...blocky-1.1.3) (2022-10-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major
 
 
@@ -86,14 +97,3 @@
   - bump version
 
   ### Fix
-
-- allow port changes, allow dot, fix prometheus and fix api access ([#3899](https://github.com/truecharts/charts/issues/3899))
-
-
-
-
-## [blocky-1.0.5](https://github.com/truecharts/charts/compare/blocky-1.0.4...blocky-1.0.5) (2022-09-25)
-
-### Chore
-
-- Auto-update chart README [skip ci]

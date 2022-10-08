@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major
+
+
+
+
+## [webtop-0.0.36](https://github.com/truecharts/charts/compare/webtop-0.0.35...webtop-0.0.36) (2022-10-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major
 
 
@@ -86,14 +97,3 @@
   - update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
 
 
-
-
-## [webtop-0.0.30](https://github.com/truecharts/charts/compare/webtop-0.0.28...webtop-0.0.30) (2022-09-21)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]

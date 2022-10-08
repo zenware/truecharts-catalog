@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major
+
+
+
+
+## [filezilla-4.0.45](https://github.com/truecharts/charts/compare/filezilla-4.0.44...filezilla-4.0.45) (2022-10-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major
 
 
@@ -86,14 +97,3 @@
   - split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
 
 
-
-
-## [filezilla-4.0.39](https://github.com/truecharts/charts/compare/filezilla-4.0.37...filezilla-4.0.39) (2022-09-21)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]

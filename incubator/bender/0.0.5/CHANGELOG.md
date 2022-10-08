@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major
+
+
+
+
+## [bender-0.0.5](https://github.com/truecharts/charts/compare/bender-0.0.4...bender-0.0.5) (2022-10-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major
 
 
@@ -86,14 +97,3 @@
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
-
-  ### Feat
-
-- add bender ([#3807](https://github.com/truecharts/charts/issues/3807))
-
-
-
-
-## [bender-0.0.1]bender-0.0.1 (2022-09-20)
-
-### Chore

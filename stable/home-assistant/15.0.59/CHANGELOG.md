@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major
+
+
+
+
+## [home-assistant-15.0.59](https://github.com/truecharts/charts/compare/home-assistant-15.0.58...home-assistant-15.0.59) (2022-10-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm general non-major
 
 
@@ -86,14 +97,3 @@
   - update helm general non-major ([#3756](https://github.com/truecharts/charts/issues/3756))
   - split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
 
-
-
-
-## [home-assistant-15.0.52](https://github.com/truecharts/charts/compare/home-assistant-15.0.50...home-assistant-15.0.52) (2022-09-21)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]

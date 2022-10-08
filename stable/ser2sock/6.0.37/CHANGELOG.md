@@ -2,7 +2,18 @@
 
 
 
-## [ser2sock-6.0.37](https://github.com/truecharts/charts/compare/ser2sock-6.0.36...ser2sock-6.0.37) (2022-10-07)
+## [sdtd-1.0.7](https://github.com/truecharts/charts/compare/sdtd-1.0.6...sdtd-1.0.7) (2022-10-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major
+
+
+
+
+## [sdtd-1.0.7](https://github.com/truecharts/charts/compare/sdtd-1.0.6...sdtd-1.0.7) (2022-10-07)
 
 ### Chore
 
@@ -12,7 +23,7 @@
 
 
 
-## [ser2sock-6.0.36](https://github.com/truecharts/charts/compare/ser2sock-6.0.35...ser2sock-6.0.36) (2022-10-05)
+## [sdtd-1.0.6](https://github.com/truecharts/charts/compare/sdtd-1.0.5...sdtd-1.0.6) (2022-10-05)
 
 ### Chore
 
@@ -23,7 +34,7 @@
 
 
 
-## [ser2sock-6.0.35](https://github.com/truecharts/charts/compare/ser2sock-6.0.34...ser2sock-6.0.35) (2022-09-27)
+## [sdtd-1.0.5](https://github.com/truecharts/charts/compare/sdtd-1.0.4...sdtd-1.0.5) (2022-09-27)
 
 ### Chore
 
@@ -33,7 +44,7 @@
 
 
 
-## [ser2sock-6.0.34](https://github.com/truecharts/charts/compare/ser2sock-6.0.33...ser2sock-6.0.34) (2022-09-25)
+## [sdtd-1.0.4](https://github.com/truecharts/charts/compare/sdtd-1.0.3...sdtd-1.0.4) (2022-09-25)
 
 ### Chore
 
@@ -43,7 +54,7 @@
 
 
 
-## [ser2sock-6.0.33](https://github.com/truecharts/charts/compare/ser2sock-6.0.32...ser2sock-6.0.33) (2022-09-22)
+## [sdtd-1.0.3](https://github.com/truecharts/charts/compare/sdtd-1.0.2...sdtd-1.0.3) (2022-09-22)
 
 ### Chore
 
@@ -66,7 +77,7 @@
 
 
 
-## [ser2sock-6.0.33](https://github.com/truecharts/charts/compare/ser2sock-6.0.32...ser2sock-6.0.33) (2022-09-21)
+## [sdtd-1.0.3](https://github.com/truecharts/charts/compare/sdtd-1.0.2...sdtd-1.0.3) (2022-09-21)
 
 ### Chore
 
@@ -86,14 +97,3 @@
   - update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
 
 
-
-
-## [ser2sock-6.0.33](https://github.com/truecharts/charts/compare/ser2sock-6.0.32...ser2sock-6.0.33) (2022-09-21)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]

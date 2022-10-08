@@ -2,6 +2,7 @@
 
 
 
+
 ## [sdtd-1.0.7](https://github.com/truecharts/charts/compare/sdtd-1.0.6...sdtd-1.0.7) (2022-10-07)
 
 ### Chore
@@ -93,7 +94,6 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
