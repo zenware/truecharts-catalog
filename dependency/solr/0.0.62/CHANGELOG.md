@@ -2,6 +2,19 @@
 
 
 
+## [solr-0.0.62](https://github.com/truecharts/charts/compare/solr-0.0.61...solr-0.0.62) (2022-10-09)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+
+  ### Fix
+
+- fix solr ulr ([#4040](https://github.com/truecharts/charts/issues/4040))
+
+
+
+
 ## [solr-0.0.61](https://github.com/truecharts/charts/compare/solr-0.0.60...solr-0.0.61) (2022-10-07)
 
 ### Chore
@@ -84,16 +97,3 @@
 
 
 ## [solr-0.0.53](https://github.com/truecharts/charts/compare/solr-0.0.51...solr-0.0.53) (2022-09-24)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - update helm chart common to v10.6.0
-  - update helm chart common to v10.5.12
-
-
-
-
-## [solr-0.0.52](https://github.com/truecharts/charts/compare/solr-0.0.51...solr-0.0.52) (2022-09-22)
-
