@@ -2,6 +2,19 @@
 
 
 
+## [phoenixstats-0.1.0](https://github.com/truecharts/charts/compare/phoenixstats-0.0.28...phoenixstats-0.1.0) (2022-10-10)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+
+  ### Fix
+
+- Deprecate Chart ([#4054](https://github.com/truecharts/charts/issues/4054))
+
+
+
+
 ## [phoenixstats-0.0.28](https://github.com/truecharts/charts/compare/phoenixstats-0.0.27...phoenixstats-0.0.28) (2022-10-07)
 
 ### Chore
@@ -84,16 +97,3 @@
 
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - refactor Services SCALE GUI
-  - update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-  - split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
