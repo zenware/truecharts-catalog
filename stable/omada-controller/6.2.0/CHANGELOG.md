@@ -2,6 +2,19 @@
 
 
 
+## [omada-controller-6.2.0](https://github.com/truecharts/charts/compare/omada-controller-6.1.1...omada-controller-6.2.0) (2022-10-16)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+
+  ### Fix
+
+- Switch internal https port to 443, to stop redirection to 8043 on ingress ([#4107](https://github.com/truecharts/charts/issues/4107))
+
+
+
+
 ## [omada-controller-6.1.1](https://github.com/truecharts/charts/compare/omada-controller-6.1.0...omada-controller-6.1.1) (2022-10-12)
 
 ### Chore
@@ -84,16 +97,3 @@
 - Auto-update chart README [skip ci]
   - update helm general non-major ([#3898](https://github.com/truecharts/charts/issues/3898))
 
-
-
-
-## [omada-controller-6.0.65](https://github.com/truecharts/charts/compare/omada-controller-6.0.64...omada-controller-6.0.65) (2022-09-22)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
