@@ -2,6 +2,20 @@
 
 
 
+## [docker-compose-2.1.0](https://github.com/truecharts/charts/compare/docker-compose-2.0.52...docker-compose-2.1.0) (2022-10-16)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+
+  ### Fix
+
+- remove /mnt and /root ([#4115](https://github.com/truecharts/charts/issues/4115))
+  - remove /mnt for bluefin
+
+
+
+
 ## [docker-compose-2.0.52](https://github.com/truecharts/charts/compare/docker-compose-2.0.51...docker-compose-2.0.52) (2022-10-14)
 
 ### Chore
@@ -83,17 +97,3 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
-  - update helm general non-major ([#3918](https://github.com/truecharts/charts/issues/3918))
-
-
-
-
-## [docker-compose-2.0.45](https://github.com/truecharts/charts/compare/docker-compose-2.0.44...docker-compose-2.0.45) (2022-09-25)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#3898](https://github.com/truecharts/charts/issues/3898))
-
-
-
