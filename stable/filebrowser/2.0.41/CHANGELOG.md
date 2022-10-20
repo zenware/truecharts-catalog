@@ -2,6 +2,16 @@
 
 
 
+## [filebrowser-2.0.41](https://github.com/truecharts/charts/compare/filebrowser-2.0.40...filebrowser-2.0.41) (2022-10-19)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Update and rename credentials.md to installation_notes.md ([#4136](https://github.com/truecharts/charts/issues/4136))
+
+
+
+
 ## [filebrowser-2.0.40](https://github.com/truecharts/charts/compare/filebrowser-2.0.39...filebrowser-2.0.40) (2022-10-19)
 
 ### Chore
@@ -87,13 +97,3 @@
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - refactor Services SCALE GUI
-  - update helm general non-major ([#3767](https://github.com/truecharts/charts/issues/3767))
-  - split serviceSelector ([#3751](https://github.com/truecharts/charts/issues/3751))
-
-
-
