@@ -1,0 +1,48 @@
+env: {}
+image:
+  pullPolicy: IfNotPresent
+  repository: tccr.io/truecharts/cryptpad
+  tag: latest@sha256:3ad3a343c5e6b459efb3bd2fe6e83ce7b1227127cbf815ae2f04f4b9f4ddc88f
+persistence:
+  blobpath:
+    enabled: true
+    mountPath: /cryptpad/blob
+  blockpath:
+    enabled: true
+    mountPath: /cryptpad/block
+  configpath:
+    enabled: true
+    mountPath: /cryptpad/config/config.js
+  customizepath:
+    enabled: true
+    mountPath: /cryptpad/customize
+  data:
+    enabled: true
+    mountPath: /cryptpad/data
+  datastorepath:
+    enabled: true
+    mountPath: /cryptpad/datastore
+podSecurityContext:
+  runAsGroup: 0
+  runAsUser: 0
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+service:
+  main:
+    ports:
+      main:
+        port: 3000
+        protocol: HTTP
+        targetPort: 3000
+  port2:
+    enabled: true
+    ports:
+      port2:
+        enabled: true
+        port: 3001
+        protocol: TCP
+        targetPort: 3001
+
+portal:
+  enabled: true
