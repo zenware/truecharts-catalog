@@ -1,0 +1,33 @@
+image:
+  repository: tccr.io/truecharts/wireshark
+  pullPolicy: IfNotPresent
+  tag: 3.6.5@sha256:b4f753ba985c8cca255ae6bffd8c1eb33c66be9ebc34e2887c6edea0462d3cdc
+
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+  allowPrivilegeEscalation: true
+  privileged: true
+
+hostNetwork: true
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 3000
+        port: 3000
+
+persistence:
+  varrun:
+    enabled: true
+  config:
+    enabled: true
+    mountPath: "/config"
+
+portal:
+  enabled: true

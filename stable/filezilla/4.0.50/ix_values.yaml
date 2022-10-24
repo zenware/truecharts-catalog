@@ -1,0 +1,29 @@
+image:
+  repository: tccr.io/truecharts/filezilla
+  pullPolicy: IfNotPresent
+  tag: 3.59.0@sha256:02f080472c28f2dde775afae0f7411a03e712f69055e39edb88a0ec3e3f199a4
+
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+service:
+  main:
+    ports:
+      main:
+        port: 10035
+        targetPort: 3000
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+  varrun:
+    enabled: true
+
+portal:
+  enabled: true
