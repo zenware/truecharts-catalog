@@ -2,6 +2,19 @@
 
 
 
+## [meshcentral-5.0.7](https://github.com/truecharts/charts/compare/meshcentral-5.0.6...meshcentral-5.0.7) (2022-10-26)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+
+  ### Fix
+
+- default to HTTP for service ([#4197](https://github.com/truecharts/charts/issues/4197))
+
+
+
+
 ## [meshcentral-5.0.6](https://github.com/truecharts/charts/compare/meshcentral-5.0.5...meshcentral-5.0.6) (2022-10-26)
 
 ### Chore
@@ -84,16 +97,3 @@
 
 
 
-## [meshcentral-4.0.16](https://github.com/truecharts/charts/compare/meshcentral-4.0.15...meshcentral-4.0.16) (2022-10-19)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4122](https://github.com/truecharts/charts/issues/4122))
-
-
-
-
-## [meshcentral-4.0.15](https://github.com/truecharts/charts/compare/meshcentral-4.0.14...meshcentral-4.0.15) (2022-10-12)
-
-### Chore
