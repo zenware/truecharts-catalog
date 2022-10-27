@@ -2,6 +2,19 @@
 
 
 
+## [meshcentral-5.0.10](https://github.com/truecharts/charts/compare/meshcentral-5.0.9...meshcentral-5.0.10) (2022-10-27)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+
+  ### Fix
+
+- correctly merge custom domain for scale gui ([#4211](https://github.com/truecharts/charts/issues/4211))
+
+
+
+
 ## [meshcentral-5.0.9](https://github.com/truecharts/charts/compare/meshcentral-5.0.8...meshcentral-5.0.9) (2022-10-27)
 
 ### Chore
@@ -83,17 +96,4 @@
 
 - Auto-update chart README [skip ci]
   - update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
-
-
-
-
-## [meshcentral-5.0.2](https://github.com/truecharts/charts/compare/meshcentral-5.0.1...meshcentral-5.0.2) (2022-10-25)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-
-  ### Fix
-
-- use transitioning variable tcdefaultdomain in scale GUI ([#4184](https://github.com/truecharts/charts/issues/4184))
 
