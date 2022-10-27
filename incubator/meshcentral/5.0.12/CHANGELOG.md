@@ -2,6 +2,19 @@
 
 
 
+## [meshcentral-5.0.12](https://github.com/truecharts/charts/compare/meshcentral-5.0.11...meshcentral-5.0.12) (2022-10-27)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+
+  ### Fix
+
+- remove maintenancemode config because if set to any value enables it ([#4215](https://github.com/truecharts/charts/issues/4215))
+
+
+
+
 ## [meshcentral-5.0.11](https://github.com/truecharts/charts/compare/meshcentral-5.0.10...meshcentral-5.0.11) (2022-10-27)
 
 ### Chore
@@ -84,16 +97,3 @@
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4189](https://github.com/truecharts/charts/issues/4189))
-
-
-
-
-## [meshcentral-5.0.4](https://github.com/truecharts/charts/compare/meshcentral-5.0.3...meshcentral-5.0.4) (2022-10-25)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-
-  ### Fix
