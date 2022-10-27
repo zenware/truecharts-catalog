@@ -2,6 +2,19 @@
 
 
 
+## [meshcentral-5.0.11](https://github.com/truecharts/charts/compare/meshcentral-5.0.10...meshcentral-5.0.11) (2022-10-27)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+
+  ### Fix
+
+- try unsetting maintanancemode ([#4214](https://github.com/truecharts/charts/issues/4214))
+
+
+
+
 ## [meshcentral-5.0.10](https://github.com/truecharts/charts/compare/meshcentral-5.0.9...meshcentral-5.0.10) (2022-10-27)
 
 ### Chore
@@ -84,16 +97,3 @@
 - Auto-update chart README [skip ci]
 
   ### Fix
-
-- fix typo ([#4185](https://github.com/truecharts/charts/issues/4185))
-
-
-
-
-## [meshcentral-5.0.3](https://github.com/truecharts/charts/compare/meshcentral-5.0.2...meshcentral-5.0.3) (2022-10-25)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
-
