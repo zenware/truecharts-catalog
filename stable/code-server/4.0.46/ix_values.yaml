@@ -1,0 +1,37 @@
+image:
+  repository: tccr.io/truecharts/code-server
+  pullPolicy: IfNotPresent
+  tag: 4.8.0@sha256:3186e733b180f882b960785efdcacd2631bd32ed3e43deb62ff81044ef297f46
+
+args:
+  - --user-data-dir
+  - "/config/.vscode"
+  - --auth
+  - none
+
+env:
+  PROXY_DOMAIN: ""
+
+securityContext:
+  readOnlyRootFilesystem: false
+  allowPrivilegeEscalation: true
+  runAsNonRoot: false
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+service:
+  main:
+    ports:
+      main:
+        port: 10063
+        targetPort: 8080
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+
+portal:
+  enabled: true

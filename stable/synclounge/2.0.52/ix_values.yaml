@@ -1,0 +1,29 @@
+image:
+  repository: tccr.io/truecharts/synclounge
+  pullPolicy: IfNotPresent
+  tag: 5.2.4@sha256:721acfa2aa75184da4df78353b6120566672cff2185304ca9671bd7ec8f09009
+
+securityContext:
+  runAsNonRoot: false
+  readOnlyRootFilesystem: false
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+env:
+  AUTH_LIST: ""
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 8088
+        port: 8088
+
+persistence:
+  varrun:
+    enabled: true
+
+portal:
+  enabled: true
