@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update docker general non-major ([#4201](https://github.com/truecharts/charts/issues/4201))
+
+
+
+
+## [xonotic-0.0.33](https://github.com/truecharts/charts/compare/xonotic-0.0.32...xonotic-0.0.33) (2022-10-27)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update docker general non-major ([#4201](https://github.com/truecharts/charts/issues/4201))
 
 
@@ -86,14 +97,3 @@
 
 ## [xonotic-0.0.26](https://github.com/truecharts/charts/compare/xonotic-0.0.25...xonotic-0.0.26) (2022-09-25)
 
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#3898](https://github.com/truecharts/charts/issues/3898))
-
-
-
-
-## [xonotic-0.0.25](https://github.com/truecharts/charts/compare/xonotic-0.0.24...xonotic-0.0.25) (2022-09-22)
-
-### Chore

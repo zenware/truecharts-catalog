@@ -2,6 +2,19 @@
 
 
 
+## [meshcentral-5.0.8](https://github.com/truecharts/charts/compare/meshcentral-5.0.7...meshcentral-5.0.8) (2022-10-27)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+
+  ### Fix
+
+- remove --cert from run command ([#4205](https://github.com/truecharts/charts/issues/4205))
+
+
+
+
 ## [meshcentral-5.0.7](https://github.com/truecharts/charts/compare/meshcentral-5.0.6...meshcentral-5.0.7) (2022-10-26)
 
 ### Chore
@@ -80,19 +93,6 @@
 
 - Auto-update chart README [skip ci]
   - update docker general non-major ([#4181](https://github.com/truecharts/charts/issues/4181))
-
-
-
-
-## [meshcentral-5.0.0](https://github.com/truecharts/charts/compare/meshcentral-4.0.16...meshcentral-5.0.0) (2022-10-24)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-
-  ### Feat
-
-- BREAKING CHANGE - Rework to add support for (almost) all configuration options ([#4137](https://github.com/truecharts/charts/issues/4137))
 
 
 

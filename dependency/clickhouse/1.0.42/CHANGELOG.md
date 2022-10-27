@@ -7,6 +7,18 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm chart common to v10.7.8 ([#4203](https://github.com/truecharts/charts/issues/4203))
+  - update docker general non-major ([#4201](https://github.com/truecharts/charts/issues/4201))
+
+
+
+
+## [clickhouse-1.0.42](https://github.com/truecharts/charts/compare/clickhouse-1.0.41...clickhouse-1.0.42) (2022-10-27)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm chart common to v10.7.8 ([#4203](https://github.com/truecharts/charts/issues/4203))
   - update docker general non-major ([#4201](https://github.com/truecharts/charts/issues/4201))
 
@@ -85,15 +97,3 @@
 
 
 ## [memcached-3.0.93](https://github.com/truecharts/charts/compare/memcached-3.0.92...memcached-3.0.93) (2022-10-11)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4070](https://github.com/truecharts/charts/issues/4070))
-
-
-
-
-## [memcached-3.0.92](https://github.com/truecharts/charts/compare/memcached-3.0.91...memcached-3.0.92) (2022-10-10)
-
-### Chore

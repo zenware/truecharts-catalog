@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update docker general non-major ([#4201](https://github.com/truecharts/charts/issues/4201))
+
+
+
+
+## [flexget-2.0.58](https://github.com/truecharts/charts/compare/flexget-2.0.57...flexget-2.0.58) (2022-10-27)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update docker general non-major ([#4201](https://github.com/truecharts/charts/issues/4201))
 
 
@@ -86,14 +97,3 @@
 
 ## [flexget-2.0.51](https://github.com/truecharts/charts/compare/flexget-2.0.50...flexget-2.0.51) (2022-10-07)
 
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major
-
-
-
-
-## [flexget-2.0.50](https://github.com/truecharts/charts/compare/flexget-2.0.49...flexget-2.0.50) (2022-10-05)
-
-### Chore

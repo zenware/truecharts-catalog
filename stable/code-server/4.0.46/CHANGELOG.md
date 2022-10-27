@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update docker general non-major ([#4201](https://github.com/truecharts/charts/issues/4201))
+
+
+
+
+## [code-server-4.0.46](https://github.com/truecharts/charts/compare/code-server-4.0.45...code-server-4.0.46) (2022-10-27)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update docker general non-major ([#4201](https://github.com/truecharts/charts/issues/4201))
 
 
@@ -86,14 +97,3 @@
 
 ## [code-server-4.0.39](https://github.com/truecharts/charts/compare/code-server-4.0.38...code-server-4.0.39) (2022-09-25)
 
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#3898](https://github.com/truecharts/charts/issues/3898))
-
-
-
-
-## [code-server-4.0.38](https://github.com/truecharts/charts/compare/code-server-4.0.37...code-server-4.0.38) (2022-09-22)
-
-### Chore

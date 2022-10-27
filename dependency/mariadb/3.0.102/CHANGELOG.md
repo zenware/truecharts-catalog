@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm chart common to v10.7.8 ([#4203](https://github.com/truecharts/charts/issues/4203))
+
+
+
+
+## [mariadb-3.0.102](https://github.com/truecharts/charts/compare/mariadb-3.0.101...mariadb-3.0.102) (2022-10-27)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm chart common to v10.7.8 ([#4203](https://github.com/truecharts/charts/issues/4203))
 
 
@@ -86,14 +97,3 @@
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-  - update helm chart common to v10.7.0 ([#4063](https://github.com/truecharts/charts/issues/4063))
-
-
-
-
-## [clickhouse-1.0.35](https://github.com/truecharts/charts/compare/clickhouse-1.0.34...clickhouse-1.0.35) (2022-10-07)
-
-### Chore
-
-- Auto-update chart README [skip ci]

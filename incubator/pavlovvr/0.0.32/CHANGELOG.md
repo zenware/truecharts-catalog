@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update docker general non-major ([#4201](https://github.com/truecharts/charts/issues/4201))
+
+
+
+
+## [pavlovvr-0.0.32](https://github.com/truecharts/charts/compare/pavlovvr-0.0.31...pavlovvr-0.0.32) (2022-10-27)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update docker general non-major ([#4201](https://github.com/truecharts/charts/issues/4201))
 
 
@@ -86,14 +97,3 @@
 
 ## [pavlovvr-0.0.25](https://github.com/truecharts/charts/compare/pavlovvr-0.0.24...pavlovvr-0.0.25) (2022-09-25)
 
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#3898](https://github.com/truecharts/charts/issues/3898))
-
-
-
-
-## [pavlovvr-0.0.24](https://github.com/truecharts/charts/compare/pavlovvr-0.0.23...pavlovvr-0.0.24) (2022-09-22)
-
-### Chore

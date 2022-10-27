@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update docker general non-major ([#4201](https://github.com/truecharts/charts/issues/4201))
+
+
+
+
+## [recipes-8.0.69](https://github.com/truecharts/charts/compare/recipes-8.0.68...recipes-8.0.69) (2022-10-27)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update docker general non-major ([#4201](https://github.com/truecharts/charts/issues/4201))
 
 
@@ -86,14 +97,3 @@
 ## [recipes-8.0.62](https://github.com/truecharts/charts/compare/recipes-8.0.61...recipes-8.0.62) (2022-10-07)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major
-
-
-
-
-## [recipes-8.0.61](https://github.com/truecharts/charts/compare/recipes-8.0.60...recipes-8.0.61) (2022-10-07)
-
-### Chore
-

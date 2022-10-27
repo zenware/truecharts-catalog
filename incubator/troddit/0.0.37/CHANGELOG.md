@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update docker general non-major ([#4201](https://github.com/truecharts/charts/issues/4201))
+
+
+
+
+## [troddit-0.0.37](https://github.com/truecharts/charts/compare/troddit-0.0.36...troddit-0.0.37) (2022-10-27)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update docker general non-major ([#4201](https://github.com/truecharts/charts/issues/4201))
 
 
@@ -84,16 +95,5 @@
 
 
 ## [troddit-0.0.30](https://github.com/truecharts/charts/compare/troddit-0.0.29...troddit-0.0.30) (2022-10-05)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - split addons in smaller templates ([#3979](https://github.com/truecharts/charts/issues/3979))
-  - update helm general non-major
-
-
-
-
-## [troddit-0.0.29](https://github.com/truecharts/charts/compare/troddit-0.0.28...troddit-0.0.29) (2022-09-27)
 
 ### Chore

@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update docker general non-major ([#4201](https://github.com/truecharts/charts/issues/4201))
+
+
+
+
+## [dokuwiki-3.0.71](https://github.com/truecharts/charts/compare/dokuwiki-3.0.70...dokuwiki-3.0.71) (2022-10-27)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update docker general non-major ([#4201](https://github.com/truecharts/charts/issues/4201))
 
 
@@ -86,14 +97,3 @@
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4049](https://github.com/truecharts/charts/issues/4049))
-
-
-
-
-## [dokuwiki-3.0.62](https://github.com/truecharts/charts/compare/dokuwiki-3.0.61...dokuwiki-3.0.62) (2022-10-07)
-
-### Chore
-
-- Auto-update chart README [skip ci]

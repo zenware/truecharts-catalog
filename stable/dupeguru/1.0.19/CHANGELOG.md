@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update docker general non-major ([#4201](https://github.com/truecharts/charts/issues/4201))
+
+
+
+
+## [dupeguru-1.0.19](https://github.com/truecharts/charts/compare/dupeguru-1.0.18...dupeguru-1.0.19) (2022-10-27)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update docker general non-major ([#4201](https://github.com/truecharts/charts/issues/4201))
 
 
@@ -86,14 +97,3 @@
 
 ## [dupeguru-1.0.12](https://github.com/truecharts/charts/compare/dupeguru-1.0.11...dupeguru-1.0.12) (2022-09-27)
 
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#3918](https://github.com/truecharts/charts/issues/3918))
-
-
-
-
-## [dsmr-reader-8.0.39](https://github.com/truecharts/charts/compare/dsmr-reader-8.0.38...dsmr-reader-8.0.39) (2022-09-25)
-
-### Chore

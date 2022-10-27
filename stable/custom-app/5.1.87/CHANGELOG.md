@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update docker general non-major ([#4201](https://github.com/truecharts/charts/issues/4201))
+
+
+
+
+## [custom-app-5.1.87](https://github.com/truecharts/charts/compare/custom-app-5.1.86...custom-app-5.1.87) (2022-10-27)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update docker general non-major ([#4201](https://github.com/truecharts/charts/issues/4201))
 
 
@@ -86,14 +97,3 @@
 ## [custom-app-5.1.79](https://github.com/truecharts/charts/compare/custom-app-5.1.78...custom-app-5.1.79) (2022-10-14)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4084](https://github.com/truecharts/charts/issues/4084))
-
-
-
-
-## [custom-app-5.1.78](https://github.com/truecharts/charts/compare/custom-app-5.1.77...custom-app-5.1.78) (2022-10-12)
-
-### Chore
-

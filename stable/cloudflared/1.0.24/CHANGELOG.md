@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update docker general non-major ([#4201](https://github.com/truecharts/charts/issues/4201))
+
+
+
+
+## [cloudflared-1.0.24](https://github.com/truecharts/charts/compare/cloudflareddns-1.0.31...cloudflared-1.0.24) (2022-10-27)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update docker general non-major ([#4201](https://github.com/truecharts/charts/issues/4201))
 
 
@@ -86,14 +97,3 @@
 
 ## [cloudflared-1.0.17](https://github.com/truecharts/charts/compare/cloudflared-1.0.16...cloudflared-1.0.17) (2022-09-27)
 
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#3918](https://github.com/truecharts/charts/issues/3918))
-
-
-
-
-## [cloudflared-1.0.16](https://github.com/truecharts/charts/compare/cloudflared-1.0.15...cloudflared-1.0.16) (2022-09-25)
-
-### Chore

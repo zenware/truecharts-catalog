@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update docker general non-major ([#4201](https://github.com/truecharts/charts/issues/4201))
+
+
+
+
+## [plextraktsync-1.0.14](https://github.com/truecharts/charts/compare/plextraktsync-1.0.13...plextraktsync-1.0.14) (2022-10-27)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update docker general non-major ([#4201](https://github.com/truecharts/charts/issues/4201))
 
 
@@ -86,14 +97,3 @@
 
 ## [plextraktsync-1.0.7](https://github.com/truecharts/charts/compare/plextraktsync-1.0.6...plextraktsync-1.0.7) (2022-10-07)
 
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major
-
-
-
-
-## [plextraktsync-1.0.6](https://github.com/truecharts/charts/compare/plextraktsync-1.0.5...plextraktsync-1.0.6) (2022-10-05)
-
-### Chore

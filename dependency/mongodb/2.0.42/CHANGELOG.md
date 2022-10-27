@@ -7,6 +7,17 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm chart common to v10.7.8 ([#4203](https://github.com/truecharts/charts/issues/4203))
+
+
+
+
+## [mongodb-2.0.42](https://github.com/truecharts/charts/compare/mongodb-2.0.41...mongodb-2.0.42) (2022-10-27)
+
+### Chore
+
+- Auto-update chart README [skip ci]
   - update helm chart common to v10.7.8 ([#4203](https://github.com/truecharts/charts/issues/4203))
 
 
@@ -86,14 +97,3 @@
 ## [mongodb-2.0.34](https://github.com/truecharts/charts/compare/mongodb-2.0.33...mongodb-2.0.34) (2022-10-15)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm chart common to v10.7.1
-
-
-
-
-## [mongodb-2.0.33](https://github.com/truecharts/charts/compare/mongodb-2.0.32...mongodb-2.0.33) (2022-10-14)
-
-### Chore
-
