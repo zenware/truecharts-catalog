@@ -2,6 +2,19 @@
 
 
 
+## [meshcentral-5.0.9](https://github.com/truecharts/charts/compare/meshcentral-5.0.8...meshcentral-5.0.9) (2022-10-27)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+
+  ### Fix
+
+- whops ([#4207](https://github.com/truecharts/charts/issues/4207))
+
+
+
+
 ## [meshcentral-5.0.8](https://github.com/truecharts/charts/compare/meshcentral-5.0.7...meshcentral-5.0.8) (2022-10-27)
 
 ### Chore
@@ -83,17 +96,4 @@
   ### Fix
 
 - use transitioning variable tcdefaultdomain in scale GUI ([#4184](https://github.com/truecharts/charts/issues/4184))
-
-
-
-
-## [meshcentral-5.0.1](https://github.com/truecharts/charts/compare/meshcentral-5.0.0...meshcentral-5.0.1) (2022-10-25)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4181](https://github.com/truecharts/charts/issues/4181))
-
-
-
 
