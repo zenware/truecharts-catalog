@@ -35,6 +35,13 @@ portals:
       - "$kubernetes-resource_configmap_portal_host"
     ports:
       - "$kubernetes-resource_configmap_portal_port"
+  admin:
+    protocols:
+      - "$kubernetes-resource_configmap_portal_protocol"
+    host:
+      - "$kubernetes-resource_configmap_portal_host"
+    ports:
+      - "$variable-service.admin.ports.admin.port"
 questions:
   - variable: global
     label: Global Settings
@@ -164,471 +171,26 @@ questions:
                 label: Arg
                 schema:
                   type: string
-  - variable: meshcentral
+  - variable: secretEnv
     group: Container Configuration
-    label: MeshCentral Configuration
+    label: Image Secrets
     schema:
       additional_attrs: true
       type: dict
       attrs:
-        - variable: settings
-          label: Section <settings>
+        - variable: DOCKER_HUB_USERNAME
+          label: Docker Hub Username
+          description: Optionally specify a DockerHub Username to pull private images.
           schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-              - variable: aliasPort
-                label: aliasPort
-                description: The actual main port as seen externally on the Internet, this setting is often used when a reverse-proxy is used.
-                schema:
-                  type: int
-                  required: true
-                  default: 443
-              - variable: cert
-                label: cert
-                description: Set this to the primary DNS name of this MeshCentral server.
-                schema:
-                  type: string
-                  default: ""
-              - variable: tlsOffload
-                label: tlsOffload
-                description: When true, indicates that a TLS offloader is in front of the MeshCentral server. More typically, set this to the IP address of the reverse proxy or TLS offloader so that IP forwarding headers will be trusted. For example traefik.ix-traefik.svc.cluster.local
-                schema:
-                  type: string
-                  default: ""
-              - variable: trustedProxy
-                label: trustedProxy
-                description: Trust forwarded headers from these IPs or domains.  Providing the magic string "CloudFlare" will cause the server to download the IP address list of trusted CloudFlare proxies directly from CloudFlare on each server start. For example traefik.ix-traefik.svc.cluster.local
-                schema:
-                  type: string
-                  default: ""
-              - variable: WANonly
-                label: WANonly
-                description: When enabled, only MeshCentral WAN features are enabled and agents will connect to the server using a well known DNS name.
-                schema:
-                  type: boolean
-                  default: false
-              - variable: LANonly
-                label: LANonly
-                description: When enabled, only MeshCentral LAN features are enabled and agents will find the server using multicast LAN packets.
-                schema:
-                  type: boolean
-                  default: false
-              - variable: webRTC
-                label: webRTC
-                description: When enabled, allows use of WebRTC to allow direct network traffic between the agent and browser.
-                schema:
-                  type: boolean
-                  default: false
-              - variable: compression
-                label: compression
-                description: Enables GZIP compression for web requests.
-                schema:
-                  type: boolean
-                  default: true
-              - variable: wsCompression
-                label: wsCompression
-                description: Enables server-side, websocket per-message deflate compression.
-                schema:
-                  type: boolean
-                  default: true
-              - variable: agentWsCompression
-                label: agentWsCompression
-                description: Enables agent-side, websocket per-message deflate compression. wscompression must also be true for this to work.
-                schema:
-                  type: boolean
-                  default: true
-              - variable: allowFraming
-                label: allowFraming
-                description: When enabled, the MeshCentral web site can be embedded within another website's iframe.
-                schema:
-                  type: boolean
-                  default: false
-              - variable: newAccounts
-                label: newAccounts
-                description: When set to true, allow new user accounts to be created from the login page.
-                schema:
-                  type: boolean
-                  default: false
-              - variable: allowHighQualityDesktop
-                label: allowHighQualityDesktop
-                description: When false, users will only be able to set remote desktop image quality to 60%, this can reduce server bandwidth usage.
-                schema:
-                  type: boolean
-                  default: true
-              - variable: agentLogDump
-                label: agentLogDump
-                description: Automatically downloads all agent error logs into meshcentral-data/agenterrorlogs.txt.
-                schema:
-                  type: boolean
-                  default: false
-              - variable: agentCoreDump
-                label: agentCoreDump
-                description: Automatically activates and transfers any agent crash dump files to the server in meshcentral-data/coredumps.
-                schema:
-                  type: boolean
-                  default: false
-              - variable: browserPing
-                label: browserPing
-                description: When specified, sends data to the browser at x seconds interval and expects a response from the browser.
-                schema:
-                  type: int
-                  default: -99
-              - variable: browserPong
-                label: browserPong
-                description: When specified, sends data to the browser at x seconds interval.
-                schema:
-                  type: int
-                  default: -99
-              - variable: agentPing
-                label: agentPing
-                description: When specified, sends data to the agent at x seconds interval and expects a response from the agent.
-                schema:
-                  type: int
-                  default: -99
-              - variable: agentPong
-                label: agentPong
-                description: When specified, sends data to the agent at x seconds interval.
-                schema:
-                  type: int
-                  default: -99
-              - variable: agentIdleTimeout
-                label: agentIdleTimeout
-                description: How much time in seconds with no traffic from an agent before dropping the agent connection.
-                schema:
-                  type: int
-                  default: -99
-              - variable: maxInvalidLogin
-                label: Section <maxInvalidLogin>
-                schema:
-                  additional_attrs: true
-                  type: dict
-                  attrs:
-                    - variable: time
-                      label: time
-                      description: Time in minutes over which the a maximum number of invalid login attempts is allowed from an IP address.
-                      schema:
-                        type: int
-                        default: 10
-                    - variable: count
-                      label: count
-                      description: Maximum number of invalid login attempts from an IP address in the time period.
-                      schema:
-                        type: int
-                        default: 10
-                    - variable: coolofftime
-                      label: coolofftime
-                      description: Additional time in minute that login attempts will be denied once the invalid login limit is reached.
-                      schema:
-                        type: int
-                        default: 30
-                    - variable: exclude
-                      label: exclude
-                      description: Ranges of IP addresses that are not subject to invalid login limitations. For example 192.168.1.0/24,172.16.0.1
-                      schema:
-                        type: string
-                        default: ""
-              - variable: maxInvalid2fa
-                label: Section <maxInvalid2fa>
-                schema:
-                  additional_attrs: true
-                  type: dict
-                  attrs:
-                    - variable: time
-                      label: time
-                      description: Time in minutes over which the a maximum number of invalid 2FA attempts is allowed from an IP address.
-                      schema:
-                        type: int
-                        default: 10
-                    - variable: count
-                      label: count
-                      description: Maximum number of invalid 2FA attempts from an IP address in the time period.
-                      schema:
-                        type: int
-                        default: 10
-                    - variable: coolofftime
-                      label: coolofftime
-                      description: Additional time in minute that 2FA attempts will be denied once the invalid login limit is reached.
-                      schema:
-                        type: int
-                        default: 30
-                    - variable: exclude
-                      label: exclude
-                      description: Ranges of IP addresses that are not subject to invalid 2FA limitations. For example 192.168.1.0/24,172.16.0.1
-                      schema:
-                        type: string
-                        default: ""
-              - variable: autobackup
-                label: Section <autobackup>
-                schema:
-                  additional_attrs: true
-                  type: dict
-                  attrs:
-                    - variable: backupIntervalHours
-                      label: backupIntervalHours
-                      schema:
-                        type: int
-                        required: true
-                        default: 24
-                    - variable: keepLastDaysBackup
-                      label: keepLastDaysBackup
-                      schema:
-                        type: int
-                        required: true
-                        default: 10
-                    - variable: zipPassword
-                      label: zipPassword
-                      description: Leave empty for no password
-                      schema:
-                        type: string
-                        private: true
-                        default: ""
-                    - variable: setupWebDav
-                      label: Backup to Web DAV
-                      schema:
-                        type: boolean
-                        default: false
-                        show_subquestions_if: true
-                        subquestions:
-                          - variable: webdav
-                            label: Section <webdav>
-                            schema:
-                              additional_attrs: true
-                              type: dict
-                              attrs:
-                                - variable: url
-                                  label: url
-                                  description: WebDAV account URL.
-                                  schema:
-                                    type: string
-                                    default: ""
-                                - variable: username
-                                  label: username
-                                  description: WebDAV account username.
-                                  schema:
-                                    type: string
-                                    default: ""
-                                - variable: password
-                                  label: password
-                                  description: WebDAV account password.
-                                  schema:
-                                    type: string
-                                    private: true
-                                    default: ""
-                                - variable: folderName
-                                  label: folderName
-                                  description: The name of the folder to create in the WebDAV account.
-                                  schema:
-                                    type: string
-                                    default: MeshCentral-Backups
-                                - variable: maxFiles
-                                  label: maxFiles
-                                  description: The maximum number of files to keep in the WebDAV folder, older files will be removed if needed.
-                                  schema:
-                                    type: int
-                                    default: 10
-              - variable: relayDNS
-                label: relayDNS
-                description: When set, relayPort value is ignored. Set this to a DNS name the points to this server. When the server is accessed using the DNS name, the main web server port is used as a web relay port.
-                schema:
-                  type: list
-                  default: []
-                  items:
-                    - variable: relayDNSEntry
-                      label: relayDNS Entry
-                      schema:
-                        type: string
-                        required: true
-                        default: ""
-              - variable: plugins
-                label: Section <plugins>
-                schema:
-                  additional_attrs: true
-                  type: dict
-                  attrs:
-                    - variable: enabled
-                      label: enabled
-                      schema:
-                        type: boolean
-                        default: false
-        - variable: domains
-          label: Section <domains>
+            type: string
+            default: ""
+        - variable: DOCKER_HUB_PASSWORD
+          label: Docker Hub Password
+          description: Optionally specify a DockerHub password to pull private images.
           schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-              - variable: tcdefaultdomain
-                label: 'Section <"">'
-                schema:
-                  additional_attrs: true
-                  type: dict
-                  attrs:
-                    - variable: certUrl
-                      label: certUrl
-                      description: HTTPS URL when to get the TLS certificate that MeshAgent's will see when connecting to this server. This setting is used when a reverse proxy like Traefik is used in front of MeshCentral.
-                      schema:
-                        type: string
-                        # required: true
-                        default: ""
-                    - variable: title
-                      label: title
-                      description: The title of this web site. All web pages will have this title.
-                      schema:
-                        type: string
-                        required: true
-                        default: TrueCharts MeshCentral
-                    - variable: title2
-                      label: title2
-                      description: Secondary title text that is placed on the upper right on the title on many web pages.
-                      schema:
-                        type: string
-                        required: true
-                        default: TrueCharts MeshCentral
-                    - variable: welcomeText
-                      label: welcomeText
-                      description: Text that will be shown on the login screen.
-                      schema:
-                        type: string
-                        required: true
-                        default: Welcome to TrueCharts MeshCentral
-                    - variable: minify
-                      label: minify
-                      description: When enabled, the server will send reduced sized web pages.
-                      schema:
-                        type: boolean
-                        default: true
-                    - variable: localSessionRecording
-                      label: localSessionRecording
-                      description: When false, removes the local recording feature on remote desktop.
-                      schema:
-                        type: boolean
-                        default: true
-                    - variable: mstsc
-                      label: mstsc
-                      description: When enabled, activates the built-in web-based RDP client.
-                      schema:
-                        type: boolean
-                        default: true
-                    - variable: ssh
-                      label: ssh
-                      description: When enabled, activates the built-in web-based SSH client.
-                      schema:
-                        type: boolean
-                        default: true
-                    - variable: novnc
-                      label: novnc
-                      description: When enabled, activates the built-in web-based VNC client.
-                      schema:
-                        type: boolean
-                        default: true
-                    - variable: geoLocation
-                      label: geoLocation
-                      description: Enables the geo-location feature and device location map in the user interface, this feature is not being worked on.
-                      schema:
-                        type: boolean
-                        default: true
-                    - variable: nightMode
-                      label: nightMode
-                      description: 0 = User selects day/night mode, 1 = Always night mode, 2 = Always day mode
-                      schema:
-                        type: int
-                        min: 0
-                        max: 2
-                        requited: true
-                        default: 0
-                    - variable: siteStyle
-                      label: siteStyle
-                      description: Valid numbers are 1 and 2, changes the style of the login page and some secondary pages.
-                      schema:
-                        type: int
-                        min: 1
-                        max: 2
-                        requited: true
-                        default: 2
-                    - variable: deviceMeshRouterLinks
-                      label: Section <deviceMeshRouterLinks>
-                      schema:
-                        additional_attrs: true
-                        type: dict
-                        attrs:
-                          - variable: rdp
-                            label: rdp
-                            description: Display a RDP link in the device tab when supported
-                            schema:
-                              type: boolean
-                              default: true
-                          - variable: ssh
-                            label: ssh
-                            description: Display a SSH link in the device tab when supported
-                            schema:
-                              type: boolean
-                              default: true
-                          - variable: scp
-                            label: scp
-                            description: Display a SCP link in the device tab when supported
-                            schema:
-                              type: boolean
-                              default: true
-                    - variable: agentCustomization
-                      label: Section <agentCustomization>
-                      schema:
-                        additional_attrs: true
-                        type: dict
-                        attrs:
-                          - variable: displayName
-                            label: displayName
-                            description: The name of the agent as displayed to the user.
-                            schema:
-                              type: string
-                              default: MeshCentral Agent
-                          - variable: description
-                            label: description
-                            description: The description of the agent as displayed to the user.
-                            schema:
-                              type: string
-                              default: Mesh Agent Background Service
-                          - variable: companyName
-                            label: companyName
-                            description: This will be used as the path to install the agent, by default this is 'Mesh Agent' in Windows and 'meshagent' in other OS's.
-                            schema:
-                              type: string
-                              default: Mesh Agent
-                          - variable: serviceName
-                            label: serviceName
-                            description: The name of the background service, by default this is 'Mesh Agent' in Windows and 'meshagent' in other OS's but should be set to an all lower case, no space string.
-                            schema:
-                              type: string
-                              default: Mesh Agent
-                          - variable: installText
-                            label: installText
-                            description: Text string to show in the agent installation dialog box.
-                            schema:
-                              type: string
-                              default: ""
-                          - variable: image
-                            label: image
-                            description: The filename of a image file in .png format located in meshcentral-data to display in the MeshCentral Agent installation dialog, image should be square and from 64x64 to 200x200.
-                            schema:
-                              type: string
-                              default: ""
-                          - variable: fileName
-                            label: fileName
-                            description: The agent filename.
-                            schema:
-                              type: string
-                              default: meshagent
-                          - variable: foregroundColor
-                            label: foregroundColor
-                            description: 'Foreground text color, valid values are RBG in format 0,0,0 to 255,255,255 or format "#000000" to "#FFFFFF".'
-                            schema:
-                              type: string
-                              default: ""
-                          - variable: backgroundColor
-                            label: backgroundColor
-                            description: 'Background color, valid values are RBG in format 0,0,0 to 255,255,255 or format "#000000" to "#FFFFFF".'
-                            schema:
-                              type: string
-                              default: ""
+            type: string
+            private: true
+            default: ""
   - variable: TZ
     label: Timezone
     group: Container Configuration
@@ -834,7 +396,7 @@ questions:
                             description: This port exposes the container port on the service
                             schema:
                               type: int
-                              default: 10205
+                              default: 10350
                               required: true
                           - variable: advanced
                             label: Show Advanced Settings
@@ -853,7 +415,7 @@ questions:
                                   label: Port Type
                                   schema:
                                     type: string
-                                    default: HTTP
+                                    default: HTTPS
                                     enum:
                                       - value: HTTP
                                         description: HTTP
@@ -875,7 +437,141 @@ questions:
                                   description: The internal(!) port on the container the Application runs on
                                   schema:
                                     type: int
-                                    default: 10205
+                                    default: 10350
+        - variable: admin
+          label: Admin Service
+          description: The Admin service
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: enabled
+                label: Enable the Service
+                schema:
+                  type: boolean
+                  default: true
+                  hidden: true
+              - variable: type
+                label: Service Type
+                description: "ClusterIP's are only internally available and Loadbalancer exposes the service using the system loadbalancer"
+                schema:
+                  type: string
+                  default: LoadBalancer
+                  enum:
+                    - value: LoadBalancer
+                      description: LoadBalancer (Expose Ports)
+                    - value: ClusterIP
+                      description: ClusterIP (Do Not Expose Ports)
+                    - value: Simple
+                      description: Deprecated CHANGE THIS
+              - variable: loadBalancerIP
+                label: LoadBalancer IP
+                description: "MetalLB Only: Selects the Loadbalancer IP to expose on. Required when using PortalButton with MetalLB"
+                schema:
+                  show_if: [["type", "=", "LoadBalancer"]]
+                  type: string
+                  default: ""
+              - variable: advancedsvcset
+                label: Show Advanced Service Settings
+                schema:
+                  type: boolean
+                  default: false
+                  show_subquestions_if: true
+                  subquestions:
+                    - variable: externalIPs
+                      label: "External IP's"
+                      description: "External IP's"
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: externalIP
+                            label: External IP
+                            schema:
+                              type: string
+                    - variable: ipFamilyPolicy
+                      label: IP Family Policy
+                      description: Specify the IP Policy
+                      schema:
+                        type: string
+                        default: SingleStack
+                        enum:
+                          - value: SingleStack
+                            description: SingleStack
+                          - value: PreferDualStack
+                            description: PreferDualStack
+                          - value: RequireDualStack
+                            description: RequireDualStack
+                    - variable: ipFamilies
+                      label: IP Families
+                      description: The IP Families that should be used
+                      schema:
+                        type: list
+                        default: []
+                        items:
+                          - variable: ipFamily
+                            label: IP Family
+                            schema:
+                              type: string
+              - variable: ports
+                label: "Service's Port(s) Configuration"
+                schema:
+                  additional_attrs: true
+                  type: dict
+                  attrs:
+                    - variable: admin
+                      label: Admin Service Port Configuration
+                      schema:
+                        additional_attrs: true
+                        type: dict
+                        attrs:
+                          - variable: port
+                            label: Port
+                            description: This port exposes the container port on the service
+                            schema:
+                              type: int
+                              default: 10351
+                              required: true
+                          - variable: advanced
+                            label: Show Advanced Settings
+                            schema:
+                              type: boolean
+                              default: false
+                              show_subquestions_if: true
+                              subquestions:
+                                - variable: enabled
+                                  label: Enable the Port
+                                  schema:
+                                    type: boolean
+                                    hidden: true
+                                    default: true
+                                - variable: protocol
+                                  label: Port Type
+                                  schema:
+                                    type: string
+                                    default: HTTPS
+                                    enum:
+                                      - value: HTTP
+                                        description: HTTP
+                                      - value: HTTPS
+                                        description: HTTPS
+                                      - value: TCP
+                                        description: TCP
+                                      - value: UDP
+                                        description: UDP
+                                - variable: nodePort
+                                  label: Node Port (Optional)
+                                  description: This port gets exposed to the node. Only considered when service type is NodePort, Simple or LoadBalancer
+                                  schema:
+                                    type: int
+                                    min: 9000
+                                    max: 65535
+                                - variable: targetPort
+                                  label: Target Port
+                                  description: The internal(!) port on the container the Application runs on
+                                  schema:
+                                    type: int
+                                    default: 3000
   - variable: serviceexpert
     group: Networking and Services
     label: Show Expert Config
@@ -1172,539 +868,8 @@ questions:
       type: dict
       attrs:
         - variable: data
-          label: App Data Storage
-          description: Stores the Application Data.
-          schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-              - variable: type
-                label: Type of Storage
-                description: Sets the persistence type, Anything other than PVC could break rollback!
-                schema:
-                  type: string
-                  default: simplePVC
-                  enum:
-                    - value: simplePVC
-                      description: PVC (simple)
-                    - value: simpleHP
-                      description: Host Path (simple)
-                    - value: emptyDir
-                      description: emptyDir
-                    - value: pvc
-                      description: PVC
-                    - value: hostPath
-                      description: Host Path
-                    - value: nfs
-                      description: NFS Share
-              - variable: server
-                label: NFS Server
-                schema:
-                  show_if: [["type", "=", "nfs"]]
-                  type: string
-                  default: ""
-              - variable: path
-                label: Path on NFS Server
-                schema:
-                  show_if: [["type", "=", "nfs"]]
-                  type: string
-                  default: ""
-              - variable: setPermissionsSimple
-                label: Automatic Permissions
-                description: Automatically set permissions on install
-                schema:
-                  show_if: [["type", "=", "simpleHP"]]
-                  type: boolean
-                  default: false
-              - variable: setPermissions
-                label: Automatic Permissions
-                description: Automatically set permissions on install
-                schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  type: boolean
-                  default: false
-              - variable: readOnly
-                label: Read Only
-                schema:
-                  type: boolean
-                  default: false
-              - variable: hostPathSimple
-                label: Host Path
-                description: Path inside the container the storage is mounted
-                schema:
-                  show_if: [["type", "=", "simpleHP"]]
-                  type: hostpath
-              - variable: hostPath
-                label: Host Path
-                description: Path inside the container the storage is mounted
-                schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  type: hostpath
-              - variable: medium
-                label: EmptyDir Medium
-                schema:
-                  show_if: [["type", "=", "emptyDir"]]
-                  type: string
-                  default: ""
-                  enum:
-                    - value: ""
-                      description: Default
-                    - value: Memory
-                      description: Memory
-              - variable: size
-                label: Size quotum of Storage
-                schema:
-                  show_if: [["type", "=", "pvc"]]
-                  type: string
-                  default: 256Gi
-              - variable: hostPathType
-                label: (Advanced) hostPath Type
-                schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  type: string
-                  default: ""
-                  enum:
-                    - value: ""
-                      description: Default
-                    - value: DirectoryOrCreate
-                      description: DirectoryOrCreate
-                    - value: Directory
-                      description: Directory
-                    - value: FileOrCreate
-                      description: FileOrCreate
-                    - value: File
-                      description: File
-                    - value: Socket
-                      description: Socket
-                    - value: CharDevice
-                      description: CharDevice
-                    - value: BlockDevice
-                      description: BlockDevice
-              - variable: storageClass
-                label: (Advanced) storageClass
-                description: "Warning: Anything other than SCALE-ZFS or empty will break rollback!"
-                schema:
-                  show_if: [["type", "=", "pvc"]]
-                  type: string
-                  default: SCALE-ZFS
-              - variable: accessMode
-                label: (Advanced) Access Mode
-                description: Allow or disallow multiple PVC's writhing to the same PV
-                schema:
-                  show_if: [["type", "=", "pvc"]]
-                  type: string
-                  default: ReadWriteOnce
-                  enum:
-                    - value: ReadWriteOnce
-                      description: ReadWriteOnce
-                    - value: ReadOnlyMany
-                      description: ReadOnlyMany
-                    - value: ReadWriteMany
-                      description: ReadWriteMany
-              - variable: advanced
-                label: Show Advanced Options
-                schema:
-                  type: boolean
-                  default: false
-                  show_subquestions_if: true
-                  subquestions:
-                    - variable: labelsList
-                      label: Labels
-                      schema:
-                        type: list
-                        default: []
-                        items:
-                          - variable: labelItem
-                            label: Label
-                            schema:
-                              additional_attrs: true
-                              type: dict
-                              attrs:
-                                - variable: name
-                                  label: Name
-                                  schema:
-                                    type: string
-                                - variable: value
-                                  label: Value
-                                  schema:
-                                    type: string
-                    - variable: annotationsList
-                      label: Annotations
-                      schema:
-                        type: list
-                        default: []
-                        items:
-                          - variable: annotationItem
-                            label: Label
-                            schema:
-                              additional_attrs: true
-                              type: dict
-                              attrs:
-                                - variable: name
-                                  label: Name
-                                  schema:
-                                    type: string
-                                - variable: value
-                                  label: Value
-                                  schema:
-                                    type: string
-        - variable: files
-          label: Files Storage
-          description: Stores the Files
-          schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-              - variable: type
-                label: Type of Storage
-                description: Sets the persistence type, Anything other than PVC could break rollback!
-                schema:
-                  type: string
-                  default: simplePVC
-                  enum:
-                    - value: simplePVC
-                      description: PVC (simple)
-                    - value: simpleHP
-                      description: Host Path (simple)
-                    - value: emptyDir
-                      description: emptyDir
-                    - value: pvc
-                      description: PVC
-                    - value: hostPath
-                      description: Host Path
-                    - value: nfs
-                      description: NFS Share
-              - variable: server
-                label: NFS Server
-                schema:
-                  show_if: [["type", "=", "nfs"]]
-                  type: string
-                  default: ""
-              - variable: path
-                label: Path on NFS Server
-                schema:
-                  show_if: [["type", "=", "nfs"]]
-                  type: string
-                  default: ""
-              - variable: setPermissionsSimple
-                label: Automatic Permissions
-                description: Automatically set permissions on install
-                schema:
-                  show_if: [["type", "=", "simpleHP"]]
-                  type: boolean
-                  default: false
-              - variable: setPermissions
-                label: Automatic Permissions
-                description: Automatically set permissions on install
-                schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  type: boolean
-                  default: false
-              - variable: readOnly
-                label: Read Only
-                schema:
-                  type: boolean
-                  default: false
-              - variable: hostPathSimple
-                label: Host Path
-                description: Path inside the container the storage is mounted
-                schema:
-                  show_if: [["type", "=", "simpleHP"]]
-                  type: hostpath
-              - variable: hostPath
-                label: Host Path
-                description: Path inside the container the storage is mounted
-                schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  type: hostpath
-              - variable: medium
-                label: EmptyDir Medium
-                schema:
-                  show_if: [["type", "=", "emptyDir"]]
-                  type: string
-                  default: ""
-                  enum:
-                    - value: ""
-                      description: Default
-                    - value: Memory
-                      description: Memory
-              - variable: size
-                label: Size quotum of Storage
-                schema:
-                  show_if: [["type", "=", "pvc"]]
-                  type: string
-                  default: 256Gi
-              - variable: hostPathType
-                label: (Advanced) hostPath Type
-                schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  type: string
-                  default: ""
-                  enum:
-                    - value: ""
-                      description: Default
-                    - value: DirectoryOrCreate
-                      description: DirectoryOrCreate
-                    - value: Directory
-                      description: Directory
-                    - value: FileOrCreate
-                      description: FileOrCreate
-                    - value: File
-                      description: File
-                    - value: Socket
-                      description: Socket
-                    - value: CharDevice
-                      description: CharDevice
-                    - value: BlockDevice
-                      description: BlockDevice
-              - variable: storageClass
-                label: (Advanced) storageClass
-                description: "Warning: Anything other than SCALE-ZFS or empty will break rollback!"
-                schema:
-                  show_if: [["type", "=", "pvc"]]
-                  type: string
-                  default: SCALE-ZFS
-              - variable: accessMode
-                label: (Advanced) Access Mode
-                description: Allow or disallow multiple PVC's writhing to the same PV
-                schema:
-                  show_if: [["type", "=", "pvc"]]
-                  type: string
-                  default: ReadWriteOnce
-                  enum:
-                    - value: ReadWriteOnce
-                      description: ReadWriteOnce
-                    - value: ReadOnlyMany
-                      description: ReadOnlyMany
-                    - value: ReadWriteMany
-                      description: ReadWriteMany
-              - variable: advanced
-                label: Show Advanced Options
-                schema:
-                  type: boolean
-                  default: false
-                  show_subquestions_if: true
-                  subquestions:
-                    - variable: labelsList
-                      label: Labels
-                      schema:
-                        type: list
-                        default: []
-                        items:
-                          - variable: labelItem
-                            label: Label
-                            schema:
-                              additional_attrs: true
-                              type: dict
-                              attrs:
-                                - variable: name
-                                  label: Name
-                                  schema:
-                                    type: string
-                                - variable: value
-                                  label: Value
-                                  schema:
-                                    type: string
-                    - variable: annotationsList
-                      label: Annotations
-                      schema:
-                        type: list
-                        default: []
-                        items:
-                          - variable: annotationItem
-                            label: Label
-                            schema:
-                              additional_attrs: true
-                              type: dict
-                              attrs:
-                                - variable: name
-                                  label: Name
-                                  schema:
-                                    type: string
-                                - variable: value
-                                  label: Value
-                                  schema:
-                                    type: string
-        - variable: web
-          label: Web Storage
-          description: Stores the Web Files. Used for web customization
-          schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-              - variable: type
-                label: Type of Storage
-                description: Sets the persistence type, Anything other than PVC could break rollback!
-                schema:
-                  type: string
-                  default: simplePVC
-                  enum:
-                    - value: simplePVC
-                      description: PVC (simple)
-                    - value: simpleHP
-                      description: Host Path (simple)
-                    - value: emptyDir
-                      description: emptyDir
-                    - value: pvc
-                      description: PVC
-                    - value: hostPath
-                      description: Host Path
-                    - value: nfs
-                      description: NFS Share
-              - variable: server
-                label: NFS Server
-                schema:
-                  show_if: [["type", "=", "nfs"]]
-                  type: string
-                  default: ""
-              - variable: path
-                label: Path on NFS Server
-                schema:
-                  show_if: [["type", "=", "nfs"]]
-                  type: string
-                  default: ""
-              - variable: setPermissionsSimple
-                label: Automatic Permissions
-                description: Automatically set permissions on install
-                schema:
-                  show_if: [["type", "=", "simpleHP"]]
-                  type: boolean
-                  default: false
-              - variable: setPermissions
-                label: Automatic Permissions
-                description: Automatically set permissions on install
-                schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  type: boolean
-                  default: false
-              - variable: readOnly
-                label: Read Only
-                schema:
-                  type: boolean
-                  default: false
-              - variable: hostPathSimple
-                label: Host Path
-                description: Path inside the container the storage is mounted
-                schema:
-                  show_if: [["type", "=", "simpleHP"]]
-                  type: hostpath
-              - variable: hostPath
-                label: Host Path
-                description: Path inside the container the storage is mounted
-                schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  type: hostpath
-              - variable: medium
-                label: EmptyDir Medium
-                schema:
-                  show_if: [["type", "=", "emptyDir"]]
-                  type: string
-                  default: ""
-                  enum:
-                    - value: ""
-                      description: Default
-                    - value: Memory
-                      description: Memory
-              - variable: size
-                label: Size quotum of Storage
-                schema:
-                  show_if: [["type", "=", "pvc"]]
-                  type: string
-                  default: 256Gi
-              - variable: hostPathType
-                label: (Advanced) hostPath Type
-                schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  type: string
-                  default: ""
-                  enum:
-                    - value: ""
-                      description: Default
-                    - value: DirectoryOrCreate
-                      description: DirectoryOrCreate
-                    - value: Directory
-                      description: Directory
-                    - value: FileOrCreate
-                      description: FileOrCreate
-                    - value: File
-                      description: File
-                    - value: Socket
-                      description: Socket
-                    - value: CharDevice
-                      description: CharDevice
-                    - value: BlockDevice
-                      description: BlockDevice
-              - variable: storageClass
-                label: (Advanced) storageClass
-                description: "Warning: Anything other than SCALE-ZFS or empty will break rollback!"
-                schema:
-                  show_if: [["type", "=", "pvc"]]
-                  type: string
-                  default: SCALE-ZFS
-              - variable: accessMode
-                label: (Advanced) Access Mode
-                description: Allow or disallow multiple PVC's writhing to the same PV
-                schema:
-                  show_if: [["type", "=", "pvc"]]
-                  type: string
-                  default: ReadWriteOnce
-                  enum:
-                    - value: ReadWriteOnce
-                      description: ReadWriteOnce
-                    - value: ReadOnlyMany
-                      description: ReadOnlyMany
-                    - value: ReadWriteMany
-                      description: ReadWriteMany
-              - variable: advanced
-                label: Show Advanced Options
-                schema:
-                  type: boolean
-                  default: false
-                  show_subquestions_if: true
-                  subquestions:
-                    - variable: labelsList
-                      label: Labels
-                      schema:
-                        type: list
-                        default: []
-                        items:
-                          - variable: labelItem
-                            label: Label
-                            schema:
-                              additional_attrs: true
-                              type: dict
-                              attrs:
-                                - variable: name
-                                  label: Name
-                                  schema:
-                                    type: string
-                                - variable: value
-                                  label: Value
-                                  schema:
-                                    type: string
-                    - variable: annotationsList
-                      label: Annotations
-                      schema:
-                        type: list
-                        default: []
-                        items:
-                          - variable: annotationItem
-                            label: Label
-                            schema:
-                              additional_attrs: true
-                              type: dict
-                              attrs:
-                                - variable: name
-                                  label: Name
-                                  schema:
-                                    type: string
-                                - variable: value
-                                  label: Value
-                                  schema:
-                                    type: string
-        - variable: backups
-          label: Backups Storage
-          description: Stores the Backups
+          label: Data Storage
+          description: /opt Storage
           schema:
             additional_attrs: true
             type: dict
@@ -2472,7 +1637,7 @@ questions:
                 label: Privileged mode
                 schema:
                   type: boolean
-                  default: false
+                  default: true
               - variable: readOnlyRootFilesystem
                 label: ReadOnly Root Filesystem
                 schema:
@@ -2482,7 +1647,7 @@ questions:
                 label: Allow Privilege Escalation
                 schema:
                   type: boolean
-                  default: false
+                  default: true
               - variable: runAsNonRoot
                 label: runAsNonRoot
                 schema:
@@ -2538,7 +1703,7 @@ questions:
           description: The group that should own ALL storage.
           schema:
             type: int
-            default: 568
+            default: 0
         - variable: fsGroupChangePolicy
           label: "When should we take ownership?"
           schema:
