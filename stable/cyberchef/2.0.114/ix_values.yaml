@@ -1,0 +1,22 @@
+image:
+  repository: tccr.io/truecharts/cyberchef
+  tag: 9.48.0@sha256:43d6b77891e2fb107942ce897b9a354797c51ef33d3161d29914d8ef66d3bba6
+  pullPolicy: IfNotPresent
+
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+service:
+  main:
+    ports:
+      main:
+        port: 10219
+        targetPort: 8000
+
+portal:
+  enabled: true
