@@ -1,4 +1,4 @@
-Crafty 4 is the next iteration of our Minecraft Server Wrapper / Controller / Launcher. Boasting a clean new look, rebuilt from the ground up. Crafty 4 brings a whole host of new features such as Bedrock support. With SteamCMD support on the way!
+Crafty 4 is the next iteration of our Minecraft Server Wrapper / Controller / Launcher.
 
 This App is supplied by TrueCharts, for more information visit the manual: [https://truecharts.org/docs/charts/incubator/crafty-4](https://truecharts.org/docs/charts/incubator/crafty-4)
 
