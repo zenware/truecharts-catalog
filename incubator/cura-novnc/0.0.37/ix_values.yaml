@@ -1,0 +1,28 @@
+env: {}
+image:
+  pullPolicy: IfNotPresent
+  repository: tccr.io/truecharts/cura-novnc
+  tag: latest@sha256:b4ca06cf03e97caebfdd416bfc415b6855268dcb7a249c78d25eefeeffea6fb7
+persistence:
+  homefolder:
+    enabled: true
+    mountPath: /home/cura/
+  prints:
+    enabled: true
+    mountPath: /prints/
+podSecurityContext:
+  runAsGroup: 0
+  runAsUser: 0
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+service:
+  main:
+    ports:
+      main:
+        port: 6080
+        protocol: TCP
+        targetPort: 8080
+
+portal:
+  enabled: true
