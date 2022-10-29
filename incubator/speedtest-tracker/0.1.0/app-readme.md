@@ -1,4 +1,4 @@
-This app runs a speedtest check every hour and graphs the results.
+A self-hosted internet performance tracking application that runs speedtest checks against Ookla's Speedtest service.
 
 This App is supplied by TrueCharts, for more information visit the manual: [https://truecharts.org/docs/charts/incubator/speedtest-tracker](https://truecharts.org/docs/charts/incubator/speedtest-tracker)
 
