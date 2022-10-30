@@ -2,6 +2,16 @@
 
 
 
+## [authentik-7.2.4](https://github.com/truecharts/charts/compare/authentik-7.2.3...authentik-7.2.4) (2022-10-30)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - reset all probes timeout except startup ([#4244](https://github.com/truecharts/charts/issues/4244))
+
+
+
+
 ## [authentik-7.2.3](https://github.com/truecharts/charts/compare/authentik-7.2.2...authentik-7.2.3) (2022-10-30)
 
 ### Chore
@@ -82,16 +92,6 @@
 
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
-  - update helm general non-major
-
-
-
-
-## [authentik-7.1.5](https://github.com/truecharts/charts/compare/authentik-7.1.4...authentik-7.1.5) (2022-10-07)
-
-### Chore
-
-- Auto-update chart README [skip ci]
   - update helm general non-major
 
 
