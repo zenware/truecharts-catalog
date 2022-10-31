@@ -2,6 +2,19 @@
 
 
 
+## [blocky-1.1.7](https://github.com/truecharts/charts/compare/blocky-1.1.6...blocky-1.1.7) (2022-10-31)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+
+  ### Fix
+
+- fix UI, wrong variable names ([#4258](https://github.com/truecharts/charts/issues/4258))
+
+
+
+
 ## [blocky-1.1.6](https://github.com/truecharts/charts/compare/blocky-1.1.5...blocky-1.1.6) (2022-10-25)
 
 ### Chore
@@ -84,16 +97,3 @@
 - add DoH support on main ingress ([#3959](https://github.com/truecharts/charts/issues/3959))
 
 
-
-
-## [blocky-1.0.10](https://github.com/truecharts/charts/compare/blocky-1.0.9...blocky-1.0.10) (2022-09-27)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#3918](https://github.com/truecharts/charts/issues/3918))
-
-
-
-
-## [blocky-1.0.9](https://github.com/truecharts/charts/compare/blocky-1.0.7...blocky-1.0.9) (2022-09-26)

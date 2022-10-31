@@ -340,14 +340,14 @@ questions:
                   type: dict
                   additional_attrs: true
                   attrs:
-                    - variable: in
-                      label: In
+                    - variable: domain
+                      label: Domain
                       schema:
                         type: string
                         required: true
                         default: ""
-                    - variable: out
-                      label: Out
+                    - variable: dnsserver
+                      label: DNS Server
                       schema:
                         type: string
                         required: true
@@ -1674,8 +1674,6 @@ questions:
                 description: Default
               - value: ClusterFirst
                 description: ClusterFirst
-              - value: ClusterFirstWithHostNet
-                description: ClusterFirstWithHostNet
               - value: None
                 description: None
         - variable: dnsConfig
