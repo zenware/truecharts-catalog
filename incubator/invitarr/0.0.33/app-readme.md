@@ -1,4 +1,4 @@
-Invitarr is a chatbot that invites discord users to plex. You can also automate this bot to invite discord users to plex once a certain role is given to a user or the user can also be added manually.
+A chatbot that invites discord users to plex.
 
 This App is supplied by TrueCharts, for more information visit the manual: [https://truecharts.org/docs/charts/incubator/invitarr](https://truecharts.org/docs/charts/incubator/invitarr)
 
