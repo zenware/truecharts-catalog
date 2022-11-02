@@ -1,4 +1,4 @@
-RA ROM Processor is a Chart Chart that is used to download/orgainze/process/verify/dedupe/scrape a ROMs library automatically by matching ROMs to the RetroAchievement.org website Hash database.
+Download / Orgainze / Process / Verify / Dedupe / Scrape a ROMs library automatically by matching ROMs to the RetroAchievement.org database.
 
 This App is supplied by TrueCharts, for more information visit the manual: [https://truecharts.org/docs/charts/incubator/ra-rom-processor](https://truecharts.org/docs/charts/incubator/ra-rom-processor)
 
