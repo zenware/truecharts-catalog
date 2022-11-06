@@ -2,6 +2,25 @@
 
 
 
+## [metallb-5.0.4](https://github.com/truecharts/charts/compare/metallb-4.0.21...metallb-5.0.4) (2022-11-06)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+
+  ### Feat
+
+- rework metallb to use manifest-included metallb ([#4320](https://github.com/truecharts/charts/issues/4320))
+
+  ### Fix
+
+- Ensure metallb is running before creating resources ([#4321](https://github.com/truecharts/charts/issues/4321))
+
+
+
+
 ## [metallb-5.0.3](https://github.com/truecharts/charts/compare/metallb-4.0.21...metallb-5.0.3) (2022-11-06)
 
 ### Chore
@@ -78,22 +97,3 @@
 
 
 ## [metallb-4.0.17](https://github.com/truecharts/charts/compare/metallb-4.0.16...metallb-4.0.17) (2022-10-19)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4122](https://github.com/truecharts/charts/issues/4122))
-
-  ### Fix
-
-- enable crd updating ([#4068](https://github.com/truecharts/charts/issues/4068))
-
-
-
-
-## [metallb-4.0.16](https://github.com/truecharts/charts/compare/metallb-4.0.15...metallb-4.0.16) (2022-10-12)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4071](https://github.com/truecharts/charts/issues/4071))
