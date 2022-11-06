@@ -7,6 +7,20 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+
+  ### Fix
+
+- remove persistence on GUI aswell ([#4324](https://github.com/truecharts/charts/issues/4324))
+
+
+
+
+## [cloudflared-1.0.29](https://github.com/truecharts/charts/compare/cloudflared-1.0.28...cloudflared-1.0.29) (2022-11-06)
+
+### Chore
+
+- Auto-update chart README [skip ci]
 
   ### Fix
 
@@ -82,18 +96,4 @@
 - Auto-update chart README [skip ci]
   - update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
 
-
-
-
-## [cloudflared-1.0.22](https://github.com/truecharts/charts/compare/cloudflared-1.0.21...cloudflared-1.0.22) (2022-10-21)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4139](https://github.com/truecharts/charts/issues/4139))
-
-
-
-
-## [cloudflared-1.0.21](https://github.com/truecharts/charts/compare/cloudflareddns-1.0.29...cloudflared-1.0.21) (2022-10-19)
 
