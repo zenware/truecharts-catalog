@@ -1,4 +1,4 @@
-This server allows you to sync any Joplin client
+Allows you to sync any Joplin client.
 
 This App is supplied by TrueCharts, for more information visit the manual: [https://truecharts.org/docs/charts/stable/joplin-server](https://truecharts.org/docs/charts/stable/joplin-server)
 
