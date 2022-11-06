@@ -1,0 +1,12 @@
+dependencies:
+- name: common
+  repository: https://library-charts.truecharts.org
+  version: 10.7.19
+- name: mariadb
+  repository: https://charts.truecharts.org/
+  version: 3.0.112
+- name: redis
+  repository: https://charts.truecharts.org
+  version: 3.0.114
+digest: sha256:63541c1b0a7c701ad12de29749bcf6ec8377855cd16e204997d1633df461cb29
+generated: "2022-11-05T21:52:06.272614523Z"
