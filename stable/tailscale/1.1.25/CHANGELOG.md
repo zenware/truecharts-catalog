@@ -2,6 +2,20 @@
 
 
 
+## [tailscale-1.1.25](https://github.com/truecharts/charts/compare/tailscale-1.1.22...tailscale-1.1.25) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [tailscale-1.1.24](https://github.com/truecharts/charts/compare/tailscale-1.1.22...tailscale-1.1.24) (2022-11-07)
 
 ### Chore
@@ -83,17 +97,3 @@
 
 
 ## [tailscale-1.1.18](https://github.com/truecharts/charts/compare/tailscale-1.1.17...tailscale-1.1.18) (2022-11-03)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4286](https://github.com/truecharts/charts/issues/4286))
-
-
-
-
-## [tailscale-1.1.17](https://github.com/truecharts/charts/compare/tailscale-1.1.16...tailscale-1.1.17) (2022-11-02)
-
-### Chore
-
-- Auto-update chart README [skip ci]
