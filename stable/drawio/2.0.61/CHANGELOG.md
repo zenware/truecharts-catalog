@@ -2,6 +2,17 @@
 
 
 
+## [drawio-2.0.61](https://github.com/truecharts/charts/compare/drawio-2.0.60...drawio-2.0.61) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [drawio-2.0.61](https://github.com/truecharts/charts/compare/drawio-2.0.60...drawio-2.0.61) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4122](https://github.com/truecharts/charts/issues/4122))
-
-
-
-
-## [drawio-2.0.52](https://github.com/truecharts/charts/compare/drawio-2.0.51...drawio-2.0.52) (2022-10-12)
-
-### Chore
-
-- Auto-update chart README [skip ci]

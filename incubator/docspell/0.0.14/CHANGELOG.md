@@ -2,6 +2,17 @@
 
 
 
+## [docspell-0.0.14](https://github.com/truecharts/charts/compare/docspell-0.0.13...docspell-0.0.14) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [docspell-0.0.14](https://github.com/truecharts/charts/compare/docspell-0.0.13...docspell-0.0.14) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-
-
-
-
-## [docspell-0.0.5](https://github.com/truecharts/charts/compare/docspell-0.0.4...docspell-0.0.5) (2022-10-10)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4049](https://github.com/truecharts/charts/issues/4049))

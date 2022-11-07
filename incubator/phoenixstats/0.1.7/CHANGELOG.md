@@ -2,6 +2,17 @@
 
 
 
+## [phoenixstats-0.1.7](https://github.com/truecharts/charts/compare/phoenixstats-0.1.6...phoenixstats-0.1.7) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [phoenixstats-0.1.7](https://github.com/truecharts/charts/compare/phoenixstats-0.1.6...phoenixstats-0.1.7) (2022-11-06)
 
 ### Chore
@@ -81,17 +92,6 @@
   ### Fix
 
 - Deprecate Chart ([#4054](https://github.com/truecharts/charts/issues/4054))
-
-
-
-
-## [phoenixstats-0.0.28](https://github.com/truecharts/charts/compare/phoenixstats-0.0.27...phoenixstats-0.0.28) (2022-10-07)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - update helm general non-major
 
 
 

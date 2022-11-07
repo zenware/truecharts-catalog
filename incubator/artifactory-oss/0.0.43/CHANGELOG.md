@@ -2,6 +2,17 @@
 
 
 
+## [artifactory-oss-0.0.43](https://github.com/truecharts/charts/compare/artifactory-oss-0.0.42...artifactory-oss-0.0.43) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [artifactory-oss-0.0.43](https://github.com/truecharts/charts/compare/artifactory-oss-0.0.42...artifactory-oss-0.0.43) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
-
-
-
-
-## [artifactory-oss-0.0.34](https://github.com/truecharts/charts/compare/artifactory-oss-0.0.33...artifactory-oss-0.0.34) (2022-10-19)
-
-### Chore
-
-- Auto-update chart README [skip ci]

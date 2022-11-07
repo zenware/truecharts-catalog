@@ -2,6 +2,17 @@
 
 
 
+## [st-reborn-server-0.0.29](https://github.com/truecharts/charts/compare/st-reborn-server-0.0.28...st-reborn-server-0.0.29) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [st-reborn-server-0.0.29](https://github.com/truecharts/charts/compare/st-reborn-server-0.0.28...st-reborn-server-0.0.29) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [st-reborn-server-0.0.22](https://github.com/truecharts/charts/compare/st-reborn-server-0.0.21...st-reborn-server-0.0.22) (2022-10-07)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major
-
-
-
-
-## [st-reborn-server-0.0.21](https://github.com/truecharts/charts/compare/st-reborn-server-0.0.20...st-reborn-server-0.0.21) (2022-10-05)
-
-### Chore
-

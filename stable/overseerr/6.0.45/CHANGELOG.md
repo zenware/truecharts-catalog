@@ -2,6 +2,17 @@
 
 
 
+## [overseerr-6.0.45](https://github.com/truecharts/charts/compare/overseerr-6.0.44...overseerr-6.0.45) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [overseerr-6.0.45](https://github.com/truecharts/charts/compare/overseerr-6.0.44...overseerr-6.0.45) (2022-11-06)
 
 ### Chore
@@ -78,17 +89,6 @@
 
 - Auto-update chart README [skip ci]
   - update helm general non-major ([#4071](https://github.com/truecharts/charts/issues/4071))
-
-
-
-
-## [overseerr-6.0.37](https://github.com/truecharts/charts/compare/overseerr-6.0.36...overseerr-6.0.37) (2022-10-07)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - update helm general non-major
 
 
 

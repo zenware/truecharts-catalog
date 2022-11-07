@@ -2,6 +2,17 @@
 
 
 
+## [ps3netsrv-0.0.35](https://github.com/truecharts/charts/compare/ps3netsrv-0.0.34...ps3netsrv-0.0.35) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [ps3netsrv-0.0.35](https://github.com/truecharts/charts/compare/ps3netsrv-0.0.34...ps3netsrv-0.0.35) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [ps3netsrv-0.0.28](https://github.com/truecharts/charts/compare/ps3netsrv-0.0.27...ps3netsrv-0.0.28) (2022-10-07)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major
-
-
-
-
-## [ps3netsrv-0.0.27](https://github.com/truecharts/charts/compare/ps3netsrv-0.0.26...ps3netsrv-0.0.27) (2022-10-05)
-
-### Chore
-

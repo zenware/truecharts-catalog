@@ -2,6 +2,17 @@
 
 
 
+## [ts3-manager-0.0.24](https://github.com/truecharts/charts/compare/ts3-manager-0.0.23...ts3-manager-0.0.24) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [ts3-manager-0.0.24](https://github.com/truecharts/charts/compare/ts3-manager-0.0.23...ts3-manager-0.0.24) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [ts3-manager-0.0.17](https://github.com/truecharts/charts/compare/ts3-manager-0.0.16...ts3-manager-0.0.17) (2022-10-07)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major
-
-
-
-
-## [ts3-manager-0.0.16](https://github.com/truecharts/charts/compare/ts3-manager-0.0.15...ts3-manager-0.0.16) (2022-10-05)
-
-### Chore
-

@@ -2,6 +2,17 @@
 
 
 
+## [amtd-0.0.40](https://github.com/truecharts/charts/compare/amtd-0.0.39...amtd-0.0.40) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [amtd-0.0.40](https://github.com/truecharts/charts/compare/amtd-0.0.39...amtd-0.0.40) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [amtd-0.0.33](https://github.com/truecharts/charts/compare/amtd-0.0.32...amtd-0.0.33) (2022-10-07)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major
-
-
-
-
-## [amtd-0.0.32](https://github.com/truecharts/charts/compare/amtd-0.0.31...amtd-0.0.32) (2022-10-05)
-
-### Chore
-

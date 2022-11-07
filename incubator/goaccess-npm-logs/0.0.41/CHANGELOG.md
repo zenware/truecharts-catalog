@@ -2,6 +2,17 @@
 
 
 
+## [goaccess-npm-logs-0.0.41](https://github.com/truecharts/charts/compare/goaccess-npm-logs-0.0.40...goaccess-npm-logs-0.0.41) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [goaccess-npm-logs-0.0.41](https://github.com/truecharts/charts/compare/goaccess-npm-logs-0.0.40...goaccess-npm-logs-0.0.41) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [goaccess-npm-logs-0.0.34](https://github.com/truecharts/charts/compare/goaccess-npm-logs-0.0.33...goaccess-npm-logs-0.0.34) (2022-10-07)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major
-
-
-
-
-## [goaccess-npm-logs-0.0.33](https://github.com/truecharts/charts/compare/goaccess-npm-logs-0.0.32...goaccess-npm-logs-0.0.33) (2022-10-05)
-
-### Chore
-

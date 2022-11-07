@@ -2,6 +2,17 @@
 
 
 
+## [filestash-0.0.54](https://github.com/truecharts/charts/compare/filestash-0.0.53...filestash-0.0.54) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [filestash-0.0.54](https://github.com/truecharts/charts/compare/filestash-0.0.53...filestash-0.0.54) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4084](https://github.com/truecharts/charts/issues/4084))
-
-
-
-
-## [filestash-0.0.45](https://github.com/truecharts/charts/compare/filestash-0.0.44...filestash-0.0.45) (2022-10-12)
-
-### Chore
-
-- Auto-update chart README [skip ci]

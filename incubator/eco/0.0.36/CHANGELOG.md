@@ -2,6 +2,17 @@
 
 
 
+## [eco-0.0.36](https://github.com/truecharts/charts/compare/deconz-8.0.48...eco-0.0.36) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [eco-0.0.36](https://github.com/truecharts/charts/compare/deconz-8.0.48...eco-0.0.36) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
-  - update helm general non-major
-
-
-
-
-## [eco-0.0.28](https://github.com/truecharts/charts/compare/eco-0.0.27...eco-0.0.28) (2022-10-07)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major

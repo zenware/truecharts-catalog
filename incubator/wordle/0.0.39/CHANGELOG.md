@@ -2,6 +2,17 @@
 
 
 
+## [wordle-0.0.39](https://github.com/truecharts/charts/compare/wordle-0.0.38...wordle-0.0.39) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [wordle-0.0.39](https://github.com/truecharts/charts/compare/wordle-0.0.38...wordle-0.0.39) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 
 ## [wordle-0.0.31](https://github.com/truecharts/charts/compare/wordle-0.0.30...wordle-0.0.31) (2022-10-12)
 
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4071](https://github.com/truecharts/charts/issues/4071))
-
-
-
-
-## [wordle-0.0.30](https://github.com/truecharts/charts/compare/wordle-0.0.29...wordle-0.0.30) (2022-10-07)
-
-### Chore

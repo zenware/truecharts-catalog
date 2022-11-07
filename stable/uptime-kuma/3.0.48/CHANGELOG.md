@@ -2,6 +2,17 @@
 
 
 
+## [uptime-kuma-3.0.48](https://github.com/truecharts/charts/compare/uptime-kuma-3.0.47...uptime-kuma-3.0.48) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [uptime-kuma-3.0.48](https://github.com/truecharts/charts/compare/uptime-kuma-3.0.47...uptime-kuma-3.0.48) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4049](https://github.com/truecharts/charts/issues/4049))
-
-
-
-
-## [uptime-kuma-3.0.39](https://github.com/truecharts/charts/compare/uptime-kuma-3.0.38...uptime-kuma-3.0.39) (2022-10-07)
-
-### Chore
-
-- Auto-update chart README [skip ci]

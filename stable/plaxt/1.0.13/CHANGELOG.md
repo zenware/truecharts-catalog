@@ -2,6 +2,17 @@
 
 
 
+## [plaxt-1.0.13](https://github.com/truecharts/charts/compare/plaxt-1.0.12...plaxt-1.0.13) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [plaxt-1.0.13](https://github.com/truecharts/charts/compare/plaxt-1.0.12...plaxt-1.0.13) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [plaxt-1.0.6](https://github.com/truecharts/charts/compare/plaxt-1.0.5...plaxt-1.0.6) (2022-10-07)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major
-
-
-
-
-## [plaxt-1.0.5](https://github.com/truecharts/charts/compare/plaxt-1.0.4...plaxt-1.0.5) (2022-10-05)
-
-### Chore
-

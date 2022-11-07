@@ -2,6 +2,17 @@
 
 
 
+## [zabbix-1.0.8](https://github.com/truecharts/charts/compare/zabbix-1.0.7...zabbix-1.0.8) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [zabbix-1.0.8](https://github.com/truecharts/charts/compare/zabbix-1.0.7...zabbix-1.0.8) (2022-11-06)
 
 ### Chore
@@ -86,6 +97,3 @@
 
 ## [zabbix-1.0.0](https://github.com/truecharts/charts/compare/zabbix-server-2.0.49...zabbix-1.0.0) (2022-10-16)
 
-### Feat
-
-- rework ([#4046](https://github.com/truecharts/charts/issues/4046))

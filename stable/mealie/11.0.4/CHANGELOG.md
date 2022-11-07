@@ -2,6 +2,17 @@
 
 
 
+## [mealie-11.0.4](https://github.com/truecharts/charts/compare/mealie-11.0.3...mealie-11.0.4) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [mealie-11.0.4](https://github.com/truecharts/charts/compare/mealie-11.0.3...mealie-11.0.4) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4071](https://github.com/truecharts/charts/issues/4071))
-
-
-
-
-## [mealie-10.0.6](https://github.com/truecharts/charts/compare/mealie-10.0.5...mealie-10.0.6) (2022-10-07)
-
-### Chore
-
-- Auto-update chart README [skip ci]

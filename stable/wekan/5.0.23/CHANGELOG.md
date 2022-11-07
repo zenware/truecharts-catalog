@@ -2,6 +2,17 @@
 
 
 
+## [wekan-5.0.23](https://github.com/truecharts/charts/compare/wekan-5.0.22...wekan-5.0.23) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [wekan-5.0.23](https://github.com/truecharts/charts/compare/wekan-5.0.22...wekan-5.0.23) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [wg-easy-1.0.29](https://github.com/truecharts/charts/compare/wg-easy-1.0.28...wg-easy-1.0.29) (2022-10-07)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major
-
-
-
-
-## [wg-easy-1.0.28](https://github.com/truecharts/charts/compare/wg-easy-1.0.27...wg-easy-1.0.28) (2022-10-05)
-
-### Chore
-

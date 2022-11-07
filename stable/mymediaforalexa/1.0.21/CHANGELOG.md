@@ -2,6 +2,17 @@
 
 
 
+## [mymediaforalexa-1.0.21](https://github.com/truecharts/charts/compare/mymediaforalexa-1.0.20...mymediaforalexa-1.0.21) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [mymediaforalexa-1.0.21](https://github.com/truecharts/charts/compare/mymediaforalexa-1.0.20...mymediaforalexa-1.0.21) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [mymediaforalexa-1.0.14](https://github.com/truecharts/charts/compare/mymediaforalexa-1.0.13...mymediaforalexa-1.0.14) (2022-10-07)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major
-
-
-
-
-## [mymediaforalexa-1.0.13](https://github.com/truecharts/charts/compare/mymediaforalexa-1.0.12...mymediaforalexa-1.0.13) (2022-10-05)
-
-### Chore
-

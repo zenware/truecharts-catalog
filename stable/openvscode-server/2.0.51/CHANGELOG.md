@@ -2,6 +2,17 @@
 
 
 
+## [openvscode-server-2.0.51](https://github.com/truecharts/charts/compare/openvscode-server-2.0.50...openvscode-server-2.0.51) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [openvscode-server-2.0.51](https://github.com/truecharts/charts/compare/openvscode-server-2.0.50...openvscode-server-2.0.51) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [openvscode-server-2.0.44](https://github.com/truecharts/charts/compare/openvscode-server-2.0.43...openvscode-server-2.0.44) (2022-10-14)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4084](https://github.com/truecharts/charts/issues/4084))
-
-
-
-
-## [openvscode-server-2.0.43](https://github.com/truecharts/charts/compare/openvscode-server-2.0.42...openvscode-server-2.0.43) (2022-10-12)
-
-### Chore
-

@@ -2,6 +2,17 @@
 
 
 
+## [ghost-3.0.84](https://github.com/truecharts/charts/compare/ghost-3.0.83...ghost-3.0.84) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [ghost-3.0.84](https://github.com/truecharts/charts/compare/ghost-3.0.83...ghost-3.0.84) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 
 ## [ghost-3.0.77](https://github.com/truecharts/charts/compare/ghost-3.0.76...ghost-3.0.77) (2022-10-25)
 
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
-
-
-
-
-## [ghost-3.0.76](https://github.com/truecharts/charts/compare/ghost-3.0.75...ghost-3.0.76) (2022-10-21)
-
-### Chore

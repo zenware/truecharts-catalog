@@ -2,6 +2,17 @@
 
 
 
+## [sheetable-0.0.29](https://github.com/truecharts/charts/compare/sheetable-0.0.28...sheetable-0.0.29) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [sheetable-0.0.29](https://github.com/truecharts/charts/compare/sheetable-0.0.28...sheetable-0.0.29) (2022-11-06)
 
 ### Chore
@@ -78,17 +89,6 @@
 
 - Auto-update chart README [skip ci]
   - update helm general non-major ([#4071](https://github.com/truecharts/charts/issues/4071))
-
-
-
-
-## [sheetable-0.0.21](https://github.com/truecharts/charts/compare/sheetable-0.0.20...sheetable-0.0.21) (2022-10-07)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - update helm general non-major
 
 
 

@@ -2,6 +2,17 @@
 
 
 
+## [authentik-7.2.9](https://github.com/truecharts/charts/compare/authentik-7.2.8...authentik-7.2.9) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [authentik-7.2.9](https://github.com/truecharts/charts/compare/authentik-7.2.8...authentik-7.2.9) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [authentik-7.2.1](https://github.com/truecharts/charts/compare/authentik-7.2.0...authentik-7.2.1) (2022-10-25)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
-
-
-
-
-## [authentik-7.2.0](https://github.com/truecharts/charts/compare/authentik-7.1.8...authentik-7.2.0) (2022-10-25)
-
-### Chore
-

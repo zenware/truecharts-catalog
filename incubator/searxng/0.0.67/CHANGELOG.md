@@ -2,6 +2,17 @@
 
 
 
+## [searxng-0.0.67](https://github.com/truecharts/charts/compare/searxng-0.0.66...searxng-0.0.67) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [searxng-0.0.67](https://github.com/truecharts/charts/compare/searxng-0.0.66...searxng-0.0.67) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 
 ## [searxng-0.0.60](https://github.com/truecharts/charts/compare/searxng-0.0.59...searxng-0.0.60) (2022-10-27)
 
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4201](https://github.com/truecharts/charts/issues/4201))
-
-
-
-
-## [searxng-0.0.59](https://github.com/truecharts/charts/compare/searxng-0.0.58...searxng-0.0.59) (2022-10-25)
-
-### Chore

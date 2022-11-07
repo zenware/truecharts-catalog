@@ -2,6 +2,17 @@
 
 
 
+## [ts-dnsserver-0.0.49](https://github.com/truecharts/charts/compare/ts-dnsserver-0.0.48...ts-dnsserver-0.0.49) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [ts-dnsserver-0.0.49](https://github.com/truecharts/charts/compare/ts-dnsserver-0.0.48...ts-dnsserver-0.0.49) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [ts-dnsserver-0.0.41](https://github.com/truecharts/charts/compare/ts-dnsserver-0.0.40...ts-dnsserver-0.0.41) (2022-10-19)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4122](https://github.com/truecharts/charts/issues/4122))
-
-
-
-
-## [ts-dnsserver-0.0.40](https://github.com/truecharts/charts/compare/ts-dnsserver-0.0.39...ts-dnsserver-0.0.40) (2022-10-12)
-
-### Chore
-

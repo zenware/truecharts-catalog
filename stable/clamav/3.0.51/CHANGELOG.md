@@ -2,6 +2,17 @@
 
 
 
+## [clamav-3.0.51](https://github.com/truecharts/charts/compare/clamav-3.0.50...clamav-3.0.51) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [clamav-3.0.51](https://github.com/truecharts/charts/compare/clamav-3.0.50...clamav-3.0.51) (2022-11-06)
 
 ### Chore
@@ -78,17 +89,6 @@
 
 - Auto-update chart README [skip ci]
   - update helm general non-major ([#4071](https://github.com/truecharts/charts/issues/4071))
-
-
-
-
-## [clamav-3.0.43](https://github.com/truecharts/charts/compare/clamav-3.0.42...clamav-3.0.43) (2022-10-07)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - update helm general non-major
 
 
 

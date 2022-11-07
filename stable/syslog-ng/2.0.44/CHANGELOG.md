@@ -2,6 +2,17 @@
 
 
 
+## [syslog-ng-2.0.44](https://github.com/truecharts/charts/compare/syslog-ng-2.0.43...syslog-ng-2.0.44) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [syslog-ng-2.0.44](https://github.com/truecharts/charts/compare/syslog-ng-2.0.43...syslog-ng-2.0.44) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [syslog-ng-2.0.37](https://github.com/truecharts/charts/compare/syslog-ng-2.0.36...syslog-ng-2.0.37) (2022-10-07)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major
-
-
-
-
-## [syslog-ng-2.0.36](https://github.com/truecharts/charts/compare/syslog-ng-2.0.35...syslog-ng-2.0.36) (2022-10-05)
-
-### Chore
-

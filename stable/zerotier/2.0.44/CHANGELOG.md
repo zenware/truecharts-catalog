@@ -2,6 +2,17 @@
 
 
 
+## [zerotier-2.0.44](https://github.com/truecharts/charts/compare/zerotier-2.0.43...zerotier-2.0.44) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [zerotier-2.0.44](https://github.com/truecharts/charts/compare/zerotier-2.0.43...zerotier-2.0.44) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [zerotier-2.0.37](https://github.com/truecharts/charts/compare/zerotier-2.0.36...zerotier-2.0.37) (2022-10-07)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major
-
-
-
-
-## [zerotier-2.0.36](https://github.com/truecharts/charts/compare/zerotier-2.0.35...zerotier-2.0.36) (2022-10-05)
-
-### Chore
-

@@ -2,6 +2,17 @@
 
 
 
+## [dizquetv-7.0.44](https://github.com/truecharts/charts/compare/dizquetv-7.0.43...dizquetv-7.0.44) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [dizquetv-7.0.44](https://github.com/truecharts/charts/compare/dizquetv-7.0.43...dizquetv-7.0.44) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [dizquetv-7.0.37](https://github.com/truecharts/charts/compare/dizquetv-7.0.36...dizquetv-7.0.37) (2022-10-07)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major
-
-
-
-
-## [dizquetv-7.0.36](https://github.com/truecharts/charts/compare/dizquetv-7.0.35...dizquetv-7.0.36) (2022-10-05)
-
-### Chore
-

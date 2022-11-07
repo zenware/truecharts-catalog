@@ -2,6 +2,17 @@
 
 
 
+## [livebook-0.0.38](https://github.com/truecharts/charts/compare/livebook-0.0.37...livebook-0.0.38) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [livebook-0.0.38](https://github.com/truecharts/charts/compare/livebook-0.0.37...livebook-0.0.38) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [livebook-0.0.29](https://github.com/truecharts/charts/compare/livebook-0.0.27...livebook-0.0.29) (2022-10-08)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - update docker general non-major ([#4030](https://github.com/truecharts/charts/issues/4030))
-  - update helm general non-major
-
-
-
-
-## [livebook-0.0.28](https://github.com/truecharts/charts/compare/livebook-0.0.27...livebook-0.0.28) (2022-10-07)
-

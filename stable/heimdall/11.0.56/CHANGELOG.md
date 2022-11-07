@@ -2,6 +2,17 @@
 
 
 
+## [heimdall-11.0.56](https://github.com/truecharts/charts/compare/heimdall-11.0.55...heimdall-11.0.56) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [heimdall-11.0.56](https://github.com/truecharts/charts/compare/heimdall-11.0.55...heimdall-11.0.56) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4071](https://github.com/truecharts/charts/issues/4071))
-
-
-
-
-## [heimdall-11.0.47](https://github.com/truecharts/charts/compare/heimdall-11.0.46...heimdall-11.0.47) (2022-10-07)
-
-### Chore
-
-- Auto-update chart README [skip ci]

@@ -2,6 +2,17 @@
 
 
 
+## [plex-10.2.25](https://github.com/truecharts/charts/compare/plex-10.2.24...plex-10.2.25) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [plex-10.2.25](https://github.com/truecharts/charts/compare/plex-10.2.24...plex-10.2.25) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ### Chore
 
 - update docker general non-major ([#4155](https://github.com/truecharts/charts/issues/4155))
-
-
-
-
-## [plex-10.2.17](https://github.com/truecharts/charts/compare/plexripper-0.0.29...plex-10.2.17) (2022-10-19)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4122](https://github.com/truecharts/charts/issues/4122))
-

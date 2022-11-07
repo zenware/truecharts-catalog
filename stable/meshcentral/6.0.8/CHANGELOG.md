@@ -2,6 +2,17 @@
 
 
 
+## [meshcentral-6.0.8](https://github.com/truecharts/charts/compare/meshcentral-6.0.7...meshcentral-6.0.8) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [meshcentral-6.0.8](https://github.com/truecharts/charts/compare/meshcentral-6.0.7...meshcentral-6.0.8) (2022-11-06)
 
 ### Chore
@@ -85,15 +96,4 @@
 ## [meshcentral-6.0.0](https://github.com/truecharts/charts/compare/meshcentral-5.0.16...meshcentral-6.0.0) (2022-10-29)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-
-  ### Feat
-
-- move to stable ([#4234](https://github.com/truecharts/charts/issues/4234))
-
-
-
-
-## [meshcentral-5.0.16](https://github.com/truecharts/charts/compare/meshcentral-5.0.15...meshcentral-5.0.16) (2022-10-29)
 

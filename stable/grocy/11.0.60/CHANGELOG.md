@@ -2,6 +2,17 @@
 
 
 
+## [grocy-11.0.60](https://github.com/truecharts/charts/compare/grocy-11.0.59...grocy-11.0.60) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [grocy-11.0.60](https://github.com/truecharts/charts/compare/grocy-11.0.59...grocy-11.0.60) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4139](https://github.com/truecharts/charts/issues/4139))
-
-
-
-
-## [grocy-11.0.51](https://github.com/truecharts/charts/compare/grocy-11.0.50...grocy-11.0.51) (2022-10-19)
-
-### Chore
-
-- Auto-update chart README [skip ci]

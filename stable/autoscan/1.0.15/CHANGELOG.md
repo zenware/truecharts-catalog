@@ -2,6 +2,17 @@
 
 
 
+## [autoscan-1.0.15](https://github.com/truecharts/charts/compare/autoscan-1.0.14...autoscan-1.0.15) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [autoscan-1.0.15](https://github.com/truecharts/charts/compare/autoscan-1.0.14...autoscan-1.0.15) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [autoscan-1.0.8](https://github.com/truecharts/charts/compare/autoscan-1.0.7...autoscan-1.0.8) (2022-10-07)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major
-
-
-
-
-## [autoscan-1.0.7](https://github.com/truecharts/charts/compare/autoscan-1.0.6...autoscan-1.0.7) (2022-10-05)
-
-### Chore
-

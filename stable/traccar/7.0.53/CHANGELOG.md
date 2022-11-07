@@ -2,6 +2,17 @@
 
 
 
+## [traccar-7.0.53](https://github.com/truecharts/charts/compare/traccar-7.0.52...traccar-7.0.53) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [traccar-7.0.53](https://github.com/truecharts/charts/compare/traccar-7.0.52...traccar-7.0.53) (2022-11-06)
 
 ### Chore
@@ -78,17 +89,6 @@
 
 - Auto-update chart README [skip ci]
   - update helm general non-major ([#4071](https://github.com/truecharts/charts/issues/4071))
-
-
-
-
-## [traccar-7.0.45](https://github.com/truecharts/charts/compare/traccar-7.0.44...traccar-7.0.45) (2022-10-07)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - update helm general non-major
 
 
 

@@ -2,6 +2,17 @@
 
 
 
+## [shoko-server-0.0.34](https://github.com/truecharts/charts/compare/shoko-server-0.0.33...shoko-server-0.0.34) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [shoko-server-0.0.34](https://github.com/truecharts/charts/compare/shoko-server-0.0.33...shoko-server-0.0.34) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [shoko-server-0.0.27](https://github.com/truecharts/charts/compare/shoko-server-0.0.26...shoko-server-0.0.27) (2022-10-07)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major
-
-
-
-
-## [shoko-server-0.0.26](https://github.com/truecharts/charts/compare/shoko-server-0.0.25...shoko-server-0.0.26) (2022-10-05)
-
-### Chore
-

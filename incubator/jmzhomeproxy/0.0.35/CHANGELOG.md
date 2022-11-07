@@ -2,6 +2,17 @@
 
 
 
+## [jmzhomeproxy-0.0.35](https://github.com/truecharts/charts/compare/jmzhomeproxy-0.0.34...jmzhomeproxy-0.0.35) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [jmzhomeproxy-0.0.35](https://github.com/truecharts/charts/compare/jmzhomeproxy-0.0.34...jmzhomeproxy-0.0.35) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [jmzhomeproxy-0.0.28](https://github.com/truecharts/charts/compare/jmzhomeproxy-0.0.27...jmzhomeproxy-0.0.28) (2022-10-07)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major
-
-
-
-
-## [jmzhomeproxy-0.0.27](https://github.com/truecharts/charts/compare/jmzhomeproxy-0.0.26...jmzhomeproxy-0.0.27) (2022-10-05)
-
-### Chore
-

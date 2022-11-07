@@ -2,6 +2,17 @@
 
 
 
+## [emby-11.0.47](https://github.com/truecharts/charts/compare/emby-11.0.46...emby-11.0.47) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [emby-11.0.47](https://github.com/truecharts/charts/compare/emby-11.0.46...emby-11.0.47) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [emby-11.0.40](https://github.com/truecharts/charts/compare/embystat-2.0.36...emby-11.0.40) (2022-10-19)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4122](https://github.com/truecharts/charts/issues/4122))
-
-
-
-
-## [emby-11.0.39](https://github.com/truecharts/charts/compare/emby-11.0.38...emby-11.0.39) (2022-10-12)
-
-### Chore
-

@@ -2,6 +2,17 @@
 
 
 
+## [minecraft-bungeecord-1.0.4](https://github.com/truecharts/charts/compare/minecraft-bungeecord-1.0.3...minecraft-bungeecord-1.0.4) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [minecraft-bungeecord-1.0.4](https://github.com/truecharts/charts/compare/minecraft-bungeecord-1.0.3...minecraft-bungeecord-1.0.4) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 
 
 ## [minecraft-bungeecord-0.0.26](https://github.com/truecharts/charts/compare/minecraft-bungeecord-0.0.25...minecraft-bungeecord-0.0.26) (2022-10-12)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4071](https://github.com/truecharts/charts/issues/4071))
-
-
-
-
-## [minecraft-bungeecord-0.0.25](https://github.com/truecharts/charts/compare/minecraft-bungeecord-0.0.24...minecraft-bungeecord-0.0.25) (2022-10-07)
-

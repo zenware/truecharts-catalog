@@ -2,6 +2,17 @@
 
 
 
+## [teedy-docs-0.0.36](https://github.com/truecharts/charts/compare/teedy-docs-0.0.35...teedy-docs-0.0.36) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [teedy-docs-0.0.36](https://github.com/truecharts/charts/compare/teedy-docs-0.0.35...teedy-docs-0.0.36) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [teedy-docs-0.0.29](https://github.com/truecharts/charts/compare/teedy-docs-0.0.28...teedy-docs-0.0.29) (2022-10-07)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major
-
-
-
-
-## [teedy-docs-0.0.28](https://github.com/truecharts/charts/compare/teedy-docs-0.0.27...teedy-docs-0.0.28) (2022-10-05)
-
-### Chore
-

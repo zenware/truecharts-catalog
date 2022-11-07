@@ -2,6 +2,17 @@
 
 
 
+## [muximux-3.0.41](https://github.com/truecharts/charts/compare/muximux-3.0.40...muximux-3.0.41) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [muximux-3.0.41](https://github.com/truecharts/charts/compare/muximux-3.0.40...muximux-3.0.41) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [muximux-3.0.34](https://github.com/truecharts/charts/compare/muximux-3.0.33...muximux-3.0.34) (2022-10-07)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major
-
-
-
-
-## [muximux-3.0.33](https://github.com/truecharts/charts/compare/muximux-3.0.32...muximux-3.0.33) (2022-10-05)
-
-### Chore
-

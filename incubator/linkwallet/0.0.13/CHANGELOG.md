@@ -2,6 +2,17 @@
 
 
 
+## [linkwallet-0.0.13](https://github.com/truecharts/charts/compare/linkwallet-0.0.12...linkwallet-0.0.13) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [linkwallet-0.0.13](https://github.com/truecharts/charts/compare/linkwallet-0.0.12...linkwallet-0.0.13) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [linkwallet-0.0.6](https://github.com/truecharts/charts/compare/linkwallet-0.0.5...linkwallet-0.0.6) (2022-10-07)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major
-
-
-
-
-## [linkwallet-0.0.5](https://github.com/truecharts/charts/compare/linkwallet-0.0.4...linkwallet-0.0.5) (2022-10-05)
-
-### Chore
-

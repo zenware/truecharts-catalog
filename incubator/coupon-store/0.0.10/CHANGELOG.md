@@ -2,6 +2,17 @@
 
 
 
+## [coupon-store-0.0.10](https://github.com/truecharts/charts/compare/coupon-store-0.0.9...coupon-store-0.0.10) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [coupon-store-0.0.10](https://github.com/truecharts/charts/compare/coupon-store-0.0.9...coupon-store-0.0.10) (2022-11-06)
 
 ### Chore
@@ -86,11 +97,3 @@
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - update helm general non-major ([#4071](https://github.com/truecharts/charts/issues/4071))
-
-
-
-
-## [coupon-store-0.0.1]coupon-store-0.0.1 (2022-10-10)

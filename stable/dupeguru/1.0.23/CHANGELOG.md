@@ -2,6 +2,17 @@
 
 
 
+## [dupeguru-1.0.23](https://github.com/truecharts/charts/compare/dupeguru-1.0.22...dupeguru-1.0.23) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [dupeguru-1.0.23](https://github.com/truecharts/charts/compare/dupeguru-1.0.22...dupeguru-1.0.23) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [dupeguru-1.0.16](https://github.com/truecharts/charts/compare/dupeguru-1.0.15...dupeguru-1.0.16) (2022-10-14)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update container image tccr.io/truecharts/dupeguru to v22.10.1 ([#4092](https://github.com/truecharts/charts/issues/4092))
-
-
-
-
-## [dupeguru-1.0.15](https://github.com/truecharts/charts/compare/dupeguru-1.0.14...dupeguru-1.0.15) (2022-10-12)
-
-### Chore
-

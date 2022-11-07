@@ -2,6 +2,17 @@
 
 
 
+## [obsidian-0.0.38](https://github.com/truecharts/charts/compare/obsidian-0.0.37...obsidian-0.0.38) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [obsidian-0.0.38](https://github.com/truecharts/charts/compare/obsidian-0.0.37...obsidian-0.0.38) (2022-11-06)
 
 ### Chore
@@ -78,17 +89,6 @@
 
 - Auto-update chart README [skip ci]
   - update docker general non-major ([#4070](https://github.com/truecharts/charts/issues/4070))
-
-
-
-
-## [obsidian-0.0.30](https://github.com/truecharts/charts/compare/obsidian-0.0.29...obsidian-0.0.30) (2022-10-07)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - update helm general non-major
 
 
 

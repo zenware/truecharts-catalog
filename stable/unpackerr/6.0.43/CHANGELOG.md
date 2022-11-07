@@ -2,6 +2,17 @@
 
 
 
+## [unpackerr-6.0.43](https://github.com/truecharts/charts/compare/unpackerr-6.0.42...unpackerr-6.0.43) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [unpackerr-6.0.43](https://github.com/truecharts/charts/compare/unpackerr-6.0.42...unpackerr-6.0.43) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [unpackerr-6.0.36](https://github.com/truecharts/charts/compare/unpackerr-6.0.35...unpackerr-6.0.36) (2022-10-07)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major
-
-
-
-
-## [unpackerr-6.0.35](https://github.com/truecharts/charts/compare/unpackerr-6.0.34...unpackerr-6.0.35) (2022-10-07)
-
-### Chore
-

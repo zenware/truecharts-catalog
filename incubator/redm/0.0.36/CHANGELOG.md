@@ -2,6 +2,17 @@
 
 
 
+## [redm-0.0.36](https://github.com/truecharts/charts/compare/redmine-3.0.65...redm-0.0.36) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [redm-0.0.36](https://github.com/truecharts/charts/compare/redmine-3.0.65...redm-0.0.36) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 
 - Auto-update chart README [skip ci]
   - update helm general non-major
-
-
-
-
-## [redm-0.0.28](https://github.com/truecharts/charts/compare/redmine-3.0.54...redm-0.0.28) (2022-10-07)
-
-### Chore
-
-- update helm general non-major
-
-

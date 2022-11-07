@@ -2,6 +2,17 @@
 
 
 
+## [ser2sock-6.0.44](https://github.com/truecharts/charts/compare/ser2sock-6.0.43...ser2sock-6.0.44) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [ser2sock-6.0.44](https://github.com/truecharts/charts/compare/ser2sock-6.0.43...ser2sock-6.0.44) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [sdtd-1.0.7](https://github.com/truecharts/charts/compare/sdtd-1.0.6...sdtd-1.0.7) (2022-10-07)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major
-
-
-
-
-## [sdtd-1.0.6](https://github.com/truecharts/charts/compare/sdtd-1.0.5...sdtd-1.0.6) (2022-10-05)
-
-### Chore
-

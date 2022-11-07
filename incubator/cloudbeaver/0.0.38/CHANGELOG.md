@@ -2,6 +2,17 @@
 
 
 
+## [cloudbeaver-0.0.38](https://github.com/truecharts/charts/compare/cloudbeaver-0.0.37...cloudbeaver-0.0.38) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [cloudbeaver-0.0.38](https://github.com/truecharts/charts/compare/cloudbeaver-0.0.37...cloudbeaver-0.0.38) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4070](https://github.com/truecharts/charts/issues/4070))
-
-
-
-
-## [cloudbeaver-0.0.29](https://github.com/truecharts/charts/compare/cloudbeaver-0.0.28...cloudbeaver-0.0.29) (2022-10-07)
-
-### Chore
-
-- Auto-update chart README [skip ci]

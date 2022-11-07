@@ -2,6 +2,17 @@
 
 
 
+## [typecho-4.0.14](https://github.com/truecharts/charts/compare/typecho-4.0.13...typecho-4.0.14) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [typecho-4.0.14](https://github.com/truecharts/charts/compare/typecho-4.0.13...typecho-4.0.14) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [typecho-4.0.7](https://github.com/truecharts/charts/compare/typecho-4.0.6...typecho-4.0.7) (2022-10-07)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major
-
-
-
-
-## [typecho-4.0.6](https://github.com/truecharts/charts/compare/typecho-4.0.5...typecho-4.0.6) (2022-10-05)
-
-### Chore
-

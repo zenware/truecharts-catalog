@@ -2,6 +2,17 @@
 
 
 
+## [filerun-3.0.15](https://github.com/truecharts/charts/compare/filerun-3.0.14...filerun-3.0.15) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [filerun-3.0.15](https://github.com/truecharts/charts/compare/filerun-3.0.14...filerun-3.0.15) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [filerun-3.0.8](https://github.com/truecharts/charts/compare/filerun-3.0.7...filerun-3.0.8) (2022-10-07)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major
-
-
-
-
-## [filerun-3.0.7](https://github.com/truecharts/charts/compare/filerun-3.0.6...filerun-3.0.7) (2022-10-05)
-
-### Chore
-

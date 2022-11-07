@@ -2,6 +2,17 @@
 
 
 
+## [urban-terror-0.0.36](https://github.com/truecharts/charts/compare/urban-terror-0.0.35...urban-terror-0.0.36) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [urban-terror-0.0.36](https://github.com/truecharts/charts/compare/urban-terror-0.0.35...urban-terror-0.0.36) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [urban-terror-0.0.29](https://github.com/truecharts/charts/compare/urban-terror-0.0.28...urban-terror-0.0.29) (2022-10-12)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4071](https://github.com/truecharts/charts/issues/4071))
-
-
-
-
-## [urban-terror-0.0.28](https://github.com/truecharts/charts/compare/urban-terror-0.0.27...urban-terror-0.0.28) (2022-10-07)
-
-### Chore
-

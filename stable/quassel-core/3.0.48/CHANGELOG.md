@@ -2,6 +2,17 @@
 
 
 
+## [quassel-core-3.0.48](https://github.com/truecharts/charts/compare/quassel-core-3.0.47...quassel-core-3.0.48) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [quassel-core-3.0.48](https://github.com/truecharts/charts/compare/quassel-core-3.0.47...quassel-core-3.0.48) (2022-11-06)
 
 ### Chore
@@ -78,17 +89,6 @@
 
 - Auto-update chart README [skip ci]
   - update helm general non-major ([#4071](https://github.com/truecharts/charts/issues/4071))
-
-
-
-
-## [quassel-core-3.0.40](https://github.com/truecharts/charts/compare/quassel-core-3.0.39...quassel-core-3.0.40) (2022-10-07)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - update helm general non-major
 
 
 

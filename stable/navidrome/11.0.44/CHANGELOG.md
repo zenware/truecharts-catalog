@@ -2,6 +2,17 @@
 
 
 
+## [navidrome-11.0.44](https://github.com/truecharts/charts/compare/navidrome-11.0.43...navidrome-11.0.44) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [navidrome-11.0.44](https://github.com/truecharts/charts/compare/navidrome-11.0.43...navidrome-11.0.44) (2022-11-06)
 
 ### Chore
@@ -78,17 +89,6 @@
 
 - Auto-update chart README [skip ci]
   - update helm general non-major ([#4071](https://github.com/truecharts/charts/issues/4071))
-
-
-
-
-## [navidrome-11.0.36](https://github.com/truecharts/charts/compare/navidrome-11.0.35...navidrome-11.0.36) (2022-10-07)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - update helm general non-major
 
 
 

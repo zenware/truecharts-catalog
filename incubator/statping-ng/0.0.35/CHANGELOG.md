@@ -2,6 +2,17 @@
 
 
 
+## [statping-ng-0.0.35](https://github.com/truecharts/charts/compare/statping-ng-0.0.34...statping-ng-0.0.35) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [statping-ng-0.0.35](https://github.com/truecharts/charts/compare/statping-ng-0.0.34...statping-ng-0.0.35) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [statping-ng-0.0.28](https://github.com/truecharts/charts/compare/statping-ng-0.0.27...statping-ng-0.0.28) (2022-10-07)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major
-
-
-
-
-## [statping-ng-0.0.27](https://github.com/truecharts/charts/compare/statping-ng-0.0.26...statping-ng-0.0.27) (2022-10-05)
-
-### Chore
-

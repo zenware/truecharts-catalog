@@ -2,6 +2,17 @@
 
 
 
+## [tautulli-11.0.47](https://github.com/truecharts/charts/compare/tautulli-11.0.46...tautulli-11.0.47) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [tautulli-11.0.47](https://github.com/truecharts/charts/compare/tautulli-11.0.46...tautulli-11.0.47) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [tautulli-11.0.40](https://github.com/truecharts/charts/compare/tautulli-11.0.39...tautulli-11.0.40) (2022-10-07)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major
-
-
-
-
-## [tautulli-11.0.39](https://github.com/truecharts/charts/compare/tautulli-11.0.38...tautulli-11.0.39) (2022-10-05)
-
-### Chore
-

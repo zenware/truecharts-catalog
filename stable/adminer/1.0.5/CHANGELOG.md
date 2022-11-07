@@ -2,6 +2,17 @@
 
 
 
+## [adminer-1.0.5](https://github.com/truecharts/charts/compare/adminer-1.0.4...adminer-1.0.5) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [adminer-1.0.5](https://github.com/truecharts/charts/compare/adminer-1.0.4...adminer-1.0.5) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4201](https://github.com/truecharts/charts/issues/4201))
-
-
-
-
-## [adminer-0.0.36](https://github.com/truecharts/charts/compare/adminer-0.0.35...adminer-0.0.36) (2022-10-25)
-
-### Chore
-
-- Auto-update chart README [skip ci]

@@ -2,6 +2,17 @@
 
 
 
+## [ddns-updater-2.0.44](https://github.com/truecharts/charts/compare/ddns-updater-2.0.43...ddns-updater-2.0.44) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [ddns-updater-2.0.44](https://github.com/truecharts/charts/compare/ddns-updater-2.0.43...ddns-updater-2.0.44) (2022-11-06)
 
 ### Chore
@@ -77,17 +88,6 @@
 
 - Auto-update chart README [skip ci]
   - update helm general non-major ([#4071](https://github.com/truecharts/charts/issues/4071))
-
-
-
-
-## [ddns-updater-2.0.36](https://github.com/truecharts/charts/compare/ddns-updater-2.0.35...ddns-updater-2.0.36) (2022-10-07)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - update helm general non-major
 
 
 

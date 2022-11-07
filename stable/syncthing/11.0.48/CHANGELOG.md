@@ -2,6 +2,17 @@
 
 
 
+## [syncthing-11.0.48](https://github.com/truecharts/charts/compare/syncthing-11.0.47...syncthing-11.0.48) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [syncthing-11.0.48](https://github.com/truecharts/charts/compare/syncthing-11.0.47...syncthing-11.0.48) (2022-11-06)
 
 ### Chore
@@ -78,17 +89,6 @@
 
 - Auto-update chart README [skip ci]
   - update helm general non-major ([#4071](https://github.com/truecharts/charts/issues/4071))
-
-
-
-
-## [syncthing-11.0.40](https://github.com/truecharts/charts/compare/syncthing-11.0.39...syncthing-11.0.40) (2022-10-07)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - update helm general non-major
 
 
 

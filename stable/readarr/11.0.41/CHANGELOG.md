@@ -2,6 +2,17 @@
 
 
 
+## [readarr-11.0.41](https://github.com/truecharts/charts/compare/readarr-11.0.40...readarr-11.0.41) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [readarr-11.0.41](https://github.com/truecharts/charts/compare/readarr-11.0.40...readarr-11.0.41) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [readarr-11.0.34](https://github.com/truecharts/charts/compare/readarr-11.0.33...readarr-11.0.34) (2022-10-07)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major
-
-
-
-
-## [readarr-11.0.33](https://github.com/truecharts/charts/compare/readarr-11.0.32...readarr-11.0.33) (2022-10-05)
-
-### Chore
-

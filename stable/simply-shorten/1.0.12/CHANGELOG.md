@@ -2,6 +2,17 @@
 
 
 
+## [simply-shorten-1.0.12](https://github.com/truecharts/charts/compare/simply-shorten-1.0.11...simply-shorten-1.0.12) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [simply-shorten-1.0.12](https://github.com/truecharts/charts/compare/simply-shorten-1.0.11...simply-shorten-1.0.12) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [simply-shorten-1.0.5](https://github.com/truecharts/charts/compare/simply-shorten-1.0.4...simply-shorten-1.0.5) (2022-10-07)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major
-
-
-
-
-## [simply-shorten-1.0.4](https://github.com/truecharts/charts/compare/simply-shorten-1.0.3...simply-shorten-1.0.4) (2022-10-05)
-
-### Chore
-

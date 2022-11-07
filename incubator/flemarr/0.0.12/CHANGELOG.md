@@ -2,6 +2,17 @@
 
 
 
+## [flemarr-0.0.12](https://github.com/truecharts/charts/compare/flemarr-0.0.11...flemarr-0.0.12) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [flemarr-0.0.12](https://github.com/truecharts/charts/compare/flemarr-0.0.11...flemarr-0.0.12) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [flextv-0.0.28](https://github.com/truecharts/charts/compare/flextv-0.0.27...flextv-0.0.28) (2022-10-07)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major
-
-
-
-
-## [flextv-0.0.27](https://github.com/truecharts/charts/compare/flextv-0.0.26...flextv-0.0.27) (2022-10-05)
-
-### Chore
-

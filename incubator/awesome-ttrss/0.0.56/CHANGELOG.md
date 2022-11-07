@@ -2,6 +2,17 @@
 
 
 
+## [awesome-ttrss-0.0.56](https://github.com/truecharts/charts/compare/awesome-ttrss-0.0.55...awesome-ttrss-0.0.56) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [awesome-ttrss-0.0.56](https://github.com/truecharts/charts/compare/awesome-ttrss-0.0.55...awesome-ttrss-0.0.56) (2022-11-06)
 
 ### Chore
@@ -78,17 +89,6 @@
 
 - Auto-update chart README [skip ci]
   - update helm general non-major ([#4071](https://github.com/truecharts/charts/issues/4071))
-
-
-
-
-## [awesome-ttrss-0.0.48](https://github.com/truecharts/charts/compare/awesome-ttrss-0.0.47...awesome-ttrss-0.0.48) (2022-10-07)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - update helm general non-major
 
 
 

@@ -2,6 +2,17 @@
 
 
 
+## [audiobookshelf-2.0.50](https://github.com/truecharts/charts/compare/audiobookshelf-2.0.49...audiobookshelf-2.0.50) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [audiobookshelf-2.0.50](https://github.com/truecharts/charts/compare/audiobookshelf-2.0.49...audiobookshelf-2.0.50) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 
 ## [audiobookshelf-2.0.43](https://github.com/truecharts/charts/compare/audiobookshelf-2.0.42...audiobookshelf-2.0.43) (2022-10-07)
 
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major
-
-
-
-
-## [audiobookshelf-2.0.42](https://github.com/truecharts/charts/compare/audiobookshelf-2.0.41...audiobookshelf-2.0.42) (2022-10-05)
-
-### Chore

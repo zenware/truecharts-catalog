@@ -2,6 +2,17 @@
 
 
 
+## [rstudio-0.0.42](https://github.com/truecharts/charts/compare/rstudio-0.0.41...rstudio-0.0.42) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [rstudio-0.0.42](https://github.com/truecharts/charts/compare/rstudio-0.0.41...rstudio-0.0.42) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4122](https://github.com/truecharts/charts/issues/4122))
-
-
-
-
-## [rstudio-0.0.33](https://github.com/truecharts/charts/compare/rstudio-0.0.32...rstudio-0.0.33) (2022-10-12)
-
-### Chore
-
-- Auto-update chart README [skip ci]

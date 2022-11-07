@@ -2,6 +2,17 @@
 
 
 
+## [cadquery-jupyter-0.0.39](https://github.com/truecharts/charts/compare/cadquery-jupyter-0.0.38...cadquery-jupyter-0.0.39) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [cadquery-jupyter-0.0.39](https://github.com/truecharts/charts/compare/cadquery-jupyter-0.0.38...cadquery-jupyter-0.0.39) (2022-11-06)
 
 ### Chore
@@ -78,17 +89,6 @@
 
 - Auto-update chart README [skip ci]
   - update helm general non-major ([#4071](https://github.com/truecharts/charts/issues/4071))
-
-
-
-
-## [cadquery-jupyter-0.0.31](https://github.com/truecharts/charts/compare/cadquery-jupyter-0.0.30...cadquery-jupyter-0.0.31) (2022-10-07)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - update helm general non-major
 
 
 

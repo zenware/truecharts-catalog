@@ -2,6 +2,17 @@
 
 
 
+## [icloudpd-0.0.47](https://github.com/truecharts/charts/compare/icloudpd-0.0.46...icloudpd-0.0.47) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [icloudpd-0.0.47](https://github.com/truecharts/charts/compare/icloudpd-0.0.46...icloudpd-0.0.47) (2022-11-06)
 
 ### Chore
@@ -83,17 +94,6 @@
 
 
 ## [icloudpd-0.0.39](https://github.com/truecharts/charts/compare/icloudpd-0.0.38...icloudpd-0.0.39) (2022-10-11)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4070](https://github.com/truecharts/charts/issues/4070))
-  - update docker general non-major
-
-
-
-
-## [icloudpd-0.0.38](https://github.com/truecharts/charts/compare/icloudpd-0.0.37...icloudpd-0.0.38) (2022-10-07)
 
 ### Chore
 

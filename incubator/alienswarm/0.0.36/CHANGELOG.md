@@ -2,6 +2,17 @@
 
 
 
+## [alienswarm-0.0.36](https://github.com/truecharts/charts/compare/alienswarm-0.0.35...alienswarm-0.0.36) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [alienswarm-0.0.36](https://github.com/truecharts/charts/compare/alienswarm-0.0.35...alienswarm-0.0.36) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [alienswarm-0.0.29](https://github.com/truecharts/charts/compare/alienswarm-reactivedrop-0.0.28...alienswarm-0.0.29) (2022-10-12)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4071](https://github.com/truecharts/charts/issues/4071))
-
-
-
-
-## [alienswarm-0.0.28](https://github.com/truecharts/charts/compare/alienswarm-reactivedrop-0.0.27...alienswarm-0.0.28) (2022-10-07)
-
-### Chore
-

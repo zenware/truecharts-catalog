@@ -2,6 +2,17 @@
 
 
 
+## [nexus-oss-0.0.23](https://github.com/truecharts/charts/compare/nexus-oss-0.0.22...nexus-oss-0.0.23) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [nexus-oss-0.0.23](https://github.com/truecharts/charts/compare/nexus-oss-0.0.22...nexus-oss-0.0.23) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [nexus-oss-0.0.16](https://github.com/truecharts/charts/compare/nexus-oss-0.0.15...nexus-oss-0.0.16) (2022-10-07)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major
-
-
-
-
-## [nexus-oss-0.0.15](https://github.com/truecharts/charts/compare/nexus-oss-0.0.14...nexus-oss-0.0.15) (2022-10-05)
-
-### Chore
-

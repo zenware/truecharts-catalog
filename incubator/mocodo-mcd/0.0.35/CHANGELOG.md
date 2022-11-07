@@ -2,6 +2,17 @@
 
 
 
+## [mocodo-mcd-0.0.35](https://github.com/truecharts/charts/compare/mocodo-mcd-0.0.34...mocodo-mcd-0.0.35) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [mocodo-mcd-0.0.35](https://github.com/truecharts/charts/compare/mocodo-mcd-0.0.34...mocodo-mcd-0.0.35) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ## [mocodo-mcd-0.0.28](https://github.com/truecharts/charts/compare/mocodo-mcd-0.0.27...mocodo-mcd-0.0.28) (2022-10-07)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major
-
-
-
-
-## [mocodo-mcd-0.0.27](https://github.com/truecharts/charts/compare/mocodo-mcd-0.0.26...mocodo-mcd-0.0.27) (2022-10-05)
-
-### Chore
-

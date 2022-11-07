@@ -2,6 +2,17 @@
 
 
 
+## [prusaslicer-novnc-1.0.5](https://github.com/truecharts/charts/compare/prusaslicer-novnc-1.0.4...prusaslicer-novnc-1.0.5) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [prusaslicer-novnc-1.0.5](https://github.com/truecharts/charts/compare/prusaslicer-novnc-1.0.4...prusaslicer-novnc-1.0.5) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
-  - update docker general non-major ([#4155](https://github.com/truecharts/charts/issues/4155))
-
-
-
-
-## [prusaslicer-novnc-0.0.40](https://github.com/truecharts/charts/compare/prusaslicer-novnc-0.0.39...prusaslicer-novnc-0.0.40) (2022-10-19)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4122](https://github.com/truecharts/charts/issues/4122))

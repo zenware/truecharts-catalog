@@ -2,6 +2,17 @@
 
 
 
+## [blender-0.0.46](https://github.com/truecharts/charts/compare/blender-0.0.45...blender-0.0.46) (2022-11-07)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
 ## [blender-0.0.46](https://github.com/truecharts/charts/compare/blender-0.0.45...blender-0.0.46) (2022-11-06)
 
 ### Chore
@@ -86,14 +97,3 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
-  - update docker general non-major ([#4084](https://github.com/truecharts/charts/issues/4084))
-
-
-
-
-## [blender-0.0.37](https://github.com/truecharts/charts/compare/blender-desktop-g3-0.0.29...blender-0.0.37) (2022-10-12)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4071](https://github.com/truecharts/charts/issues/4071))
