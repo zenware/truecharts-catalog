@@ -9,6 +9,20 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [ts-dnsserver-0.0.50](https://github.com/truecharts/charts/compare/ts-dnsserver-0.0.48...ts-dnsserver-0.0.50) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -83,17 +97,3 @@
 
 - Auto-update chart README [skip ci]
   - update docker general non-major ([#4238](https://github.com/truecharts/charts/issues/4238))
-
-
-
-
-## [ts-dnsserver-0.0.43](https://github.com/truecharts/charts/compare/ts-dnsserver-0.0.42...ts-dnsserver-0.0.43) (2022-10-25)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
-
-
-
-

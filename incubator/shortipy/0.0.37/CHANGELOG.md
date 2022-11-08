@@ -9,6 +9,22 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update docker general non-major ([#4343](https://github.com/truecharts/charts/issues/4343))
+  - update docker general non-major ([#4331](https://github.com/truecharts/charts/issues/4331))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+
+
+
+
+## [shortipy-0.0.37](https://github.com/truecharts/charts/compare/shortipy-0.0.34...shortipy-0.0.37) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update docker general non-major ([#4343](https://github.com/truecharts/charts/issues/4343))
   - update docker general non-major ([#4331](https://github.com/truecharts/charts/issues/4331))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
@@ -80,20 +96,4 @@
 
 
 ## [shortipy-0.0.30](https://github.com/truecharts/charts/compare/shortipy-0.0.29...shortipy-0.0.30) (2022-10-19)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4122](https://github.com/truecharts/charts/issues/4122))
-
-
-
-
-## [shortipy-0.0.29](https://github.com/truecharts/charts/compare/shortipy-0.0.28...shortipy-0.0.29) (2022-10-12)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4071](https://github.com/truecharts/charts/issues/4071))
-
 

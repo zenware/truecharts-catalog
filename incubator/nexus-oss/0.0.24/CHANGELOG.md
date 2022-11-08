@@ -9,6 +9,20 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [nexus-oss-0.0.24](https://github.com/truecharts/charts/compare/nexus-oss-0.0.22...nexus-oss-0.0.24) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -83,17 +97,3 @@
 - Auto-update chart README [skip ci]
   - update helm general non-major ([#4122](https://github.com/truecharts/charts/issues/4122))
 
-
-
-
-## [nexus-oss-0.0.17](https://github.com/truecharts/charts/compare/nexus-oss-0.0.16...nexus-oss-0.0.17) (2022-10-12)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4071](https://github.com/truecharts/charts/issues/4071))
-
-
-
-
-## [nexus-oss-0.0.16](https://github.com/truecharts/charts/compare/nexus-oss-0.0.15...nexus-oss-0.0.16) (2022-10-07)

@@ -9,6 +9,20 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [dsmr-reader-8.0.52](https://github.com/truecharts/charts/compare/dsmr-reader-8.0.50...dsmr-reader-8.0.52) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -83,17 +97,3 @@
 - Auto-update chart README [skip ci]
   - update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
 
-
-
-
-## [dsmr-reader-8.0.45](https://github.com/truecharts/charts/compare/dsmr-reader-8.0.44...dsmr-reader-8.0.45) (2022-10-19)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4122](https://github.com/truecharts/charts/issues/4122))
-
-
-
-
-## [dsmr-reader-8.0.44](https://github.com/truecharts/charts/compare/dsmr-reader-8.0.43...dsmr-reader-8.0.44) (2022-10-12)

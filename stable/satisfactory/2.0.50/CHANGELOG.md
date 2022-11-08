@@ -9,6 +9,20 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [satisfactory-2.0.50](https://github.com/truecharts/charts/compare/satisfactory-2.0.48...satisfactory-2.0.50) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -83,17 +97,3 @@
 - Auto-update chart README [skip ci]
   - update helm general non-major ([#4122](https://github.com/truecharts/charts/issues/4122))
 
-
-
-
-## [satisfactory-2.0.43](https://github.com/truecharts/charts/compare/satisfactory-2.0.42...satisfactory-2.0.43) (2022-10-16)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4108](https://github.com/truecharts/charts/issues/4108))
-
-
-
-
-## [satisfactory-2.0.42](https://github.com/truecharts/charts/compare/satisfactory-2.0.41...satisfactory-2.0.42) (2022-10-14)

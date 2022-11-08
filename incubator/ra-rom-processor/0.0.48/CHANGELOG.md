@@ -9,6 +9,20 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [ra-rom-processor-0.0.48](https://github.com/truecharts/charts/compare/ra-rom-processor-0.0.46...ra-rom-processor-0.0.48) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -82,18 +96,4 @@
 - Auto-update chart README [skip ci]
   - update docker general non-major ([#4249](https://github.com/truecharts/charts/issues/4249))
 
-
-
-
-## [ra-rom-processor-0.0.41](https://github.com/truecharts/charts/compare/ra-rom-processor-0.0.40...ra-rom-processor-0.0.41) (2022-10-26)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4189](https://github.com/truecharts/charts/issues/4189))
-
-
-
-
-## [ra-rom-processor-0.0.40](https://github.com/truecharts/charts/compare/ra-rom-processor-0.0.39...ra-rom-processor-0.0.40) (2022-10-25)
 

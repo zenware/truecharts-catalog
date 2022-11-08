@@ -9,6 +9,20 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [quiz-game-0.0.38](https://github.com/truecharts/charts/compare/quiz-game-0.0.36...quiz-game-0.0.38) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -83,17 +97,3 @@
 
 
 
-
-## [quiz-game-0.0.31](https://github.com/truecharts/charts/compare/quiz-game-0.0.30...quiz-game-0.0.31) (2022-10-25)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
-
-
-
-
-## [quiz-game-0.0.30](https://github.com/truecharts/charts/compare/quiz-game-0.0.29...quiz-game-0.0.30) (2022-10-19)
-
-### Chore

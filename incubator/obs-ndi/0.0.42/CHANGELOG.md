@@ -9,6 +9,20 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [obs-ndi-0.0.42](https://github.com/truecharts/charts/compare/obs-ndi-0.0.40...obs-ndi-0.0.42) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -83,17 +97,3 @@
 - Auto-update chart README [skip ci]
   - update helm general non-major ([#4261](https://github.com/truecharts/charts/issues/4261))
 
-
-
-
-## [obs-ndi-0.0.35](https://github.com/truecharts/charts/compare/obs-ndi-0.0.34...obs-ndi-0.0.35) (2022-11-01)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4260](https://github.com/truecharts/charts/issues/4260))
-
-
-
-
-## [obs-ndi-0.0.34](https://github.com/truecharts/charts/compare/obs-ndi-0.0.33...obs-ndi-0.0.34) (2022-10-25)

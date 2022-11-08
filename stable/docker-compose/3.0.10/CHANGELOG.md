@@ -9,6 +9,20 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [docker-compose-3.0.10](https://github.com/truecharts/charts/compare/docker-compose-3.0.8...docker-compose-3.0.10) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -83,17 +97,3 @@
 
 - Auto-update chart README [skip ci]
   - update docker general non-major ([#4201](https://github.com/truecharts/charts/issues/4201))
-
-
-
-
-## [docker-compose-3.0.4](https://github.com/truecharts/charts/compare/docker-compose-3.0.3...docker-compose-3.0.4) (2022-10-26)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4189](https://github.com/truecharts/charts/issues/4189))
-
-
-
-

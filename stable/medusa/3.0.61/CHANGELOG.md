@@ -9,6 +9,21 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update docker general non-major ([#4331](https://github.com/truecharts/charts/issues/4331))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [medusa-3.0.61](https://github.com/truecharts/charts/compare/medusa-3.0.58...medusa-3.0.61) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update docker general non-major ([#4331](https://github.com/truecharts/charts/issues/4331))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
@@ -81,19 +96,4 @@
 ## [medusa-3.0.54](https://github.com/truecharts/charts/compare/medusa-3.0.53...medusa-3.0.54) (2022-10-25)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
-
-
-
-
-## [medusa-3.0.53](https://github.com/truecharts/charts/compare/medusa-3.0.52...medusa-3.0.53) (2022-10-19)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4122](https://github.com/truecharts/charts/issues/4122))
-
-
 

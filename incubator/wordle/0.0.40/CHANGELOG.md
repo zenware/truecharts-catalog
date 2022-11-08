@@ -9,6 +9,20 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [wordle-0.0.40](https://github.com/truecharts/charts/compare/wordle-0.0.38...wordle-0.0.40) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -83,17 +97,3 @@
 ### Chore
 
 - Auto-update chart README [skip ci]
-  - update helm general non-major ([#4261](https://github.com/truecharts/charts/issues/4261))
-
-
-
-
-## [wordle-0.0.33](https://github.com/truecharts/charts/compare/wordle-0.0.32...wordle-0.0.33) (2022-10-25)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
-
-
-

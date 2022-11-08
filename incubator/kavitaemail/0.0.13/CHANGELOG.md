@@ -9,6 +9,20 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [kavitaemail-0.0.13](https://github.com/truecharts/charts/compare/kavitaemail-0.0.11...kavitaemail-0.0.13) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -83,17 +97,3 @@
 - Auto-update chart README [skip ci]
   - update helm general non-major ([#4122](https://github.com/truecharts/charts/issues/4122))
 
-
-
-
-## [kavitaemail-0.0.6](https://github.com/truecharts/charts/compare/kavitaemail-0.0.5...kavitaemail-0.0.6) (2022-10-15)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major
-
-
-
-
-## [kavitaemail-0.0.5](https://github.com/truecharts/charts/compare/kavitaemail-0.0.4...kavitaemail-0.0.5) (2022-10-12)

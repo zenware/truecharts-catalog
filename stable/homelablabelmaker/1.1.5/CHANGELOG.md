@@ -9,6 +9,20 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [homelablabelmaker-1.1.5](https://github.com/truecharts/charts/compare/homelablabelmaker-1.1.3...homelablabelmaker-1.1.5) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -82,18 +96,4 @@
 - Auto-update chart README [skip ci]
   - update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
 
-
-
-
-## [homelablabelmaker-1.0.2](https://github.com/truecharts/charts/compare/homelablabelmaker-1.0.1...homelablabelmaker-1.0.2) (2022-10-19)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4122](https://github.com/truecharts/charts/issues/4122))
-
-
-
-
-## [homelablabelmaker-1.0.1](https://github.com/truecharts/charts/compare/homelablabelmaker-1.0.0...homelablabelmaker-1.0.1) (2022-10-12)
 

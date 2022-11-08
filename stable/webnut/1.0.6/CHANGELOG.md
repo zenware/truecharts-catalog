@@ -9,6 +9,20 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [webnut-1.0.6](https://github.com/truecharts/charts/compare/webnut-1.0.4...webnut-1.0.6) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -83,15 +97,3 @@
 - Auto-update chart README [skip ci]
 
 
-
-
-## [webnut-1.0.0](https://github.com/truecharts/charts/compare/webnut-0.0.1...webnut-1.0.0) (2022-10-27)
-
-
-
-
-## [webnut-0.0.1]webnut-0.0.1 (2022-10-25)
-
-### Feat
-
-- add webNUT ([#4188](https://github.com/truecharts/charts/issues/4188))

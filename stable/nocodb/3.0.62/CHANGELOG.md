@@ -9,6 +9,20 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [nocodb-3.0.62](https://github.com/truecharts/charts/compare/nocodb-3.0.60...nocodb-3.0.62) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -83,17 +97,3 @@
 - Auto-update chart README [skip ci]
   - update docker general non-major ([#4218](https://github.com/truecharts/charts/issues/4218))
 
-
-
-
-## [nocodb-3.0.55](https://github.com/truecharts/charts/compare/nocodb-3.0.54...nocodb-3.0.55) (2022-10-25)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major
-
-
-
-
-## [nocodb-3.0.54](https://github.com/truecharts/charts/compare/nocodb-3.0.53...nocodb-3.0.54) (2022-10-25)

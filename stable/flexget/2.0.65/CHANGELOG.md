@@ -9,6 +9,20 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [flexget-2.0.65](https://github.com/truecharts/charts/compare/flexget-2.0.63...flexget-2.0.65) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -82,18 +96,4 @@
 
 - Auto-update chart README [skip ci]
   - update docker general non-major ([#4230](https://github.com/truecharts/charts/issues/4230))
-
-
-
-
-## [flexget-2.0.58](https://github.com/truecharts/charts/compare/flexget-2.0.57...flexget-2.0.58) (2022-10-27)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - update docker general non-major ([#4201](https://github.com/truecharts/charts/issues/4201))
-
-
-
 

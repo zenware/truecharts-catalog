@@ -9,6 +9,20 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [wbo-0.0.14](https://github.com/truecharts/charts/compare/wbo-0.0.12...wbo-0.0.14) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -83,17 +97,3 @@
 - Auto-update chart README [skip ci]
   - update docker general non-major ([#4139](https://github.com/truecharts/charts/issues/4139))
 
-
-
-
-## [wbo-0.0.7](https://github.com/truecharts/charts/compare/wbo-0.0.6...wbo-0.0.7) (2022-10-19)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4122](https://github.com/truecharts/charts/issues/4122))
-
-
-
-
-## [wbo-0.0.6](https://github.com/truecharts/charts/compare/wbo-0.0.5...wbo-0.0.6) (2022-10-12)

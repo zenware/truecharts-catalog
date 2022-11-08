@@ -9,6 +9,21 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update docker general non-major ([#4331](https://github.com/truecharts/charts/issues/4331))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [rimgo-0.0.106](https://github.com/truecharts/charts/compare/rimgo-0.0.103...rimgo-0.0.106) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update docker general non-major ([#4331](https://github.com/truecharts/charts/issues/4331))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
@@ -81,19 +96,4 @@
 
 
 ## [rimgo-0.0.99](https://github.com/truecharts/charts/compare/rimgo-0.0.98...rimgo-0.0.99) (2022-11-03)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4289](https://github.com/truecharts/charts/issues/4289))
-
-
-
-
-## [rimgo-0.0.98](https://github.com/truecharts/charts/compare/rimgo-0.0.97...rimgo-0.0.98) (2022-11-03)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4286](https://github.com/truecharts/charts/issues/4286))
 

@@ -9,6 +9,20 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [ispy-agent-dvr-2.0.63](https://github.com/truecharts/charts/compare/ispy-agent-dvr-2.0.61...ispy-agent-dvr-2.0.63) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -83,17 +97,3 @@
 - Auto-update chart README [skip ci]
   - update helm general non-major ([#4261](https://github.com/truecharts/charts/issues/4261))
   - update docker general non-major ([#4280](https://github.com/truecharts/charts/issues/4280))
-
-
-
-
-## [ispy-agent-dvr-2.0.56](https://github.com/truecharts/charts/compare/ispy-agent-dvr-2.0.55...ispy-agent-dvr-2.0.56) (2022-10-27)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - update docker general non-major ([#4201](https://github.com/truecharts/charts/issues/4201))
-
-
-

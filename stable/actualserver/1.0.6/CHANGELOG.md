@@ -9,6 +9,20 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [actualserver-1.0.6](https://github.com/truecharts/charts/compare/actualserver-1.0.4...actualserver-1.0.6) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -82,18 +96,4 @@
 
 - Auto-update chart README [skip ci]
 
-
-
-
-## [actualserver-1.0.0](https://github.com/truecharts/charts/compare/actualserver-0.0.34...actualserver-1.0.0) (2022-10-27)
-
-
-
-
-## [actualserver-0.0.34](https://github.com/truecharts/charts/compare/actualserver-0.0.33...actualserver-0.0.34) (2022-10-25)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
 

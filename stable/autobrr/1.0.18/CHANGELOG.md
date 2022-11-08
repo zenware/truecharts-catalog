@@ -9,6 +9,20 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [autobrr-1.0.18](https://github.com/truecharts/charts/compare/autobrr-1.0.16...autobrr-1.0.18) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -83,17 +97,3 @@
 - Auto-update chart README [skip ci]
   - update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
 
-
-
-
-## [autobrr-1.0.11](https://github.com/truecharts/charts/compare/autobrr-1.0.10...autobrr-1.0.11) (2022-10-22)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4155](https://github.com/truecharts/charts/issues/4155))
-
-
-
-
-## [autobrr-1.0.10](https://github.com/truecharts/charts/compare/autobrr-1.0.9...autobrr-1.0.10) (2022-10-21)

@@ -9,6 +9,20 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [vikunja-3.0.72](https://github.com/truecharts/charts/compare/vikunja-3.0.70...vikunja-3.0.72) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -82,18 +96,4 @@
 
 - Auto-update chart README [skip ci]
   - update docker general non-major ([#4218](https://github.com/truecharts/charts/issues/4218))
-
-
-
-
-## [vikunja-3.0.65](https://github.com/truecharts/charts/compare/vikunja-3.0.64...vikunja-3.0.65) (2022-10-27)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]
-  - update docker general non-major ([#4201](https://github.com/truecharts/charts/issues/4201))
-
-
-
 

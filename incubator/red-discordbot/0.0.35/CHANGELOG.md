@@ -2,6 +2,7 @@
 
 
 
+
 ## [red-discordbot-0.0.35](https://github.com/truecharts/charts/compare/red-discordbot-0.0.33...red-discordbot-0.0.35) (2022-11-08)
 
 ### Chore
@@ -96,4 +97,3 @@
 
 
 
-## [red-discordbot-0.0.27](https://github.com/truecharts/charts/compare/red-discordbot-0.0.26...red-discordbot-0.0.27) (2022-10-07)

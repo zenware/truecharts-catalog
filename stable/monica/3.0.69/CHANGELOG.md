@@ -9,6 +9,20 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [monica-3.0.69](https://github.com/truecharts/charts/compare/monica-3.0.67...monica-3.0.69) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -83,17 +97,3 @@
 - Auto-update chart README [skip ci]
   - update docker general non-major ([#4230](https://github.com/truecharts/charts/issues/4230))
 
-
-
-
-## [monica-3.0.62](https://github.com/truecharts/charts/compare/monica-3.0.61...monica-3.0.62) (2022-10-28)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4218](https://github.com/truecharts/charts/issues/4218))
-
-
-
-
-## [monica-3.0.61](https://github.com/truecharts/charts/compare/monica-3.0.60...monica-3.0.61) (2022-10-27)

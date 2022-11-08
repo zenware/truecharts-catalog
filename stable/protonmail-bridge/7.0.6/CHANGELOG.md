@@ -9,6 +9,20 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [protonmail-bridge-7.0.6](https://github.com/truecharts/charts/compare/protonmail-bridge-7.0.4...protonmail-bridge-7.0.6) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -82,18 +96,4 @@
 
 - Auto-update chart README [skip ci]
 
-
-
-
-## [protonmail-bridge-6.0.37](https://github.com/truecharts/charts/compare/protonmail-bridge-6.0.36...protonmail-bridge-6.0.37) (2022-10-19)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4122](https://github.com/truecharts/charts/issues/4122))
-
-
-
-
-## [protonmail-bridge-6.0.36](https://github.com/truecharts/charts/compare/protonmail-bridge-6.0.35...protonmail-bridge-6.0.36) (2022-10-12)
 

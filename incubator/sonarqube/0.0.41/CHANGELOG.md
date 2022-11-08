@@ -9,6 +9,20 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [sonarqube-0.0.41](https://github.com/truecharts/charts/compare/sonarqube-0.0.39...sonarqube-0.0.41) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -83,17 +97,3 @@
 - Auto-update chart README [skip ci]
   - update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
 
-
-
-
-## [sonarqube-0.0.34](https://github.com/truecharts/charts/compare/sonarqube-0.0.33...sonarqube-0.0.34) (2022-10-21)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4139](https://github.com/truecharts/charts/issues/4139))
-
-
-
-
-## [sonarqube-0.0.33](https://github.com/truecharts/charts/compare/sonarqube-0.0.32...sonarqube-0.0.33) (2022-10-19)

@@ -9,6 +9,20 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [pyload-6.0.43](https://github.com/truecharts/charts/compare/pyload-ng-0.0.43...pyload-6.0.43) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -82,18 +96,4 @@
 - update helm general non-major ([#4122](https://github.com/truecharts/charts/issues/4122))
 
 
-
-
-## [pyload-6.0.36](https://github.com/truecharts/charts/compare/pyload-ng-0.0.35...pyload-6.0.36) (2022-10-12)
-
-### Chore
-
-- update helm general non-major ([#4071](https://github.com/truecharts/charts/issues/4071))
-
-
-
-
-## [pyload-6.0.35](https://github.com/truecharts/charts/compare/pyload-ng-0.0.33...pyload-6.0.35) (2022-10-07)
-
-### Chore
 

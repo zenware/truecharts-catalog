@@ -9,6 +9,20 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [mediainfo-1.0.26](https://github.com/truecharts/charts/compare/mediainfo-1.0.24...mediainfo-1.0.26) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -83,17 +97,3 @@
 - Auto-update chart README [skip ci]
   - update docker general non-major ([#4181](https://github.com/truecharts/charts/issues/4181))
 
-
-
-
-## [mediainfo-1.0.19](https://github.com/truecharts/charts/compare/mediainfo-1.0.18...mediainfo-1.0.19) (2022-10-19)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4122](https://github.com/truecharts/charts/issues/4122))
-
-
-
-
-## [mediainfo-1.0.18](https://github.com/truecharts/charts/compare/mediainfo-1.0.17...mediainfo-1.0.18) (2022-10-16)

@@ -9,6 +9,20 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [leantime-4.0.60](https://github.com/truecharts/charts/compare/leantime-4.0.58...leantime-4.0.60) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -83,17 +97,3 @@
 - Auto-update chart README [skip ci]
   - update docker general non-major ([#4155](https://github.com/truecharts/charts/issues/4155))
 
-
-
-
-## [leantime-4.0.53](https://github.com/truecharts/charts/compare/leantime-4.0.52...leantime-4.0.53) (2022-10-21)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4139](https://github.com/truecharts/charts/issues/4139))
-
-
-
-
-## [leantime-4.0.52](https://github.com/truecharts/charts/compare/leantime-4.0.51...leantime-4.0.52) (2022-10-19)

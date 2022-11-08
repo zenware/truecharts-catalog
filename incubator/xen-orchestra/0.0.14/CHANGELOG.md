@@ -9,6 +9,20 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [xen-orchestra-0.0.14](https://github.com/truecharts/charts/compare/xen-orchestra-0.0.12...xen-orchestra-0.0.14) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -83,17 +97,3 @@
 ## [xen-orchestra-0.0.8](https://github.com/truecharts/charts/compare/xen-orchestra-0.0.7...xen-orchestra-0.0.8) (2022-10-25)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
-
-
-
-
-## [xen-orchestra-0.0.7](https://github.com/truecharts/charts/compare/xen-orchestra-0.0.6...xen-orchestra-0.0.7) (2022-10-24)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4171](https://github.com/truecharts/charts/issues/4171))
-

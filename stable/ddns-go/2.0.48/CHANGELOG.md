@@ -9,6 +9,20 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [ddns-go-2.0.48](https://github.com/truecharts/charts/compare/ddns-go-2.0.46...ddns-go-2.0.48) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -83,17 +97,3 @@
 - Auto-update chart README [skip ci]
   - update helm general non-major ([#4122](https://github.com/truecharts/charts/issues/4122))
 
-
-
-
-## [ddns-go-2.0.41](https://github.com/truecharts/charts/compare/ddns-go-2.0.40...ddns-go-2.0.41) (2022-10-14)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4084](https://github.com/truecharts/charts/issues/4084))
-
-
-
-
-## [ddns-go-2.0.40](https://github.com/truecharts/charts/compare/ddns-go-2.0.39...ddns-go-2.0.40) (2022-10-12)

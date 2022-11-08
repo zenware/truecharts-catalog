@@ -9,6 +9,20 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [speedtest-tracker-0.1.8](https://github.com/truecharts/charts/compare/speedtest-tracker-0.1.6...speedtest-tracker-0.1.8) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -83,17 +97,3 @@
 - Auto-update chart README [skip ci]
   - update docker general non-major ([#4286](https://github.com/truecharts/charts/issues/4286))
 
-
-
-
-## [speedtest-tracker-0.1.1](https://github.com/truecharts/charts/compare/speedtest-tracker-0.1.0...speedtest-tracker-0.1.1) (2022-11-02)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4261](https://github.com/truecharts/charts/issues/4261))
-
-
-
-
-## [speedtest-tracker-0.1.0](https://github.com/truecharts/charts/compare/speedtest-tracker-0.0.6...speedtest-tracker-0.1.0) (2022-10-29)

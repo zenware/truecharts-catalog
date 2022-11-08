@@ -9,6 +9,20 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [jelu-0.0.45](https://github.com/truecharts/charts/compare/jelu-0.0.43...jelu-0.0.45) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -83,17 +97,3 @@
 - Auto-update chart README [skip ci]
   - update docker general non-major ([#4181](https://github.com/truecharts/charts/issues/4181))
 
-
-
-
-## [jelu-0.0.38](https://github.com/truecharts/charts/compare/jelu-0.0.37...jelu-0.0.38) (2022-10-24)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4171](https://github.com/truecharts/charts/issues/4171))
-
-
-
-
-## [jelu-0.0.37](https://github.com/truecharts/charts/compare/jelu-0.0.36...jelu-0.0.37) (2022-10-19)

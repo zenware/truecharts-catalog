@@ -9,6 +9,21 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update docker general non-major ([#4331](https://github.com/truecharts/charts/issues/4331))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [vertex-0.0.87](https://github.com/truecharts/charts/compare/vertex-0.0.84...vertex-0.0.87) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update docker general non-major ([#4331](https://github.com/truecharts/charts/issues/4331))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
@@ -82,18 +97,3 @@
 ## [vertex-0.0.80](https://github.com/truecharts/charts/compare/vertex-0.0.79...vertex-0.0.80) (2022-10-29)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4230](https://github.com/truecharts/charts/issues/4230))
-
-
-
-
-## [vertex-0.0.79](https://github.com/truecharts/charts/compare/vertex-0.0.78...vertex-0.0.79) (2022-10-28)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4218](https://github.com/truecharts/charts/issues/4218))
-
-

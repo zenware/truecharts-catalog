@@ -9,6 +9,22 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update docker general non-major ([#4343](https://github.com/truecharts/charts/issues/4343))
+  - update docker general non-major ([#4331](https://github.com/truecharts/charts/issues/4331))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+
+
+
+
+## [cyberchef-2.0.125](https://github.com/truecharts/charts/compare/cyberchef-2.0.122...cyberchef-2.0.125) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update docker general non-major ([#4343](https://github.com/truecharts/charts/issues/4343))
   - update docker general non-major ([#4331](https://github.com/truecharts/charts/issues/4331))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
@@ -81,19 +97,3 @@
 
 
 
-## [cyberchef-2.0.118](https://github.com/truecharts/charts/compare/cyberchef-2.0.117...cyberchef-2.0.118) (2022-11-02)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4261](https://github.com/truecharts/charts/issues/4261))
-  - update docker general non-major ([#4280](https://github.com/truecharts/charts/issues/4280))
-
-
-
-
-## [cyberchef-2.0.117](https://github.com/truecharts/charts/compare/cyberchef-2.0.116...cyberchef-2.0.117) (2022-11-01)
-
-### Chore
-
-- Auto-update chart README [skip ci]

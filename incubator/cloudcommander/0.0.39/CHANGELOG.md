@@ -9,6 +9,20 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [cloudcommander-0.0.39](https://github.com/truecharts/charts/compare/cloudcommander-0.0.37...cloudcommander-0.0.39) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -83,17 +97,3 @@
 - Auto-update chart README [skip ci]
   - update docker general non-major ([#4139](https://github.com/truecharts/charts/issues/4139))
 
-
-
-
-## [cloudcommander-0.0.32](https://github.com/truecharts/charts/compare/cloudcommander-0.0.31...cloudcommander-0.0.32) (2022-10-19)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4122](https://github.com/truecharts/charts/issues/4122))
-
-
-
-
-## [cloudcommander-0.0.31](https://github.com/truecharts/charts/compare/cloudcommander-0.0.30...cloudcommander-0.0.31) (2022-10-12)

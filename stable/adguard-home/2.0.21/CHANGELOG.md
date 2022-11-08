@@ -10,6 +10,21 @@
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [adguard-home-2.0.21](https://github.com/truecharts/charts/compare/adguard-home-2.0.18...adguard-home-2.0.21) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -81,19 +96,4 @@
 ## [adguard-home-2.0.15](https://github.com/truecharts/charts/compare/adguard-home-2.0.14...adguard-home-2.0.15) (2022-11-02)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4261](https://github.com/truecharts/charts/issues/4261))
-
-
-
-
-## [adguard-home-2.0.14](https://github.com/truecharts/charts/compare/adguard-home-2.0.13...adguard-home-2.0.14) (2022-10-25)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
-
-
 

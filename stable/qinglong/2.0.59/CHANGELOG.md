@@ -9,6 +9,21 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update docker general non-major ([#4331](https://github.com/truecharts/charts/issues/4331))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [qinglong-2.0.59](https://github.com/truecharts/charts/compare/qinglong-2.0.56...qinglong-2.0.59) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update docker general non-major ([#4331](https://github.com/truecharts/charts/issues/4331))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
@@ -81,19 +96,4 @@
 ## [qinglong-2.0.52](https://github.com/truecharts/charts/compare/qinglong-2.0.51...qinglong-2.0.52) (2022-10-30)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4238](https://github.com/truecharts/charts/issues/4238))
-
-
-
-
-## [qinglong-2.0.51](https://github.com/truecharts/charts/compare/qinglong-2.0.50...qinglong-2.0.51) (2022-10-25)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
-
-
 

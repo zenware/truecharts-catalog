@@ -9,6 +9,20 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [trilium-notes-5.0.49](https://github.com/truecharts/charts/compare/trilium-notes-5.0.47...trilium-notes-5.0.49) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -83,17 +97,3 @@
 - Auto-update chart README [skip ci]
   - update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
 
-
-
-
-## [trilium-notes-5.0.42](https://github.com/truecharts/charts/compare/trilium-notes-5.0.41...trilium-notes-5.0.42) (2022-10-23)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4165](https://github.com/truecharts/charts/issues/4165))
-
-
-
-
-## [trilium-notes-5.0.41](https://github.com/truecharts/charts/compare/trilium-notes-5.0.40...trilium-notes-5.0.41) (2022-10-19)

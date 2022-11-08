@@ -9,6 +9,20 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [coupon-store-0.0.11](https://github.com/truecharts/charts/compare/coupon-store-0.0.9...coupon-store-0.0.11) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -83,17 +97,3 @@
 - Auto-update chart README [skip ci]
   - update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
 
-
-
-
-## [coupon-store-0.0.4](https://github.com/truecharts/charts/compare/coupon-store-0.0.3...coupon-store-0.0.4) (2022-10-24)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4171](https://github.com/truecharts/charts/issues/4171))
-
-
-
-
-## [coupon-store-0.0.3](https://github.com/truecharts/charts/compare/coupon-store-0.0.2...coupon-store-0.0.3) (2022-10-19)

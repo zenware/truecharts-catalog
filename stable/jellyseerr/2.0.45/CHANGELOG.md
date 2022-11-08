@@ -9,6 +9,20 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [jellyseerr-2.0.45](https://github.com/truecharts/charts/compare/jellyseerr-2.0.43...jellyseerr-2.0.45) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -83,17 +97,3 @@
 - Auto-update chart README [skip ci]
   - update helm general non-major ([#4122](https://github.com/truecharts/charts/issues/4122))
   - update docker general non-major ([#4128](https://github.com/truecharts/charts/issues/4128))
-
-
-
-
-## [jellyseerr-2.0.38](https://github.com/truecharts/charts/compare/jellyseerr-2.0.37...jellyseerr-2.0.38) (2022-10-14)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4084](https://github.com/truecharts/charts/issues/4084))
-
-
-
-

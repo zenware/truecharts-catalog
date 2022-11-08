@@ -9,6 +9,20 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [zwavejs2mqtt-12.0.18](https://github.com/truecharts/charts/compare/zwavejs2mqtt-12.0.16...zwavejs2mqtt-12.0.18) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -83,17 +97,3 @@
 - Auto-update chart README [skip ci]
   - update docker general non-major ([#4189](https://github.com/truecharts/charts/issues/4189))
 
-
-
-
-## [zwavejs2mqtt-12.0.11](https://github.com/truecharts/charts/compare/zwavejs2mqtt-12.0.10...zwavejs2mqtt-12.0.11) (2022-10-25)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
-
-
-
-
-## [zwavejs2mqtt-12.0.10](https://github.com/truecharts/charts/compare/zwavejs2mqtt-12.0.9...zwavejs2mqtt-12.0.10) (2022-10-19)
