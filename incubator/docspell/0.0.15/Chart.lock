@@ -1,0 +1,12 @@
+dependencies:
+- name: common
+  repository: https://library-charts.truecharts.org
+  version: 10.9.1
+- name: postgresql
+  repository: https://charts.truecharts.org/
+  version: 8.0.121
+- name: solr
+  repository: https://charts.truecharts.org/
+  version: 0.0.89
+digest: sha256:8d9c3068b43914e3fe4505e6a9aa44757a854578f34c45ded912d05b7f7c3212
+generated: "2022-11-08T01:35:19.414665725Z"
