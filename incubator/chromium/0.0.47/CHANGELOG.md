@@ -10,6 +10,21 @@
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [chromium-0.0.47](https://github.com/truecharts/charts/compare/ungoogled-chromium-0.0.35...chromium-0.0.47) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -81,19 +96,4 @@
 
 
 ## [chromium-0.0.42](https://github.com/truecharts/charts/compare/chromium-0.0.41...chromium-0.0.42) (2022-10-30)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4238](https://github.com/truecharts/charts/issues/4238))
-
-
-
-
-## [chromium-0.0.41](https://github.com/truecharts/charts/compare/ungoogled-chromium-0.0.32...chromium-0.0.41) (2022-10-28)
-
-### Chore
-
-- update docker general non-major ([#4218](https://github.com/truecharts/charts/issues/4218))
-
 

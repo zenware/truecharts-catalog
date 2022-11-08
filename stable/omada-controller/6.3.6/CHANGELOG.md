@@ -10,6 +10,21 @@
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [omada-controller-6.3.6](https://github.com/truecharts/charts/compare/omada-controller-6.3.4...omada-controller-6.3.6) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -81,19 +96,4 @@
 - Add DHCP Option 138 for APs ([#4285](https://github.com/truecharts/charts/issues/4285))
 
 
-
-
-## [omada-controller-6.3.1](https://github.com/truecharts/charts/compare/omada-controller-6.3.0...omada-controller-6.3.1) (2022-11-02)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4261](https://github.com/truecharts/charts/issues/4261))
-
-
-
-
-## [omada-controller-6.3.0](https://github.com/truecharts/charts/compare/omada-controller-6.2.2...omada-controller-6.3.0) (2022-11-02)
-
-### Chore
 

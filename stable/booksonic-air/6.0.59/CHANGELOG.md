@@ -10,6 +10,22 @@
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update docker general non-major ([#4331](https://github.com/truecharts/charts/issues/4331))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [booksonic-air-6.0.59](https://github.com/truecharts/charts/compare/booksonic-air-6.0.56...booksonic-air-6.0.59) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update docker general non-major ([#4331](https://github.com/truecharts/charts/issues/4331))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
@@ -80,20 +96,4 @@
 - Auto-update chart README [skip ci]
   - update helm general non-major ([#4261](https://github.com/truecharts/charts/issues/4261))
 
-
-
-
-## [booksonic-air-6.0.53](https://github.com/truecharts/charts/compare/booksonic-air-6.0.52...booksonic-air-6.0.53) (2022-10-31)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4249](https://github.com/truecharts/charts/issues/4249))
-
-
-
-
-## [booksonic-air-6.0.52](https://github.com/truecharts/charts/compare/booksonic-air-6.0.51...booksonic-air-6.0.52) (2022-10-25)
-
-### Chore
 

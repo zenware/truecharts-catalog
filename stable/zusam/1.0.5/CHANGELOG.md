@@ -10,6 +10,21 @@
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [zusam-1.0.5](https://github.com/truecharts/charts/compare/zusam-1.0.3...zusam-1.0.5) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -81,19 +96,4 @@
 
 
 ## [zusam-1.0.0](https://github.com/truecharts/charts/compare/zusam-0.0.19...zusam-1.0.0) (2022-11-01)
-
-### Feat
-
-- Move to Stable ([#4262](https://github.com/truecharts/charts/issues/4262))
-
-
-
-
-## [zusam-0.0.19](https://github.com/truecharts/charts/compare/zusam-0.0.18...zusam-0.0.19) (2022-10-25)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
-
 

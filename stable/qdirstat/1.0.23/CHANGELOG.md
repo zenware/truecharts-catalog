@@ -10,6 +10,21 @@
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [qdirstat-1.0.23](https://github.com/truecharts/charts/compare/qdirstat-1.0.21...qdirstat-1.0.23) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -81,19 +96,4 @@
 
 
 ## [qdirstat-1.0.18](https://github.com/truecharts/charts/compare/qdirstat-1.0.17...qdirstat-1.0.18) (2022-10-26)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update container image tccr.io/truecharts/qdirstat to v22.10.1 ([#4194](https://github.com/truecharts/charts/issues/4194))
-
-
-
-
-## [qdirstat-1.0.17](https://github.com/truecharts/charts/compare/qdirstat-1.0.16...qdirstat-1.0.17) (2022-10-25)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
 

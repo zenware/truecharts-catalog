@@ -10,6 +10,21 @@
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [minio-console-3.0.56](https://github.com/truecharts/charts/compare/minio-console-3.0.54...minio-console-3.0.56) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -81,19 +96,4 @@
 
 
 ## [minio-console-3.0.51](https://github.com/truecharts/charts/compare/minio-console-3.0.50...minio-console-3.0.51) (2022-10-25)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
-
-
-
-
-## [minio-console-3.0.50](https://github.com/truecharts/charts/compare/minio-console-3.0.49...minio-console-3.0.50) (2022-10-25)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4181](https://github.com/truecharts/charts/issues/4181))
 

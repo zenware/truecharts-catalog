@@ -10,6 +10,22 @@
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update docker general non-major ([#4343](https://github.com/truecharts/charts/issues/4343))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [ombi-11.0.60](https://github.com/truecharts/charts/compare/ombi-11.0.58...ombi-11.0.60) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update docker general non-major ([#4343](https://github.com/truecharts/charts/issues/4343))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
@@ -81,19 +97,3 @@
 - Auto-update chart README [skip ci]
   - update helm general non-major ([#4308](https://github.com/truecharts/charts/issues/4308))
 
-
-
-
-## [ombi-11.0.55](https://github.com/truecharts/charts/compare/ombi-11.0.54...ombi-11.0.55) (2022-11-02)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4261](https://github.com/truecharts/charts/issues/4261))
-
-
-
-
-## [ombi-11.0.54](https://github.com/truecharts/charts/compare/ombi-11.0.53...ombi-11.0.54) (2022-10-26)
-
-### Chore

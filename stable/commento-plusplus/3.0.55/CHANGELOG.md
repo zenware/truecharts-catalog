@@ -10,6 +10,21 @@
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [commento-plusplus-3.0.55](https://github.com/truecharts/charts/compare/commento-plusplus-3.0.53...commento-plusplus-3.0.55) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -81,19 +96,4 @@
 
 
 ## [commento-plusplus-3.0.50](https://github.com/truecharts/charts/compare/commento-plusplus-3.0.49...commento-plusplus-3.0.50) (2022-10-26)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4189](https://github.com/truecharts/charts/issues/4189))
-
-
-
-
-## [commento-plusplus-3.0.49](https://github.com/truecharts/charts/compare/commento-plusplus-3.0.48...commento-plusplus-3.0.49) (2022-10-25)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major
 

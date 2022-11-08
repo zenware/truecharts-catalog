@@ -10,6 +10,21 @@
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [firefox-2.0.43](https://github.com/truecharts/charts/compare/firefox-desktop-g3-0.0.40...firefox-2.0.43) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -82,18 +97,3 @@
 ## [firefox-2.0.38](https://github.com/truecharts/charts/compare/firefox-syncserver-9.0.46...firefox-2.0.38) (2022-10-26)
 
 ### Chore
-
-- update container image tccr.io/truecharts/firefox to v101.0.1 ([#4191](https://github.com/truecharts/charts/issues/4191))
-
-
-
-
-## [firefox-2.0.37](https://github.com/truecharts/charts/compare/firefox-syncserver-9.0.44...firefox-2.0.37) (2022-10-25)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
-
-
-

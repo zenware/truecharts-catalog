@@ -10,6 +10,21 @@
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [ring-mqtt-1.0.19](https://github.com/truecharts/charts/compare/ring-mqtt-1.0.17...ring-mqtt-1.0.19) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -81,19 +96,4 @@
 
 
 ## [ring-mqtt-1.0.14](https://github.com/truecharts/charts/compare/ring-mqtt-1.0.13...ring-mqtt-1.0.14) (2022-10-25)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-
-
-
-
-## [ring-mqtt-1.0.13](https://github.com/truecharts/charts/compare/ring-mqtt-1.0.12...ring-mqtt-1.0.13) (2022-10-25)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
-
 

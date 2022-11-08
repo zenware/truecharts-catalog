@@ -10,6 +10,24 @@
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update docker general non-major ([#4343](https://github.com/truecharts/charts/issues/4343))
+  - update docker general non-major ([#4331](https://github.com/truecharts/charts/issues/4331))
+  - update docker general non-major ([#4347](https://github.com/truecharts/charts/issues/4347))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+
+
+
+
+## [rsshub-3.0.143](https://github.com/truecharts/charts/compare/rsshub-3.0.139...rsshub-3.0.143) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update docker general non-major ([#4343](https://github.com/truecharts/charts/issues/4343))
   - update docker general non-major ([#4331](https://github.com/truecharts/charts/issues/4331))
   - update docker general non-major ([#4347](https://github.com/truecharts/charts/issues/4347))
@@ -79,21 +97,3 @@
 
 
 ## [rsshub-3.0.137](https://github.com/truecharts/charts/compare/rsshub-3.0.136...rsshub-3.0.137) (2022-11-05)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4308](https://github.com/truecharts/charts/issues/4308))
-
-
-
-
-## [rsshub-3.0.136](https://github.com/truecharts/charts/compare/rsshub-3.0.135...rsshub-3.0.136) (2022-11-05)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4301](https://github.com/truecharts/charts/issues/4301))
-
-
-

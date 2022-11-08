@@ -10,6 +10,21 @@
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [tubearchivist-redisjson-0.0.37](https://github.com/truecharts/charts/compare/tubearchivist-redisjson-0.0.35...tubearchivist-redisjson-0.0.37) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -81,19 +96,4 @@
 
 
 ## [tubearchivist-redisjson-0.0.32](https://github.com/truecharts/charts/compare/tubearchivist-redisjson-0.0.31...tubearchivist-redisjson-0.0.32) (2022-10-29)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4230](https://github.com/truecharts/charts/issues/4230))
-
-
-
-
-## [tubearchivist-redisjson-0.0.31](https://github.com/truecharts/charts/compare/tubearchivist-redisjson-0.0.30...tubearchivist-redisjson-0.0.31) (2022-10-25)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
 

@@ -10,6 +10,22 @@
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update docker general non-major ([#4331](https://github.com/truecharts/charts/issues/4331))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [photoprism-10.0.59](https://github.com/truecharts/charts/compare/photoprism-10.0.56...photoprism-10.0.59) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update docker general non-major ([#4331](https://github.com/truecharts/charts/issues/4331))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
@@ -80,20 +96,4 @@
 - Auto-update chart README [skip ci]
   - update docker general non-major ([#4286](https://github.com/truecharts/charts/issues/4286))
 
-
-
-
-## [photoprism-10.0.53](https://github.com/truecharts/charts/compare/photoprism-10.0.52...photoprism-10.0.53) (2022-11-02)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4261](https://github.com/truecharts/charts/issues/4261))
-
-
-
-
-## [photoprism-10.0.52](https://github.com/truecharts/charts/compare/photoprism-10.0.51...photoprism-10.0.52) (2022-10-25)
-
-### Chore
 

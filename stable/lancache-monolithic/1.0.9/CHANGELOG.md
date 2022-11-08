@@ -10,6 +10,21 @@
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [lancache-monolithic-1.0.9](https://github.com/truecharts/charts/compare/lancache-monolithic-1.0.7...lancache-monolithic-1.0.9) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -81,19 +96,4 @@
 
 
 ## [lancache-monolithic-1.0.4](https://github.com/truecharts/charts/compare/lancache-monolithic-1.0.3...lancache-monolithic-1.0.4) (2022-11-01)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4260](https://github.com/truecharts/charts/issues/4260))
-
-
-
-
-## [lancache-monolithic-1.0.3](https://github.com/truecharts/charts/compare/lancache-monolithic-1.0.2...lancache-monolithic-1.0.3) (2022-10-25)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
 

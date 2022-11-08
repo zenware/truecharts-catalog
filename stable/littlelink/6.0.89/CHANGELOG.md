@@ -10,6 +10,23 @@
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update docker general non-major ([#4347](https://github.com/truecharts/charts/issues/4347))
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update docker general non-major ([#4331](https://github.com/truecharts/charts/issues/4331))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [littlelink-6.0.89](https://github.com/truecharts/charts/compare/littlelink-6.0.85...littlelink-6.0.89) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update docker general non-major ([#4347](https://github.com/truecharts/charts/issues/4347))
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update docker general non-major ([#4331](https://github.com/truecharts/charts/issues/4331))
@@ -80,20 +97,3 @@
 
 - Auto-update chart README [skip ci]
   - update docker general non-major ([#4301](https://github.com/truecharts/charts/issues/4301))
-
-
-
-
-## [littlelink-6.0.82](https://github.com/truecharts/charts/compare/littlelink-6.0.81...littlelink-6.0.82) (2022-11-04)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4293](https://github.com/truecharts/charts/issues/4293))
-
-
-
-
-## [littlelink-6.0.81](https://github.com/truecharts/charts/compare/littlelink-6.0.80...littlelink-6.0.81) (2022-11-02)
-
-### Chore

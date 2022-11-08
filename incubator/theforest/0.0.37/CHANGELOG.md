@@ -10,6 +10,21 @@
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [theforest-0.0.37](https://github.com/truecharts/charts/compare/theforest-0.0.35...theforest-0.0.37) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -81,19 +96,4 @@
 
 
 ## [theforest-0.0.32](https://github.com/truecharts/charts/compare/theforest-0.0.31...theforest-0.0.32) (2022-10-26)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4189](https://github.com/truecharts/charts/issues/4189))
-
-
-
-
-## [theforest-0.0.31](https://github.com/truecharts/charts/compare/theforest-0.0.30...theforest-0.0.31) (2022-10-25)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
 

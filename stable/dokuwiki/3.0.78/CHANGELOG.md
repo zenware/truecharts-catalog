@@ -10,6 +10,22 @@
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update docker general non-major ([#4343](https://github.com/truecharts/charts/issues/4343))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [dokuwiki-3.0.78](https://github.com/truecharts/charts/compare/dokuwiki-3.0.76...dokuwiki-3.0.78) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update docker general non-major ([#4343](https://github.com/truecharts/charts/issues/4343))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
@@ -80,20 +96,4 @@
   - update docker general non-major ([#4301](https://github.com/truecharts/charts/issues/4301))
 
 
-
-
-## [dokuwiki-3.0.73](https://github.com/truecharts/charts/compare/dokuwiki-3.0.72...dokuwiki-3.0.73) (2022-11-02)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4261](https://github.com/truecharts/charts/issues/4261))
-  - update docker general non-major ([#4280](https://github.com/truecharts/charts/issues/4280))
-
-
-
-
-## [dokuwiki-3.0.72](https://github.com/truecharts/charts/compare/dokuwiki-3.0.71...dokuwiki-3.0.72) (2022-10-30)
-
-### Chore
 

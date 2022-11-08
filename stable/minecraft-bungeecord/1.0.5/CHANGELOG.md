@@ -10,6 +10,21 @@
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [minecraft-bungeecord-1.0.5](https://github.com/truecharts/charts/compare/minecraft-bungeecord-1.0.3...minecraft-bungeecord-1.0.5) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -81,19 +96,4 @@
 
 
 ## [minecraft-bungeecord-1.0.0](https://github.com/truecharts/charts/compare/minecraft-bungeecord-0.0.30...minecraft-bungeecord-1.0.0) (2022-10-30)
-
-
-
-
-## [minecraft-bungeecord-0.0.30](https://github.com/truecharts/charts/compare/minecraft-bungeecord-0.0.29...minecraft-bungeecord-0.0.30) (2022-10-25)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
-
-
-
-
-## [minecraft-bungeecord-0.0.29](https://github.com/truecharts/charts/compare/minecraft-bungeecord-0.0.28...minecraft-bungeecord-0.0.29) (2022-10-22)
 

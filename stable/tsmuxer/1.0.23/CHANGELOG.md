@@ -10,6 +10,22 @@
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update docker general non-major ([#4343](https://github.com/truecharts/charts/issues/4343))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [tsmuxer-1.0.23](https://github.com/truecharts/charts/compare/tsmuxer-1.0.21...tsmuxer-1.0.23) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update docker general non-major ([#4343](https://github.com/truecharts/charts/issues/4343))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
@@ -81,19 +97,3 @@
 
 
 
-
-## [tsmuxer-1.0.18](https://github.com/truecharts/charts/compare/tsmuxer-1.0.17...tsmuxer-1.0.18) (2022-11-01)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4260](https://github.com/truecharts/charts/issues/4260))
-
-
-
-
-## [tsmuxer-1.0.17](https://github.com/truecharts/charts/compare/tsmuxer-1.0.16...tsmuxer-1.0.17) (2022-10-31)
-
-### Chore
-
-- Auto-update chart README [skip ci]

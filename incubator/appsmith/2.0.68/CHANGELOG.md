@@ -10,6 +10,21 @@
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [appsmith-2.0.68](https://github.com/truecharts/charts/compare/appsmith-2.0.66...appsmith-2.0.68) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -81,19 +96,4 @@
 
 
 ## [appsmith-2.0.63](https://github.com/truecharts/charts/compare/appsmith-2.0.62...appsmith-2.0.63) (2022-11-02)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4261](https://github.com/truecharts/charts/issues/4261))
-
-
-
-
-## [appsmith-2.0.62](https://github.com/truecharts/charts/compare/appsmith-2.0.61...appsmith-2.0.62) (2022-10-28)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4218](https://github.com/truecharts/charts/issues/4218))
 

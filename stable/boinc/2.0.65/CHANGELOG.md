@@ -10,6 +10,21 @@
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [boinc-2.0.65](https://github.com/truecharts/charts/compare/boinc-2.0.63...boinc-2.0.65) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -82,18 +97,3 @@
 
 
 
-## [boinc-2.0.60](https://github.com/truecharts/charts/compare/boinc-2.0.59...boinc-2.0.60) (2022-11-02)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4261](https://github.com/truecharts/charts/issues/4261))
-
-
-
-
-## [boinc-2.0.59](https://github.com/truecharts/charts/compare/boinc-2.0.58...boinc-2.0.59) (2022-10-25)
-
-### Chore
-
-- Auto-update chart README [skip ci]

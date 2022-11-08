@@ -10,6 +10,21 @@
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [googlephotossync-0.0.46](https://github.com/truecharts/charts/compare/googlephotossync-0.0.44...googlephotossync-0.0.46) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -81,19 +96,4 @@
 
 
 ## [googlephotossync-0.0.41](https://github.com/truecharts/charts/compare/googlephotossync-0.0.40...googlephotossync-0.0.41) (2022-10-31)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4249](https://github.com/truecharts/charts/issues/4249))
-
-
-
-
-## [googlephotossync-0.0.40](https://github.com/truecharts/charts/compare/googlephotossync-0.0.39...googlephotossync-0.0.40) (2022-10-25)
-
-### Chore
-
-- Auto-update chart README [skip ci]
-  - update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
 

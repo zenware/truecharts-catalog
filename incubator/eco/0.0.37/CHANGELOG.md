@@ -10,6 +10,21 @@
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
+  - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
+
+
+
+
+## [eco-0.0.37](https://github.com/truecharts/charts/compare/deconz-8.0.48...eco-0.0.37) (2022-11-08)
+
+### Chore
+
+- Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
+  - Auto-update chart README [skip ci]
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
@@ -82,18 +97,3 @@
 ## [eco-0.0.32](https://github.com/truecharts/charts/compare/doublecommander-4.0.37...eco-0.0.32) (2022-10-26)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
-  - update docker general non-major ([#4189](https://github.com/truecharts/charts/issues/4189))
-
-
-
-
-## [eco-0.0.31](https://github.com/truecharts/charts/compare/deconz-8.0.44...eco-0.0.31) (2022-10-25)
-
-### Chore
-
-- update helm general non-major ([#4182](https://github.com/truecharts/charts/issues/4182))
-
-
-
