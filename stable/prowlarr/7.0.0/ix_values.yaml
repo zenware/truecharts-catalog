@@ -1,0 +1,22 @@
+image:
+  repository: tccr.io/truecharts/prowlarr
+  tag: 0.4.8.2072@sha256:e0af88a518c312bed38597b1aeda790671d57fd0428fa22246a9792bfd9dbafc
+  pullPolicy: IfNotPresent
+
+securityContext:
+  readOnlyRootFilesystem: false
+
+service:
+  main:
+    ports:
+      main:
+        port: 9696
+        targetPort: 9696
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+
+portal:
+  enabled: true
