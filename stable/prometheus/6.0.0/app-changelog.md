@@ -4,6 +4,7 @@
 
 ### Feat
 
-- remove operator due to move to included manifest ([#4378](https://github.com/truecharts/charts/issues/4378))
+- readd ingressList to all Apps that already have Ingress itself
+  - remove operator due to move to included manifest ([#4378](https://github.com/truecharts/charts/issues/4378))
   
   
