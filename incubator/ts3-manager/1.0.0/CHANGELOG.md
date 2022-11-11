@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [ts3-manager-0.0.24](https://github.com/truecharts/charts/compare/ts3-manager-0.0.23...ts3-manager-0.0.24) (2022-11-06)
 

@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [etherpad-8.0.50](https://github.com/truecharts/charts/compare/etherpad-8.0.49...etherpad-8.0.50) (2022-11-06)
 

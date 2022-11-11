@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [lenpaste-0.0.14](https://github.com/truecharts/charts/compare/lenpaste-0.0.13...lenpaste-0.0.14) (2022-11-06)
 

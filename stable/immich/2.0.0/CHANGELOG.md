@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [immich-1.0.7](https://github.com/truecharts/charts/compare/immich-1.0.6...immich-1.0.7) (2022-11-06)
 

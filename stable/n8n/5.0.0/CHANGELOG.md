@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [n8n-4.0.78](https://github.com/truecharts/charts/compare/n8n-4.0.77...n8n-4.0.78) (2022-11-06)
 

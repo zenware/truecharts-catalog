@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [onlyoffice-document-server-6.0.52](https://github.com/truecharts/charts/compare/onlyoffice-document-server-6.0.51...onlyoffice-document-server-6.0.52) (2022-11-06)
 

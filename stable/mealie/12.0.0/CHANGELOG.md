@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [mealie-11.0.4](https://github.com/truecharts/charts/compare/mealie-11.0.3...mealie-11.0.4) (2022-11-06)
 

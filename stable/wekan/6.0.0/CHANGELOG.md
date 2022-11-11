@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [wekan-5.0.23](https://github.com/truecharts/charts/compare/wekan-5.0.22...wekan-5.0.23) (2022-11-06)
 

@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [domoticz-2.0.53](https://github.com/truecharts/charts/compare/domoticz-2.0.52...domoticz-2.0.53) (2022-11-06)
 

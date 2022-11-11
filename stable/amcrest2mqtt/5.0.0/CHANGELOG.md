@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [amcrest2mqtt-4.0.43](https://github.com/truecharts/charts/compare/amcrest2mqtt-4.0.42...amcrest2mqtt-4.0.43) (2022-11-06)
 

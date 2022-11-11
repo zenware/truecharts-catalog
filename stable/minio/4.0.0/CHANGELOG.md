@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -95,5 +97,3 @@
 ## [minio-3.0.76](https://github.com/truecharts/charts/compare/minio-3.0.74...minio-3.0.76) (2022-11-08)
 
 ### Chore
-
-- Auto-update chart README [skip ci]

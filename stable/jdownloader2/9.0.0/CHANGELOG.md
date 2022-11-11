@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [jdownloader2-8.0.45](https://github.com/truecharts/charts/compare/jdownloader2-8.0.44...jdownloader2-8.0.45) (2022-11-06)
 

@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [flexget-2.0.64](https://github.com/truecharts/charts/compare/flexget-2.0.63...flexget-2.0.64) (2022-11-06)
 

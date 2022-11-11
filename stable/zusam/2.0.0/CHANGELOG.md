@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [zusam-1.0.4](https://github.com/truecharts/charts/compare/zusam-1.0.3...zusam-1.0.4) (2022-11-06)
 

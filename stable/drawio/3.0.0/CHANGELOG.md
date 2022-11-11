@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [drawio-2.0.61](https://github.com/truecharts/charts/compare/drawio-2.0.60...drawio-2.0.61) (2022-11-06)
 

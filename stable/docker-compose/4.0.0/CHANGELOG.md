@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [docker-compose-3.0.9](https://github.com/truecharts/charts/compare/docker-compose-3.0.8...docker-compose-3.0.9) (2022-11-06)
 

@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [friendica-4.0.63](https://github.com/truecharts/charts/compare/friendica-4.0.62...friendica-4.0.63) (2022-11-06)
 

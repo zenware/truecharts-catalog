@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 ## [ra-rom-processor-0.0.47](https://github.com/truecharts/charts/compare/ra-rom-processor-0.0.46...ra-rom-processor-0.0.47) (2022-11-07)
-
-### Chore
 

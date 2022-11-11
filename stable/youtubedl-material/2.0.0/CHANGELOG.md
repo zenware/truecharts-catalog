@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [youtubedl-material-1.1.4](https://github.com/truecharts/charts/compare/youtubedl-material-1.1.3...youtubedl-material-1.1.4) (2022-11-06)
 

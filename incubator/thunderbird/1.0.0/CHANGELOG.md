@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [thunderbird-0.0.43](https://github.com/truecharts/charts/compare/thunderbird-0.0.42...thunderbird-0.0.43) (2022-11-06)
 

@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [filebot-1.0.21](https://github.com/truecharts/charts/compare/filebot-1.0.20...filebot-1.0.21) (2022-11-06)
 

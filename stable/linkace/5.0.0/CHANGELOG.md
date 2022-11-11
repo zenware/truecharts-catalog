@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [logitech-media-server-4.0.57](https://github.com/truecharts/charts/compare/logitech-media-server-4.0.56...logitech-media-server-4.0.57) (2022-11-06)
 

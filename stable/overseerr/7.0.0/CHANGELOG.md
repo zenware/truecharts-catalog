@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [overseerr-6.0.45](https://github.com/truecharts/charts/compare/overseerr-6.0.44...overseerr-6.0.45) (2022-11-06)
 

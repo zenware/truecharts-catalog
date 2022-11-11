@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [kasm-1.0.5](https://github.com/truecharts/charts/compare/kasm-1.0.4...kasm-1.0.5) (2022-11-06)
 

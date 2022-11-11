@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -95,5 +97,3 @@
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
 
   ### Fix
-
-- replace multiinit reference ([#4335](https://github.com/truecharts/charts/issues/4335))

@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -95,5 +97,3 @@
 
 
 ## [cryptpad-0.0.92](https://github.com/truecharts/charts/compare/cryptpad-0.0.90...cryptpad-0.0.92) (2022-11-07)
-
-### Chore

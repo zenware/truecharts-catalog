@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [fireflyiii-16.0.58](https://github.com/truecharts/charts/compare/fireflyiii-data-importer-0.0.7...fireflyiii-16.0.58) (2022-11-06)
 

@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [plausible-1.0.33](https://github.com/truecharts/charts/compare/plausible-1.0.32...plausible-1.0.33) (2022-11-06)
 

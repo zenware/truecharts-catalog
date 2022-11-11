@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [golinks-4.0.41](https://github.com/truecharts/charts/compare/golinks-4.0.40...golinks-4.0.41) (2022-11-06)
 

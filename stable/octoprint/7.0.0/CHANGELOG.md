@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [octoprint-6.0.46](https://github.com/truecharts/charts/compare/octoprint-6.0.45...octoprint-6.0.46) (2022-11-06)
 

@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [pylon-2.0.41](https://github.com/truecharts/charts/compare/pylon-2.0.40...pylon-2.0.41) (2022-11-06)
 

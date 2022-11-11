@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [zerotier-2.0.44](https://github.com/truecharts/charts/compare/zerotier-2.0.43...zerotier-2.0.44) (2022-11-06)
 

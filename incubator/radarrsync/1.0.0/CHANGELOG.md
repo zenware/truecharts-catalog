@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [radarrsync-0.0.35](https://github.com/truecharts/charts/compare/radarrsync-0.0.34...radarrsync-0.0.35) (2022-11-06)
 

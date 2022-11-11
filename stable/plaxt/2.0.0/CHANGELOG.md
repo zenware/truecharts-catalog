@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [plaxt-1.0.13](https://github.com/truecharts/charts/compare/plaxt-1.0.12...plaxt-1.0.13) (2022-11-06)
 

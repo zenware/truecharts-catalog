@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -95,5 +97,3 @@
 ## [cloudflared-1.0.31](https://github.com/truecharts/charts/compare/cloudflared-1.0.28...cloudflared-1.0.31) (2022-11-08)
 
 ### Chore
-
-- Auto-update chart README [skip ci]

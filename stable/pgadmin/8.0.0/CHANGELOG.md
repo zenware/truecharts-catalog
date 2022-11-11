@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 ## [pgadmin-7.0.44](https://github.com/truecharts/charts/compare/pgadmin-7.0.43...pgadmin-7.0.44) (2022-11-05)
-
-### Chore
 

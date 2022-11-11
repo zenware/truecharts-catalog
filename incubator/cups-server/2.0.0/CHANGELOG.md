@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [cups-server-1.0.62](https://github.com/truecharts/charts/compare/cups-server-1.0.61...cups-server-1.0.62) (2022-11-06)
 

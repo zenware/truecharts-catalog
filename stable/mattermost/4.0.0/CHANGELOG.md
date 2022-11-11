@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [mattermost-3.0.57](https://github.com/truecharts/charts/compare/mattermost-3.0.56...mattermost-3.0.57) (2022-11-06)
 

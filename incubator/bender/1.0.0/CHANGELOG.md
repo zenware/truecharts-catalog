@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [bender-0.0.12](https://github.com/truecharts/charts/compare/bender-0.0.11...bender-0.0.12) (2022-11-06)
 

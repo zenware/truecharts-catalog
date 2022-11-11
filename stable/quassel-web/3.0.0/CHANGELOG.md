@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [quassel-web-2.0.41](https://github.com/truecharts/charts/compare/quassel-web-2.0.40...quassel-web-2.0.41) (2022-11-06)
 

@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [timetagger-0.0.26](https://github.com/truecharts/charts/compare/timetagger-0.0.25...timetagger-0.0.26) (2022-11-06)
 

@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [microbin-0.0.10](https://github.com/truecharts/charts/compare/microbin-0.0.9...microbin-0.0.10) (2022-11-06)
 

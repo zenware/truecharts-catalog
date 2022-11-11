@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [rcon-webadmin-1.0.12](https://github.com/truecharts/charts/compare/rcon-webadmin-1.0.11...rcon-webadmin-1.0.12) (2022-11-06)
 

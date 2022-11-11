@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [qdirstat-1.0.22](https://github.com/truecharts/charts/compare/qdirstat-1.0.21...qdirstat-1.0.22) (2022-11-06)
 

@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [ztcuui-aio-1.0.19](https://github.com/truecharts/charts/compare/ztcuui-aio-1.0.18...ztcuui-aio-1.0.19) (2022-11-06)
 

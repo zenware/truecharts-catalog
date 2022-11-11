@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [synapse-4.0.60](https://github.com/truecharts/charts/compare/synapse-4.0.59...synapse-4.0.60) (2022-11-06)
 

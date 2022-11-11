@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [lychee-13.0.56](https://github.com/truecharts/charts/compare/lychee-13.0.55...lychee-13.0.56) (2022-11-06)
 

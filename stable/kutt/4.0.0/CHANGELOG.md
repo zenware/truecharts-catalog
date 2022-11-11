@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [kutt-3.0.51](https://github.com/truecharts/charts/compare/kutt-3.0.50...kutt-3.0.51) (2022-11-06)
 

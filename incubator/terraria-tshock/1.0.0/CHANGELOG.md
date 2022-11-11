@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [terraria-tshock-0.0.34](https://github.com/truecharts/charts/compare/terraria-tshock-0.0.33...terraria-tshock-0.0.34) (2022-11-06)
 

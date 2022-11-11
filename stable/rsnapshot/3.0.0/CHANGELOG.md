@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -95,5 +97,3 @@
 
 ### Chore
 
-- Auto-update chart README [skip ci]
-  - Auto-update chart README [skip ci]

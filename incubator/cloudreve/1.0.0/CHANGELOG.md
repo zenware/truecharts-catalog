@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 ## [cloudreve-0.0.33](https://github.com/truecharts/charts/compare/cloudreve-0.0.32...cloudreve-0.0.33) (2022-11-05)
-
-### Chore
 

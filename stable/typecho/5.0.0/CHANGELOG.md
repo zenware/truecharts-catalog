@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [typecho-4.0.14](https://github.com/truecharts/charts/compare/typecho-4.0.13...typecho-4.0.14) (2022-11-06)
 

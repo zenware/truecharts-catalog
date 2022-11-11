@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [novnc-3.0.42](https://github.com/truecharts/charts/compare/cura-novnc-0.0.41...novnc-3.0.42) (2022-11-06)
 

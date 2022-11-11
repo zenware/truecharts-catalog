@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [shlink-web-client-3.0.44](https://github.com/truecharts/charts/compare/shlink-web-client-3.0.43...shlink-web-client-3.0.44) (2022-11-06)
 

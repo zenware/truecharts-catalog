@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 ## [recipes-8.0.74](https://github.com/truecharts/charts/compare/recipes-8.0.73...recipes-8.0.74) (2022-11-07)
-
-### Chore
 

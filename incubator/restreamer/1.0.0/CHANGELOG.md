@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [restreamer-0.1.14](https://github.com/truecharts/charts/compare/restreamer-0.1.13...restreamer-0.1.14) (2022-11-06)
 

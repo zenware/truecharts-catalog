@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [conreq-0.0.39](https://github.com/truecharts/charts/compare/conreq-0.0.38...conreq-0.0.39) (2022-11-06)
 

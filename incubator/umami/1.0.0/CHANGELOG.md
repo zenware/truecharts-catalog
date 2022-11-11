@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [umami-0.0.17](https://github.com/truecharts/charts/compare/umami-0.0.16...umami-0.0.17) (2022-11-06)
 

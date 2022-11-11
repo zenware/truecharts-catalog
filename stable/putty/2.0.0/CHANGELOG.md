@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [putty-1.0.21](https://github.com/truecharts/charts/compare/putty-1.0.20...putty-1.0.21) (2022-11-06)
 

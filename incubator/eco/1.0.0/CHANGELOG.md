@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [eco-0.0.36](https://github.com/truecharts/charts/compare/deconz-8.0.48...eco-0.0.36) (2022-11-06)
 

@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [phoenixstats-0.1.7](https://github.com/truecharts/charts/compare/phoenixstats-0.1.6...phoenixstats-0.1.7) (2022-11-06)
 

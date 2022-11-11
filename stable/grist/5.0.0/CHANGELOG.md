@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [grist-4.0.8](https://github.com/truecharts/charts/compare/grist-4.0.7...grist-4.0.8) (2022-11-06)
 

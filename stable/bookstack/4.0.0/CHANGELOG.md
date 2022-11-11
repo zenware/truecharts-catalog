@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [bookstack-3.0.54](https://github.com/truecharts/charts/compare/bookstack-3.0.53...bookstack-3.0.54) (2022-11-06)
 

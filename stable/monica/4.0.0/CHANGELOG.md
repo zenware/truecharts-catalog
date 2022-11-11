@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [monica-3.0.68](https://github.com/truecharts/charts/compare/monica-3.0.67...monica-3.0.68) (2022-11-06)
 

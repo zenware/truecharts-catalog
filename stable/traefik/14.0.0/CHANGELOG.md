@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 ## [traefik-13.5.1](https://github.com/truecharts/charts/compare/traefik-13.5.0...traefik-13.5.1) (2022-11-05)
-
-### Chore
 

@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -95,5 +97,3 @@
 
 
 ## [tailscale-1.1.26](https://github.com/truecharts/charts/compare/tailscale-1.1.22...tailscale-1.1.26) (2022-11-08)
-
-### Chore

@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [inventree-4.0.31](https://github.com/truecharts/charts/compare/inventree-4.0.30...inventree-4.0.31) (2022-11-06)
 

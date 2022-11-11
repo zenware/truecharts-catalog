@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -95,5 +97,3 @@
 ## [pyload-ng-0.0.45](https://github.com/truecharts/charts/compare/pyload-ng-0.0.43...pyload-ng-0.0.45) (2022-11-08)
 
 ### Chore
-
-- Auto-update chart README [skip ci]

@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [yourls-0.0.46](https://github.com/truecharts/charts/compare/yourls-0.0.45...yourls-0.0.46) (2022-11-06)
 

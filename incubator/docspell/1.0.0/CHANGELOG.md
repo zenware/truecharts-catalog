@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [docspell-0.0.14](https://github.com/truecharts/charts/compare/docspell-0.0.13...docspell-0.0.14) (2022-11-06)
 

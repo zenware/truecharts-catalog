@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [core-keeper-dedicated-server-0.0.38](https://github.com/truecharts/charts/compare/core-keeper-dedicated-server-0.0.37...core-keeper-dedicated-server-0.0.38) (2022-11-06)
 

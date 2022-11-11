@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [counterstrike2d-0.0.36](https://github.com/truecharts/charts/compare/counterstrike2d-0.0.35...counterstrike2d-0.0.36) (2022-11-06)
 

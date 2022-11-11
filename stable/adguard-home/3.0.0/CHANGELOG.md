@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -95,5 +97,3 @@
 
 
 ## [adguard-home-2.0.20](https://github.com/truecharts/charts/compare/adguard-home-2.0.18...adguard-home-2.0.20) (2022-11-07)
-
-### Chore

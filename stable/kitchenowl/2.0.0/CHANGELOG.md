@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -93,7 +95,5 @@
   - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
   - update docker general non-major ([#4331](https://github.com/truecharts/charts/issues/4331))
   - update helm general non-major ([#4329](https://github.com/truecharts/charts/issues/4329))
-
-
 
 

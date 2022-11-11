@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [wireguard-1.0.16](https://github.com/truecharts/charts/compare/wireguard-1.0.15...wireguard-1.0.16) (2022-11-06)
 

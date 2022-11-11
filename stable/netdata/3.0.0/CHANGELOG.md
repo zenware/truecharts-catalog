@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [netdata-2.0.48](https://github.com/truecharts/charts/compare/netdata-2.0.47...netdata-2.0.48) (2022-11-06)
 

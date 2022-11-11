@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 ## [gotify-8.0.51](https://github.com/truecharts/charts/compare/gotify-8.0.50...gotify-8.0.51) (2022-11-05)
-
-### Chore
 

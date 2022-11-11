@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -95,5 +97,3 @@
 ## [nextcloud-16.0.4](https://github.com/truecharts/charts/compare/nextcloud-16.0.2...nextcloud-16.0.4) (2022-11-08)
 
 ### Chore
-
-- Auto-update chart README [skip ci]

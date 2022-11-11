@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [kanboard-8.0.52](https://github.com/truecharts/charts/compare/kanboard-8.0.51...kanboard-8.0.52) (2022-11-06)
 

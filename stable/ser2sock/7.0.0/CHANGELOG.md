@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [ser2sock-6.0.44](https://github.com/truecharts/charts/compare/ser2sock-6.0.43...ser2sock-6.0.44) (2022-11-06)
 

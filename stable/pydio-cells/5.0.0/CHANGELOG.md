@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 ## [pydio-cells-4.0.47](https://github.com/truecharts/charts/compare/pydio-cells-4.0.46...pydio-cells-4.0.47) (2022-11-05)
-
-### Chore
 

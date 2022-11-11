@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -95,5 +97,3 @@
 ## [raneto-0.0.43](https://github.com/truecharts/charts/compare/raneto-0.0.41...raneto-0.0.43) (2022-11-08)
 
 ### Chore
-
-- Auto-update chart README [skip ci]

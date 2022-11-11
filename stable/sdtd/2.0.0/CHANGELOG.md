@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [sdtd-1.0.15](https://github.com/truecharts/charts/compare/sdtd-1.0.14...sdtd-1.0.15) (2022-11-06)
 

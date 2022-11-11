@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [minecraft-java-1.0.75](https://github.com/truecharts/charts/compare/minecraft-java-1.0.74...minecraft-java-1.0.75) (2022-11-06)
 

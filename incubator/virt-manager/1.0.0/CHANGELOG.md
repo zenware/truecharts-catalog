@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -95,5 +97,3 @@
 - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
   - Auto-update chart README [skip ci]
-  - update helm general non-major ([#4342](https://github.com/truecharts/charts/issues/4342))
-  - update docker general non-major ([#4343](https://github.com/truecharts/charts/issues/4343))

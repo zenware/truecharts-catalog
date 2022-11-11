@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -95,5 +97,3 @@
 ## [portainer-ce-1.0.12](https://github.com/truecharts/charts/compare/portainer-ce-1.0.10...portainer-ce-1.0.12) (2022-11-08)
 
 ### Chore
-
-- Auto-update chart README [skip ci]

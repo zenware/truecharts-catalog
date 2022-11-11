@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 - Auto-update chart README [skip ci]
   - update helm chart common to v10.7.15
-
-
 

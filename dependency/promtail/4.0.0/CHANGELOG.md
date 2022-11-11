@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -95,5 +97,3 @@
 
 
 
-
-## [redis-3.0.111](https://github.com/truecharts/charts/compare/redis-3.0.110...redis-3.0.111) (2022-11-01)

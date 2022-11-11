@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [tracks-0.0.44](https://github.com/truecharts/charts/compare/tracks-0.0.43...tracks-0.0.44) (2022-11-06)
 

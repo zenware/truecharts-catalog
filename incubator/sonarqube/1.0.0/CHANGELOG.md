@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [sonarqube-0.0.40](https://github.com/truecharts/charts/compare/sonarqube-0.0.39...sonarqube-0.0.40) (2022-11-06)
 

@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [clamav-3.0.51](https://github.com/truecharts/charts/compare/clamav-3.0.50...clamav-3.0.51) (2022-11-06)
 

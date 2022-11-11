@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [stackedit-0.0.35](https://github.com/truecharts/charts/compare/stackedit-0.0.34...stackedit-0.0.35) (2022-11-06)
 

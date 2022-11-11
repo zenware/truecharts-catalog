@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [inkscape-desktop-g3-0.0.38](https://github.com/truecharts/charts/compare/inkscape-desktop-g3-0.0.37...inkscape-desktop-g3-0.0.38) (2022-11-06)
 

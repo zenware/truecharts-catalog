@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -95,5 +97,3 @@
 ## [ghost-3.0.85](https://github.com/truecharts/charts/compare/ghost-3.0.83...ghost-3.0.85) (2022-11-08)
 
 ### Chore
-
-- Auto-update chart README [skip ci]

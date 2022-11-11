@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -95,5 +97,3 @@
 ## [nocodb-3.0.62](https://github.com/truecharts/charts/compare/nocodb-3.0.60...nocodb-3.0.62) (2022-11-08)
 
 ### Chore
-
-- Auto-update chart README [skip ci]

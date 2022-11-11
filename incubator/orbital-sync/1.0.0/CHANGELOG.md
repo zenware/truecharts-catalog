@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [orbital-sync-0.0.19](https://github.com/truecharts/charts/compare/orbital-sync-0.0.18...orbital-sync-0.0.19) (2022-11-06)
 

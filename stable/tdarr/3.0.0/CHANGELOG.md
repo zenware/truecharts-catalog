@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 ## [tdarr-2.0.42](https://github.com/truecharts/charts/compare/tdarr-node-2.0.41...tdarr-2.0.42) (2022-11-05)
-
-### Chore
 

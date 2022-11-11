@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [ubooquity-3.0.42](https://github.com/truecharts/charts/compare/ubooquity-3.0.41...ubooquity-3.0.42) (2022-11-06)
 

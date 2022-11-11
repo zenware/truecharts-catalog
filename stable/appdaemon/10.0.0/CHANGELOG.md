@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [appdaemon-9.0.44](https://github.com/truecharts/charts/compare/appdaemon-9.0.43...appdaemon-9.0.44) (2022-11-06)
 

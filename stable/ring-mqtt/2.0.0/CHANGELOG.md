@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [ring-mqtt-1.0.18](https://github.com/truecharts/charts/compare/ring-mqtt-1.0.17...ring-mqtt-1.0.18) (2022-11-06)
 

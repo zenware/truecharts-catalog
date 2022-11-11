@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [apprise-api-0.0.45](https://github.com/truecharts/charts/compare/apprise-api-0.0.44...apprise-api-0.0.45) (2022-11-06)
 

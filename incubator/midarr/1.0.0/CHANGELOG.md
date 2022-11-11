@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -95,5 +97,3 @@
 ## [midarr-0.0.11](https://github.com/truecharts/charts/compare/midarr-0.0.10...midarr-0.0.11) (2022-11-06)
 
 ### Chore
-
-- Auto-update chart README [skip ci]

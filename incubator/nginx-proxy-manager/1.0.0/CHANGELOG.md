@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -95,5 +97,3 @@
 ## [nginx-proxy-manager-0.0.9](https://github.com/truecharts/charts/compare/nginx-proxy-manager-0.0.7...nginx-proxy-manager-0.0.9) (2022-11-08)
 
 ### Chore
-
-- Auto-update chart README [skip ci]

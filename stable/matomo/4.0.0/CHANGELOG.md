@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -95,5 +97,3 @@
 ## [matomo-3.0.92](https://github.com/truecharts/charts/compare/matomo-3.0.90...matomo-3.0.92) (2022-11-08)
 
 ### Chore
-
-- Auto-update chart README [skip ci]

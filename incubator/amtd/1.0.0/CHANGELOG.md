@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [amtd-0.0.40](https://github.com/truecharts/charts/compare/amtd-0.0.39...amtd-0.0.40) (2022-11-06)
 

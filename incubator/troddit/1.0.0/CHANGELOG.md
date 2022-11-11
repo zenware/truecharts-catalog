@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [troddit-0.0.41](https://github.com/truecharts/charts/compare/troddit-0.0.40...troddit-0.0.41) (2022-11-06)
 

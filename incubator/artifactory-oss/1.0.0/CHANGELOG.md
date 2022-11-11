@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [artifactory-oss-0.0.43](https://github.com/truecharts/charts/compare/artifactory-oss-0.0.42...artifactory-oss-0.0.43) (2022-11-06)
 

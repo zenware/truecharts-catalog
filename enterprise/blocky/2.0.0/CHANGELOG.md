@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 ## [blocky-1.1.9](https://github.com/truecharts/charts/compare/blocky-1.1.8...blocky-1.1.9) (2022-11-05)
-
-### Chore
 

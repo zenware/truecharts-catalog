@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [makemkv-2.0.46](https://github.com/truecharts/charts/compare/makemkv-2.0.45...makemkv-2.0.46) (2022-11-06)
 

@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [redmine-3.0.66](https://github.com/truecharts/charts/compare/redmine-3.0.65...redmine-3.0.66) (2022-11-06)
 

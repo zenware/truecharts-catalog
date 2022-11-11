@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [chevereto-3.0.49](https://github.com/truecharts/charts/compare/chevereto-3.0.48...chevereto-3.0.49) (2022-11-06)
 

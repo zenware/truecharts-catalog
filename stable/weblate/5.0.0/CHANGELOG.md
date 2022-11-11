@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -95,5 +97,3 @@
 ## [weblate-4.0.54](https://github.com/truecharts/charts/compare/weblate-4.0.52...weblate-4.0.54) (2022-11-08)
 
 ### Chore
-
-- Auto-update chart README [skip ci]

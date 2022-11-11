@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [qflood-0.0.47](https://github.com/truecharts/charts/compare/qflood-0.0.46...qflood-0.0.47) (2022-11-06)
 

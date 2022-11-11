@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -94,6 +96,4 @@
 
 
 
-
-## [vikunja-3.0.71](https://github.com/truecharts/charts/compare/vikunja-3.0.70...vikunja-3.0.71) (2022-11-06)
 

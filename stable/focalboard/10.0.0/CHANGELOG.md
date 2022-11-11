@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -95,5 +97,3 @@
 ## [focalboard-9.0.57](https://github.com/truecharts/charts/compare/focalboard-9.0.55...focalboard-9.0.57) (2022-11-08)
 
 ### Chore
-
-- Auto-update chart README [skip ci]

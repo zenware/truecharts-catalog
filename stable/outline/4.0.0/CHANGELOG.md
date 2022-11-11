@@ -1,4 +1,6 @@
-# Changelog
+**Important:**
+*for the complete changelog, please refer to the website*
+
 
 
 
@@ -95,5 +97,3 @@
 ## [outline-3.0.58](https://github.com/truecharts/charts/compare/outline-3.0.56...outline-3.0.58) (2022-11-08)
 
 ### Chore
-
-- Auto-update chart README [skip ci]
