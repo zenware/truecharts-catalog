@@ -1,5 +1,5 @@
 apiVersion: v2
-appVersion: "0.20.1"
+appVersion: "latest"
 dependencies:
   - name: common
     repository: https://library-charts.truecharts.org
@@ -12,23 +12,24 @@ dependencies:
     name: redis
     repository: https://charts.truecharts.org
     version: 5.0.2
-description: The to-do app to organize your life.
-home: https://truecharts.org/docs/charts/stable/vikunja
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/vikunja.png
+description: Workout Manager is a free, open source web application that helps you manage your personal workouts, weight and diet plans and can also be used as a simple gym management utility.
+home: https://truecharts.org/docs/charts/stable/wger
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/wger.png
 keywords:
-  - vikunja
+  - workout
 kubeVersion: ">=1.16.0-0"
 maintainers:
   - email: info@truecharts.org
     name: TrueCharts
     url: https://truecharts.org
-name: vikunja
+name: wger
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/vikunja
-  - https://vikunja.io/docs
-version: 6.0.2
+  - https://github.com/truecharts/charts/tree/master/charts/stable/wger
+  - https://github.com/wger-project/wger
+  - https://github.com/wger-project/docker
+version: 4.0.3
 annotations:
   truecharts.org/catagories: |
-    - productivity
+    - life
   truecharts.org/SCALE-support: "true"
   truecharts.org/grade: U
