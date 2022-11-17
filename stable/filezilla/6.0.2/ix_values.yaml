@@ -1,7 +1,7 @@
 image:
-  repository: tccr.io/truecharts/digikam
+  repository: tccr.io/truecharts/filezilla
   pullPolicy: IfNotPresent
-  tag: v7.8.0@sha256:bbc62631c12f644ca994cceeabcb44764f51b00df08e5c3280432c4b3bdd1376
+  tag: 3.59.0@sha256:324caf963e714d13391922eb8ec60ef98949b783747736efcf581f85de729fc5
 
 securityContext:
   readOnlyRootFilesystem: false
@@ -15,7 +15,7 @@ service:
   main:
     ports:
       main:
-        port: 10033
+        port: 10035
         targetPort: 3000
 
 persistence:
