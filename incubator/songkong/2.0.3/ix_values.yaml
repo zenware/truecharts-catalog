@@ -1,14 +1,15 @@
-env:
-  CONFIGFILE: ""
-  UMASK: ""
+env: {}
 image:
   pullPolicy: IfNotPresent
-  repository: tccr.io/truecharts/adguardhome-sync
-  tag: latest@sha256:6adae6415a9fad246524dff599909d03d18a84570337c15123f0c7951c0f0130
+  repository: tccr.io/truecharts/songkong
+  tag: latest@sha256:78bf1d4566ab70854a12b9bf24b0883021ad152dc817573a4b4172aceddad78b
 persistence:
-  config:
+  music:
     enabled: true
-    mountPath: /config
+    mountPath: /music
+  songkongconfig:
+    enabled: true
+    mountPath: /songkong
 podSecurityContext:
   runAsGroup: 0
   runAsUser: 0
@@ -19,9 +20,9 @@ service:
   main:
     ports:
       main:
-        port: 8080
+        port: 4567
         protocol: TCP
-        targetPort: 8080
+        targetPort: 4567
 
 portal:
   enabled: true
