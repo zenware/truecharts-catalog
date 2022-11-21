@@ -1,4 +1,4 @@
-Photo Stream is a simpler home for your photos initially created by @maxvoltar and now maintained by @waschinski, @boerniee and friends. Easy to use, self hosted, no tracking, just photos.
+Photo Stream is a simpler home for your photos. Easy to use, self hosted, no tracking, just photos.
 
 This App is supplied by TrueCharts, for more information visit the manual: [https://truecharts.org/docs/charts/incubator/photo-stream](https://truecharts.org/docs/charts/incubator/photo-stream)
 
