@@ -1,4 +1,4 @@
-IPFS is a global, versioned, peer-to-peer filesystem. It combines good ideas from previous systems such Git, BitTorrent, Kademlia, SFS, and the Web. It is like a single bittorrent swarm, exchanging git objects.
+IPFS is a global, versioned, peer-to-peer Interplanetary Filesystem.
 
 This App is supplied by TrueCharts, for more information visit the manual: [https://truecharts.org/docs/charts/stable/ipfs](https://truecharts.org/docs/charts/stable/ipfs)
 
