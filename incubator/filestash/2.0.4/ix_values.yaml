@@ -1,0 +1,25 @@
+env: {}
+image:
+  pullPolicy: IfNotPresent
+  repository: tccr.io/truecharts/filestash
+  tag: latest@sha256:6b8c56b0c70a4758d24bc7f3eea1e0f6e4ffe380182c20056a33a9cee341d256
+persistence:
+  appdata:
+    enabled: true
+    mountPath: /app/data/state/
+podSecurityContext:
+  runAsGroup: 0
+  runAsUser: 0
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+service:
+  main:
+    ports:
+      main:
+        port: 8334
+        protocol: TCP
+        targetPort: 8334
+
+portal:
+  enabled: true
