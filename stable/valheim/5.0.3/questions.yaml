@@ -117,7 +117,7 @@ questions:
       type: dict
       attrs:
         - variable: STATUS_HTTP
-          label: "SERVER_PUBLIC"
+          label: "STATUS_HTTP"
           schema:
             type: boolean
             default: true
