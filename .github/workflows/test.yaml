@@ -53,7 +53,6 @@ jobs:
           cd "/home/runner/work/catalog/catalog/"
           git config user.name "TrueCharts-Bot"
           git config user.email "bot@truecharts.org"
-          # git add catalog.json || echo "Adding catalog.json failed"
-          git status
+          git add catalog.json || echo "Adding catalog.json failed"
           git commit --all -m "Commit catalog.json" || echo "Commiting catalog.json failed"
           git push -f origin staging:main
