@@ -19,28 +19,15 @@ jobs:
           fetch-depth: 1
           repository: truecharts/catalog_validation
           token: ${{ secrets.BOT_TOKEN }}
-          path: catalog_validation
+          path: /tmp/catalog_validation
+          
       - name: install catalog_validation
         run:
-          # apt-get update \
-          # && \
-          # apt-get -y install --no-install-recommends \
-          #   python3-pip \
-          #   python3-setuptools \
-          #   debhelper-compat \
-          #   dh-python \
-          #   python3-dev \
-          #   devscripts \
-          #   python3-jsonschema \
-          #   python3-semantic-version \
-          #   python3-kubernetes \
-          #   python3-yaml \
-          #   python3-venv \
-          # && \
-          cd /catalog_validation
+          cd /tmp/catalog_validation
           pip install -r requirements.txt
           pip install -U --no-cache-dir .
           cd -
+          
       - uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # tag=v3
         name: Checkout
         with:
