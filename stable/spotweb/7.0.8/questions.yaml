@@ -169,7 +169,7 @@ questions:
               - value: "weekly"
                 description: "Once a week"
               - value: "monthly"
-                description:: "Once a month"
+                description: "Once a month"
   - variable: TZ
     label: Timezone
     group: "General Settings"
