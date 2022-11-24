@@ -19,11 +19,11 @@ jobs:
           fetch-depth: 1
           repository: truecharts/catalog_validation
           token: ${{ secrets.BOT_TOKEN }}
-          path: /tmp/catalog_validation
+          path: catalog_validation
           
       - name: install catalog_validation
         run:
-          cd /tmp/catalog_validation
+          cd catalog_validation
           pip install -r requirements.txt
           pip install -U --no-cache-dir .
           cd -
