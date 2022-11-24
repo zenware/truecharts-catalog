@@ -12,11 +12,39 @@ jobs:
   test-and-sync:
     name: Test and Sync SCALE Catalog
     runs-on: ubuntu-latest
-    container:
-      image: ghcr.io/truecharts/devcontainer:v3.1.1@sha256:b682ca20989c13c4afc8edf0660f83ce8e896e32db21d6321ba06f135911fc81
     steps:
       - uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # tag=v3
+        name: Checkout-validate
+        with:
+          fetch-depth: 1
+          repository: truecharts/catalog_validation
+          token: ${{ secrets.BOT_TOKEN }}
+          path: catalog_validation
+      - name: install catalog_validation
+        run:
+          # apt-get update \
+          # && \
+          # apt-get -y install --no-install-recommends \
+          #   python3-pip \
+          #   python3-setuptools \
+          #   debhelper-compat \
+          #   dh-python \
+          #   python3-dev \
+          #   devscripts \
+          #   python3-jsonschema \
+          #   python3-semantic-version \
+          #   python3-kubernetes \
+          #   python3-yaml \
+          #   python3-venv \
+          # && \
+          cd /catalog_validation
+          pip install -r requirements.txt
+          pip install -U --no-cache-dir .
+          cd -
+      - uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # tag=v3
         name: Checkout
+        with:
+          token: ${{ secrets.BOT_TOKEN }}
 
       - name: catalog tests
         run: |
