@@ -13,6 +13,12 @@ jobs:
     name: Test and Sync SCALE Catalog
     runs-on: ubuntu-latest
     steps:
+          
+      - uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # tag=v3
+        name: Checkout
+        with:
+          token: ${{ secrets.BOT_TOKEN }}
+          
       - uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # tag=v3
         name: Checkout-validate
         with:
@@ -28,11 +34,6 @@ jobs:
           pip install -r requirements.txt
           pip install -U --no-cache-dir .
           cd -
-          
-      - uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # tag=v3
-        name: Checkout
-        with:
-          token: ${{ secrets.BOT_TOKEN }}
 
       - name: catalog tests
         shell: bash
