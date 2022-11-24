@@ -22,7 +22,8 @@ jobs:
           path: catalog_validation
           
       - name: install catalog_validation
-        run:
+        shell: bash
+        run: |
           cd catalog_validation
           pip install -r requirements.txt
           pip install -U --no-cache-dir .
@@ -34,16 +35,19 @@ jobs:
           token: ${{ secrets.BOT_TOKEN }}
 
       - name: catalog tests
+        shell: bash
         run: |
           echo "Starting Catalog Validation"
           /usr/local/bin/catalog_validate validate --path "${PWD}"
 
       - name: catalog json generation
+        shell: bash
         run: |
           echo "Starting Catalog json Generation"
           /usr/local/bin/catalog_update update --path "${PWD}"
 
       - name: Merge staging into main
+        shell: bash
         run: |
           cd "/__w/catalog/catalog/"
           git config user.name "TrueCharts-Bot"
