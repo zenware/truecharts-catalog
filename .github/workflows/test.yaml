@@ -26,14 +26,16 @@ jobs:
       - name: catalog json generation
         run: |
           echo "Starting Catalog json Generation"
-          cd catalog/catalog
+          pwd
+          ls -la
           /usr/local/bin/catalog_update update --path "${PWD}"
 
       - name: Merge staging into main
         run: |
           git config user.name "TrueCharts-Bot"
           git config user.email "bot@truecharts.org"
-          cd catalog/catalog
+          pwd
+          ls -la
           git add catalog.json
           git commit -m "Commit catalog.json"
           git push -f origin staging:main
