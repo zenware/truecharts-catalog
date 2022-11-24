@@ -13,7 +13,7 @@ jobs:
     name: Test and Sync SCALE Catalog
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/truecharts/devcontainer:v3.1.0@sha256:941edfc4e58f549e66e1d8b6f87d664d815efd6a2f21fd144883f0d1534dece6
+      image: ghcr.io/truecharts/devcontainer:v3.1.1@sha256:b682ca20989c13c4afc8edf0660f83ce8e896e32db21d6321ba06f135911fc81
     steps:
       - uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # tag=v3
         name: Checkout
