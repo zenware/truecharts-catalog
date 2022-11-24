@@ -38,13 +38,13 @@ jobs:
         shell: bash
         run: |
           echo "Starting Catalog Validation"
-          /usr/local/bin/catalog_validate validate --path "${PWD}"
+          python3 /catalog_validation/catalog_validation/scripts/catalog_validate.py validate --path "${PWD}"
 
       - name: catalog json generation
         shell: bash
         run: |
           echo "Starting Catalog json Generation"
-          /usr/local/bin/catalog_update update --path "${PWD}"
+          python3 /catalog_validation/catalog_validation/scripts/catalog_update update --path "${PWD}"
 
       - name: Merge staging into main
         shell: bash
