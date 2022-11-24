@@ -45,7 +45,7 @@ jobs:
         shell: bash
         run: |
           echo "Starting Catalog json Generation"
-          python3 .catalog_validation/catalog_validation/scripts/catalog_update update --path "${PWD}"
+          python3 .catalog_validation/catalog_validation/scripts/catalog_update.py update --path "${PWD}"
 
       - name: Merge staging into main
         shell: bash
