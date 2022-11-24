@@ -25,7 +25,7 @@ jobs:
           fetch-depth: 1
           repository: truecharts/catalog_validation
           token: ${{ secrets.BOT_TOKEN }}
-          path: catalog_validation
+          path: .catalog_validation
           
       - name: install catalog_validation
         shell: bash
@@ -39,13 +39,13 @@ jobs:
         shell: bash
         run: |
           echo "Starting Catalog Validation"
-          python3 catalog_validation/catalog_validation/scripts/catalog_validate.py validate --path "${PWD}"
+          python3 .catalog_validation/catalog_validation/scripts/catalog_validate.py validate --path "${PWD}"
 
       - name: catalog json generation
         shell: bash
         run: |
           echo "Starting Catalog json Generation"
-          python3 catalog_validation/catalog_validation/scripts/catalog_update update --path "${PWD}"
+          python3 .catalog_validation/catalog_validation/scripts/catalog_update update --path "${PWD}"
 
       - name: Merge staging into main
         shell: bash
