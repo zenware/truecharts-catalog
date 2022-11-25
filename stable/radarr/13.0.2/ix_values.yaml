@@ -1,7 +1,17 @@
 image:
-  repository: tccr.io/truecharts/whisparr
+  repository: tccr.io/truecharts/radarr
   pullPolicy: IfNotPresent
-  tag: 0.1.0.53@sha256:62b62224ff77a9db3358ac768c21bb8ae4fda78620089c43d4056203bc89a5ea
+  tag: 4.2.4.6635@sha256:863f5100071f391f3f581c081be63a3df343df1968c2e827fd4a54b48c942c68
+
+securityContext:
+  readOnlyRootFilesystem: false
+
+service:
+  main:
+    ports:
+      main:
+        port: 7878
+        targetPort: 7878
 
 probes:
   liveness:
@@ -16,7 +26,7 @@ probes:
           - /usr/bin/env
           - bash
           - -c
-          - curl --fail localhost:6969/api/v3/system/status?apiKey=`IFS=\> && while
+          - curl --fail localhost:7878/api/v3/system/status?apiKey=`IFS=\> && while
             read -d \< E C; do if [[ $E = "ApiKey" ]]; then echo $C; fi; done < /config/config.xml`
       failureThreshold: 5
       initialDelaySeconds: 60
@@ -24,18 +34,10 @@ probes:
       successThreshold: 1
       timeoutSeconds: 10
 
-service:
-  main:
-    ports:
-      main:
-        port: 6969
-        protocol: HTTP
-        targetPort: 6969
-
 persistence:
   config:
     enabled: true
-    mountPath: /config
+    mountPath: "/config"
 
 portal:
   enabled: true
