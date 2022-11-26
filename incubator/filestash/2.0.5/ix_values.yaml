@@ -1,13 +1,12 @@
-env:
-  PORT: "3000"
+env: {}
 image:
   pullPolicy: IfNotPresent
-  repository: tccr.io/truecharts/vertex
-  tag: vstable@sha256:dc93d52ef482695e24ceaa5cfa27419671a9f5b49612ec9690cc91a78c1bf10b
+  repository: tccr.io/truecharts/filestash
+  tag: latest@sha256:a67ff6221aa65bbe27b56a7b1ed43b4aabc90bcd694768c5d7d832f685b03b67
 persistence:
-  config:
+  appdata:
     enabled: true
-    mountPath: /vertex
+    mountPath: /app/data/state/
 podSecurityContext:
   runAsGroup: 0
   runAsUser: 0
@@ -18,9 +17,9 @@ service:
   main:
     ports:
       main:
-        port: 3000
+        port: 8334
         protocol: TCP
-        targetPort: 3000
+        targetPort: 8334
 
 portal:
   enabled: true

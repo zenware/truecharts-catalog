@@ -1,12 +1,15 @@
-env: {}
+env:
+  KEYBOARD: ""
+  SUBFOLDER: ""
+  UMASK: ""
 image:
   pullPolicy: IfNotPresent
-  repository: tccr.io/truecharts/filestash
-  tag: latest@sha256:6b8c56b0c70a4758d24bc7f3eea1e0f6e4ffe380182c20056a33a9cee341d256
+  repository: tccr.io/truecharts/kdenlive
+  tag: latest@sha256:df18b519ea2824cc79ed05e5404b1eb87734dfb504f8afce140c2df8118a8a1a
 persistence:
-  appdata:
+  config:
     enabled: true
-    mountPath: /app/data/state/
+    mountPath: /config
 podSecurityContext:
   runAsGroup: 0
   runAsUser: 0
@@ -17,9 +20,9 @@ service:
   main:
     ports:
       main:
-        port: 8334
+        port: 3000
         protocol: TCP
-        targetPort: 8334
+        targetPort: 3000
 
 portal:
   enabled: true

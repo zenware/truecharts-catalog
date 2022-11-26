@@ -1,15 +1,13 @@
 env:
-  KEYBOARD: ""
-  SUBFOLDER: ""
-  UMASK: ""
+  PORT: "3000"
 image:
   pullPolicy: IfNotPresent
-  repository: tccr.io/truecharts/kdenlive
-  tag: latest@sha256:a2356df4f26d11e70321bec9686ecb7b32a8e8ff8e753503050b1dc46c408fd4
+  repository: tccr.io/truecharts/vertex
+  tag: vstable@sha256:9fa2994ad72e01f4c4dd6894d09b172644f34f559ce952ebad4b271e12fc7ff9
 persistence:
   config:
     enabled: true
-    mountPath: /config
+    mountPath: /vertex
 podSecurityContext:
   runAsGroup: 0
   runAsUser: 0
