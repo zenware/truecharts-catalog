@@ -1,0 +1,22 @@
+env: {}
+image:
+  pullPolicy: IfNotPresent
+  repository: tccr.io/truecharts/archiveteam-warrior
+  tag: latest@sha256:45d17e162b860cad07e3cd5803a9de64e0ee85119f39b37ab5d7d4eb14e2c930
+
+podSecurityContext:
+  runAsGroup: 0
+  runAsUser: 0
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+service:
+  main:
+    ports:
+      main:
+        port: 8001
+        protocol: TCP
+        targetPort: 8001
+
+portal:
+  enabled: true
