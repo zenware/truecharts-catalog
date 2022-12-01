@@ -49,6 +49,17 @@ questions:
             type: boolean
             default: true
             hidden: true
+  - variable: imageSelector
+    group: Container Image
+    label: Select Image
+    schema:
+      type: string
+      default: image
+      enum:
+        - value: image
+          description: Channels DVR
+        - value: tveImage
+          description: Channels DVR with TV Everywhere
   - variable: controller
     group: "General Settings"
     label: ""
