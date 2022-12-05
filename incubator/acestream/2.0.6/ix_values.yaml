@@ -1,14 +1,12 @@
-env:
-  UMASK: ""
+env: {}
 image:
   pullPolicy: IfNotPresent
-  repository: tccr.io/truecharts/rdesktop
-  tag: latest@sha256:f0c34c7ff12de4d0988a0823687cc8e97c2bf81447198e31723196fdc81ba680
+  repository: tccr.io/truecharts/acestream
+  tag: latest@sha256:57dfba07747039151c06790ad1740ad8ef1fd7c1b8218de283c32c7e260fcd57
 persistence:
-  config:
+  acestreamcache:
     enabled: true
-    mountPath: /config
-
+    mountPath: /srv/acestream/.ACEStream
 podSecurityContext:
   runAsGroup: 0
   runAsUser: 0
@@ -19,9 +17,9 @@ service:
   main:
     ports:
       main:
-        port: 3389
+        port: 8008
         protocol: TCP
-        targetPort: 3389
+        targetPort: 6878
 
 portal:
   enabled: true
