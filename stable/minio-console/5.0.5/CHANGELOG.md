@@ -4,6 +4,15 @@
 
 
 
+## [minio-console-5.0.5](https://github.com/truecharts/charts/compare/minio-console-5.0.4...minio-console-5.0.5) (2022-12-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/minio-console to v0.22.1
+  
+  
+
+
 ## [minio-console-5.0.4](https://github.com/truecharts/charts/compare/minio-console-5.0.3...minio-console-5.0.4) (2022-12-03)
 
 
@@ -64,15 +73,6 @@
 ### Chore
 
 - update container image tccr.io/truecharts/minio-console to v0.21.3
-  
-  
-
-
-## [minio-console-5.0.1](https://github.com/truecharts/charts/compare/minio-console-5.0.0...minio-console-5.0.1) (2022-11-15)
-
-### Chore
-
-- update helm general non-major ([#4463](https://github.com/truecharts/charts/issues/4463))
   
   
 
