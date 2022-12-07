@@ -4,6 +4,15 @@
 
 
 
+## [frigate-5.0.8](https://github.com/truecharts/charts/compare/frigate-5.0.7...frigate-5.0.8) (2022-12-07)
+
+### Fix
+
+- render parent max_frames only when at least one child has value ([#5196](https://github.com/truecharts/charts/issues/5196))
+  
+  
+
+
 ## [frigate-5.0.7](https://github.com/truecharts/charts/compare/frigate-5.0.6...frigate-5.0.7) (2022-12-06)
 
 ### Fix
@@ -86,14 +95,5 @@
 ### Fix
 
 - fix small issues in configmap and questions ([#4635](https://github.com/truecharts/charts/issues/4635))
-  
-  
-
-
-## [frigate-5.0.2](https://github.com/truecharts/charts/compare/frigate-5.0.1...frigate-5.0.2) (2022-11-17)
-
-### Fix
-
-- fix config.yml small formatting and typos ([#4472](https://github.com/truecharts/charts/issues/4472))
   
   
