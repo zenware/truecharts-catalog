@@ -4,6 +4,11 @@
 
 
 
+## [wifi-card-2.0.4](https://github.com/truecharts/charts/compare/wifi-card-2.0.3...wifi-card-2.0.4) (2022-12-07)
+
+
+
+
 ## [wifi-card-2.0.3](https://github.com/truecharts/charts/compare/wifi-card-2.0.2...wifi-card-2.0.3) (2022-12-05)
 
 ### Chore
@@ -92,8 +97,3 @@
 
 ## [wifi-card-2.0.1](https://github.com/truecharts/charts/compare/wifi-card-2.0.0...wifi-card-2.0.1) (2022-11-15)
 
-### Chore
-
-- update helm general non-major ([#4463](https://github.com/truecharts/charts/issues/4463))
-  
-  
