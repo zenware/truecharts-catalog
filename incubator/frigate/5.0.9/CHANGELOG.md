@@ -4,6 +4,15 @@
 
 
 
+## [frigate-5.0.9](https://github.com/truecharts/charts/compare/frigate-5.0.8...frigate-5.0.9) (2022-12-08)
+
+### Fix
+
+- quote all floats in values.yaml. because questions.yaml schema fails to validate when applying empty value ([#5204](https://github.com/truecharts/charts/issues/5204))
+  
+  
+
+
 ## [frigate-5.0.8](https://github.com/truecharts/charts/compare/frigate-5.0.7...frigate-5.0.8) (2022-12-07)
 
 ### Fix
@@ -86,14 +95,5 @@
 ### Fix
 
 - clean up small things in questions.yaml ([#4661](https://github.com/truecharts/charts/issues/4661))
-  
-  
-
-
-## [frigate-5.0.3](https://github.com/truecharts/charts/compare/frigate-5.0.2...frigate-5.0.3) (2022-11-20)
-
-### Fix
-
-- fix small issues in configmap and questions ([#4635](https://github.com/truecharts/charts/issues/4635))
   
   
