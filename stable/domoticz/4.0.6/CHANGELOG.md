@@ -4,6 +4,15 @@
 
 
 
+## [domoticz-4.0.6](https://github.com/truecharts/charts/compare/domoticz-4.0.5...domoticz-4.0.6) (2022-12-09)
+
+### Chore
+
+- update container image tccr.io/truecharts/domoticz to v2022.2.20221208
+  
+  
+
+
 ## [domoticz-4.0.5](https://github.com/truecharts/charts/compare/domoticz-4.0.4...domoticz-4.0.5) (2022-12-02)
 
 ### Chore
@@ -73,15 +82,6 @@
 ### Chore
 
 - update container image tccr.io/truecharts/domoticz to v2022.2.20221117
-  
-  
-
-
-## [domoticz-4.0.1](https://github.com/truecharts/charts/compare/domoticz-4.0.0...domoticz-4.0.1) (2022-11-15)
-
-### Chore
-
-- update helm general non-major ([#4463](https://github.com/truecharts/charts/issues/4463))
   
   
 
