@@ -4,6 +4,11 @@
 
 
 
+## [drawio-4.0.5](https://github.com/truecharts/charts/compare/drawio-4.0.4...drawio-4.0.5) (2022-12-09)
+
+
+
+
 ## [drawio-4.0.4](https://github.com/truecharts/charts/compare/drawio-4.0.3...drawio-4.0.4) (2022-12-09)
 
 ### Chore
@@ -92,8 +97,3 @@
 
 ## [drawio-4.0.1](https://github.com/truecharts/charts/compare/drawio-4.0.0...drawio-4.0.1) (2022-11-15)
 
-### Chore
-
-- update helm general non-major ([#4463](https://github.com/truecharts/charts/issues/4463))
-  
-  
