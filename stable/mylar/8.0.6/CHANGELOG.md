@@ -4,6 +4,11 @@
 
 
 
+## [mylar-8.0.6](https://github.com/truecharts/charts/compare/mylar-8.0.5...mylar-8.0.6) (2022-12-10)
+
+
+
+
 ## [mylar-8.0.5](https://github.com/truecharts/charts/compare/mylar-8.0.4...mylar-8.0.5) (2022-12-10)
 
 
@@ -92,8 +97,3 @@
 
 
 ## [mylar-8.0.2](https://github.com/truecharts/charts/compare/mylar-8.0.1...mylar-8.0.2) (2022-11-15)
-
-### Chore
-
-- update helm general non-major ([#4463](https://github.com/truecharts/charts/issues/4463))
-  
