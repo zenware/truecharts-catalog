@@ -4,6 +4,11 @@
 
 
 
+## [promtail-6.0.4](https://github.com/truecharts/charts/compare/promtail-6.0.3...promtail-6.0.4) (2022-12-10)
+
+
+
+
 ## [promtail-6.0.3](https://github.com/truecharts/charts/compare/promtail-6.0.2...promtail-6.0.3) (2022-12-07)
 
 
@@ -16,11 +21,6 @@
 - update helm chart common to v11.0.5
   
   
-
-
-## [promtail-6.0.1](https://github.com/truecharts/charts/compare/promtail-6.0.0...promtail-6.0.1) (2022-11-29)
-
-
 
 
 ## [promtail-6.0.1](https://github.com/truecharts/charts/compare/promtail-6.0.0...promtail-6.0.1) (2022-11-29)
