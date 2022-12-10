@@ -4,6 +4,11 @@
 
 
 
+## [fluidd-4.0.4](https://github.com/truecharts/charts/compare/fluidd-4.0.3...fluidd-4.0.4) (2022-12-10)
+
+
+
+
 ## [fluidd-4.0.3](https://github.com/truecharts/charts/compare/fluidd-4.0.2...fluidd-4.0.3) (2022-12-05)
 
 
@@ -92,8 +97,3 @@
 
 - update helm general non-major ([#4463](https://github.com/truecharts/charts/issues/4463))
   
-  
-
-
-## [fluidd-4.0.0](https://github.com/truecharts/charts/compare/fluidd-3.0.4...fluidd-4.0.0) (2022-11-14)
-
