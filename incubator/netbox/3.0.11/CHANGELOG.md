@@ -4,6 +4,11 @@
 
 
 
+## [netbox-3.0.11](https://github.com/truecharts/charts/compare/netbox-3.0.10...netbox-3.0.11) (2022-12-11)
+
+
+
+
 ## [netbox-3.0.10](https://github.com/truecharts/charts/compare/netbox-3.0.9...netbox-3.0.10) (2022-12-11)
 
 ### Fix
@@ -68,11 +73,6 @@
 
 
 ## [netbox-3.0.8](https://github.com/truecharts/charts/compare/netbox-3.0.6...netbox-3.0.8) (2022-11-30)
-
-
-
-
-## [netbox-3.0.7](https://github.com/truecharts/charts/compare/netbox-3.0.6...netbox-3.0.7) (2022-11-29)
 
 
 

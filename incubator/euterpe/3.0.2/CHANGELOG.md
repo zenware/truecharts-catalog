@@ -4,6 +4,11 @@
 
 
 
+## [euterpe-3.0.2](https://github.com/truecharts/charts/compare/euterpe-3.0.1...euterpe-3.0.2) (2022-12-11)
+
+
+
+
 ## [euterpe-3.0.1](https://github.com/truecharts/charts/compare/euterpe-3.0.0...euterpe-3.0.1) (2022-12-11)
 
 ### Fix
@@ -92,8 +97,3 @@
 
 - update helm general non-major ([#4463](https://github.com/truecharts/charts/issues/4463))
   
-  
-
-
-## [euterpe-2.0.1](https://github.com/truecharts/charts/compare/euterpe-2.0.0...euterpe-2.0.1) (2022-11-15)
-
