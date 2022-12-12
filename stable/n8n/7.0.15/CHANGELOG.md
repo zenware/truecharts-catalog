@@ -4,6 +4,11 @@
 
 
 
+## [n8n-7.0.15](https://github.com/truecharts/charts/compare/n8n-7.0.14...n8n-7.0.15) (2022-12-12)
+
+
+
+
 ## [n8n-7.0.14](https://github.com/truecharts/charts/compare/n8n-7.0.13...n8n-7.0.14) (2022-12-07)
 
 ### Chore
@@ -73,11 +78,6 @@
 
 
 ## [n8n-7.0.11](https://github.com/truecharts/charts/compare/n8n-7.0.9...n8n-7.0.11) (2022-11-30)
-
-
-
-
-## [n8n-7.0.10](https://github.com/truecharts/charts/compare/n8n-7.0.9...n8n-7.0.10) (2022-11-29)
 
 
 
