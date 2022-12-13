@@ -4,6 +4,15 @@
 
 
 
+## [matomo-6.0.14](https://github.com/truecharts/charts/compare/matomo-6.0.13...matomo-6.0.14) (2022-12-13)
+
+### Chore
+
+- update container image tccr.io/truecharts/matomo to 4.13.0
+  
+  
+
+
 ## [matomo-6.0.13](https://github.com/truecharts/charts/compare/matomo-6.0.12...matomo-6.0.13) (2022-12-13)
 
 ### Chore
@@ -36,15 +45,6 @@
 ### Chore
 
 - update helm general non-major
-  
-  
-
-
-## [matomo-6.0.9](https://github.com/truecharts/charts/compare/matomo-6.0.6...matomo-6.0.9) (2022-11-30)
-
-### Chore
-
-- update container image tccr.io/truecharts/matomo to 4.12.3
   
   
 
