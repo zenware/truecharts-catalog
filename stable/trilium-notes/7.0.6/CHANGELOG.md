@@ -4,6 +4,15 @@
 
 
 
+## [trilium-notes-7.0.6](https://github.com/truecharts/charts/compare/trilium-notes-7.0.5...trilium-notes-7.0.6) (2022-12-14)
+
+### Chore
+
+- update container image tccr.io/truecharts/trilium-notes to v0.57.5
+  
+  
+
+
 ## [trilium-notes-7.0.5](https://github.com/truecharts/charts/compare/trilium-notes-7.0.4...trilium-notes-7.0.5) (2022-12-13)
 
 ### Chore
@@ -75,15 +84,6 @@
 ## [trilium-notes-7.0.2](https://github.com/truecharts/charts/compare/trilium-notes-7.0.1...trilium-notes-7.0.2) (2022-11-30)
 
 
-
-
-## [trilium-notes-7.0.1](https://github.com/truecharts/charts/compare/trilium-notes-7.0.0...trilium-notes-7.0.1) (2022-11-15)
-
-### Chore
-
-- update helm general non-major ([#4463](https://github.com/truecharts/charts/issues/4463))
-  
-  
 
 
 ## [trilium-notes-7.0.1](https://github.com/truecharts/charts/compare/trilium-notes-7.0.0...trilium-notes-7.0.1) (2022-11-15)
