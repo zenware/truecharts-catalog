@@ -4,6 +4,15 @@
 
 
 
+## [wger-4.0.17](https://github.com/truecharts/charts/compare/wger-4.0.16...wger-4.0.17) (2022-12-14)
+
+### Chore
+
+- update container image tccr.io/truecharts/nginx to v1.23.3
+  
+  
+
+
 ## [wger-4.0.16](https://github.com/truecharts/charts/compare/wger-4.0.15...wger-4.0.16) (2022-12-13)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 ## [wger-4.0.12](https://github.com/truecharts/charts/compare/wger-4.0.10...wger-4.0.12) (2022-11-30)
 
-
-
-
-## [wger-4.0.11](https://github.com/truecharts/charts/compare/wger-4.0.10...wger-4.0.11) (2022-11-29)
-
-
-
-
-## [wger-4.0.11](https://github.com/truecharts/charts/compare/wger-4.0.10...wger-4.0.11) (2022-11-29)
 
