@@ -4,6 +4,15 @@
 
 
 
+## [prometheus-7.0.23](https://github.com/truecharts/charts/compare/uptimerobot-prometheus-6.0.3...prometheus-7.0.23) (2022-12-14)
+
+### Chore
+
+- update container image tccr.io/truecharts/prometheus to v2.40.7
+  
+  
+
+
 ## [prometheus-7.0.22](https://github.com/truecharts/charts/compare/prometheus-7.0.21...prometheus-7.0.22) (2022-12-13)
 
 ### Chore
@@ -47,15 +56,6 @@
 ### Chore
 
 - update container image tccr.io/truecharts/prometheus to v2.40.5
-  
-  
-
-
-## [prometheus-7.0.15](https://github.com/truecharts/charts/compare/prometheus-7.0.12...prometheus-7.0.15) (2022-11-30)
-
-### Chore
-
-- update container image tccr.io/truecharts/alertmanager to v0.24.0
   
   
 
