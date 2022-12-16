@@ -4,6 +4,15 @@
 
 
 
+## [jitsi-2.0.9](https://github.com/truecharts/charts/compare/jitsi-2.0.8...jitsi-2.0.9) (2022-12-16)
+
+### Chore
+
+- update container image tccr.io/truecharts/jitsi-jvb to v8138
+  
+  
+
+
 ## [jitsi-2.0.8](https://github.com/truecharts/charts/compare/jitsi-2.0.7...jitsi-2.0.8) (2022-12-13)
 
 ### Chore
@@ -86,14 +95,5 @@
 ## [jitsi-2.0.2](https://github.com/truecharts/charts/compare/jitsi-2.0.1...jitsi-2.0.2) (2022-11-16)
 
 
-
-
-## [jitsi-2.0.1](https://github.com/truecharts/charts/compare/jitsi-2.0.0...jitsi-2.0.1) (2022-11-15)
-
-### Chore
-
-- update helm general non-major ([#4463](https://github.com/truecharts/charts/issues/4463))
-  
-  
 
 
