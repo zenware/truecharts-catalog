@@ -4,6 +4,15 @@
 
 
 
+## [redis-5.0.14](https://github.com/truecharts/charts/compare/redis-5.0.13...redis-5.0.14) (2022-12-16)
+
+### Chore
+
+- update container image tccr.io/truecharts/redis to 7.0.6
+  
+  
+
+
 ## [redis-5.0.13](https://github.com/truecharts/charts/compare/redis-5.0.12...redis-5.0.13) (2022-12-14)
 
 ### Chore
@@ -50,15 +59,6 @@
 ### Chore
 
 - update helm chart common to v11.0.5
-  
-  
-
-
-## [redis-5.0.7](https://github.com/truecharts/charts/compare/redis-5.0.5...redis-5.0.7) (2022-11-29)
-
-### Chore
-
-- update container image tccr.io/truecharts/redis to 7.0.5
   
   
 
