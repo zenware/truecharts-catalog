@@ -4,6 +4,11 @@
 
 
 
+## [adminer-3.0.5](https://github.com/truecharts/charts/compare/adminer-3.0.4...adminer-3.0.5) (2022-12-17)
+
+
+
+
 ## [adminer-3.0.4](https://github.com/truecharts/charts/compare/adminer-3.0.3...adminer-3.0.4) (2022-12-16)
 
 ### Chore
@@ -92,8 +97,3 @@
 
 ## [adminer-3.0.1](https://github.com/truecharts/charts/compare/adminer-3.0.0...adminer-3.0.1) (2022-11-15)
 
-### Chore
-
-- update helm general non-major ([#4463](https://github.com/truecharts/charts/issues/4463))
-  
-  
