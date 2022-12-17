@@ -4,6 +4,15 @@
 
 
 
+## [shlink-7.0.11](https://github.com/truecharts/charts/compare/shlink-web-client-5.0.5...shlink-7.0.11) (2022-12-17)
+
+### Chore
+
+- update container image tccr.io/truecharts/shlink to v3.4.0
+  
+  
+
+
 ## [shlink-7.0.10](https://github.com/truecharts/charts/compare/shlink-web-client-5.0.4...shlink-7.0.10) (2022-12-13)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 
 ## [shlink-7.0.7](https://github.com/truecharts/charts/compare/shlink-7.0.6...shlink-7.0.7) (2022-11-29)
-
-
-
-
-## [shlink-7.0.7](https://github.com/truecharts/charts/compare/shlink-7.0.6...shlink-7.0.7) (2022-11-29)
-
-
-
-
