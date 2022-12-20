@@ -4,6 +4,15 @@
 
 
 
+## [artifactory-oss-2.0.9](https://github.com/truecharts/charts/compare/artifactory-oss-2.0.8...artifactory-oss-2.0.9) (2022-12-20)
+
+### Chore
+
+- update container image tccr.io/truecharts/artifactory-oss to v7.47.14
+  
+  
+
+
 ## [artifactory-oss-2.0.8](https://github.com/truecharts/charts/compare/artifactory-oss-2.0.7...artifactory-oss-2.0.8) (2022-12-19)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 ## [artifactory-oss-2.0.2](https://github.com/truecharts/charts/compare/artifactory-oss-2.0.1...artifactory-oss-2.0.2) (2022-11-30)
 
-
-
-
-## [artifactory-oss-2.0.2](https://github.com/truecharts/charts/compare/artifactory-oss-2.0.1...artifactory-oss-2.0.2) (2022-11-30)
-
-
-
-
-## [artifactory-oss-2.0.1](https://github.com/truecharts/charts/compare/artifactory-oss-2.0.0...artifactory-oss-2.0.1) (2022-11-15)
 
