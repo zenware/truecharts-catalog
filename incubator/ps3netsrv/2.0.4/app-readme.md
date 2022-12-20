@@ -1,5 +1,4 @@
-PS3netsrv is a program that allows Multiman or Webman to play game backups that are stored on your TrueNAS server. [span style='color: #E80000;']THIS IS IN BETA AND HAS REPORTED ISSUES with TrueNAS 6.8.0 and higher.[/span][br][br]
-
+Allows Multiman or Webman to play game backups.
 
 This App is supplied by TrueCharts, for more information visit the manual: [https://truecharts.org/docs/charts/incubator/ps3netsrv](https://truecharts.org/docs/charts/incubator/ps3netsrv)
 
