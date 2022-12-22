@@ -1,0 +1,35 @@
+image:
+  repository: tccr.io/truecharts/mosdns
+  pullPolicy: IfNotPresent
+  tag: 4.5.3@sha256:17f395c5867d1365aaa231c9543e12418acf857cf9c412de787c673f390806c1
+
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 53
+        port: 53
+  dns-udp:
+    enabled: true
+    ports:
+      dns-upd:
+        enabled: true
+        protocol: UDP
+        targetPort: 53
+        port: 53
+
+persistence:
+  data:
+    enabled: true
+    mountPath: "/etc/mosdns"
+
+portal:
+  enabled: false
