@@ -3,12 +3,15 @@ env:
   VNC_RESOLUTION: 1360x768
 image:
   pullPolicy: IfNotPresent
-  repository: tccr.io/truecharts/opengl-desktop-g3
-  tag: latest@sha256:beb88da26682936cdfae4fa31ea9f7c3e91ee094e5b1c3cfb2aba7e8e5e20972
+  repository: tccr.io/truecharts/blender-desktop-g3
+  tag: latest@sha256:9654beda6fc4c36484fc51773ddb9d4a878ea8e65a7ba0696fac37d127b784c3
 persistence:
   internalshare:
     enabled: true
     mountPath: /UNRAID_SHARE
+  storageprojects:
+    enabled: true
+    mountPath: /srv/projects
 podSecurityContext:
   runAsGroup: 0
   runAsUser: 0
