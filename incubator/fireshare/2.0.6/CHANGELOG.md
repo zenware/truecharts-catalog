@@ -4,6 +4,15 @@
 
 
 
+## [fireshare-2.0.6](https://github.com/truecharts/charts/compare/fireshare-2.0.5...fireshare-2.0.6) (2022-12-23)
+
+### Chore
+
+- update container image tccr.io/truecharts/fireshare to v1.2.8
+  
+  
+
+
 ## [fireshare-2.0.5](https://github.com/truecharts/charts/compare/fireshare-2.0.4...fireshare-2.0.5) (2022-12-19)
 
 ### Chore
@@ -79,15 +88,6 @@
 ## [fireshare-2.0.2](https://github.com/truecharts/charts/compare/fireshare-2.0.1...fireshare-2.0.2) (2022-11-30)
 
 
-
-
-## [fireshare-2.0.1](https://github.com/truecharts/charts/compare/fireshare-2.0.0...fireshare-2.0.1) (2022-11-15)
-
-### Chore
-
-- update helm general non-major ([#4463](https://github.com/truecharts/charts/issues/4463))
-  
-  
 
 
 ## [fireshare-2.0.1](https://github.com/truecharts/charts/compare/fireshare-2.0.0...fireshare-2.0.1) (2022-11-15)
