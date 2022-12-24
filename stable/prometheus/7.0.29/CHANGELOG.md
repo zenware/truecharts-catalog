@@ -4,6 +4,15 @@
 
 
 
+## [prometheus-7.0.29](https://github.com/truecharts/charts/compare/prometheus-7.0.28...prometheus-7.0.29) (2022-12-24)
+
+### Chore
+
+- update container image tccr.io/truecharts/prometheus to 2.41.0
+  
+  
+
+
 ## [prometheus-7.0.28](https://github.com/truecharts/charts/compare/prometheus-7.0.27...prometheus-7.0.28) (2022-12-23)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 ## [prometheus-7.0.18](https://github.com/truecharts/charts/compare/prometheus-7.0.17...prometheus-7.0.18) (2022-12-10)
 
-
-
-
-## [prometheus-7.0.17](https://github.com/truecharts/charts/compare/prometheus-7.0.16...prometheus-7.0.17) (2022-12-04)
-
-
-
-
-## [prometheus-7.0.16](https://github.com/truecharts/charts/compare/prometheus-7.0.15...prometheus-7.0.16) (2022-12-01)
