@@ -1,0 +1,29 @@
+image:
+  repository: tccr.io/truecharts/rsnapshot
+  pullPolicy: IfNotPresent
+  tag: 1.4.4@sha256:4f598776ab02ddc6509b46a06f5219bee4503d1b96cab4aa1c34d9191c60ec92
+
+securityContext:
+  runAsNonRoot: false
+  readOnlyRootFilesystem: false
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+service:
+  main:
+    enabled: false
+    ports:
+      main:
+        enabled: false
+
+persistence:
+  varrun:
+    enabled: true
+  config:
+    enabled: true
+    mountPath: "/config"
+
+portal:
+  enabled: false

@@ -1,0 +1,29 @@
+image:
+  repository: tccr.io/truecharts/embystat
+  pullPolicy: IfNotPresent
+  tag: v0.2.0@sha256:1d98aa984ae634cb9bfe31d7c46b5e46c812ded14377008dd619ec433d44a696
+
+securityContext:
+  runAsNonRoot: false
+  readOnlyRootFilesystem: false
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+service:
+  main:
+    ports:
+      main:
+        targetPort: 6555
+        port: 6555
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+  varrun:
+    enabled: true
+
+portal:
+  enabled: true
