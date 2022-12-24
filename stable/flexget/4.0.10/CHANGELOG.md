@@ -4,6 +4,15 @@
 
 
 
+## [flexget-4.0.10](https://github.com/truecharts/charts/compare/flexget-4.0.9...flexget-4.0.10) (2022-12-24)
+
+### Chore
+
+- update container image tccr.io/truecharts/flexget to v3.5.13
+  
+  
+
+
 ## [flexget-4.0.9](https://github.com/truecharts/charts/compare/flexget-4.0.8...flexget-4.0.9) (2022-12-19)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 ## [flexget-4.0.4](https://github.com/truecharts/charts/compare/flexget-4.0.2...flexget-4.0.4) (2022-11-30)
 
-
-
-
-## [flexget-4.0.3](https://github.com/truecharts/charts/compare/flexget-4.0.2...flexget-4.0.3) (2022-11-29)
-
-
-
-
-## [flexget-4.0.3](https://github.com/truecharts/charts/compare/flexget-4.0.2...flexget-4.0.3) (2022-11-29)
