@@ -4,6 +4,15 @@
 
 
 
+## [autobrr-3.0.7](https://github.com/truecharts/charts/compare/autobrr-3.0.6...autobrr-3.0.7) (2022-12-25)
+
+### Chore
+
+- update container image tccr.io/truecharts/autobrr to v1.12.1
+  
+  
+
+
 ## [autobrr-3.0.6](https://github.com/truecharts/charts/compare/autobrr-3.0.5...autobrr-3.0.6) (2022-12-21)
 
 ### Chore
@@ -84,15 +93,6 @@
 ## [autobrr-3.0.2](https://github.com/truecharts/charts/compare/autobrr-3.0.1...autobrr-3.0.2) (2022-11-18)
 
 
-
-
-## [autobrr-3.0.1](https://github.com/truecharts/charts/compare/autobrr-3.0.0...autobrr-3.0.1) (2022-11-15)
-
-### Chore
-
-- update helm general non-major ([#4463](https://github.com/truecharts/charts/issues/4463))
-  
-  
 
 
 ## [autobrr-3.0.1](https://github.com/truecharts/charts/compare/autobrr-3.0.0...autobrr-3.0.1) (2022-11-15)
