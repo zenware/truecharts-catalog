@@ -1,0 +1,31 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: tccr.io/truecharts/webtop
+  tag: latest@sha256:212fe831b602b1acd3764214b6825432d5733389216948885d9ab20b5b617aab
+
+env:
+  KEYBOARD: ""
+  CUSTOM_PORT: "{{ .Values.service.main.ports.main.port }}"
+
+podSecurityContext:
+  runAsGroup: 0
+  runAsUser: 0
+
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+
+service:
+  main:
+    ports:
+      main:
+        port: 33000
+        protocol: HTTP
+
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+
+portal:
+  enabled: true
