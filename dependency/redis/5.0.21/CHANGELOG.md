@@ -4,6 +4,15 @@
 
 
 
+## [redis-5.0.21](https://github.com/truecharts/charts/compare/redisinsight-2.0.6...redis-5.0.21) (2022-12-26)
+
+### Chore
+
+- update container image tccr.io/truecharts/redis to 7.0.7
+  
+  
+
+
 ## [redis-5.0.20](https://github.com/truecharts/charts/compare/tubearchivist-redisjson-2.0.7...redis-5.0.20) (2022-12-26)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Chore
 
 - update container image tccr.io/truecharts/redis to 7.0.5
-  
-  
-
-
-## [redis-5.0.10](https://github.com/truecharts/charts/compare/redis-5.0.9...redis-5.0.10) (2022-12-11)
-
-### Chore
-
-- update helm chart common to v11.0.7 ([#5266](https://github.com/truecharts/charts/issues/5266))
   
   
