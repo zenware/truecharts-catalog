@@ -4,6 +4,11 @@
 
 
 
+## [meshcentral-9.0.23](https://github.com/truecharts/charts/compare/meshcentral-9.0.22...meshcentral-9.0.23) (2022-12-27)
+
+
+
+
 ## [meshcentral-9.0.22](https://github.com/truecharts/charts/compare/meshcentral-9.0.21...meshcentral-9.0.22) (2022-12-27)
 
 
@@ -92,8 +97,3 @@
 
 - decode keys before reencode ([#5258](https://github.com/truecharts/charts/issues/5258))
   
-  
-
-
-## [meshcentral-9.0.11](https://github.com/truecharts/charts/compare/meshcentral-9.0.10...meshcentral-9.0.11) (2022-12-10)
-
