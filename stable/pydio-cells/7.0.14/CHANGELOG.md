@@ -4,6 +4,15 @@
 
 
 
+## [pydio-cells-7.0.14](https://github.com/truecharts/charts/compare/pydio-cells-7.0.13...pydio-cells-7.0.14) (2022-12-27)
+
+### Chore
+
+- update container image tccr.io/truecharts/pydio-cells to v4.0.5
+  
+  
+
+
 ## [pydio-cells-7.0.13](https://github.com/truecharts/charts/compare/pydio-cells-7.0.12...pydio-cells-7.0.13) (2022-12-27)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 
 ## [pydio-cells-7.0.6](https://github.com/truecharts/charts/compare/pydio-cells-7.0.4...pydio-cells-7.0.6) (2022-11-30)
-
-
-
-
-## [pydio-cells-7.0.6](https://github.com/truecharts/charts/compare/pydio-cells-7.0.4...pydio-cells-7.0.6) (2022-11-30)
-
-
-
-
