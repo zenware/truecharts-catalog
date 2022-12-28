@@ -4,6 +4,15 @@
 
 
 
+## [appsmith-5.0.20](https://github.com/truecharts/charts/compare/appsmith-5.0.19...appsmith-5.0.20) (2022-12-28)
+
+### Chore
+
+- update container image tccr.io/truecharts/appsmith to v1.8.15
+  
+  
+
+
 ## [appsmith-5.0.19](https://github.com/truecharts/charts/compare/appsmith-5.0.18...appsmith-5.0.19) (2022-12-27)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [appsmith-5.0.10](https://github.com/truecharts/charts/compare/appsmith-5.0.9...appsmith-5.0.10) (2022-12-05)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [appsmith-5.0.9](https://github.com/truecharts/charts/compare/appsmith-5.0.8...appsmith-5.0.9) (2022-12-01)
 
 ### Chore
