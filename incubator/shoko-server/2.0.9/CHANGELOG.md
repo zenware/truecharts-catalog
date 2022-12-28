@@ -4,6 +4,15 @@
 
 
 
+## [shoko-server-2.0.9](https://github.com/truecharts/charts/compare/shoko-server-2.0.8...shoko-server-2.0.9) (2022-12-28)
+
+### Chore
+
+- update container image tccr.io/truecharts/shoko-server to vdaily
+  
+  
+
+
 ## [shoko-server-2.0.8](https://github.com/truecharts/charts/compare/shoko-server-2.0.7...shoko-server-2.0.8) (2022-12-27)
 
 ### Chore
@@ -85,15 +94,6 @@
 
 ## [shoko-server-2.0.2](https://github.com/truecharts/charts/compare/shoko-server-2.0.1...shoko-server-2.0.2) (2022-11-30)
 
-
-
-
-## [shoko-server-2.0.2](https://github.com/truecharts/charts/compare/shoko-server-2.0.1...shoko-server-2.0.2) (2022-11-30)
-
-
-
-
-## [shoko-server-2.0.2](https://github.com/truecharts/charts/compare/shoko-server-2.0.1...shoko-server-2.0.2) (2022-11-30)
 
 
 
