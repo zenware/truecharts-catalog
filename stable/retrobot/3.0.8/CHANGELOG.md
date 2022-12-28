@@ -4,6 +4,15 @@
 
 
 
+## [retrobot-3.0.8](https://github.com/truecharts/charts/compare/retrobot-3.0.7...retrobot-3.0.8) (2022-12-28)
+
+### Chore
+
+- update container image tccr.io/truecharts/retrobot to latest
+  
+  
+
+
 ## [retrobot-3.0.7](https://github.com/truecharts/charts/compare/retrobot-3.0.6...retrobot-3.0.7) (2022-12-27)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 ## [retrobot-3.0.2](https://github.com/truecharts/charts/compare/retrobot-3.0.1...retrobot-3.0.2) (2022-11-30)
 
-
-
-
-## [retrobot-3.0.2](https://github.com/truecharts/charts/compare/retrobot-3.0.1...retrobot-3.0.2) (2022-11-30)
-
-
-
-
-## [retrobot-3.0.2](https://github.com/truecharts/charts/compare/retrobot-3.0.1...retrobot-3.0.2) (2022-11-30)
 
 
