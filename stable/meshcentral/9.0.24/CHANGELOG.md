@@ -4,6 +4,15 @@
 
 
 
+## [meshcentral-9.0.24](https://github.com/truecharts/charts/compare/meshcentral-9.0.23...meshcentral-9.0.24) (2022-12-28)
+
+### Fix
+
+- allow for bool values in strings ([#5862](https://github.com/truecharts/charts/issues/5862))
+  
+  
+
+
 ## [meshcentral-9.0.23](https://github.com/truecharts/charts/compare/meshcentral-9.0.22...meshcentral-9.0.23) (2022-12-27)
 
 
@@ -88,12 +97,3 @@
 
 ## [meshcentral-9.0.13](https://github.com/truecharts/charts/compare/meshcentral-9.0.12...meshcentral-9.0.13) (2022-12-11)
 
-
-
-
-## [meshcentral-9.0.12](https://github.com/truecharts/charts/compare/meshcentral-9.0.11...meshcentral-9.0.12) (2022-12-11)
-
-### Fix
-
-- decode keys before reencode ([#5258](https://github.com/truecharts/charts/issues/5258))
-  
