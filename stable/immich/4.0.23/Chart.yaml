@@ -1,5 +1,5 @@
 apiVersion: v2
-appVersion: "4.5.4"
+appVersion: "1.39.0_61"
 dependencies:
   - name: common
     repository: https://library-charts.truecharts.org
@@ -8,24 +8,25 @@ dependencies:
     name: postgresql
     repository: https://charts.truecharts.org/
     version: 11.0.17
-description: Open-source headless CMS. JavaScript, fully customizable and developer-first.
-home: https://truecharts.org/charts/stable/strapi
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/strapi.png
+  - condition: redis.enabled
+    name: redis
+    repository: https://charts.truecharts.org
+    version: 5.0.22
+description: High performance self-hosted photo and video backup solution.
+home: https://truecharts.org/charts/stable/immich
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/immich.png
 keywords:
-  - strapi
-  - cms
+  - photos
 kubeVersion: ">=1.16.0-0"
 maintainers:
   - email: info@truecharts.org
     name: TrueCharts
     url: https://truecharts.org
-name: strapi
+name: immich
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/strapi
-  - https://truecharts.org/docs/charts/stable/strapi
-  - https://hub.docker.com/r/naskio/strapi
-  - https://github.com/naskio/docker-strapi
-version: 8.0.19
+  - https://github.com/truecharts/charts/tree/master/charts/stable/immich
+  - https://github.com/immich-app/immich
+version: 4.0.23
 annotations:
   truecharts.org/catagories: |
     - media

@@ -4,6 +4,15 @@
 
 
 
+## [paperless-ng-7.0.20](https://github.com/truecharts/charts/compare/paperless-ng-7.0.19...paperless-ng-7.0.20) (2022-12-30)
+
+### Chore
+
+- update container image tccr.io/truecharts/paperless-ng to v1.11.0
+  
+  
+
+
 ## [paperless-ng-7.0.19](https://github.com/truecharts/charts/compare/paperless-ng-7.0.18...paperless-ng-7.0.19) (2022-12-27)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Chore
 
 - update container image tccr.io/truecharts/paperless-ng to v1.10.1
-  
-  
-
-
-## [paperless-ng-7.0.9](https://github.com/truecharts/charts/compare/paperless-ng-7.0.6...paperless-ng-7.0.9) (2022-11-30)
-
-### Chore
-
-- update container image tccr.io/truecharts/paperless-ng to v1.10.0
   
