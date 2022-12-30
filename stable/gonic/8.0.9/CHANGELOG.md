@@ -4,6 +4,15 @@
 
 
 
+## [gonic-8.0.9](https://github.com/truecharts/charts/compare/gonic-8.0.8...gonic-8.0.9) (2022-12-30)
+
+### Chore
+
+- update container image tccr.io/truecharts/gonic to v0.15.2
+  
+  
+
+
 ## [gonic-8.0.8](https://github.com/truecharts/charts/compare/gonic-8.0.7...gonic-8.0.8) (2022-12-27)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 ## [gonic-8.0.3](https://github.com/truecharts/charts/compare/gonic-8.0.2...gonic-8.0.3) (2022-11-30)
 
-
-
-
-## [gonic-8.0.3](https://github.com/truecharts/charts/compare/gonic-8.0.2...gonic-8.0.3) (2022-11-30)
-
-
-
-
-## [gonic-8.0.3](https://github.com/truecharts/charts/compare/gonic-8.0.2...gonic-8.0.3) (2022-11-30)
 
 

@@ -4,6 +4,15 @@
 
 
 
+## [xwiki-6.0.20](https://github.com/truecharts/charts/compare/xwiki-6.0.19...xwiki-6.0.20) (2022-12-30)
+
+### Chore
+
+- update container image tccr.io/truecharts/xwiki to v14.10.2
+  
+  
+
+
 ## [xwiki-6.0.19](https://github.com/truecharts/charts/compare/xwiki-6.0.18...xwiki-6.0.19) (2022-12-27)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 ## [xwiki-6.0.10](https://github.com/truecharts/charts/compare/xwiki-6.0.7...xwiki-6.0.10) (2022-11-30)
 
-
-
-
-## [xwiki-6.0.10](https://github.com/truecharts/charts/compare/xwiki-6.0.7...xwiki-6.0.10) (2022-11-30)
-
-
-
-
-## [xwiki-6.0.10](https://github.com/truecharts/charts/compare/xwiki-6.0.7...xwiki-6.0.10) (2022-11-30)
