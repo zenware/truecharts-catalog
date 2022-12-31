@@ -4,6 +4,15 @@
 
 
 
+## [mosdns-4.0.9](https://github.com/truecharts/charts/compare/mosdns-4.0.8...mosdns-4.0.9) (2022-12-31)
+
+### Chore
+
+- update container image tccr.io/truecharts/mosdns to 4.5.3
+  
+  
+
+
 ## [mosdns-4.0.8](https://github.com/truecharts/charts/compare/mosdns-4.0.7...mosdns-4.0.8) (2022-12-27)
 
 ### Chore
@@ -85,15 +94,6 @@
 
 ## [mosdns-4.0.2](https://github.com/truecharts/charts/compare/mosdns-4.0.1...mosdns-4.0.2) (2022-11-30)
 
-
-
-
-## [mosdns-4.0.2](https://github.com/truecharts/charts/compare/mosdns-4.0.1...mosdns-4.0.2) (2022-11-30)
-
-
-
-
-## [mosdns-4.0.2](https://github.com/truecharts/charts/compare/mosdns-4.0.1...mosdns-4.0.2) (2022-11-30)
 
 
 
