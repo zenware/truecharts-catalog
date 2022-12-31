@@ -4,6 +4,15 @@
 
 
 
+## [alist-4.0.11](https://github.com/truecharts/charts/compare/alist-4.0.10...alist-4.0.11) (2022-12-31)
+
+### Chore
+
+- update container image tccr.io/truecharts/alist to v3.7.2 ([#5901](https://github.com/truecharts/charts/issues/5901))
+  
+  
+
+
 ## [alist-4.0.10](https://github.com/truecharts/charts/compare/alist-4.0.9...alist-4.0.10) (2022-12-27)
 
 ### Chore
@@ -85,15 +94,6 @@
 
 ## [alist-4.0.4](https://github.com/truecharts/charts/compare/alist-4.0.3...alist-4.0.4) (2022-11-30)
 
-
-
-
-## [alist-4.0.4](https://github.com/truecharts/charts/compare/alist-4.0.3...alist-4.0.4) (2022-11-30)
-
-
-
-
-## [alist-4.0.4](https://github.com/truecharts/charts/compare/alist-4.0.3...alist-4.0.4) (2022-11-30)
 
 
 
