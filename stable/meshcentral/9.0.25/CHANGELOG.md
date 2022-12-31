@@ -4,6 +4,15 @@
 
 
 
+## [meshcentral-9.0.25](https://github.com/truecharts/charts/compare/meshcentral-9.0.24...meshcentral-9.0.25) (2022-12-31)
+
+### Fix
+
+- don't double encode new generated keys ([#5917](https://github.com/truecharts/charts/issues/5917))
+  
+  
+
+
 ## [meshcentral-9.0.24](https://github.com/truecharts/charts/compare/meshcentral-9.0.23...meshcentral-9.0.24) (2022-12-28)
 
 ### Fix
@@ -87,13 +96,4 @@
 
 
 ## [meshcentral-9.0.14](https://github.com/truecharts/charts/compare/meshcentral-9.0.13...meshcentral-9.0.14) (2022-12-13)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [meshcentral-9.0.13](https://github.com/truecharts/charts/compare/meshcentral-9.0.12...meshcentral-9.0.13) (2022-12-11)
 
