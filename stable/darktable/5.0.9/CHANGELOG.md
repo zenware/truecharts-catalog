@@ -4,6 +4,15 @@
 
 
 
+## [darktable-5.0.9](https://github.com/truecharts/charts/compare/darktable-5.0.8...darktable-5.0.9) (2022-12-31)
+
+### Chore
+
+- update container image tccr.io/truecharts/darktable to 3.8.1 ([#5912](https://github.com/truecharts/charts/issues/5912))
+  
+  
+
+
 ## [darktable-5.0.8](https://github.com/truecharts/charts/compare/darktable-5.0.7...darktable-5.0.8) (2022-12-27)
 
 ### Chore
@@ -85,15 +94,6 @@
 
 ## [darktable-5.0.2](https://github.com/truecharts/charts/compare/darktable-5.0.1...darktable-5.0.2) (2022-11-30)
 
-
-
-
-## [darktable-5.0.2](https://github.com/truecharts/charts/compare/darktable-5.0.1...darktable-5.0.2) (2022-11-30)
-
-
-
-
-## [darktable-5.0.2](https://github.com/truecharts/charts/compare/darktable-5.0.1...darktable-5.0.2) (2022-11-30)
 
 
 
