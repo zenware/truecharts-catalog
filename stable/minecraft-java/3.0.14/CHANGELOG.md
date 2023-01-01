@@ -4,6 +4,15 @@
 
 
 
+## [minecraft-java-3.0.14](https://github.com/truecharts/charts/compare/minecraft-java-3.0.13...minecraft-java-3.0.14) (2023-01-01)
+
+### Chore
+
+- update container image tccr.io/truecharts/minecraft-java to v2022.16.0
+  
+  
+
+
 ## [minecraft-java-3.0.13](https://github.com/truecharts/charts/compare/minecraft-java-3.0.12...minecraft-java-3.0.13) (2022-12-27)
 
 ### Chore
@@ -87,13 +96,4 @@
   
   
 
-
-## [minecraft-java-3.0.5](https://github.com/truecharts/charts/compare/minecraft-java-3.0.3...minecraft-java-3.0.5) (2022-11-30)
-
-### Chore
-
-- update container image tccr.io/truecharts/minecraft-java8-openj9 to latest
-  - update container image tccr.io/truecharts/minecraft-java11 to latest
-  
-  
 
