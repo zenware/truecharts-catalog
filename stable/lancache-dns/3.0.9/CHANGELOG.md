@@ -4,6 +4,15 @@
 
 
 
+## [lancache-dns-3.0.9](https://github.com/truecharts/charts/compare/lancache-dns-3.0.8...lancache-dns-3.0.9) (2023-01-01)
+
+### Chore
+
+- update container image tccr.io/truecharts/lancache-dns to latest
+  
+  
+
+
 ## [lancache-dns-3.0.8](https://github.com/truecharts/charts/compare/lancache-dns-3.0.7...lancache-dns-3.0.8) (2022-12-27)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 ## [lancache-dns-3.0.3](https://github.com/truecharts/charts/compare/lancache-dns-3.0.2...lancache-dns-3.0.3) (2022-12-01)
 
-
-
-
-## [lancache-dns-3.0.3](https://github.com/truecharts/charts/compare/lancache-dns-3.0.2...lancache-dns-3.0.3) (2022-12-01)
-
-
-
-
-## [lancache-dns-3.0.3](https://github.com/truecharts/charts/compare/lancache-dns-3.0.2...lancache-dns-3.0.3) (2022-12-01)
 
 
