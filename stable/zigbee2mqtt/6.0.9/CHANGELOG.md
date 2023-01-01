@@ -4,6 +4,15 @@
 
 
 
+## [zigbee2mqtt-6.0.9](https://github.com/truecharts/charts/compare/zigbee2mqtt-6.0.8...zigbee2mqtt-6.0.9) (2023-01-01)
+
+### Chore
+
+- update container image tccr.io/truecharts/zigbee2mqtt to v1.29.0
+  
+  
+
+
 ## [zigbee2mqtt-6.0.8](https://github.com/truecharts/charts/compare/zigbee2mqtt-6.0.7...zigbee2mqtt-6.0.8) (2022-12-27)
 
 ### Chore
@@ -85,15 +94,6 @@
 
 ## [zigbee2mqtt-6.0.2](https://github.com/truecharts/charts/compare/zigbee2mqtt-6.0.1...zigbee2mqtt-6.0.2) (2022-11-30)
 
-
-
-
-## [zigbee2mqtt-6.0.2](https://github.com/truecharts/charts/compare/zigbee2mqtt-6.0.1...zigbee2mqtt-6.0.2) (2022-11-30)
-
-
-
-
-## [zigbee2mqtt-6.0.2](https://github.com/truecharts/charts/compare/zigbee2mqtt-6.0.1...zigbee2mqtt-6.0.2) (2022-11-30)
 
 
 
