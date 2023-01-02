@@ -4,6 +4,11 @@
 
 
 
+## [arksurvivalevolved-3.0.7](https://github.com/truecharts/charts/compare/arksurvivalevolved-3.0.6...arksurvivalevolved-3.0.7) (2023-01-02)
+
+
+
+
 ## [arksurvivalevolved-3.0.6](https://github.com/truecharts/charts/compare/arksurvivalevolved-3.0.5...arksurvivalevolved-3.0.6) (2022-12-27)
 
 ### Chore
@@ -79,11 +84,6 @@
 - update helm general non-major
   
   
-
-
-## [arksurvivalevolved-2.0.2](https://github.com/truecharts/charts/compare/arksurvivalevolved-2.0.1...arksurvivalevolved-2.0.2) (2022-11-30)
-
-
 
 
 ## [arksurvivalevolved-2.0.2](https://github.com/truecharts/charts/compare/arksurvivalevolved-2.0.1...arksurvivalevolved-2.0.2) (2022-11-30)
