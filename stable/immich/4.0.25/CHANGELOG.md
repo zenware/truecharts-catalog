@@ -4,6 +4,20 @@
 
 
 
+## [immich-4.0.25](https://github.com/truecharts/charts/compare/immich-4.0.24...immich-4.0.25) (2023-01-03)
+
+### Chore
+
+- update container image tccr.io/truecharts/immich-web to v1.40.1_63
+  - update container image tccr.io/truecharts/immich-server to v1.40.1_63
+  
+  ### Fix
+
+- encode all keys in secret
+  
+  
+
+
 ## [immich-4.0.24](https://github.com/truecharts/charts/compare/immich-4.0.23...immich-4.0.24) (2023-01-01)
 
 ### Chore
@@ -83,17 +97,3 @@
 
 ### Chore
 
-- update helm chart postgresql to v11.0.13 ([#5495](https://github.com/truecharts/charts/issues/5495))
-  - update helm chart redis to v5.0.16
-  - cleanup immich ([#5470](https://github.com/truecharts/charts/issues/5470))
-  
-  
-
-
-## [immich-4.0.15](https://github.com/truecharts/charts/compare/immich-4.0.14...immich-4.0.15) (2022-12-17)
-
-### Chore
-
-- update container image tccr.io/truecharts/immich-ml to v1.38.2_60
-  
-  
