@@ -4,6 +4,15 @@
 
 
 
+## [apprise-api-2.0.11](https://github.com/truecharts/charts/compare/apprise-api-2.0.10...apprise-api-2.0.11) (2023-01-04)
+
+### Chore
+
+- update container image tccr.io/truecharts/apprise-api to latest
+  
+  
+
+
 ## [apprise-api-2.0.10](https://github.com/truecharts/charts/compare/apprise-api-2.0.9...apprise-api-2.0.10) (2022-12-27)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 ## [apprise-api-2.0.3](https://github.com/truecharts/charts/compare/apprise-api-2.0.2...apprise-api-2.0.3) (2022-11-30)
 
-
-
-
-## [apprise-api-2.0.3](https://github.com/truecharts/charts/compare/apprise-api-2.0.2...apprise-api-2.0.3) (2022-11-30)
-
-
-
-
-## [apprise-api-2.0.3](https://github.com/truecharts/charts/compare/apprise-api-2.0.2...apprise-api-2.0.3) (2022-11-30)
 
 
