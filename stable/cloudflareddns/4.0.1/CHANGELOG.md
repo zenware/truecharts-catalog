@@ -4,6 +4,11 @@
 
 
 
+## [cloudflareddns-4.0.1](https://github.com/truecharts/charts/compare/cloudflareddns-4.0.0...cloudflareddns-4.0.1) (2023-01-06)
+
+
+
+
 ## [cloudflareddns-4.0.0](https://github.com/truecharts/charts/compare/cloudflareddns-3.0.10...cloudflareddns-4.0.0) (2023-01-06)
 
 ### Feat
@@ -70,11 +75,6 @@
 - update helm general non-major
   
   
-
-
-## [cloudflareddns-3.0.3](https://github.com/truecharts/charts/compare/cloudflareddns-3.0.2...cloudflareddns-3.0.3) (2022-11-30)
-
-
 
 
 ## [cloudflareddns-3.0.3](https://github.com/truecharts/charts/compare/cloudflareddns-3.0.2...cloudflareddns-3.0.3) (2022-11-30)
