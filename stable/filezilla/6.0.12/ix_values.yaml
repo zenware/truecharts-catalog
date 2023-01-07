@@ -1,7 +1,7 @@
 image:
-  repository: tccr.io/truecharts/openspeedtest
+  repository: tccr.io/truecharts/filezilla
   pullPolicy: IfNotPresent
-  tag: latest@sha256:c1126710cb9f5091322292a3dc0b957462bce948d4c6f3b5f4ddba2960382913
+  tag: 3.59.0@sha256:676c377d20b97c48d5a063abf3ac5fcc2c15ffb01c4a04f4b4c59eeed30c9295
 
 securityContext:
   readOnlyRootFilesystem: false
@@ -15,9 +15,15 @@ service:
   main:
     ports:
       main:
-        protocol: HTTP
+        port: 10035
         targetPort: 3000
-        port: 10256
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+  varrun:
+    enabled: true
 
 portal:
   enabled: true
