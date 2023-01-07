@@ -4,6 +4,15 @@
 
 
 
+## [kdenlive-2.0.13](https://github.com/truecharts/charts/compare/kdenlive-vnc-2.0.7...kdenlive-2.0.13) (2023-01-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/kdenlive to latest
+  
+  
+
+
 ## [kdenlive-2.0.12](https://github.com/truecharts/charts/compare/kdenlive-vnc-2.0.6...kdenlive-2.0.12) (2022-12-27)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 ## [kdenlive-2.0.4](https://github.com/truecharts/charts/compare/kdenlive-2.0.3...kdenlive-2.0.4) (2022-11-30)
 
-
-
-
-## [kdenlive-2.0.4](https://github.com/truecharts/charts/compare/kdenlive-2.0.3...kdenlive-2.0.4) (2022-11-30)
-
-
-
-
-## [kdenlive-2.0.4](https://github.com/truecharts/charts/compare/kdenlive-2.0.3...kdenlive-2.0.4) (2022-11-30)
