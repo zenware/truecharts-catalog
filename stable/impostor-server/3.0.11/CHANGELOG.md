@@ -4,6 +4,15 @@
 
 
 
+## [impostor-server-3.0.11](https://github.com/truecharts/charts/compare/impostor-server-3.0.10...impostor-server-3.0.11) (2023-01-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/impostor-server-nightly to vnightly
+  
+  
+
+
 ## [impostor-server-3.0.10](https://github.com/truecharts/charts/compare/impostor-server-3.0.9...impostor-server-3.0.10) (2023-01-07)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 ## [impostor-server-3.0.2](https://github.com/truecharts/charts/compare/impostor-server-3.0.1...impostor-server-3.0.2) (2022-11-30)
 
-
-
-
-## [impostor-server-3.0.2](https://github.com/truecharts/charts/compare/impostor-server-3.0.1...impostor-server-3.0.2) (2022-11-30)
-
-
-
-
-## [impostor-server-3.0.2](https://github.com/truecharts/charts/compare/impostor-server-3.0.1...impostor-server-3.0.2) (2022-11-30)
