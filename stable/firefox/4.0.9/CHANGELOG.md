@@ -4,6 +4,15 @@
 
 
 
+## [firefox-4.0.9](https://github.com/truecharts/charts/compare/firefox-syncserver-12.0.15...firefox-4.0.9) (2023-01-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/firefox to 101.0.1 ([#6030](https://github.com/truecharts/charts/issues/6030))
+  
+  
+
+
 ## [firefox-4.0.8](https://github.com/truecharts/charts/compare/firefox-desktop-g3-2.0.9...firefox-4.0.8) (2022-12-27)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 ## [firefox-4.0.2](https://github.com/truecharts/charts/compare/firefox-syncserver-12.0.6...firefox-4.0.2) (2022-11-30)
 
-
-
-
-## [firefox-4.0.2](https://github.com/truecharts/charts/compare/firefox-syncserver-12.0.6...firefox-4.0.2) (2022-11-30)
-
-
-
-
-## [firefox-4.0.2](https://github.com/truecharts/charts/compare/firefox-syncserver-12.0.6...firefox-4.0.2) (2022-11-30)
 
 

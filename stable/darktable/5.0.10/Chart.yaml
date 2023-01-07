@@ -1,18 +1,18 @@
 apiVersion: v2
 kubeVersion: ">=1.16.0-0"
-name: firefox
-version: 4.0.8
-appVersion: "101.0.1"
-description: Firefox Browser, also known as Mozilla Firefox or simply Firefox,
+name: darktable
+version: 5.0.10
+appVersion: "3.8.1"
+description: Darktable is an open source photography workflow application and raw developer.
 type: application
 deprecated: false
-home: https://truecharts.org/charts/stable/firefox
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/firefox.png
+home: https://truecharts.org/charts/stable/darktable
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/darktable.png
 keywords:
-  - firefox
+  - darktable
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/firefox
-  - https://hub.docker.com/r/linuxserver/firefox
+  - https://github.com/truecharts/charts/tree/master/charts/stable/darktable
+  - https://hub.docker.com/r/linuxserver/darktable
 dependencies:
   - name: common
     repository: https://library-charts.truecharts.org
