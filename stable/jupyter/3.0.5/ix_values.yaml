@@ -5,15 +5,15 @@ image:
 minimalImage:
   repository: tccr.io/truecharts/jupyter-minimal
   pullPolicy: IfNotPresent
-  tag: v2022-09@sha256:271f544e91bba00aa31779dae38643e7a707c0e0a29f0b143acb3387d480c6bf
+  tag: v2023-01@sha256:d9841db5d50108988eb8f9e055753cbeb439303c7e472aed2b6c06727996d44b
 rImage:
   repository: tccr.io/truecharts/jupyter-r
   pullPolicy: IfNotPresent
-  tag: v2022-09@sha256:5b67ae6c24d118b0774abc9e20b5afc1bb5cc59dcb0a161001ecfc7764bce212
+  tag: v2022-12@sha256:e107a928acf4476444cf210d37d7038cd66fee2d27440ea69d0c366f40e17d28
 scipyImage:
   repository: tccr.io/truecharts/jupyter-scipy
   pullPolicy: IfNotPresent
-  tag: v2022-09@sha256:d7a9c521059851c1366a59a5cf3a486b916ffd51ca0586135a357282a8a1a95a
+  tag: v2023-01@sha256:78cf2794fe70b6e48f3ad6c3dc8ec50fcc8f6b432c1146b9e745a599637eeb33
 tensorflowImage:
   repository: tccr.io/truecharts/jupyter-tensorflow
   pullPolicy: IfNotPresent
@@ -25,7 +25,7 @@ datascienceImage:
 pysparkImage:
   repository: tccr.io/truecharts/jupyter-pyspark
   pullPolicy: IfNotPresent
-  tag: v2022-09@sha256:c0d352ee162f0141ceb10365087104bd3dc60e1127c2c74f8140f87c4602427b
+  tag: v2023-01@sha256:1650fbf0ced97e212e54f145c972082385baa1a7d1e28fa0b08f19846cd0f171
 allsparkImage:
   repository: tccr.io/truecharts/jupyter-all-spark
   pullPolicy: IfNotPresent
