@@ -4,6 +4,15 @@
 
 
 
+## [ra-rom-processor-2.0.12](https://github.com/truecharts/charts/compare/ra-rom-processor-2.0.11...ra-rom-processor-2.0.12) (2023-01-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/ra-rom-processor to latest
+  
+  
+
+
 ## [ra-rom-processor-2.0.11](https://github.com/truecharts/charts/compare/ra-rom-processor-2.0.10...ra-rom-processor-2.0.11) (2022-12-27)
 
 ### Chore
@@ -59,15 +68,6 @@
 
 
 ## [ra-rom-processor-2.0.5](https://github.com/truecharts/charts/compare/ra-rom-processor-2.0.4...ra-rom-processor-2.0.5) (2022-12-12)
-
-### Chore
-
-- update container image tccr.io/truecharts/ra-rom-processor to latest
-  
-  
-
-
-## [ra-rom-processor-2.0.4](https://github.com/truecharts/charts/compare/ra-rom-processor-2.0.2...ra-rom-processor-2.0.4) (2022-11-30)
 
 ### Chore
 
