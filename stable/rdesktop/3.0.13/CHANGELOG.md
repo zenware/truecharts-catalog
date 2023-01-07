@@ -4,6 +4,15 @@
 
 
 
+## [rdesktop-3.0.13](https://github.com/truecharts/charts/compare/rdesktop-3.0.12...rdesktop-3.0.13) (2023-01-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/rdesktop-arch-icewm to latest
+  
+  
+
+
 ## [rdesktop-3.0.12](https://github.com/truecharts/charts/compare/rdesktop-3.0.11...rdesktop-3.0.12) (2022-12-27)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 
 ## [rdesktop-3.0.5](https://github.com/truecharts/charts/compare/rdesktop-3.0.2...rdesktop-3.0.5) (2022-12-18)
-
-### Chore
-
-- update container image tccr.io/truecharts/rdesktop-ubuntu-openbox to latest
-  - update container image tccr.io/truecharts/rdesktop-ubuntu-mate to latest
-  - update container image tccr.io/truecharts/rdesktop-ubuntu-kde to latest
-  - update container image tccr.io/truecharts/rdesktop-ubuntu-icewm to latest
-  - update container image tccr.io/truecharts/rdesktop-ubuntu-i3 to latest
-  - update container image tccr.io/truecharts/rdesktop-fedora-xfce to latest
