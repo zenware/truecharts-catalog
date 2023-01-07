@@ -4,6 +4,15 @@
 
 
 
+## [habridge-4.0.10](https://github.com/truecharts/charts/compare/habridge-4.0.9...habridge-4.0.10) (2023-01-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/habridge to v5.4.1 ([#6034](https://github.com/truecharts/charts/issues/6034))
+  
+  
+
+
 ## [habridge-4.0.9](https://github.com/truecharts/charts/compare/habridge-4.0.8...habridge-4.0.9) (2022-12-27)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 
 ## [habridge-4.0.2](https://github.com/truecharts/charts/compare/habridge-4.0.1...habridge-4.0.2) (2022-11-30)
-
-
-
-
-## [habridge-4.0.2](https://github.com/truecharts/charts/compare/habridge-4.0.1...habridge-4.0.2) (2022-11-30)
-
-
-
-
