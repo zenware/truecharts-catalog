@@ -4,6 +4,15 @@
 
 
 
+## [sftpgo-2.0.9](https://github.com/truecharts/charts/compare/sftpgo-2.0.8...sftpgo-2.0.9) (2023-01-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/sftpgo to latest
+  
+  
+
+
 ## [sftpgo-2.0.8](https://github.com/truecharts/charts/compare/sftpgo-2.0.7...sftpgo-2.0.8) (2022-12-27)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 ## [sftpgo-2.0.3](https://github.com/truecharts/charts/compare/sftpgo-2.0.2...sftpgo-2.0.3) (2022-11-30)
 
-
-
-
-## [sftpgo-2.0.3](https://github.com/truecharts/charts/compare/sftpgo-2.0.2...sftpgo-2.0.3) (2022-11-30)
-
-
-
-
-## [sftpgo-2.0.3](https://github.com/truecharts/charts/compare/sftpgo-2.0.2...sftpgo-2.0.3) (2022-11-30)
 
 
