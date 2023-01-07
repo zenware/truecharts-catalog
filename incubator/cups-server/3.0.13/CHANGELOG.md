@@ -4,6 +4,15 @@
 
 
 
+## [cups-server-3.0.13](https://github.com/truecharts/charts/compare/cups-server-3.0.12...cups-server-3.0.13) (2023-01-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/cups-server to latest ([#6020](https://github.com/truecharts/charts/issues/6020))
+  
+  
+
+
 ## [cups-server-3.0.12](https://github.com/truecharts/charts/compare/cups-server-3.0.11...cups-server-3.0.12) (2022-12-27)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 ## [cups-server-3.0.4](https://github.com/truecharts/charts/compare/cups-server-3.0.2...cups-server-3.0.4) (2022-11-30)
 
-
-
-
-## [cups-server-3.0.4](https://github.com/truecharts/charts/compare/cups-server-3.0.2...cups-server-3.0.4) (2022-11-30)
-
-
-
-
-## [cups-server-3.0.4](https://github.com/truecharts/charts/compare/cups-server-3.0.2...cups-server-3.0.4) (2022-11-30)
