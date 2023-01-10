@@ -1,0 +1,38 @@
+image:
+  repository: tccr.io/truecharts/uptime-kuma
+  pullPolicy: IfNotPresent
+  tag: 1.19.4@sha256:cdb020e8171056f1546372f88bc228041f9127d3b1e7b1dcf0bf2bd54e52ffa6
+
+securityContext:
+  runAsNonRoot: false
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+security:
+  PUID: 0
+
+service:
+  main:
+    ports:
+      main:
+        port: 3001
+        targetPort: 3001
+
+persistence:
+  config:
+    enabled: true
+    mountPath: "/app/data"
+
+portal:
+  enabled: true
+
+metrics:
+  # -- Enable and configure a Prometheus serviceMonitor for the chart under this key.
+  # @default -- See values.yaml
+  enabled: false
+  serviceMonitor:
+    interval: 1m
+    scrapeTimeout: 30s
+    labels: {}
