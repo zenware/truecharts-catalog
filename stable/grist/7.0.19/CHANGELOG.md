@@ -4,6 +4,15 @@
 
 
 
+## [grist-7.0.19](https://github.com/truecharts/charts/compare/grist-7.0.18...grist-7.0.19) (2023-01-10)
+
+### Chore
+
+- update container image tccr.io/truecharts/grist to v1.0.6
+  
+  
+
+
 ## [grist-7.0.18](https://github.com/truecharts/charts/compare/grist-7.0.17...grist-7.0.18) (2023-01-07)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 ## [grist-7.0.9](https://github.com/truecharts/charts/compare/grist-7.0.8...grist-7.0.9) (2022-12-03)
 
-
-
-
-## [grist-7.0.8](https://github.com/truecharts/charts/compare/grist-7.0.6...grist-7.0.8) (2022-11-30)
-
-
-
-
-## [grist-7.0.8](https://github.com/truecharts/charts/compare/grist-7.0.6...grist-7.0.8) (2022-11-30)
