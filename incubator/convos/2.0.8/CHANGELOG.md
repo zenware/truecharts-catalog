@@ -4,6 +4,15 @@
 
 
 
+## [convos-2.0.8](https://github.com/truecharts/charts/compare/convos-2.0.7...convos-2.0.8) (2023-01-11)
+
+### Chore
+
+- update container image tccr.io/truecharts/convos to vstable
+  
+  
+
+
 ## [convos-2.0.7](https://github.com/truecharts/charts/compare/convos-2.0.6...convos-2.0.7) (2022-12-27)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 ## [convos-2.0.2](https://github.com/truecharts/charts/compare/convos-2.0.1...convos-2.0.2) (2022-11-30)
 
-
-
-
-## [convos-2.0.2](https://github.com/truecharts/charts/compare/convos-2.0.1...convos-2.0.2) (2022-11-30)
-
-
-
-
-## [convos-2.0.2](https://github.com/truecharts/charts/compare/convos-2.0.1...convos-2.0.2) (2022-11-30)
 
 
