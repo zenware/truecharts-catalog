@@ -4,6 +4,15 @@
 
 
 
+## [ghost-6.0.35](https://github.com/truecharts/charts/compare/ghost-6.0.34...ghost-6.0.35) (2023-01-11)
+
+### Chore
+
+- update container image tccr.io/truecharts/ghost to v5.28.0
+  
+  
+
+
 ## [ghost-6.0.34](https://github.com/truecharts/charts/compare/ghost-6.0.33...ghost-6.0.34) (2023-01-07)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 
 ## [ghost-6.0.24](https://github.com/truecharts/charts/compare/ghost-6.0.23...ghost-6.0.24) (2022-12-18)
-
-### Chore
-
-- update helm chart mariadb to v5.0.15 ([#5492](https://github.com/truecharts/charts/issues/5492))
-  
-  
-
-
-## [ghost-6.0.23](https://github.com/truecharts/charts/compare/ghost-6.0.22...ghost-6.0.23) (2022-12-17)
 
