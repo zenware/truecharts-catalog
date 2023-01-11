@@ -4,6 +4,15 @@
 
 
 
+## [jenkins-3.0.2](https://github.com/truecharts/charts/compare/jenkins-3.0.1...jenkins-3.0.2) (2023-01-10)
+
+### Chore
+
+- update container image tccr.io/truecharts/jenkins to v2.386.0
+  
+  
+
+
 ## [jenkins-3.0.1](https://github.com/truecharts/charts/compare/jenkins-3.0.0...jenkins-3.0.1) (2023-01-07)
 
 ### Chore
@@ -59,15 +68,6 @@
 ### Chore
 
 - update helm general non-major
-  
-  
-
-
-## [jenkins-2.0.3](https://github.com/truecharts/charts/compare/jenkins-2.0.1...jenkins-2.0.3) (2022-11-30)
-
-### Fix
-
-- update ports ([#4933](https://github.com/truecharts/charts/issues/4933))
   
   
 
