@@ -4,6 +4,15 @@
 
 
 
+## [storj-node-4.0.15](https://github.com/truecharts/charts/compare/storj-node-4.0.14...storj-node-4.0.15) (2023-01-11)
+
+### Chore
+
+- update container image tccr.io/truecharts/storj-node to v1.70.1
+  
+  
+
+
 ## [storj-node-4.0.14](https://github.com/truecharts/charts/compare/storj-node-4.0.13...storj-node-4.0.14) (2022-12-27)
 
 ### Chore
@@ -85,15 +94,6 @@
 
 ## [storj-node-4.0.7](https://github.com/truecharts/charts/compare/storj-node-4.0.6...storj-node-4.0.7) (2022-12-01)
 
-
-
-
-## [storj-node-4.0.7](https://github.com/truecharts/charts/compare/storj-node-4.0.6...storj-node-4.0.7) (2022-12-01)
-
-
-
-
-## [storj-node-4.0.7](https://github.com/truecharts/charts/compare/storj-node-4.0.6...storj-node-4.0.7) (2022-12-01)
 
 
 
