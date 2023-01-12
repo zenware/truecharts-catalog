@@ -4,6 +4,15 @@
 
 
 
+## [wordpress-1.1.4](https://github.com/truecharts/charts/compare/wordpress-1.1.3...wordpress-1.1.4) (2023-01-12)
+
+### Chore
+
+- update container image tccr.io/truecharts/wordpress to 6.1.1
+  
+  
+
+
 ## [wordpress-1.1.3](https://github.com/truecharts/charts/compare/wordpress-1.1.2...wordpress-1.1.3) (2023-01-07)
 
 ### Chore
@@ -88,12 +97,3 @@
 - update helm chart mariadb to v5.0.15 ([#5492](https://github.com/truecharts/charts/issues/5492))
   
   
-
-
-## [wordpress-1.0.5](https://github.com/truecharts/charts/compare/wordpress-1.0.4...wordpress-1.0.5) (2022-12-15)
-
-
-
-
-## [wordpress-1.0.4](https://github.com/truecharts/charts/compare/wordpress-1.0.3...wordpress-1.0.4) (2022-12-13)
-
