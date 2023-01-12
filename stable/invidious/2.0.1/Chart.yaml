@@ -8,23 +8,26 @@ dependencies:
     name: postgresql
     repository: https://charts.truecharts.org/
     version: 11.0.18
-description: A self-hosted internet performance tracking application that runs speedtest checks against Ookla's Speedtest service.
-home: https://truecharts.org/charts/incubator/speedtest-tracker
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/speedtest-tracker.png
+description: Open source alternative front-end to YouTube.
+home: https://truecharts.org/charts/stable/invidious
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/invidious.png
 keywords:
-  - speedtest
+  - invidious
+  - youtube
+  - media
 kubeVersion: ">=1.16.0-0"
 maintainers:
   - email: info@truecharts.org
     name: TrueCharts
     url: https://truecharts.org
-name: speedtest-tracker
+name: invidious
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/incubator/speedtest-tracker
-  - https://github.com/alexjustesen/speedtest-tracker
-version: 3.0.21
+  - https://github.com/truecharts/charts/tree/master/charts/stable/invidious
+  - https://github.com/iv-org/invidious
+  - https://docs.invidious.io/installation/#docker
+version: 2.0.1
 annotations:
   truecharts.org/catagories: |
-    - speedtest
+    - media
   truecharts.org/SCALE-support: "true"
   truecharts.org/grade: U
