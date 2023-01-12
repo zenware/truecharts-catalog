@@ -4,6 +4,15 @@
 
 
 
+## [external-service-8.0.10](https://github.com/truecharts/charts/compare/external-service-8.0.9...external-service-8.0.10) (2023-01-12)
+
+### Chore
+
+- update container image tccr.io/truecharts/alpine to latest
+  
+  
+
+
 ## [external-service-8.0.9](https://github.com/truecharts/charts/compare/external-service-8.0.8...external-service-8.0.9) (2022-12-27)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 
 ## [external-service-8.0.2](https://github.com/truecharts/charts/compare/external-service-8.0.1...external-service-8.0.2) (2022-11-30)
-
-
-
-
-## [external-service-8.0.2](https://github.com/truecharts/charts/compare/external-service-8.0.1...external-service-8.0.2) (2022-11-30)
-
-
-
-
