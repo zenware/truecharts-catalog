@@ -4,6 +4,15 @@
 
 
 
+## [immich-4.0.29](https://github.com/truecharts/charts/compare/immich-4.0.28...immich-4.0.29) (2023-01-13)
+
+### Chore
+
+- update container image tccr.io/truecharts/immich-server to v1.41.1_64
+  
+  
+
+
 ## [immich-4.0.28](https://github.com/truecharts/charts/compare/immich-4.0.27...immich-4.0.28) (2023-01-11)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 - update helm general non-major ([#5839](https://github.com/truecharts/charts/issues/5839))
   
-  
-
-
-## [immich-4.0.19](https://github.com/truecharts/charts/compare/immich-4.0.18...immich-4.0.19) (2022-12-25)
-
-### Chore
-
-- update helm general non-major
-  - update container image tccr.io/truecharts/immich-web to v1.39.0_61
