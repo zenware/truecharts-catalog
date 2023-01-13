@@ -4,6 +4,15 @@
 
 
 
+## [blog-6.0.17](https://github.com/truecharts/charts/compare/blog-6.0.16...blog-6.0.17) (2023-01-13)
+
+### Chore
+
+- update container image tccr.io/truecharts/blog to latest
+  
+  
+
+
 ## [blog-6.0.16](https://github.com/truecharts/charts/compare/blog-6.0.15...blog-6.0.16) (2023-01-07)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 ## [blog-6.0.8](https://github.com/truecharts/charts/compare/blog-6.0.6...blog-6.0.8) (2022-11-30)
 
-
-
-
-## [blog-6.0.8](https://github.com/truecharts/charts/compare/blog-6.0.6...blog-6.0.8) (2022-11-30)
-
-
-
-
-## [blog-6.0.8](https://github.com/truecharts/charts/compare/blog-6.0.6...blog-6.0.8) (2022-11-30)
