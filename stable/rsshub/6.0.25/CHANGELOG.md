@@ -4,6 +4,15 @@
 
 
 
+## [rsshub-6.0.25](https://github.com/truecharts/charts/compare/rsshub-6.0.24...rsshub-6.0.25) (2023-01-13)
+
+### Chore
+
+- update container image tccr.io/truecharts/rsshub to latest
+  
+  
+
+
 ## [rsshub-6.0.24](https://github.com/truecharts/charts/compare/rsshub-6.0.23...rsshub-6.0.24) (2023-01-12)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 
 ## [rsshub-6.0.15](https://github.com/truecharts/charts/compare/rsshub-6.0.14...rsshub-6.0.15) (2022-12-17)
-
-### Chore
-
-- update helm chart redis to v5.0.16
-  
-  
-
-
-## [rsshub-6.0.14](https://github.com/truecharts/charts/compare/rsshub-6.0.13...rsshub-6.0.14) (2022-12-13)
 
