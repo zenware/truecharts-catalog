@@ -4,6 +4,16 @@
 
 
 
+## [minecraft-java-3.0.17](https://github.com/truecharts/charts/compare/minecraft-java-3.0.16...minecraft-java-3.0.17) (2023-01-13)
+
+### Chore
+
+- update container image tccr.io/truecharts/minecraft-java11 to latest
+  - update container image tccr.io/truecharts/minecraft-java8-openj9 to latest
+  
+  
+
+
 ## [minecraft-java-3.0.16](https://github.com/truecharts/charts/compare/minecraft-java-3.0.15...minecraft-java-3.0.16) (2023-01-12)
 
 ### Chore
@@ -83,16 +93,6 @@
 ### Chore
 
 - update helm general non-major
-  
-  
-
-
-## [minecraft-java-3.0.7](https://github.com/truecharts/charts/compare/minecraft-java-3.0.6...minecraft-java-3.0.7) (2022-12-13)
-
-### Chore
-
-- update helm general non-major
-  - update container image tccr.io/truecharts/minecraft-java8-openj9 to latest
   
   
 
