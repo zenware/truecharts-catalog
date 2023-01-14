@@ -5,7 +5,7 @@ image:
 fhdImage:
   repository: tccr.io/truecharts/rickroll-fhd
   pullPolicy: IfNotPresent
-  tag: latest@sha256:a3eeb420f238b02f9d34f840d65dfc67799d5d100ff8e3570c2a5ea2f8f44cb4
+  tag: latest@sha256:bc833e52ed8bb0e0abbd110c2afbb94a8ac794f8d5c758ad9ba992f2f75b1e14
 fhdgameImage:
   repository: tccr.io/truecharts/rickroll-fhd-game
   pullPolicy: IfNotPresent
@@ -13,11 +13,11 @@ fhdgameImage:
 fhdonclickImage:
   repository: tccr.io/truecharts/rickroll-fhd-onclick
   pullPolicy: IfNotPresent
-  tag: latest@sha256:5ab14514f33d67423e7cf2e408a89d350a942b899b5734f122e791cfbae50487
+  tag: latest@sha256:a55428843ae3de037b1b346b1200eb6bc58fb661acc970e8dbffe7a255a45048
 onclickImage:
   repository: tccr.io/truecharts/rickroll-onclick
   pullPolicy: IfNotPresent
-  tag: latest@sha256:849f0824bf5e83b424abea3245136e404fc95d559a8c51fac2a41bc3255118ef
+  tag: latest@sha256:954cb9e9d99603996e03edefc07a60f34afcdec69f7b49de6920e2f89c9be331
 
 imageSelector: "image"
 
