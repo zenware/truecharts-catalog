@@ -4,6 +4,21 @@
 
 
 
+## [rdesktop-3.0.16](https://github.com/truecharts/charts/compare/rdesktop-3.0.15...rdesktop-3.0.16) (2023-01-14)
+
+### Chore
+
+- update rdesktop
+  - update container image tccr.io/truecharts/rdesktop-ubuntu-xfce to latest
+  - update container image tccr.io/truecharts/rdesktop-ubuntu-mate to latest
+  - update container image tccr.io/truecharts/rdesktop-ubuntu-kde to latest
+  - update container image tccr.io/truecharts/rdesktop-ubuntu-icewm to latest
+  - update container image tccr.io/truecharts/rdesktop-ubuntu-i3 to latest
+  - update container image tccr.io/truecharts/rdesktop-fedora-xfce to latest
+  
+  
+
+
 ## [rdesktop-3.0.15](https://github.com/truecharts/charts/compare/rdesktop-3.0.14...rdesktop-3.0.15) (2023-01-12)
 
 ### Chore
@@ -82,18 +97,3 @@
   - update container image tccr.io/truecharts/rdesktop-ubuntu-kde to latest
   - update container image tccr.io/truecharts/rdesktop-ubuntu-icewm to latest
   - update container image tccr.io/truecharts/rdesktop-ubuntu-i3 to latest
-  - update container image tccr.io/truecharts/rdesktop-fedora-xfce to latest
-  - update container image tccr.io/truecharts/rdesktop-fedora-openbox to latest
-  - update container image tccr.io/truecharts/rdesktop-alpine-openbox to latest
-  - update container image tccr.io/truecharts/rdesktop-alpine-mate to latest
-  - update container image tccr.io/truecharts/rdesktop to latest
-  
-  
-
-
-## [rdesktop-3.0.9](https://github.com/truecharts/charts/compare/rdesktop-3.0.8...rdesktop-3.0.9) (2022-12-25)
-
-### Chore
-
-- update container image tccr.io/truecharts/rdesktop-fedora-mate to latest
-  
