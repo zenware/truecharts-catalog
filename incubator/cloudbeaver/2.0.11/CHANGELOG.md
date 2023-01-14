@@ -4,6 +4,15 @@
 
 
 
+## [cloudbeaver-2.0.11](https://github.com/truecharts/charts/compare/cloudbeaver-2.0.10...cloudbeaver-2.0.11) (2023-01-13)
+
+### Chore
+
+- update container image tccr.io/truecharts/cloudbeaver to latest
+  
+  
+
+
 ## [cloudbeaver-2.0.10](https://github.com/truecharts/charts/compare/cloudbeaver-2.0.9...cloudbeaver-2.0.10) (2023-01-07)
 
 ### Chore
@@ -85,15 +94,6 @@
 
 ## [cloudbeaver-2.0.3](https://github.com/truecharts/charts/compare/cloudbeaver-2.0.2...cloudbeaver-2.0.3) (2022-11-30)
 
-
-
-
-## [cloudbeaver-2.0.3](https://github.com/truecharts/charts/compare/cloudbeaver-2.0.2...cloudbeaver-2.0.3) (2022-11-30)
-
-
-
-
-## [cloudbeaver-2.0.3](https://github.com/truecharts/charts/compare/cloudbeaver-2.0.2...cloudbeaver-2.0.3) (2022-11-30)
 
 
 
