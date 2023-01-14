@@ -4,6 +4,15 @@
 
 
 
+## [discordgsm-0.0.14](https://github.com/truecharts/charts/compare/discordgsm-0.0.13...discordgsm-0.0.14) (2023-01-14)
+
+### Chore
+
+- update container image tccr.io/truecharts/game-server-monitor to v2.10.0 ([#6260](https://github.com/truecharts/charts/issues/6260))
+  
+  
+
+
 ## [discordgsm-0.0.13](https://github.com/truecharts/charts/compare/discordgsm-0.0.12...discordgsm-0.0.13) (2023-01-07)
 
 ### Chore
@@ -79,15 +88,6 @@
 ## [discordgsm-0.0.5](https://github.com/truecharts/charts/compare/discordgsm-0.0.4...discordgsm-0.0.5) (2022-12-01)
 
 
-
-
-## [discordgsm-0.0.4]discordgsm-0.0.4 (2022-11-30)
-
-### Chore
-
-- update container image tccr.io/truecharts/game-server-monitor to v2.9.1 ([#4923](https://github.com/truecharts/charts/issues/4923))
-  
-  
 
 
 ## [discordgsm-0.0.4]discordgsm-0.0.4 (2022-11-30)
