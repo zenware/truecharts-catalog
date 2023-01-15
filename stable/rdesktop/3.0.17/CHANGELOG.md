@@ -4,6 +4,15 @@
 
 
 
+## [rdesktop-3.0.17](https://github.com/truecharts/charts/compare/rdesktop-3.0.16...rdesktop-3.0.17) (2023-01-15)
+
+### Chore
+
+- update rdesktop
+  
+  
+
+
 ## [rdesktop-3.0.16](https://github.com/truecharts/charts/compare/rdesktop-3.0.15...rdesktop-3.0.16) (2023-01-14)
 
 ### Chore
@@ -88,12 +97,3 @@
   
   
 
-
-## [rdesktop-3.0.10](https://github.com/truecharts/charts/compare/rdesktop-3.0.9...rdesktop-3.0.10) (2022-12-25)
-
-### Chore
-
-- update helm general non-major
-  - update container image tccr.io/truecharts/rdesktop-ubuntu-kde to latest
-  - update container image tccr.io/truecharts/rdesktop-ubuntu-icewm to latest
-  - update container image tccr.io/truecharts/rdesktop-ubuntu-i3 to latest
