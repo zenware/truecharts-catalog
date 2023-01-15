@@ -1,0 +1,89 @@
+image:
+  repository: tccr.io/truecharts/immich-server
+  tag: 1.41.1_64@sha256:e28a36ee635c6151f2c4de50aa7fee7d2eddd3b9d112bc6ea1551cb073bc8fbe
+  pullPolicy: IfNotPresent
+
+mlImage:
+  repository: tccr.io/truecharts/immich-ml
+  tag: 1.41.1_64@sha256:5b5acd62edd988e6eeb346bb496e559544996020ed75fc04309305344edb0032
+  pullPolicy: IfNotPresent
+
+webImage:
+  repository: tccr.io/truecharts/immich-web
+  tag: 1.41.1_64@sha256:6ae7c91f77702abbea207180980dba795693bc448dc093ca3ae9b5f68b06630d
+  pullPolicy: IfNotPresent
+
+proxyImage:
+  repository: tccr.io/truecharts/immich-proxy
+  tag: 1.41.1_64@sha256:8f5c90ffdf09cc6952376988aee4449555a161458e3686a9b3ff1468df9dbf0f
+  pullPolicy: IfNotPresent
+
+command:
+  - /bin/sh
+  - ./start-server.sh
+
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+
+podSecurityContext:
+  runAsUser: 0
+  runAsGroup: 0
+
+immich:
+  enable_ml: true
+  public_login_page_message: Immich
+  disable_reverse_geocoding: false
+  reverse_geocoding_precision: 3
+  # simple | verbose
+  log_level: simple
+  mapbox_enable: false
+  mapbox_key: ""
+
+envFrom:
+  - configMapRef:
+      name: '{{ include "tc.common.names.fullname" . }}-server-config'
+  - configMapRef:
+      name: '{{ include "tc.common.names.fullname" . }}-common-config'
+  - secretRef:
+      name: '{{ include "tc.common.names.fullname" . }}-immich-secret'
+
+probes:
+  liveness:
+    path: /server-info/ping
+    type: HTTP
+    port: 3001
+  readiness:
+    path: /server-info/ping
+    type: HTTP
+    port: 3001
+  startup:
+    path: /server-info/ping
+    type: HTTP
+    port: 3001
+
+service:
+  main:
+    ports:
+      main:
+        port: 10323
+        protocol: HTTP
+        targetPort: 8080
+
+persistence:
+  uploads:
+    enabled: true
+    mountPath: /usr/src/app/upload
+
+postgresql:
+  enabled: true
+  existingSecret: dbcreds
+  postgresqlUsername: immich
+  postgresqlDatabase: immich
+
+redis:
+  enabled: true
+  existingSecret: rediscreds
+
+portal:
+  enabled: true
