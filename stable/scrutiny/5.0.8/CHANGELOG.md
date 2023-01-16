@@ -4,6 +4,15 @@
 
 
 
+## [scrutiny-5.0.8](https://github.com/truecharts/charts/compare/scrutiny-5.0.7...scrutiny-5.0.8) (2023-01-16)
+
+### Chore
+
+- update container image tccr.io/truecharts/scrutiny to v0.6.0
+  
+  
+
+
 ## [scrutiny-5.0.7](https://github.com/truecharts/charts/compare/scrutiny-5.0.6...scrutiny-5.0.7) (2022-12-27)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 ## [scrutiny-5.0.2](https://github.com/truecharts/charts/compare/scrutiny-5.0.1...scrutiny-5.0.2) (2022-11-30)
 
-
-
-
-## [scrutiny-5.0.2](https://github.com/truecharts/charts/compare/scrutiny-5.0.1...scrutiny-5.0.2) (2022-11-30)
-
-
-
-
-## [scrutiny-5.0.2](https://github.com/truecharts/charts/compare/scrutiny-5.0.1...scrutiny-5.0.2) (2022-11-30)
 
 
