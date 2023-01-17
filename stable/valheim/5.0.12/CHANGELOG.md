@@ -4,6 +4,11 @@
 
 
 
+## [valheim-5.0.12](https://github.com/truecharts/charts/compare/valheim-5.0.11...valheim-5.0.12) (2023-01-17)
+
+
+
+
 ## [valheim-5.0.11](https://github.com/truecharts/charts/compare/valheim-5.0.10...valheim-5.0.11) (2023-01-12)
 
 ### Chore
@@ -69,11 +74,6 @@
 - fix open portal button ([#4929](https://github.com/truecharts/charts/issues/4929))
   
   
-
-
-## [valheim-5.0.4](https://github.com/truecharts/charts/compare/valheim-5.0.3...valheim-5.0.4) (2022-11-30)
-
-
 
 
 ## [valheim-5.0.4](https://github.com/truecharts/charts/compare/valheim-5.0.3...valheim-5.0.4) (2022-11-30)
