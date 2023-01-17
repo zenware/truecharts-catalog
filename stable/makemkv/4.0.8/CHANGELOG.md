@@ -4,6 +4,11 @@
 
 
 
+## [makemkv-4.0.8](https://github.com/truecharts/charts/compare/makemkv-4.0.7...makemkv-4.0.8) (2023-01-17)
+
+
+
+
 ## [makemkv-4.0.7](https://github.com/truecharts/charts/compare/makemkv-4.0.6...makemkv-4.0.7) (2022-12-27)
 
 ### Chore
@@ -47,11 +52,6 @@
 - update helm general non-major
   
   
-
-
-## [makemkv-4.0.2](https://github.com/truecharts/charts/compare/makemkv-4.0.1...makemkv-4.0.2) (2022-11-30)
-
-
 
 
 ## [makemkv-4.0.2](https://github.com/truecharts/charts/compare/makemkv-4.0.1...makemkv-4.0.2) (2022-11-30)
