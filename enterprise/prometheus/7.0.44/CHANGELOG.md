@@ -1,3 +1,16 @@
+**Important:**
+*for the complete changelog, please refer to the website*
+
+
+
+
+## [prometheus-7.0.44](https://github.com/truecharts/charts/compare/prometheus-7.0.43...prometheus-7.0.44) (2023-01-18)
+
+### Chore
+
+- update container image tccr.io/truecharts/alertmanager to 0.25.0
+  
+  
 
 
 ## [prometheus-7.0.43](https://github.com/truecharts/charts/compare/prometheus-7.0.42...prometheus-7.0.43) (2023-01-17)
