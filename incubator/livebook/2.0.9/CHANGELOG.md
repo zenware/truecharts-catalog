@@ -4,6 +4,15 @@
 
 
 
+## [livebook-2.0.9](https://github.com/truecharts/charts/compare/livebook-2.0.8...livebook-2.0.9) (2023-01-18)
+
+### Chore
+
+- update container image tccr.io/truecharts/livebook to latest
+  
+  
+
+
 ## [livebook-2.0.8](https://github.com/truecharts/charts/compare/livebook-2.0.7...livebook-2.0.8) (2022-12-27)
 
 ### Chore
@@ -85,15 +94,6 @@
 
 ## [livebook-2.0.2](https://github.com/truecharts/charts/compare/livebook-2.0.1...livebook-2.0.2) (2022-11-30)
 
-
-
-
-## [livebook-2.0.2](https://github.com/truecharts/charts/compare/livebook-2.0.1...livebook-2.0.2) (2022-11-30)
-
-
-
-
-## [livebook-2.0.2](https://github.com/truecharts/charts/compare/livebook-2.0.1...livebook-2.0.2) (2022-11-30)
 
 
 
