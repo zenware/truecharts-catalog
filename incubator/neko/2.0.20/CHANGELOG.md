@@ -4,6 +4,15 @@
 
 
 
+## [neko-2.0.20](https://github.com/truecharts/charts/compare/neko-2.0.19...neko-2.0.20) (2023-01-18)
+
+### Chore
+
+- update neko
+  
+  
+
+
 ## [neko-2.0.19](https://github.com/truecharts/charts/compare/neko-2.0.18...neko-2.0.19) (2023-01-14)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [neko-2.0.10](https://github.com/truecharts/charts/compare/neko-2.0.9...neko-2.0.10) (2022-12-19)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [neko-2.0.9](https://github.com/truecharts/charts/compare/neko-2.0.8...neko-2.0.9) (2022-12-13)
 
 ### Chore
