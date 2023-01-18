@@ -4,6 +4,11 @@
 
 
 
+## [promcord-6.0.8](https://github.com/truecharts/charts/compare/promcord-6.0.7...promcord-6.0.8) (2023-01-18)
+
+
+
+
 ## [promcord-6.0.7](https://github.com/truecharts/charts/compare/promcord-6.0.6...promcord-6.0.7) (2022-12-27)
 
 ### Chore
@@ -47,11 +52,6 @@
 - update helm general non-major
   
   
-
-
-## [promcord-6.0.2](https://github.com/truecharts/charts/compare/promcord-6.0.1...promcord-6.0.2) (2022-11-30)
-
-
 
 
 ## [promcord-6.0.2](https://github.com/truecharts/charts/compare/promcord-6.0.1...promcord-6.0.2) (2022-11-30)
