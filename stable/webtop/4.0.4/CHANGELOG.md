@@ -4,6 +4,15 @@
 
 
 
+## [webtop-4.0.4](https://github.com/truecharts/charts/compare/webtop-4.0.3...webtop-4.0.4) (2023-01-18)
+
+### Chore
+
+- update webtop
+  
+  
+
+
 ## [webtop-4.0.3](https://github.com/truecharts/charts/compare/webtop-4.0.2...webtop-4.0.3) (2023-01-15)
 
 ### Chore
@@ -88,12 +97,3 @@
 ### Chore
 
 - update helm general non-major
-  
-  
-
-
-## [webtop-3.0.7](https://github.com/truecharts/charts/compare/webtop-3.0.6...webtop-3.0.7) (2022-12-18)
-
-### Chore
-
-- update container image tccr.io/truecharts/webtop to latest ([#5355](https://github.com/truecharts/charts/issues/5355))
