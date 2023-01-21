@@ -83,15 +83,15 @@ questions:
                 schema:
                   type: string
   - variable: env
-    group: "App Configuration"
-    label: "Image Environment"
+    group: App Configuration
+    label: Image Environment
     schema:
       additional_attrs: true
       type: dict
       attrs:
         - variable: DEEMIX_SINGLE_USER
-          label: "DEEMIX_SINGLE_USER"
-          description: "Setting this environment variable to true will enable a serverwide login. In this mode, only one user needs to log in and every session will use the same login. You do not need to provide an ARL to the container, deemix will store the login information in the config folder."
+          label: Deemix Single User
+          description: Enable a server-wide login. In this mode, only one user needs to log in and every session will use the same login.
           schema:
             type: boolean
             default: false
@@ -133,8 +133,8 @@ questions:
       type: dict
       attrs:
         - variable: main
-          label: "Main Service"
-          description: "The Primary service on which the healthcheck runs, often the webUI"
+          label: Main Service
+          description: The Primary service on which the healthcheck runs, often the webUI
           schema:
             additional_attrs: true
             type: dict
@@ -172,14 +172,14 @@ questions:
                   type: dict
                   attrs:
                     - variable: main
-                      label: "Main Service Port Configuration"
+                      label: Main Service Port Configuration
                       schema:
                         additional_attrs: true
                         type: dict
                         attrs:
                           - variable: port
-                            label: "Port"
-                            description: "This port exposes the container port on the service"
+                            label: Port
+                            description: This port exposes the container port on the service
                             schema:
                               type: int
                               default: 6595
@@ -417,8 +417,78 @@ questions:
       type: dict
       attrs:
         - variable: config
-          label: "App Config Storage"
-          description: "Stores the Application Configuration."
+          label: App Config Storage
+          description: Stores the Application Configuration.
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: type
+                label: Type of Storage
+                description: Sets the persistence type, Anything other than PVC could break rollback!
+                schema:
+                  type: string
+                  default: pvc
+                  enum:
+                    - value: pvc
+                      description: PVC
+                    - value: hostPath
+                      description: Host Path
+                    - value: emptyDir
+                      description: emptyDir
+                    - value: nfs
+                      description: NFS Share
+              - variable: server
+                label: NFS Server
+                schema:
+                  show_if: [["type", "=", "nfs"]]
+                  type: string
+                  default: ""
+              - variable: path
+                label: Path on NFS Server
+                schema:
+                  show_if: [["type", "=", "nfs"]]
+                  type: string
+                  default: ""
+              - variable: setPermissions
+                label: Automatic Permissions
+                description: Automatically set permissions on install
+                schema:
+                  show_if: [["type", "=", "hostPath"]]
+                  type: boolean
+                  default: false
+              - variable: readOnly
+                label: Read Only
+                schema:
+                  type: boolean
+                  default: false
+              - variable: hostPath
+                label: Host Path
+                description: Path inside the container the storage is mounted
+                schema:
+                  show_if: [["type", "=", "hostPath"]]
+                  type: hostpath
+              - variable: medium
+                label: EmptyDir Medium
+                schema:
+                  show_if: [["type", "=", "emptyDir"]]
+                  type: string
+                  default: ""
+                  enum:
+                    - value: ""
+                      description: Default
+                    - value: Memory
+                      description: Memory
+              - variable: size
+                label: Size quotum of Storage (Do NOT REDUCE after installation)
+                description: This value can ONLY be INCREASED after the installation
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: string
+                  default: 256Gi
+        - variable: data
+          label: App Downloads Storage
+          description: Stores the Application Downloads.
           schema:
             additional_attrs: true
             type: dict
@@ -583,7 +653,7 @@ questions:
       type: dict
       attrs:
         - variable: main
-          label: "Main Ingress"
+          label: Main Ingress
           schema:
             additional_attrs: true
             type: dict
@@ -870,22 +940,22 @@ questions:
             type: dict
             attrs:
               - variable: privileged
-                label: "Privileged mode"
+                label: Privileged mode
                 schema:
                   type: boolean
                   default: false
               - variable: readOnlyRootFilesystem
-                label: "ReadOnly Root Filesystem"
+                label: ReadOnly Root Filesystem
                 schema:
                   type: boolean
                   default: false
               - variable: allowPrivilegeEscalation
-                label: "Allow Privilege Escalation"
+                label: Allow Privilege Escalation
                 schema:
                   type: boolean
                   default: false
               - variable: runAsNonRoot
-                label: "runAsNonRoot"
+                label: runAsNonRoot
                 schema:
                   type: boolean
                   default: true
@@ -897,20 +967,20 @@ questions:
       type: dict
       attrs:
         - variable: runAsUser
-          label: "runAsUser"
-          description: "The UserID of the user running the application"
+          label: runAsUser
+          description: The UserID of the user running the application
           schema:
             type: int
             default: 0
         - variable: runAsGroup
-          label: "runAsGroup"
-          description: "The groupID this App of the user running the application"
+          label: runAsGroup
+          description: The groupID this App of the user running the application
           schema:
             type: int
             default: 0
         - variable: fsGroup
-          label: "fsGroup"
-          description: "The group that should own ALL storage."
+          label: fsGroup
+          description: The group that should own ALL storage.
           schema:
             type: int
             default: 568
@@ -1034,58 +1104,58 @@ questions:
       $ref:
         - "definitions/gpuConfiguration"
       attrs: []
-  - variable: horizontalPodAutoscaler
-    group: Advanced
-    label: (Advanced) Horizontal Pod Autoscaler
-    schema:
-      type: list
-      default: []
-      items:
-      - variable: hpaEntry
-        label: HPA Entry
-        schema:
-          additional_attrs: true
-          type: dict
-          attrs:
-            - variable: name
-              label: Name
-              schema:
-                type: string
-                required: true
-                default: ""
-            - variable: enabled
-              label: Enabled
-              schema:
-                type: boolean
-                default: false
-                show_subquestions_if: true
-                subquestions:
-                  - variable: target
-                    label: Target
-                    description: Deployment name, Defaults to Main Deployment
-                    schema:
-                      type: string
-                      default: ""
-                  - variable: minReplicas
-                    label: Minimum Replicas
-                    schema:
-                      type: int
-                      default: 1
-                  - variable: maxReplicas
-                    label: Maximum Replicas
-                    schema:
-                      type: int
-                      default: 5
-                  - variable: targetCPUUtilizationPercentage
-                    label: Target CPU Utilization Percentage
-                    schema:
-                      type: int
-                      default: 80
-                  - variable: targetMemoryUtilizationPercentage
-                    label: Target Memory Utilization Percentage
-                    schema:
-                      type: int
-                      default: 80
+#  - variable: horizontalPodAutoscaler
+#    group: Advanced
+#    label: (Advanced) Horizontal Pod Autoscaler
+#    schema:
+#      type: list
+#      default: []
+#      items:
+#      - variable: hpaEntry
+#        label: HPA Entry
+#        schema:
+#          additional_attrs: true
+#          type: dict
+#          attrs:
+#            - variable: name
+#              label: Name
+#              schema:
+#                type: string
+#                required: true
+#                default: ""
+#            - variable: enabled
+#              label: Enabled
+#              schema:
+#                type: boolean
+#                default: false
+#                show_subquestions_if: true
+#                subquestions:
+#                  - variable: target
+#                    label: Target
+#                    description: Deployment name, Defaults to Main Deployment
+#                    schema:
+#                      type: string
+#                      default: ""
+#                  - variable: minReplicas
+#                    label: Minimum Replicas
+#                    schema:
+#                      type: int
+#                      default: 1
+#                  - variable: maxReplicas
+#                    label: Maximum Replicas
+#                    schema:
+#                      type: int
+#                      default: 5
+#                  - variable: targetCPUUtilizationPercentage
+#                    label: Target CPU Utilization Percentage
+#                    schema:
+#                      type: int
+#                      default: 80
+#                  - variable: targetMemoryUtilizationPercentage
+#                    label: Target Memory Utilization Percentage
+#                    schema:
+#                      type: int
+#                      default: 80
   - variable: networkPolicy
     group: Advanced
     label: (Advanced) Network Policy

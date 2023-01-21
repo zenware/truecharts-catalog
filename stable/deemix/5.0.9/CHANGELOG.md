@@ -4,6 +4,11 @@
 
 
 
+## [deemix-5.0.9](https://github.com/truecharts/charts/compare/deemix-5.0.8...deemix-5.0.9) (2023-01-21)
+
+
+
+
 ## [deemix-5.0.8](https://github.com/truecharts/charts/compare/deemix-5.0.7...deemix-5.0.8) (2022-12-27)
 
 ### Chore
@@ -56,11 +61,6 @@
 - update helm general non-major
   
   
-
-
-## [deemix-5.0.2](https://github.com/truecharts/charts/compare/deemix-5.0.1...deemix-5.0.2) (2022-11-30)
-
-
 
 
 ## [deemix-5.0.2](https://github.com/truecharts/charts/compare/deemix-5.0.1...deemix-5.0.2) (2022-11-30)
