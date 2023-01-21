@@ -4,6 +4,15 @@
 
 
 
+## [netbox-3.0.24](https://github.com/truecharts/charts/compare/netbox-3.0.23...netbox-3.0.24) (2023-01-21)
+
+### Chore
+
+- update container image tccr.io/truecharts/netbox to v3.4.3
+  
+  
+
+
 ## [netbox-3.0.23](https://github.com/truecharts/charts/compare/netbox-3.0.22...netbox-3.0.23) (2023-01-17)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [netbox-3.0.14](https://github.com/truecharts/charts/compare/netbox-3.0.13...netbox-3.0.14) (2022-12-18)
 
 ### Chore
-
-- update helm chart postgresql to v11.0.13 ([#5495](https://github.com/truecharts/charts/issues/5495))
-  - update helm chart redis to v5.0.16
-  
-  
-
-
-## [netbox-3.0.13](https://github.com/truecharts/charts/compare/netbox-3.0.12...netbox-3.0.13) (2022-12-16)
-
