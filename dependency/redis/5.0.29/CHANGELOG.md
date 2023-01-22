@@ -4,6 +4,15 @@
 
 
 
+## [redis-5.0.29](https://github.com/truecharts/charts/compare/redis-5.0.28...redis-5.0.29) (2023-01-22)
+
+### Chore
+
+- update container image tccr.io/truecharts/redis to 7.0.8
+  
+  
+
+
 ## [redis-5.0.28](https://github.com/truecharts/charts/compare/redis-5.0.27...redis-5.0.28) (2023-01-19)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [redis-5.0.19](https://github.com/truecharts/charts/compare/redis-5.0.18...redis-5.0.19) (2022-12-24)
-
-### Chore
-
-- update container image tccr.io/truecharts/redis to 7.0.7
-  
-  
-
-
-## [redis-5.0.18](https://github.com/truecharts/charts/compare/tubearchivist-redisjson-2.0.6...redis-5.0.18) (2022-12-24)
 
 ### Chore
