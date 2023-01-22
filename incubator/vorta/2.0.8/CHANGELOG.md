@@ -4,6 +4,15 @@
 
 
 
+## [vorta-2.0.8](https://github.com/truecharts/charts/compare/vorta-2.0.7...vorta-2.0.8) (2023-01-22)
+
+### Chore
+
+- update container image tccr.io/truecharts/vorta to latest
+  
+  
+
+
 ## [vorta-2.0.7](https://github.com/truecharts/charts/compare/vorta-2.0.6...vorta-2.0.7) (2022-12-27)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 ## [vorta-2.0.2](https://github.com/truecharts/charts/compare/vorta-2.0.1...vorta-2.0.2) (2022-11-30)
 
-
-
-
-## [vorta-2.0.2](https://github.com/truecharts/charts/compare/vorta-2.0.1...vorta-2.0.2) (2022-11-30)
-
-
-
-
-## [vorta-2.0.2](https://github.com/truecharts/charts/compare/vorta-2.0.1...vorta-2.0.2) (2022-11-30)
 
 
