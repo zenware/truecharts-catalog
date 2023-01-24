@@ -1,0 +1,62 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: tccr.io/truecharts/ra-rom-processor
+  tag: latest@sha256:d8daf9ebaddd9568eb56116334eeb30f3f43e53b77dfd66a39489f8e17d8f81d
+
+podSecurityContext:
+  runAsGroup: 0
+  runAsUser: 0
+
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+
+secretEnv:
+  ScreenscraperPassword: ""
+  ScreenscraperUsername: ""
+
+env:
+  AquireRomSets: false
+  AutoStart: false
+  ConcurrentDownloadThreads: 1
+  DeDupe: false
+  EnableUnsupportedPlatforms: false
+  ScrapeMetadata: false
+  ScriptInterval: "1h"
+  keepBackupsOfImportedRoms: true
+  skyscraperLanguagePreference: "en"
+
+probes:
+  liveness:
+    enabled: false
+  readiness:
+    enabled: false
+  startup:
+    enabled: false
+
+service:
+  main:
+    enabled: false
+    ports:
+      main:
+        enabled: false
+
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+  cache:
+    enabled: true
+    mountPath: /cache
+  input:
+    enabled: true
+    mountPath: /input
+  output:
+    enabled: true
+    mountPath: /output
+  backup:
+    enabled: true
+    mountPath: /backup
+
+portal:
+  enabled: false
