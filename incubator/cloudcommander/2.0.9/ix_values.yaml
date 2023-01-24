@@ -1,0 +1,29 @@
+env:
+  HOME: /root
+image:
+  pullPolicy: IfNotPresent
+  repository: tccr.io/truecharts/cloudcommander
+  tag: latest@sha256:1ece01846c75700d9b040565707ff5cd61f0c69e9a857be6a2d0e03bfabc5fa1
+persistence:
+  appdata:
+    enabled: true
+    mountPath: /root
+  mountpath:
+    enabled: true
+    mountPath: /UNRAID
+podSecurityContext:
+  runAsGroup: 0
+  runAsUser: 0
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+service:
+  main:
+    ports:
+      main:
+        port: 8765
+        protocol: TCP
+        targetPort: 8000
+
+portal:
+  enabled: true

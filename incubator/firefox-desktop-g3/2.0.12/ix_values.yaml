@@ -1,0 +1,35 @@
+env:
+  VNC_PW: unraid
+  VNC_RESOLUTION: 1360x768
+image:
+  pullPolicy: IfNotPresent
+  repository: tccr.io/truecharts/firefox-desktop-g3
+  tag: latest@sha256:89184e5c9f65d2d91db4d85810e15b74646ded7b2114c00c3368eb5ee63bf6df
+persistence:
+  internalshare:
+    enabled: true
+    mountPath: /UNRAID_SHARE
+podSecurityContext:
+  runAsGroup: 0
+  runAsUser: 0
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+service:
+  main:
+    ports:
+      main:
+        port: 6901
+        protocol: HTTP
+        targetPort: 6901
+  webuivnc:
+    enabled: true
+    ports:
+      webuivnc:
+        enabled: true
+        port: 5901
+        protocol: TCP
+        targetPort: 5901
+
+portal:
+  enabled: true
