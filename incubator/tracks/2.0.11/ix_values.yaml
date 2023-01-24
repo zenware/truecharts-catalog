@@ -1,0 +1,31 @@
+env:
+  BUNDLE_WITHOUT: ""
+  DATABASE_ENCODING: utf8
+  DATABASE_HOST: 10.0.0.10
+  DATABASE_NAME: tracks
+  DATABASE_PASSWORD: password
+  DATABASE_PORT: "3306"
+  DATABASE_TYPE: mysql2
+  DATABASE_USERNAME: tracks
+  RAILS_ENV: production
+image:
+  pullPolicy: IfNotPresent
+  repository: tccr.io/truecharts/tracks
+  tag: latest@sha256:9d59f5b306b1129728360ec2a4079dc6bf5f44e76c7bf95ff9e408a7e736bca8
+persistence: {}
+podSecurityContext:
+  runAsGroup: 0
+  runAsUser: 0
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+service:
+  main:
+    ports:
+      main:
+        port: 3000
+        protocol: TCP
+        targetPort: 3000
+
+portal:
+  enabled: true

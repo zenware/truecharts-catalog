@@ -1,0 +1,33 @@
+env:
+  PREFIX: ""
+  TOKEN: ""
+image:
+  pullPolicy: IfNotPresent
+  repository: tccr.io/truecharts/red-discordbot
+  tag: vfull@sha256:6090f34f3828cbe6972b3e964bf405843048331f49cb784e7246b8412d757570
+persistence:
+  data:
+    enabled: true
+    mountPath: /data
+podSecurityContext:
+  runAsGroup: 0
+  runAsUser: 0
+probes:
+  liveness:
+    enabled: false
+  readiness:
+    enabled: false
+  startup:
+    enabled: false
+securityContext:
+  readOnlyRootFilesystem: false
+  runAsNonRoot: false
+service:
+  main:
+    enabled: false
+    ports:
+      main:
+        enabled: false
+
+portal:
+  enabled: false
