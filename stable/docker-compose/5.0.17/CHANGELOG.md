@@ -4,6 +4,15 @@
 
 
 
+## [docker-compose-5.0.17](https://github.com/truecharts/charts/compare/docker-compose-5.0.16...docker-compose-5.0.17) (2023-01-28)
+
+### Chore
+
+- update container image tccr.io/truecharts/docker-in-docker to 20.10.23
+  
+  
+
+
 ## [docker-compose-5.0.16](https://github.com/truecharts/charts/compare/docker-compose-5.0.15...docker-compose-5.0.16) (2023-01-23)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [docker-compose-5.0.7](https://github.com/truecharts/charts/compare/docker-compose-5.0.6...docker-compose-5.0.7) (2022-12-17)
-
-### Chore
-
-- update container image tccr.io/truecharts/docker-in-docker to v20.10.22
-  
-  
-
-
-## [docker-compose-5.0.6](https://github.com/truecharts/charts/compare/docker-compose-5.0.5...docker-compose-5.0.6) (2022-12-13)
 
 ### Chore
