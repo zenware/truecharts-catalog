@@ -4,6 +4,15 @@
 
 
 
+## [fileshelter-2.0.8](https://github.com/truecharts/charts/compare/fileshelter-2.0.7...fileshelter-2.0.8) (2023-01-29)
+
+### Chore
+
+- update container image tccr.io/truecharts/fileshelter to latest
+  
+  
+
+
 ## [fileshelter-2.0.7](https://github.com/truecharts/charts/compare/fileshelter-2.0.6...fileshelter-2.0.7) (2022-12-27)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 ## [fileshelter-2.0.2](https://github.com/truecharts/charts/compare/fileshelter-2.0.1...fileshelter-2.0.2) (2022-11-30)
 
-
-
-
-## [fileshelter-2.0.2](https://github.com/truecharts/charts/compare/fileshelter-2.0.1...fileshelter-2.0.2) (2022-11-30)
-
-
-
-
-## [fileshelter-2.0.2](https://github.com/truecharts/charts/compare/fileshelter-2.0.1...fileshelter-2.0.2) (2022-11-30)
 
 
