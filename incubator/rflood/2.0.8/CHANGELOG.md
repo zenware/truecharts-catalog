@@ -4,6 +4,15 @@
 
 
 
+## [rflood-2.0.8](https://github.com/truecharts/charts/compare/rflood-2.0.7...rflood-2.0.8) (2023-01-29)
+
+### Chore
+
+- update container image tccr.io/truecharts/rflood to latest
+  
+  
+
+
 ## [rflood-2.0.7](https://github.com/truecharts/charts/compare/rflood-2.0.6...rflood-2.0.7) (2022-12-27)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 ## [rflood-2.0.2](https://github.com/truecharts/charts/compare/rflood-2.0.1...rflood-2.0.2) (2022-11-30)
 
-
-
-
-## [rflood-2.0.2](https://github.com/truecharts/charts/compare/rflood-2.0.1...rflood-2.0.2) (2022-11-30)
-
-
-
-
-## [rflood-2.0.2](https://github.com/truecharts/charts/compare/rflood-2.0.1...rflood-2.0.2) (2022-11-30)
 
 
