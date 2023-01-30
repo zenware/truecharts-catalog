@@ -4,6 +4,11 @@
 
 
 
+## [openproject-3.0.20](https://github.com/truecharts/charts/compare/openproject-3.0.19...openproject-3.0.20) (2023-01-30)
+
+
+
+
 ## [openproject-3.0.19](https://github.com/truecharts/charts/compare/openproject-3.0.18...openproject-3.0.19) (2023-01-24)
 
 ### Chore
@@ -92,8 +97,3 @@
 - update helm general non-major
   
   
-
-
-## [openproject-3.0.9](https://github.com/truecharts/charts/compare/openproject-3.0.8...openproject-3.0.9) (2022-12-05)
-
-### Chore
