@@ -4,6 +4,15 @@
 
 
 
+## [vikunja-6.0.29](https://github.com/truecharts/charts/compare/vikunja-6.0.28...vikunja-6.0.29) (2023-01-31)
+
+### Chore
+
+- update vikunja
+  
+  
+
+
 ## [vikunja-6.0.28](https://github.com/truecharts/charts/compare/vikunja-6.0.27...vikunja-6.0.28) (2023-01-24)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [vikunja-6.0.19](https://github.com/truecharts/charts/compare/vikunja-6.0.18...vikunja-6.0.19) (2022-12-25)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [vikunja-6.0.18](https://github.com/truecharts/charts/compare/vikunja-6.0.17...vikunja-6.0.18) (2022-12-25)
 
 ### Chore
