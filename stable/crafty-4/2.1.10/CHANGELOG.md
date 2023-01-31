@@ -4,6 +4,15 @@
 
 
 
+## [crafty-4-2.1.10](https://github.com/truecharts/charts/compare/crafty-4-2.1.9...crafty-4-2.1.10) (2023-01-31)
+
+### Chore
+
+- update container image tccr.io/truecharts/crafty-4 to v4.0.20
+  
+  
+
+
 ## [crafty-4-2.1.9](https://github.com/truecharts/charts/compare/crafty-4-2.1.8...crafty-4-2.1.9) (2023-01-18)
 
 
@@ -85,15 +94,6 @@
 
 ## [crafty-4-2.1.2](https://github.com/truecharts/charts/compare/crafty-4-2.1.1...crafty-4-2.1.2) (2022-12-01)
 
-
-
-
-## [crafty-4-2.1.2](https://github.com/truecharts/charts/compare/crafty-4-2.1.1...crafty-4-2.1.2) (2022-12-01)
-
-
-
-
-## [crafty-4-2.1.2](https://github.com/truecharts/charts/compare/crafty-4-2.1.1...crafty-4-2.1.2) (2022-12-01)
 
 
 
