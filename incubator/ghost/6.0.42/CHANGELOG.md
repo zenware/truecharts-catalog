@@ -4,6 +4,15 @@
 
 
 
+## [ghost-6.0.42](https://github.com/truecharts/charts/compare/ghost-6.0.41...ghost-6.0.42) (2023-01-31)
+
+### Chore
+
+- update container image tccr.io/truecharts/ghost to v5.32.0
+  
+  
+
+
 ## [ghost-6.0.41](https://github.com/truecharts/charts/compare/ghost-6.0.40...ghost-6.0.41) (2023-01-24)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [ghost-6.0.32](https://github.com/truecharts/charts/compare/ghost-6.0.31...ghost-6.0.32) (2022-12-30)
-
-### Chore
-
-- update container image tccr.io/truecharts/ghost to v5.26.3
-  
-  
-
-
-## [ghost-6.0.31](https://github.com/truecharts/charts/compare/ghost-6.0.30...ghost-6.0.31) (2022-12-27)
 
 ### Chore
