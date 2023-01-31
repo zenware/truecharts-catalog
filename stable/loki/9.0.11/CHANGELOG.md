@@ -4,6 +4,15 @@
 
 
 
+## [loki-9.0.11](https://github.com/truecharts/charts/compare/loki-9.0.10...loki-9.0.11) (2023-01-31)
+
+### Chore
+
+- update helm general non-major
+  
+  
+
+
 ## [loki-9.0.10](https://github.com/truecharts/charts/compare/loki-9.0.9...loki-9.0.10) (2023-01-30)
 
 ### Chore
@@ -88,12 +97,3 @@
 - update helm general non-major
   
   
-
-
-## [loki-9.0.0](https://github.com/truecharts/charts/compare/loki-8.0.4...loki-9.0.0) (2022-11-30)
-
-
-
-
-## [loki-8.0.4](https://github.com/truecharts/charts/compare/loki-8.0.3...loki-8.0.4) (2022-11-30)
-
