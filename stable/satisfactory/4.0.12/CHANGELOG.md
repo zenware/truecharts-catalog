@@ -4,6 +4,15 @@
 
 
 
+## [satisfactory-4.0.12](https://github.com/truecharts/charts/compare/satisfactory-4.0.11...satisfactory-4.0.12) (2023-01-30)
+
+### Chore
+
+- update container image tccr.io/truecharts/satisfactory to v1.4.5
+  
+  
+
+
 ## [satisfactory-4.0.11](https://github.com/truecharts/charts/compare/satisfactory-4.0.10...satisfactory-4.0.11) (2022-12-27)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 ## [satisfactory-4.0.2](https://github.com/truecharts/charts/compare/satisfactory-4.0.1...satisfactory-4.0.2) (2022-11-30)
 
-
-
-
-## [satisfactory-4.0.2](https://github.com/truecharts/charts/compare/satisfactory-4.0.1...satisfactory-4.0.2) (2022-11-30)
-
-
-
-
-## [satisfactory-4.0.2](https://github.com/truecharts/charts/compare/satisfactory-4.0.1...satisfactory-4.0.2) (2022-11-30)
 
