@@ -4,6 +4,15 @@
 
 
 
+## [weblate-7.0.21](https://github.com/truecharts/charts/compare/weblate-7.0.20...weblate-7.0.21) (2023-01-31)
+
+### Chore
+
+- update container image tccr.io/truecharts/weblate to v4.15.2
+  
+  
+
+
 ## [weblate-7.0.20](https://github.com/truecharts/charts/compare/weblate-7.0.19...weblate-7.0.20) (2023-01-24)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [weblate-7.0.11](https://github.com/truecharts/charts/compare/weblate-7.0.10...weblate-7.0.11) (2022-12-18)
 
 ### Chore
-
-- update helm chart postgresql to v11.0.13 ([#5495](https://github.com/truecharts/charts/issues/5495))
-  - update helm chart redis to v5.0.16
-  
-  
-
-
-## [weblate-7.0.10](https://github.com/truecharts/charts/compare/weblate-7.0.9...weblate-7.0.10) (2022-12-13)
-
