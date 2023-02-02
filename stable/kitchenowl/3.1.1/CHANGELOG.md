@@ -4,6 +4,15 @@
 
 
 
+## [kitchenowl-3.1.1](https://github.com/truecharts/charts/compare/kitchenowl-3.1.0...kitchenowl-3.1.1) (2023-02-02)
+
+### Chore
+
+- update kitchenowl
+  
+  
+
+
 ## [kitchenowl-3.1.0](https://github.com/truecharts/charts/compare/kitchenowl-3.0.12...kitchenowl-3.1.0) (2023-01-11)
 
 
@@ -86,14 +95,5 @@
 
 ## [kitchenowl-3.0.5](https://github.com/truecharts/charts/compare/kitchenowl-3.0.4...kitchenowl-3.0.5) (2022-11-30)
 
-
-
-
-## [kitchenowl-3.0.5](https://github.com/truecharts/charts/compare/kitchenowl-3.0.4...kitchenowl-3.0.5) (2022-11-30)
-
-
-
-
-## [kitchenowl-3.0.5](https://github.com/truecharts/charts/compare/kitchenowl-3.0.4...kitchenowl-3.0.5) (2022-11-30)
 
 
