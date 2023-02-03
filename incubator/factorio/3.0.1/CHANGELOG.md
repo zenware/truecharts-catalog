@@ -4,6 +4,15 @@
 
 
 
+## [factorio-3.0.1](https://github.com/truecharts/charts/compare/factorio-3.0.0...factorio-3.0.1) (2023-02-03)
+
+### Chore
+
+- update container image tccr.io/truecharts/factorio to vstable
+  
+  
+
+
 ## [factorio-3.0.0](https://github.com/truecharts/charts/compare/factorioservermanager-2.0.8...factorio-3.0.0) (2023-02-02)
 
 ### Feat
@@ -88,12 +97,3 @@
 ## [factorio-2.0.5](https://github.com/truecharts/charts/compare/factorio-2.0.4...factorio-2.0.5) (2022-12-12)
 
 ### Chore
-
-- update container image tccr.io/truecharts/factorio to vstable
-  
-  
-
-
-## [factorio-2.0.4](https://github.com/truecharts/charts/compare/factorioservermanager-2.0.2...factorio-2.0.4) (2022-12-02)
-
-
