@@ -4,6 +4,15 @@
 
 
 
+## [audiobookshelf-4.0.17](https://github.com/truecharts/charts/compare/audiobookshelf-4.0.16...audiobookshelf-4.0.17) (2023-02-03)
+
+### Chore
+
+- update container image tccr.io/truecharts/audiobookshelf to v2.2.14
+  
+  
+
+
 ## [audiobookshelf-4.0.16](https://github.com/truecharts/charts/compare/audiobookshelf-4.0.15...audiobookshelf-4.0.16) (2023-02-02)
 
 ### Fix
@@ -86,14 +95,5 @@
 
 
 ## [audiobookshelf-4.0.7](https://github.com/truecharts/charts/compare/audiobookshelf-4.0.6...audiobookshelf-4.0.7) (2022-12-02)
-
-### Chore
-
-- update container image tccr.io/truecharts/audiobookshelf to v2.2.8
-  
-  
-
-
-## [audiobookshelf-4.0.6](https://github.com/truecharts/charts/compare/audiobookshelf-4.0.5...audiobookshelf-4.0.6) (2022-12-01)
 
 ### Chore
