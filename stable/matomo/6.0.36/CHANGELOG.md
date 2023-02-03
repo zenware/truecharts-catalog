@@ -4,6 +4,15 @@
 
 
 
+## [matomo-6.0.36](https://github.com/truecharts/charts/compare/matomo-6.0.35...matomo-6.0.36) (2023-02-03)
+
+### Chore
+
+- update container image tccr.io/truecharts/matomo to 4.13.3
+  
+  
+
+
 ## [matomo-6.0.35](https://github.com/truecharts/charts/compare/matomo-6.0.34...matomo-6.0.35) (2023-02-02)
 
 ### Fix
@@ -86,14 +95,5 @@
 
 
 ## [matomo-6.0.26](https://github.com/truecharts/charts/compare/matomo-6.0.25...matomo-6.0.26) (2023-01-13)
-
-### Chore
-
-- update container image tccr.io/truecharts/matomo to 4.13.0
-  
-  
-
-
-## [matomo-6.0.25](https://github.com/truecharts/charts/compare/matomo-6.0.24...matomo-6.0.25) (2023-01-12)
 
 ### Chore
