@@ -4,6 +4,15 @@
 
 
 
+## [omada-controller-8.0.22](https://github.com/truecharts/charts/compare/omada-controller-8.0.21...omada-controller-8.0.22) (2023-02-03)
+
+### Chore
+
+- update container image tccr.io/truecharts/omada-controller to 5.8.0
+  
+  
+
+
 ## [omada-controller-8.0.21](https://github.com/truecharts/charts/compare/omada-controller-8.0.20...omada-controller-8.0.21) (2023-02-03)
 
 
@@ -82,15 +91,6 @@
 
 
 ## [omada-controller-8.0.12](https://github.com/truecharts/charts/compare/omada-controller-8.0.11...omada-controller-8.0.12) (2022-12-12)
-
-### Chore
-
-- update container image tccr.io/truecharts/omada-controller to 5.7.0
-  
-  
-
-
-## [omada-controller-8.0.11](https://github.com/truecharts/charts/compare/omada-controller-8.0.10...omada-controller-8.0.11) (2022-11-30)
 
 ### Chore
 
