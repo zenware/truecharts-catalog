@@ -4,6 +4,15 @@
 
 
 
+## [jenkins-3.0.7](https://github.com/truecharts/charts/compare/jenkins-3.0.6...jenkins-3.0.7) (2023-02-03)
+
+### Chore
+
+- update container image tccr.io/truecharts/jenkins to 2.388.0
+  
+  
+
+
 ## [jenkins-3.0.6](https://github.com/truecharts/charts/compare/jenkins-3.0.5...jenkins-3.0.6) (2023-02-02)
 
 ### Fix
@@ -82,15 +91,6 @@
 
 
 ## [jenkins-2.0.6](https://github.com/truecharts/charts/compare/jenkins-2.0.5...jenkins-2.0.6) (2022-12-25)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [jenkins-2.0.5](https://github.com/truecharts/charts/compare/jenkins-2.0.4...jenkins-2.0.5) (2022-12-19)
 
 ### Chore
 
