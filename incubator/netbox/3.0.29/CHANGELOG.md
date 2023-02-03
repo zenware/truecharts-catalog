@@ -4,6 +4,15 @@
 
 
 
+## [netbox-3.0.29](https://github.com/truecharts/charts/compare/netbox-3.0.28...netbox-3.0.29) (2023-02-03)
+
+### Chore
+
+- update container image tccr.io/truecharts/netbox to 3.4.3
+  
+  
+
+
 ## [netbox-3.0.28](https://github.com/truecharts/charts/compare/netbox-3.0.27...netbox-3.0.28) (2023-02-02)
 
 ### Fix
@@ -86,14 +95,5 @@
 
 
 ## [netbox-3.0.19](https://github.com/truecharts/charts/compare/netbox-3.0.18...netbox-3.0.19) (2022-12-27)
-
-### Chore
-
-- update helm general non-major ([#5848](https://github.com/truecharts/charts/issues/5848))
-  
-  
-
-
-## [netbox-3.0.18](https://github.com/truecharts/charts/compare/netbox-3.0.17...netbox-3.0.18) (2022-12-26)
 
 ### Chore
