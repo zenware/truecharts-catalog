@@ -4,6 +4,15 @@
 
 
 
+## [wordpress-1.1.12](https://github.com/truecharts/charts/compare/wordpress-1.1.11...wordpress-1.1.12) (2023-02-03)
+
+### Chore
+
+- update container image tccr.io/truecharts/wordpress to 6.1.1 ([#6935](https://github.com/truecharts/charts/issues/6935))
+  
+  
+
+
 ## [wordpress-1.1.11](https://github.com/truecharts/charts/compare/wordpress-1.1.10...wordpress-1.1.11) (2023-02-02)
 
 ### Fix
@@ -86,14 +95,5 @@
 
 
 ## [wordpress-1.1.2](https://github.com/truecharts/charts/compare/wordpress-1.1.1...wordpress-1.1.2) (2023-01-07)
-
-### Chore
-
-- update container image tccr.io/truecharts/wordpress to 6.1.1
-  
-  
-
-
-## [wordpress-1.1.1](https://github.com/truecharts/charts/compare/wordpress-1.1.0...wordpress-1.1.1) (2023-01-04)
 
 ### Chore
