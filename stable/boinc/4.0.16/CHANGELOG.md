@@ -4,6 +4,15 @@
 
 
 
+## [boinc-4.0.16](https://github.com/truecharts/charts/compare/boinc-4.0.15...boinc-4.0.16) (2023-02-03)
+
+### Chore
+
+- update container image tccr.io/truecharts/boinc to latest
+  
+  
+
+
 ## [boinc-4.0.15](https://github.com/truecharts/charts/compare/boinc-4.0.14...boinc-4.0.15) (2023-01-24)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 ## [boinc-4.0.5](https://github.com/truecharts/charts/compare/boinc-4.0.3...boinc-4.0.5) (2022-11-30)
 
-
-
-
-## [boinc-4.0.5](https://github.com/truecharts/charts/compare/boinc-4.0.3...boinc-4.0.5) (2022-11-30)
-
-
-
-
-## [boinc-4.0.5](https://github.com/truecharts/charts/compare/boinc-4.0.3...boinc-4.0.5) (2022-11-30)
 
