@@ -4,6 +4,15 @@
 
 
 
+## [wger-4.0.35](https://github.com/truecharts/charts/compare/wger-4.0.34...wger-4.0.35) (2023-02-03)
+
+### Chore
+
+- update container image tccr.io/truecharts/wger to latest
+  
+  
+
+
 ## [wger-4.0.34](https://github.com/truecharts/charts/compare/wger-4.0.33...wger-4.0.34) (2023-02-02)
 
 ### Fix
@@ -88,12 +97,3 @@
 
 
 ## [wger-4.0.25](https://github.com/truecharts/charts/compare/wger-4.0.24...wger-4.0.25) (2022-12-27)
-
-### Chore
-
-- update helm general non-major ([#5856](https://github.com/truecharts/charts/issues/5856))
-  
-  
-
-
-## [wger-4.0.24](https://github.com/truecharts/charts/compare/wger-4.0.23...wger-4.0.24) (2022-12-27)
