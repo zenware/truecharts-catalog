@@ -4,6 +4,15 @@
 
 
 
+## [monica-6.0.24](https://github.com/truecharts/charts/compare/monica-6.0.23...monica-6.0.24) (2023-02-04)
+
+### Chore
+
+- update container image tccr.io/truecharts/monica to v4.0.0
+  
+  
+
+
 ## [monica-6.0.23](https://github.com/truecharts/charts/compare/monica-6.0.22...monica-6.0.23) (2023-01-24)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [monica-6.0.14](https://github.com/truecharts/charts/compare/monica-6.0.13...monica-6.0.14) (2022-12-25)
-
-### Chore
-
-- update container image tccr.io/truecharts/monica to v3.7.0
-  
-  
-
-
-## [monica-6.0.13](https://github.com/truecharts/charts/compare/monica-6.0.12...monica-6.0.13) (2022-12-19)
 
 ### Chore
