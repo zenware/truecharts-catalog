@@ -1448,10 +1448,17 @@ questions:
                                                 type: string
                                                 required: true
                                                 default: Prefix
+                    - variable: clusterIssuer
+                      label: clusterIssuer
+                      description: 'add the name of your cert-manager clusterIssuer here for automatic tls certificates. Cannot be used combined with tls option below'
+                      schema:
+                        type: string
+                        default: ""
                     - variable: tls
                       label: TLS-Settings
                       schema:
                         type: list
+                        show_if: [["clusterIssuer", "=", ""]]
                         default: []
                         items:
                           - variable: tlsEntry
@@ -1472,12 +1479,26 @@ questions:
                                           type: string
                                           default: ""
                                           required: true
-                                - variable: scaleCert
-                                  label: Select TrueNAS SCALE Certificate
+
+                                - variable: clusterIssuer
+                                  label: Use Cert-Manager clusterIssuer
+                                  description: 'add the name of your cert-manager clusterIssuer here for automatic tls certificates.'
                                   schema:
+                                    type: string
+                                    default: ""
+                                - variable: scaleCert
+                                  label: Use TrueNAS SCALE Certificate (Deprecated)
+                                  schema:
+                                    show_if: [["clusterIssuer", "=", ""]]
                                     type: int
                                     $ref:
                                       - "definitions/certificate"
+                                - variable: secretName
+                                  label: Use Custom Secret (Advanced)
+                                  schema:
+                                    show_if: [["clusterIssuer", "=", ""]]
+                                    type: string
+                                    default: ""
                     - variable: entrypoint
                       label: (Advanced) Traefik Entrypoint
                       description: Entrypoint used by Traefik when using Traefik as Ingress Provider
@@ -1589,11 +1610,18 @@ questions:
                                               label: Service Port
                                               schema:
                                                 type: int
+              - variable: clusterIssuer
+                label: clusterIssuer
+                description: 'add the name of your cert-manager clusterIssuer here for automatic tls certificates. Cannot be used combined with tls option below'
+                schema:
+                  type: string
+                  default: ""
               - variable: tls
                 label: TLS-Settings
                 schema:
                   type: list
                   default: []
+                  show_if: [["clusterIssuer", "=", ""]]
                   items:
                     - variable: tlsEntry
                       label: Host
@@ -1613,12 +1641,25 @@ questions:
                                     type: string
                                     default: ""
                                     required: true
-                          - variable: scaleCert
-                            label: Select TrueNAS SCALE Certificate
+                          - variable: clusterIssuer
+                            label: Use Cert-Manager clusterIssuer
+                            description: 'add the name of your Cert-Manager clusterIssuer here for automatic tls certificates.'
                             schema:
+                              type: string
+                              default: ""
+                          - variable: scaleCert
+                            label: Use TrueNAS SCALE Certificate (Deprecated)
+                            schema:
+                              show_if: [["clusterIssuer", "=", ""]]
                               type: int
                               $ref:
                                 - "definitions/certificate"
+                          - variable: secretName
+                            label: Use Custom Secret (Advanced)
+                            schema:
+                              type: string
+                              show_if: [["clusterIssuer", "=", ""]]
+                              default: ""
               - variable: entrypoint
                 label: Traefik Entrypoint
                 description: Entrypoint used by Traefik when using Traefik as Ingress Provider
