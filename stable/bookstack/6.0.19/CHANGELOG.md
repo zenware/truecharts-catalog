@@ -4,6 +4,15 @@
 
 
 
+## [bookstack-6.0.19](https://github.com/truecharts/charts/compare/bookstack-6.0.18...bookstack-6.0.19) (2023-02-05)
+
+### Chore
+
+- update container image tccr.io/truecharts/bookstack to v23.01.20230131
+  
+  
+
+
 ## [bookstack-6.0.18](https://github.com/truecharts/charts/compare/bookstack-6.0.17...bookstack-6.0.18) (2023-01-24)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [bookstack-6.0.9](https://github.com/truecharts/charts/compare/bookstack-6.0.8...bookstack-6.0.9) (2022-12-13)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [bookstack-6.0.8](https://github.com/truecharts/charts/compare/bookstack-6.0.7...bookstack-6.0.8) (2022-12-05)
 
 ### Chore
