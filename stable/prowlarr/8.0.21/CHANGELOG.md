@@ -4,6 +4,15 @@
 
 
 
+## [prowlarr-8.0.21](https://github.com/truecharts/charts/compare/prowlarr-8.0.20...prowlarr-8.0.21) (2023-02-05)
+
+### Chore
+
+- update container image tccr.io/truecharts/prowlarr to v1.1.3.2521
+  
+  
+
+
 ## [prowlarr-8.0.20](https://github.com/truecharts/charts/compare/prowlarr-8.0.19...prowlarr-8.0.20) (2023-02-03)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [prowlarr-8.0.11](https://github.com/truecharts/charts/compare/prowlarr-8.0.10...prowlarr-8.0.11) (2022-12-25)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [prowlarr-8.0.10](https://github.com/truecharts/charts/compare/prowlarr-8.0.9...prowlarr-8.0.10) (2022-12-23)
 
 ### Chore
