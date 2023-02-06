@@ -4,6 +4,15 @@
 
 
 
+## [prometheus-7.0.52](https://github.com/truecharts/charts/compare/prometheus-7.0.51...prometheus-7.0.52) (2023-02-06)
+
+### Chore
+
+- update container image tccr.io/truecharts/alertmanager to 0.25.0
+  
+  
+
+
 ## [prometheus-7.0.51](https://github.com/truecharts/charts/compare/prometheus-7.0.50...prometheus-7.0.51) (2023-02-04)
 
 ### Chore
@@ -87,9 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#6430](https://github.com/truecharts/charts/issues/6430))
-  
-  ### Feat
-
-- move Grafana, Prometheus and Traefik to Enterprise Train ([#6372](https://github.com/truecharts/charts/issues/6372))
-  
   

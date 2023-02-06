@@ -4,6 +4,15 @@
 
 
 
+## [wger-4.0.36](https://github.com/truecharts/charts/compare/wger-4.0.35...wger-4.0.36) (2023-02-06)
+
+### Chore
+
+- update container image tccr.io/truecharts/wger to latest
+  
+  
+
+
 ## [wger-4.0.35](https://github.com/truecharts/charts/compare/wger-4.0.34...wger-4.0.35) (2023-02-03)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 
 ## [wger-4.0.26](https://github.com/truecharts/charts/compare/wger-4.0.25...wger-4.0.26) (2023-01-04)
-
-### Chore
-
-- update container image tccr.io/truecharts/wger to latest
-  
-  
-
-
-## [wger-4.0.25](https://github.com/truecharts/charts/compare/wger-4.0.24...wger-4.0.25) (2022-12-27)
