@@ -1,5 +1,5 @@
 apiVersion: v2
-appVersion: "0.20.2"
+appVersion: "0.8.4"
 dependencies:
   - name: common
     repository: https://library-charts.truecharts.org
@@ -12,23 +12,26 @@ dependencies:
     name: redis
     repository: https://charts.truecharts.org
     version: 5.0.29
-description: The to-do app to organize your life.
-home: https://truecharts.org/charts/stable/vikunja
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/vikunja.png
+description: InvenTree is an open-source Inventory Management System which provides powerful low-level stock control and part tracking.
+home: https://truecharts.org/charts/stable/inventree
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/inventree.png
 keywords:
-  - vikunja
+  - inventory
+  - inventree
 kubeVersion: ">=1.16.0-0"
 maintainers:
   - email: info@truecharts.org
     name: TrueCharts
     url: https://truecharts.org
-name: vikunja
+name: inventree
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/vikunja
-  - https://vikunja.io/docs
-version: 6.0.29
+  - https://github.com/truecharts/charts/tree/master/charts/stable/inventree
+  - https://hub.docker.com/inventree/inventree
+  - https://inventree.readthedocs.io
+  - https://github.com/inventree/InvenTree
+version: 7.0.29
 annotations:
   truecharts.org/catagories: |
-    - productivity
+    - utilities
   truecharts.org/SCALE-support: "true"
   truecharts.org/grade: U
