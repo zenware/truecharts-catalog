@@ -1,5 +1,5 @@
 apiVersion: v2
-appVersion: "6.1.1"
+appVersion: "4.13.3"
 dependencies:
   - name: common
     repository: https://library-charts.truecharts.org
@@ -8,27 +8,25 @@ dependencies:
     name: mariadb
     repository: https://charts.truecharts.org/
     version: 5.0.25
-description: The WordPress rich content management system can utilize plugins, widgets, and themes.
-home: https://truecharts.org/charts/stable/wordpress
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/wordpress.png
+description: Matomo is the leading Free/Libre open analytics platform
+home: https://truecharts.org/charts/stable/matomo
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/matomo.png
 keywords:
-  - wordpress
-  - cms
+  - analytics
 kubeVersion: ">=1.16.0-0"
 maintainers:
   - email: info@truecharts.org
     name: TrueCharts
     url: https://truecharts.org
-name: wordpress
+name: matomo
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/stable/wordpress
-  - https://hub.docker.com/bitnami/wordpress
-  - https://www.wordpress.org
-version: 1.1.12
+  - https://github.com/truecharts/charts/tree/master/charts/stable/matomo
+  - https://hub.docker.com/bitnami/matomo
+  - https://github.com/bitnami/bitnami-docker-matomo
+  - https://github.com/matomo-org/matomo
+version: 6.0.37
 annotations:
   truecharts.org/catagories: |
-    - website
-    - CMS
-    - Hosting
+    - productivity
   truecharts.org/SCALE-support: "true"
   truecharts.org/grade: U
