@@ -4,6 +4,11 @@
 
 
 
+## [nextpvr-4.1.1](https://github.com/truecharts/charts/compare/nextpvr-4.1.0...nextpvr-4.1.1) (2023-02-07)
+
+
+
+
 ## [nextpvr-4.1.0](https://github.com/truecharts/charts/compare/nextpvr-4.0.7...nextpvr-4.1.0) (2023-02-04)
 
 ### Feat
@@ -56,11 +61,6 @@
 - update helm general non-major
   
   
-
-
-## [nextpvr-4.0.2](https://github.com/truecharts/charts/compare/nextpvr-4.0.1...nextpvr-4.0.2) (2022-11-30)
-
-
 
 
 ## [nextpvr-4.0.2](https://github.com/truecharts/charts/compare/nextpvr-4.0.1...nextpvr-4.0.2) (2022-11-30)
