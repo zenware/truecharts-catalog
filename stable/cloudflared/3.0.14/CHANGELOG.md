@@ -4,6 +4,15 @@
 
 
 
+## [cloudflared-3.0.14](https://github.com/truecharts/charts/compare/cloudflareddns-4.0.3...cloudflared-3.0.14) (2023-02-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/cloudflared to v2023.2.1
+  
+  
+
+
 ## [cloudflared-3.0.13](https://github.com/truecharts/charts/compare/cloudflared-3.0.12...cloudflared-3.0.13) (2023-01-19)
 
 ### Chore
@@ -88,12 +97,3 @@
 - update container image tccr.io/truecharts/cloudflared to v2022.11.1
   
   
-
-
-## [cloudflared-3.0.3](https://github.com/truecharts/charts/compare/cloudflared-3.0.2...cloudflared-3.0.3) (2022-11-30)
-
-
-
-
-## [cloudflared-3.0.3](https://github.com/truecharts/charts/compare/cloudflared-3.0.2...cloudflared-3.0.3) (2022-11-30)
-
