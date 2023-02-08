@@ -4,6 +4,15 @@
 
 
 
+## [mariadb-5.0.29](https://github.com/truecharts/charts/compare/mariadb-5.0.28...mariadb-5.0.29) (2023-02-08)
+
+### Chore
+
+- update container image tccr.io/truecharts/mariadb to v10.10.3
+  
+  
+
+
 ## [mariadb-5.0.28](https://github.com/truecharts/charts/compare/mariadb-5.0.27...mariadb-5.0.28) (2023-02-06)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [mariadb-5.0.19](https://github.com/truecharts/charts/compare/mariadb-5.0.18...mariadb-5.0.19) (2022-12-27)
-
-### Chore
-
-- update helm chart common to 11.1.2 ([#5855](https://github.com/truecharts/charts/issues/5855))
-  
-  
-
-
-## [mariadb-5.0.18](https://github.com/truecharts/charts/compare/mariadb-5.0.17...mariadb-5.0.18) (2022-12-26)
 
 ### Chore
