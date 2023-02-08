@@ -4,6 +4,15 @@
 
 
 
+## [putty-3.0.11](https://github.com/truecharts/charts/compare/putty-3.0.10...putty-3.0.11) (2023-02-08)
+
+### Chore
+
+- update container image tccr.io/truecharts/putty to v23.02.2
+  
+  
+
+
 ## [putty-3.0.10](https://github.com/truecharts/charts/compare/putty-3.0.9...putty-3.0.10) (2023-02-05)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 ## [putty-3.0.2](https://github.com/truecharts/charts/compare/putty-3.0.1...putty-3.0.2) (2022-11-30)
 
-
-
-
-## [putty-3.0.2](https://github.com/truecharts/charts/compare/putty-3.0.1...putty-3.0.2) (2022-11-30)
-
-
-
-
-## [putty-3.0.2](https://github.com/truecharts/charts/compare/putty-3.0.1...putty-3.0.2) (2022-11-30)
