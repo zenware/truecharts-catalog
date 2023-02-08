@@ -4,6 +4,15 @@
 
 
 
+## [jenkins-3.0.11](https://github.com/truecharts/charts/compare/jenkins-3.0.10...jenkins-3.0.11) (2023-02-08)
+
+### Chore
+
+- update container image tccr.io/truecharts/jenkins to v
+  
+  
+
+
 ## [jenkins-3.0.10](https://github.com/truecharts/charts/compare/jenkins-3.0.9...jenkins-3.0.10) (2023-02-06)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [jenkins-3.0.1](https://github.com/truecharts/charts/compare/jenkins-3.0.0...jenkins-3.0.1) (2023-01-07)
 
 ### Chore
-
-- update container image jenkins/jenkins to v2.385
-  
-  
-
-
-## [jenkins-3.0.0](https://github.com/truecharts/charts/compare/jenkins-2.0.8...jenkins-3.0.0) (2023-01-07)
-
-
