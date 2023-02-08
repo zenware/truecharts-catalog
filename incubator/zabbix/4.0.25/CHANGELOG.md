@@ -4,6 +4,15 @@
 
 
 
+## [zabbix-4.0.25](https://github.com/truecharts/charts/compare/zabbix-4.0.24...zabbix-4.0.25) (2023-02-08)
+
+### Chore
+
+- update zabbix to v6.2.7
+  
+  
+
+
 ## [zabbix-4.0.24](https://github.com/truecharts/charts/compare/zabbix-4.0.23...zabbix-4.0.24) (2023-02-08)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [zabbix-4.0.15](https://github.com/truecharts/charts/compare/zabbix-4.0.14...zabbix-4.0.15) (2022-12-19)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [zabbix-4.0.14](https://github.com/truecharts/charts/compare/zabbix-4.0.13...zabbix-4.0.14) (2022-12-18)
 
 ### Chore
