@@ -4,6 +4,15 @@
 
 
 
+## [tar1090-2.0.12](https://github.com/truecharts/charts/compare/tar1090-2.0.11...tar1090-2.0.12) (2023-02-08)
+
+### Chore
+
+- update container image tccr.io/truecharts/tar1090 to latest
+  
+  
+
+
 ## [tar1090-2.0.11](https://github.com/truecharts/charts/compare/tar1090-2.0.10...tar1090-2.0.11) (2023-02-03)
 
 ### Fix
@@ -88,12 +97,3 @@
 
 ## [tar1090-2.0.2](https://github.com/truecharts/charts/compare/tar1090-2.0.1...tar1090-2.0.2) (2022-11-30)
 
-
-
-
-## [tar1090-2.0.2](https://github.com/truecharts/charts/compare/tar1090-2.0.1...tar1090-2.0.2) (2022-11-30)
-
-
-
-
-## [tar1090-2.0.2](https://github.com/truecharts/charts/compare/tar1090-2.0.1...tar1090-2.0.2) (2022-11-30)
