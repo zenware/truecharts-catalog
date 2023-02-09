@@ -4,6 +4,15 @@
 
 
 
+## [minio-console-5.0.16](https://github.com/truecharts/charts/compare/minio-console-5.0.15...minio-console-5.0.16) (2023-02-09)
+
+### Chore
+
+- update container image tccr.io/truecharts/minio-console to v0.23.1
+  
+  
+
+
 ## [minio-console-5.0.15](https://github.com/truecharts/charts/compare/minio-console-5.0.14...minio-console-5.0.15) (2023-02-03)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [minio-console-5.0.6](https://github.com/truecharts/charts/compare/minio-console-5.0.5...minio-console-5.0.6) (2022-12-11)
-
-### Chore
-
-- update container image tccr.io/truecharts/minio-console to v0.22.2
-  
-  
-
-
-## [minio-console-5.0.5](https://github.com/truecharts/charts/compare/minio-console-5.0.4...minio-console-5.0.5) (2022-12-07)
 
 ### Chore
