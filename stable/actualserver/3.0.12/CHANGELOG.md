@@ -4,6 +4,15 @@
 
 
 
+## [actualserver-3.0.12](https://github.com/truecharts/charts/compare/actualserver-3.0.11...actualserver-3.0.12) (2023-02-09)
+
+### Chore
+
+- update container image tccr.io/truecharts/actualserver to v23.2.9
+  
+  
+
+
 ## [actualserver-3.0.11](https://github.com/truecharts/charts/compare/actualserver-3.0.10...actualserver-3.0.11) (2023-02-08)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 ## [actualserver-3.0.2](https://github.com/truecharts/charts/compare/actualserver-3.0.1...actualserver-3.0.2) (2022-11-30)
 
-
-
-
-## [actualserver-3.0.2](https://github.com/truecharts/charts/compare/actualserver-3.0.1...actualserver-3.0.2) (2022-11-30)
-
-
-
-
-## [actualserver-3.0.2](https://github.com/truecharts/charts/compare/actualserver-3.0.1...actualserver-3.0.2) (2022-11-30)
