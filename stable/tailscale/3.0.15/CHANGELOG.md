@@ -4,6 +4,15 @@
 
 
 
+## [tailscale-3.0.15](https://github.com/truecharts/charts/compare/tailscale-3.0.14...tailscale-3.0.15) (2023-02-09)
+
+### Chore
+
+- update container image tailscale/tailscale to v1.36.1
+  
+  
+
+
 ## [tailscale-3.0.14](https://github.com/truecharts/charts/compare/tailscale-3.0.13...tailscale-3.0.14) (2023-02-05)
 
 ### Feat
@@ -88,12 +97,3 @@
 ## [tailscale-3.0.5](https://github.com/truecharts/charts/compare/tailscale-3.0.4...tailscale-3.0.5) (2022-12-06)
 
 
-
-
-## [tailscale-3.0.4](https://github.com/truecharts/charts/compare/tailscale-3.0.3...tailscale-3.0.4) (2022-12-05)
-
-### Feat
-
-- Update How-To Image ([#5123](https://github.com/truecharts/charts/issues/5123))
-  
-  
