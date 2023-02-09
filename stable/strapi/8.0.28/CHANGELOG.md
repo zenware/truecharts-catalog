@@ -4,6 +4,15 @@
 
 
 
+## [strapi-8.0.28](https://github.com/truecharts/charts/compare/strapi-8.0.27...strapi-8.0.28) (2023-02-09)
+
+### Chore
+
+- update container image tccr.io/truecharts/strapi to v4.6.1
+  
+  
+
+
 ## [strapi-8.0.27](https://github.com/truecharts/charts/compare/strapi-8.0.26...strapi-8.0.27) (2023-02-02)
 
 ### Fix
@@ -86,14 +95,5 @@
 
 
 ## [strapi-8.0.18](https://github.com/truecharts/charts/compare/strapi-8.0.17...strapi-8.0.18) (2022-12-26)
-
-### Chore
-
-- update helm general non-major ([#5839](https://github.com/truecharts/charts/issues/5839))
-  
-  
-
-
-## [strapi-8.0.17](https://github.com/truecharts/charts/compare/strapi-8.0.16...strapi-8.0.17) (2022-12-25)
 
 ### Chore
