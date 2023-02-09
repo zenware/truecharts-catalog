@@ -4,6 +4,15 @@
 
 
 
+## [misskey-3.0.30](https://github.com/truecharts/charts/compare/misskey-3.0.29...misskey-3.0.30) (2023-02-09)
+
+### Chore
+
+- update container image tccr.io/truecharts/misskey to v13.5.5
+  
+  
+
+
 ## [misskey-3.0.29](https://github.com/truecharts/charts/compare/misskey-3.0.28...misskey-3.0.29) (2023-02-09)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [misskey-3.0.20](https://github.com/truecharts/charts/compare/misskey-3.0.19...misskey-3.0.20) (2023-01-17)
-
-### Chore
-
-- update helm general non-major ([#6430](https://github.com/truecharts/charts/issues/6430))
-  
-  
-
-
-## [misskey-3.0.19](https://github.com/truecharts/charts/compare/misskey-3.0.18...misskey-3.0.19) (2023-01-07)
 
 ### Chore
