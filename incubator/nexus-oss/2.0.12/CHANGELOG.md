@@ -4,6 +4,15 @@
 
 
 
+## [nexus-oss-2.0.12](https://github.com/truecharts/charts/compare/nexus-oss-2.0.11...nexus-oss-2.0.12) (2023-02-10)
+
+### Chore
+
+- update container image tccr.io/truecharts/nexusoss to v3.47.1
+  
+  
+
+
 ## [nexus-oss-2.0.11](https://github.com/truecharts/charts/compare/nexus-oss-2.0.10...nexus-oss-2.0.11) (2023-01-31)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 ## [nexus-oss-2.0.2](https://github.com/truecharts/charts/compare/nexus-oss-2.0.1...nexus-oss-2.0.2) (2022-11-30)
 
-
-
-
-## [nexus-oss-2.0.2](https://github.com/truecharts/charts/compare/nexus-oss-2.0.1...nexus-oss-2.0.2) (2022-11-30)
-
-
-
-
-## [nexus-oss-2.0.2](https://github.com/truecharts/charts/compare/nexus-oss-2.0.1...nexus-oss-2.0.2) (2022-11-30)
 
