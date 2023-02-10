@@ -4,6 +4,15 @@
 
 
 
+## [ddns-go-4.0.19](https://github.com/truecharts/charts/compare/ddns-go-4.0.18...ddns-go-4.0.19) (2023-02-10)
+
+### Chore
+
+- update container image tccr.io/truecharts/ddns-go to v4.5.3
+  
+  
+
+
 ## [ddns-go-4.0.18](https://github.com/truecharts/charts/compare/ddns-go-4.0.17...ddns-go-4.0.18) (2023-02-10)
 
 ### Fix
@@ -86,14 +95,5 @@
 ### Chore
 
 - update container image tccr.io/truecharts/ddns-go to v4.4.0
-  
-  
-
-
-## [ddns-go-4.0.8](https://github.com/truecharts/charts/compare/ddns-go-4.0.7...ddns-go-4.0.8) (2022-12-19)
-
-### Chore
-
-- update helm general non-major
   
   
