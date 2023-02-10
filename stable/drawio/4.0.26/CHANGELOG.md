@@ -4,6 +4,15 @@
 
 
 
+## [drawio-4.0.26](https://github.com/truecharts/charts/compare/drawio-4.0.25...drawio-4.0.26) (2023-02-10)
+
+### Chore
+
+- update container image tccr.io/truecharts/drawio to v20.8.20
+  
+  
+
+
 ## [drawio-4.0.25](https://github.com/truecharts/charts/compare/drawio-4.0.24...drawio-4.0.25) (2023-02-10)
 
 ### Fix
@@ -86,14 +95,5 @@
 
 
 ## [drawio-4.0.16](https://github.com/truecharts/charts/compare/drawio-4.0.15...drawio-4.0.16) (2023-01-19)
-
-### Chore
-
-- update container image tccr.io/truecharts/drawio to v20.8.6
-  
-  
-
-
-## [drawio-4.0.15](https://github.com/truecharts/charts/compare/drawio-4.0.14...drawio-4.0.15) (2023-01-16)
 
 ### Chore
