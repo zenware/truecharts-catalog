@@ -4,6 +4,15 @@
 
 
 
+## [xen-orchestra-3.0.21](https://github.com/truecharts/charts/compare/xen-orchestra-3.0.20...xen-orchestra-3.0.21) (2023-02-11)
+
+### Chore
+
+- update container image tccr.io/truecharts/xenorchestra to 5.109.0
+  
+  
+
+
 ## [xen-orchestra-3.0.20](https://github.com/truecharts/charts/compare/xen-orchestra-3.0.19...xen-orchestra-3.0.20) (2023-02-10)
 
 ### Fix
@@ -86,14 +95,5 @@
 
 
 ## [xen-orchestra-3.0.11](https://github.com/truecharts/charts/compare/xen-orchestra-3.0.10...xen-orchestra-3.0.11) (2022-12-25)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [xen-orchestra-3.0.10](https://github.com/truecharts/charts/compare/xen-orchestra-3.0.9...xen-orchestra-3.0.10) (2022-12-24)
 
 ### Chore
