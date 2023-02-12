@@ -4,6 +4,15 @@
 
 
 
+## [pihole-8.0.18](https://github.com/truecharts/charts/compare/pihole-8.0.17...pihole-8.0.18) (2023-02-12)
+
+### Chore
+
+- update container image tccr.io/truecharts/pihole to v2023.02.1
+  
+  
+
+
 ## [pihole-8.0.17](https://github.com/truecharts/charts/compare/pihole-8.0.16...pihole-8.0.17) (2023-02-10)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [pihole-8.0.8](https://github.com/truecharts/charts/compare/pihole-8.0.7...pihole-8.0.8) (2022-12-26)
-
-### Chore
-
-- update helm general non-major ([#5839](https://github.com/truecharts/charts/issues/5839))
-  
-  
-
-
-## [pihole-8.0.7](https://github.com/truecharts/charts/compare/pihole-8.0.6...pihole-8.0.7) (2022-12-25)
 
 ### Chore
