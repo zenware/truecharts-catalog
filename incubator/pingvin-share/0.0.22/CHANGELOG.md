@@ -4,6 +4,15 @@
 
 
 
+## [pingvin-share-0.0.22](https://github.com/truecharts/charts/compare/pingvin-share-0.0.21...pingvin-share-0.0.22) (2023-02-12)
+
+### Chore
+
+- update container image tccr.io/truecharts/pingvin-share to v0.10.1
+  
+  
+
+
 ## [pingvin-share-0.0.21](https://github.com/truecharts/charts/compare/pingvin-share-0.0.20...pingvin-share-0.0.21) (2023-02-10)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [pingvin-share-0.0.12](https://github.com/truecharts/charts/compare/pingvin-share-0.0.11...pingvin-share-0.0.12) (2022-12-30)
-
-### Chore
-
-- update container image tccr.io/truecharts/pingvin-share to v0.5.0
-  
-  
-
-
-## [pingvin-share-0.0.11](https://github.com/truecharts/charts/compare/pingvin-share-0.0.10...pingvin-share-0.0.11) (2022-12-27)
 
 ### Chore

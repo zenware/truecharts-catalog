@@ -4,6 +4,15 @@
 
 
 
+## [tachidesk-docker-2.0.12](https://github.com/truecharts/charts/compare/tachidesk-docker-2.0.11...tachidesk-docker-2.0.12) (2023-02-12)
+
+### Chore
+
+- update container image tccr.io/truecharts/tachidesk-docker to latest
+  
+  
+
+
 ## [tachidesk-docker-2.0.11](https://github.com/truecharts/charts/compare/tachidesk-docker-2.0.10...tachidesk-docker-2.0.11) (2023-02-10)
 
 ### Fix
@@ -54,15 +63,6 @@
 ### Chore
 
 - update helm general non-major
-  
-  
-
-
-## [tachidesk-docker-2.0.5](https://github.com/truecharts/charts/compare/tachidesk-docker-2.0.3...tachidesk-docker-2.0.5) (2022-11-30)
-
-### Chore
-
-- update container image tccr.io/truecharts/tachidesk-docker to latest
   
   
 
