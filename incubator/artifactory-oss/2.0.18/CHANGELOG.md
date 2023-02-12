@@ -4,6 +4,15 @@
 
 
 
+## [artifactory-oss-2.0.18](https://github.com/truecharts/charts/compare/artifactory-oss-2.0.17...artifactory-oss-2.0.18) (2023-02-12)
+
+### Chore
+
+- update container image tccr.io/truecharts/artifactory-oss to v7.49.8
+  
+  
+
+
 ## [artifactory-oss-2.0.17](https://github.com/truecharts/charts/compare/artifactory-oss-2.0.16...artifactory-oss-2.0.17) (2023-02-10)
 
 ### Fix
@@ -86,14 +95,5 @@
 
 
 ## [artifactory-oss-2.0.8](https://github.com/truecharts/charts/compare/artifactory-oss-2.0.7...artifactory-oss-2.0.8) (2022-12-19)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [artifactory-oss-2.0.7](https://github.com/truecharts/charts/compare/artifactory-oss-2.0.6...artifactory-oss-2.0.7) (2022-12-14)
 
 ### Chore
