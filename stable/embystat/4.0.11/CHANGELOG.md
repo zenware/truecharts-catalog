@@ -4,6 +4,15 @@
 
 
 
+## [embystat-4.0.11](https://github.com/truecharts/charts/compare/embystat-4.0.10...embystat-4.0.11) (2023-02-13)
+
+### Chore
+
+- update container image tccr.io/truecharts/embystat to v0.2.0
+  
+  
+
+
 ## [embystat-4.0.10](https://github.com/truecharts/charts/compare/embystat-4.0.9...embystat-4.0.10) (2023-02-10)
 
 ### Fix
@@ -88,12 +97,3 @@
 
 ## [embystat-4.0.2](https://github.com/truecharts/charts/compare/embystat-4.0.1...embystat-4.0.2) (2022-11-30)
 
-
-
-
-## [embystat-4.0.2](https://github.com/truecharts/charts/compare/embystat-4.0.1...embystat-4.0.2) (2022-11-30)
-
-
-
-
-## [embystat-4.0.2](https://github.com/truecharts/charts/compare/embystat-4.0.1...embystat-4.0.2) (2022-11-30)
