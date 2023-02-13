@@ -4,6 +4,15 @@
 
 
 
+## [leantime-7.0.29](https://github.com/truecharts/charts/compare/leantime-7.0.28...leantime-7.0.29) (2023-02-13)
+
+### Chore
+
+- update container image tccr.io/truecharts/leantime to 2.3.11
+  
+  
+
+
 ## [leantime-7.0.28](https://github.com/truecharts/charts/compare/leantime-7.0.27...leantime-7.0.28) (2023-02-12)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [leantime-7.0.19](https://github.com/truecharts/charts/compare/leantime-7.0.18...leantime-7.0.19) (2023-01-19)
-
-### Chore
-
-- update container image tccr.io/truecharts/leantime to v2.3.5
-  
-  
-
-
-## [leantime-7.0.18](https://github.com/truecharts/charts/compare/leantime-7.0.17...leantime-7.0.18) (2023-01-17)
 
 ### Chore
