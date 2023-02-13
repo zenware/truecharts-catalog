@@ -4,6 +4,15 @@
 
 
 
+## [netdata-4.0.13](https://github.com/truecharts/charts/compare/netdata-4.0.12...netdata-4.0.13) (2023-02-13)
+
+### Chore
+
+- update container image tccr.io/truecharts/netdata to v1.38.1
+  
+  
+
+
 ## [netdata-4.0.12](https://github.com/truecharts/charts/compare/netdata-4.0.11...netdata-4.0.12) (2023-02-10)
 
 ### Fix
@@ -87,13 +96,4 @@
 
 ## [netdata-4.0.3](https://github.com/truecharts/charts/compare/netdata-4.0.2...netdata-4.0.3) (2022-11-30)
 
-
-
-
-## [netdata-4.0.2](https://github.com/truecharts/charts/compare/netdata-4.0.1...netdata-4.0.2) (2022-11-30)
-
-
-
-
-## [netdata-4.0.2](https://github.com/truecharts/charts/compare/netdata-4.0.1...netdata-4.0.2) (2022-11-30)
 
