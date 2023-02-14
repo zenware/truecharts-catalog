@@ -4,6 +4,15 @@
 
 
 
+## [stash-9.0.10](https://github.com/truecharts/charts/compare/stash-9.0.9...stash-9.0.10) (2023-02-14)
+
+### Chore
+
+- update container image tccr.io/truecharts/stash to v0.19.0
+  
+  
+
+
 ## [stash-9.0.9](https://github.com/truecharts/charts/compare/filestash-2.0.14...stash-9.0.9) (2023-02-10)
 
 ### Fix
@@ -85,15 +94,6 @@
 
 ## [stash-9.0.3](https://github.com/truecharts/charts/compare/filestash-2.0.5...stash-9.0.3) (2022-11-30)
 
-
-
-
-## [stash-9.0.3](https://github.com/truecharts/charts/compare/filestash-2.0.5...stash-9.0.3) (2022-11-30)
-
-
-
-
-## [stash-9.0.3](https://github.com/truecharts/charts/compare/filestash-2.0.5...stash-9.0.3) (2022-11-30)
 
 
 
