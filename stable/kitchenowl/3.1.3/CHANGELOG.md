@@ -4,6 +4,15 @@
 
 
 
+## [kitchenowl-3.1.3](https://github.com/truecharts/charts/compare/kitchenowl-3.1.2...kitchenowl-3.1.3) (2023-02-14)
+
+### Chore
+
+- update container image tccr.io/truecharts/kitchenowl-web to latest
+  
+  
+
+
 ## [kitchenowl-3.1.2](https://github.com/truecharts/charts/compare/kitchenowl-3.1.1...kitchenowl-3.1.2) (2023-02-10)
 
 ### Fix
@@ -88,12 +97,3 @@
 ### Chore
 
 - update container image tccr.io/truecharts/kitchenowl-backend to beta
-  
-  
-
-
-## [kitchenowl-3.0.5](https://github.com/truecharts/charts/compare/kitchenowl-3.0.4...kitchenowl-3.0.5) (2022-11-30)
-
-
-
-
