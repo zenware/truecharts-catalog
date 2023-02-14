@@ -4,6 +4,15 @@
 
 
 
+## [prometheus-7.0.54](https://github.com/truecharts/charts/compare/prometheus-7.0.53...prometheus-7.0.54) (2023-02-14)
+
+### Chore
+
+- update container image tccr.io/truecharts/thanos to 0.30.2
+  
+  
+
+
 ## [prometheus-7.0.53](https://github.com/truecharts/charts/compare/prometheus-7.0.52...prometheus-7.0.53) (2023-02-10)
 
 ### Fix
@@ -87,13 +96,4 @@
 - update container image tccr.io/truecharts/alertmanager to 0.25.0
   - update container image tccr.io/truecharts/thanos to 0.30.1
   - update container image tccr.io/truecharts/prometheus to 2.41.0
-  
-  
-
-
-## [prometheus-7.0.44](https://github.com/truecharts/charts/compare/prometheus-7.0.43...prometheus-7.0.44) (2023-01-18)
-
-### Chore
-
-- update container image tccr.io/truecharts/alertmanager to 0.25.0
   
