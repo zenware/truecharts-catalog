@@ -4,6 +4,15 @@
 
 
 
+## [onlyoffice-document-server-9.0.24](https://github.com/truecharts/charts/compare/onlyoffice-document-server-9.0.23...onlyoffice-document-server-9.0.24) (2023-02-14)
+
+### Chore
+
+- update container image tccr.io/truecharts/onlyoffice-ds to v7.3.2
+  
+  
+
+
 ## [onlyoffice-document-server-9.0.23](https://github.com/truecharts/charts/compare/onlyoffice-document-server-9.0.22...onlyoffice-document-server-9.0.23) (2023-02-10)
 
 ### Fix
@@ -86,14 +95,5 @@
 
 
 ## [onlyoffice-document-server-9.0.14](https://github.com/truecharts/charts/compare/onlyoffice-document-server-9.0.13...onlyoffice-document-server-9.0.14) (2022-12-25)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [onlyoffice-document-server-9.0.13](https://github.com/truecharts/charts/compare/onlyoffice-document-server-9.0.12...onlyoffice-document-server-9.0.13) (2022-12-20)
 
 ### Chore
