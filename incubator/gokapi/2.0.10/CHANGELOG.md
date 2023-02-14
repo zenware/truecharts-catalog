@@ -4,6 +4,15 @@
 
 
 
+## [gokapi-2.0.10](https://github.com/truecharts/charts/compare/gokapi-2.0.9...gokapi-2.0.10) (2023-02-14)
+
+### Chore
+
+- update container image tccr.io/truecharts/gokapi to v1.6.2
+  
+  
+
+
 ## [gokapi-2.0.9](https://github.com/truecharts/charts/compare/gokapi-2.0.8...gokapi-2.0.9) (2023-02-10)
 
 ### Fix
@@ -88,12 +97,3 @@
 
 
 ## [gokapi-2.0.2](https://github.com/truecharts/charts/compare/gokapi-2.0.1...gokapi-2.0.2) (2022-11-30)
-
-
-
-
-## [gokapi-2.0.2](https://github.com/truecharts/charts/compare/gokapi-2.0.1...gokapi-2.0.2) (2022-11-30)
-
-
-
-
