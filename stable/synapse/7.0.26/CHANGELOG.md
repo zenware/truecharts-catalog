@@ -4,6 +4,15 @@
 
 
 
+## [synapse-7.0.26](https://github.com/truecharts/charts/compare/synapse-7.0.25...synapse-7.0.26) (2023-02-14)
+
+### Chore
+
+- update container image tccr.io/truecharts/synapse to v1.77.0
+  
+  
+
+
 ## [synapse-7.0.25](https://github.com/truecharts/charts/compare/synapse-7.0.24...synapse-7.0.25) (2023-02-10)
 
 ### Fix
@@ -86,14 +95,5 @@
 
 
 ## [synapse-7.0.16](https://github.com/truecharts/charts/compare/synapse-7.0.15...synapse-7.0.16) (2022-12-26)
-
-### Chore
-
-- update helm general non-major ([#5839](https://github.com/truecharts/charts/issues/5839))
-  
-  
-
-
-## [synapse-7.0.15](https://github.com/truecharts/charts/compare/synapse-7.0.14...synapse-7.0.15) (2022-12-25)
 
 ### Chore
