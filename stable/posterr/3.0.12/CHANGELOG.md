@@ -4,6 +4,15 @@
 
 
 
+## [posterr-3.0.12](https://github.com/truecharts/charts/compare/posterr-3.0.11...posterr-3.0.12) (2023-02-15)
+
+### Chore
+
+- update container image tccr.io/truecharts/posterr to latest
+  
+  
+
+
 ## [posterr-3.0.11](https://github.com/truecharts/charts/compare/posterr-3.0.10...posterr-3.0.11) (2023-02-10)
 
 ### Fix
@@ -87,13 +96,4 @@
 
 ## [posterr-3.0.2](https://github.com/truecharts/charts/compare/posterr-3.0.1...posterr-3.0.2) (2022-11-30)
 
-
-
-
-## [posterr-3.0.2](https://github.com/truecharts/charts/compare/posterr-3.0.1...posterr-3.0.2) (2022-11-30)
-
-
-
-
-## [posterr-3.0.2](https://github.com/truecharts/charts/compare/posterr-3.0.1...posterr-3.0.2) (2022-11-30)
 
