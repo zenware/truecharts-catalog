@@ -4,6 +4,15 @@
 
 
 
+## [makemkv-4.0.14](https://github.com/truecharts/charts/compare/makemkv-4.0.13...makemkv-4.0.14) (2023-02-15)
+
+### Feat
+
+- Add Dark Mode GUI Option support ([#7357](https://github.com/truecharts/charts/issues/7357))
+  
+  
+
+
 ## [makemkv-4.0.13](https://github.com/truecharts/charts/compare/makemkv-4.0.12...makemkv-4.0.13) (2023-02-15)
 
 ### Chore
@@ -82,15 +91,6 @@
 
 
 ## [makemkv-4.0.4](https://github.com/truecharts/charts/compare/makemkv-4.0.3...makemkv-4.0.4) (2022-12-19)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [makemkv-4.0.3](https://github.com/truecharts/charts/compare/makemkv-4.0.2...makemkv-4.0.3) (2022-12-13)
 
 ### Chore
 
