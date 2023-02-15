@@ -4,6 +4,15 @@
 
 
 
+## [libreddit-3.0.16](https://github.com/truecharts/charts/compare/libreddit-3.0.15...libreddit-3.0.16) (2023-02-15)
+
+### Chore
+
+- update container image tccr.io/truecharts/libreddit to latest
+  
+  
+
+
 ## [libreddit-3.0.15](https://github.com/truecharts/charts/compare/libreddit-3.0.14...libreddit-3.0.15) (2023-02-10)
 
 ### Fix
@@ -68,15 +77,6 @@
 
 
 ## [libreddit-3.0.8](https://github.com/truecharts/charts/compare/libreddit-3.0.7...libreddit-3.0.8) (2022-12-12)
-
-### Chore
-
-- update container image tccr.io/truecharts/libreddit to latest
-  
-  
-
-
-## [libreddit-3.0.7](https://github.com/truecharts/charts/compare/libreddit-3.0.5...libreddit-3.0.7) (2022-11-30)
 
 ### Chore
 
