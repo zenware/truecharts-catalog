@@ -4,6 +4,15 @@
 
 
 
+## [foldingathome-4.0.11](https://github.com/truecharts/charts/compare/foldingathome-4.0.10...foldingathome-4.0.11) (2023-02-15)
+
+### Chore
+
+- update container image tccr.io/truecharts/foldingathome to v7.6.21
+  
+  
+
+
 ## [foldingathome-4.0.10](https://github.com/truecharts/charts/compare/foldingathome-4.0.9...foldingathome-4.0.10) (2023-02-10)
 
 ### Fix
@@ -88,12 +97,3 @@
 
 ## [foldingathome-4.0.2](https://github.com/truecharts/charts/compare/foldingathome-4.0.1...foldingathome-4.0.2) (2022-11-30)
 
-
-
-
-## [foldingathome-4.0.2](https://github.com/truecharts/charts/compare/foldingathome-4.0.1...foldingathome-4.0.2) (2022-11-30)
-
-
-
-
-## [foldingathome-4.0.2](https://github.com/truecharts/charts/compare/foldingathome-4.0.1...foldingathome-4.0.2) (2022-11-30)
