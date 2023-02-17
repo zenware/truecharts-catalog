@@ -4,6 +4,11 @@
 
 
 
+## [phpmyadmin-2.0.11](https://github.com/truecharts/charts/compare/phpmyadmin-2.0.10...phpmyadmin-2.0.11) (2023-02-17)
+
+
+
+
 ## [phpmyadmin-2.0.10](https://github.com/truecharts/charts/compare/phpmyadmin-2.0.9...phpmyadmin-2.0.10) (2023-02-10)
 
 ### Fix
@@ -74,11 +79,6 @@
 - update helm general non-major
   
   
-
-
-## [phpmyadmin-2.0.2](https://github.com/truecharts/charts/compare/phpmyadmin-2.0.1...phpmyadmin-2.0.2) (2022-11-30)
-
-
 
 
 ## [phpmyadmin-2.0.2](https://github.com/truecharts/charts/compare/phpmyadmin-2.0.1...phpmyadmin-2.0.2) (2022-11-30)
