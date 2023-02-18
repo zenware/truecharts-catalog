@@ -4,6 +4,11 @@
 
 
 
+## [strapi-8.0.30](https://github.com/truecharts/charts/compare/strapi-8.0.29...strapi-8.0.30) (2023-02-18)
+
+
+
+
 ## [strapi-8.0.29](https://github.com/truecharts/charts/compare/strapi-8.0.28...strapi-8.0.29) (2023-02-10)
 
 ### Fix
@@ -92,8 +97,3 @@
 - update container image tccr.io/truecharts/strapi to v4.5.5
   
   
-
-
-## [strapi-8.0.19](https://github.com/truecharts/charts/compare/strapi-8.0.18...strapi-8.0.19) (2022-12-27)
-
-### Chore
