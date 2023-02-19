@@ -4,6 +4,15 @@
 
 
 
+## [guacamole-client-7.0.22](https://github.com/truecharts/charts/compare/guacamole-client-7.0.21...guacamole-client-7.0.22) (2023-02-19)
+
+### Chore
+
+- remove temp hack ([#7376](https://github.com/truecharts/charts/issues/7376))
+  
+  
+
+
 ## [guacamole-client-7.0.21](https://github.com/truecharts/charts/compare/guacamole-client-7.0.20...guacamole-client-7.0.21) (2023-02-10)
 
 ### Fix
@@ -86,14 +95,5 @@
 
 
 ## [guacamole-client-7.0.12](https://github.com/truecharts/charts/compare/guacamole-client-7.0.11...guacamole-client-7.0.12) (2022-12-19)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [guacamole-client-7.0.11](https://github.com/truecharts/charts/compare/guacamole-client-7.0.10...guacamole-client-7.0.11) (2022-12-18)
 
 ### Chore
