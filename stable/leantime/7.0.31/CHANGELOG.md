@@ -4,6 +4,15 @@
 
 
 
+## [leantime-7.0.31](https://github.com/truecharts/charts/compare/leantime-7.0.30...leantime-7.0.31) (2023-02-20)
+
+### Chore
+
+- update container image tccr.io/truecharts/leantime to v2.3.13
+  
+  
+
+
 ## [leantime-7.0.30](https://github.com/truecharts/charts/compare/leantime-7.0.29...leantime-7.0.30) (2023-02-19)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [leantime-7.0.21](https://github.com/truecharts/charts/compare/leantime-7.0.20...leantime-7.0.21) (2023-01-24)
-
-### Chore
-
-- update helm general non-major ([#6689](https://github.com/truecharts/charts/issues/6689))
-  
-  
-
-
-## [leantime-7.0.20](https://github.com/truecharts/charts/compare/leantime-7.0.19...leantime-7.0.20) (2023-01-23)
 
 ### Chore
