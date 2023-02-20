@@ -4,6 +4,15 @@
 
 
 
+## [kavita-4.0.9](https://github.com/truecharts/charts/compare/kavita-4.0.8...kavita-4.0.9) (2023-02-20)
+
+### Chore
+
+- update container image tccr.io/truecharts/kavita to v0.7.1
+  
+  
+
+
 ## [kavita-4.0.8](https://github.com/truecharts/charts/compare/kavitaemail-2.0.10...kavita-4.0.8) (2023-02-10)
 
 ### Fix
@@ -85,15 +94,6 @@
 
 ## [kavita-4.0.2](https://github.com/truecharts/charts/compare/kavita-4.0.1...kavita-4.0.2) (2022-11-30)
 
-
-
-
-## [kavita-4.0.2](https://github.com/truecharts/charts/compare/kavita-4.0.1...kavita-4.0.2) (2022-11-30)
-
-
-
-
-## [kavita-4.0.2](https://github.com/truecharts/charts/compare/kavita-4.0.1...kavita-4.0.2) (2022-11-30)
 
 
 
