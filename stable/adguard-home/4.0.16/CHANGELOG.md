@@ -4,6 +4,15 @@
 
 
 
+## [adguard-home-4.0.16](https://github.com/truecharts/charts/compare/adguard-home-4.0.15...adguard-home-4.0.16) (2023-02-21)
+
+### Chore
+
+- update container image tccr.io/truecharts/adguard-home to v0.107.25
+  
+  
+
+
 ## [adguard-home-4.0.15](https://github.com/truecharts/charts/compare/adguard-home-4.0.14...adguard-home-4.0.15) (2023-02-20)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [adguard-home-4.0.6](https://github.com/truecharts/charts/compare/adguard-home-4.0.5...adguard-home-4.0.6) (2022-12-17)
-
-### Chore
-
-- update container image tccr.io/truecharts/adguard-home to v0.107.21
-  
-  
-
-
-## [adguard-home-4.0.5](https://github.com/truecharts/charts/compare/adguard-home-4.0.4...adguard-home-4.0.5) (2022-12-13)
 
 ### Chore
