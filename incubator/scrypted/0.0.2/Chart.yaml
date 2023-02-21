@@ -19,10 +19,9 @@ maintainers:
 name: scrypted
 sources:
   - https://github.com/truecharts/charts/tree/master/charts/incubator/scrypted
-  - https://ghcr.io/koush/scrypted
   - https://github.com/koush/scrypted
 type: application
-version: 0.0.1
+version: 0.0.2
 annotations:
   truecharts.org/catagories: |
     - media
