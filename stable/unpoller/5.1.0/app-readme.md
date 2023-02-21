@@ -1,4 +1,4 @@
-Collect ALL UniFi Controller, Site, Device & Client Data - Export to InfluxDB or Prometheus
+Collect your UniFi controller data and report it to an InfluxDB instance, or export it for Prometheus collection.
 
 This App is supplied by TrueCharts, for more information visit the manual: [https://truecharts.org/charts/stable/unpoller](https://truecharts.org/charts/stable/unpoller)
 
