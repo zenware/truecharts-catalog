@@ -4,6 +4,15 @@
 
 
 
+## [hedgedoc-7.0.30](https://github.com/truecharts/charts/compare/hedgedoc-7.0.29...hedgedoc-7.0.30) (2023-02-22)
+
+### Chore
+
+- update container image tccr.io/truecharts/hedgedoc to 1.9.7
+  
+  
+
+
 ## [hedgedoc-7.0.29](https://github.com/truecharts/charts/compare/hedgedoc-7.0.28...hedgedoc-7.0.29) (2023-02-20)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [hedgedoc-7.0.20](https://github.com/truecharts/charts/compare/hedgedoc-7.0.19...hedgedoc-7.0.20) (2023-01-07)
-
-### Chore
-
-- update helm general non-major ([#6121](https://github.com/truecharts/charts/issues/6121))
-  
-  
-
-
-## [hedgedoc-7.0.19](https://github.com/truecharts/charts/compare/hedgedoc-7.0.18...hedgedoc-7.0.19) (2023-01-07)
 
 ### Chore
