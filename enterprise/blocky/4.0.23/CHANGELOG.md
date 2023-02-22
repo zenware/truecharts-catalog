@@ -4,6 +4,15 @@
 
 
 
+## [blocky-4.0.23](https://github.com/truecharts/charts/compare/blocky-4.0.22...blocky-4.0.23) (2023-02-22)
+
+### Fix
+
+- fix multi-domain ([#7448](https://github.com/truecharts/charts/issues/7448))
+  
+  
+
+
 ## [blocky-4.0.22](https://github.com/truecharts/charts/compare/blocky-4.0.21...blocky-4.0.22) (2023-02-19)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [blocky-4.0.13](https://github.com/truecharts/charts/compare/blocky-4.0.12...blocky-4.0.13) (2022-12-26)
-
-### Chore
-
-- update helm general non-major ([#5839](https://github.com/truecharts/charts/issues/5839))
-  
-  
-
-
-## [blocky-4.0.12](https://github.com/truecharts/charts/compare/blocky-4.0.11...blocky-4.0.12) (2022-12-25)
 
 ### Chore
