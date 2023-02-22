@@ -4,6 +4,15 @@
 
 
 
+## [radicale-2.0.10](https://github.com/truecharts/charts/compare/radicale-2.0.9...radicale-2.0.10) (2023-02-22)
+
+### Chore
+
+- update container image tccr.io/truecharts/radicale to v3.1.8.1
+  
+  
+
+
 ## [radicale-2.0.9](https://github.com/truecharts/charts/compare/radicale-2.0.8...radicale-2.0.9) (2023-02-10)
 
 ### Fix
@@ -85,15 +94,6 @@
 
 ## [radicale-2.0.2](https://github.com/truecharts/charts/compare/radicale-2.0.1...radicale-2.0.2) (2022-11-30)
 
-
-
-
-## [radicale-2.0.2](https://github.com/truecharts/charts/compare/radicale-2.0.1...radicale-2.0.2) (2022-11-30)
-
-
-
-
-## [radicale-2.0.2](https://github.com/truecharts/charts/compare/radicale-2.0.1...radicale-2.0.2) (2022-11-30)
 
 
 
