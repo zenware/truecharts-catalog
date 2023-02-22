@@ -4,6 +4,15 @@
 
 
 
+## [homer-4.0.12](https://github.com/truecharts/charts/compare/homer-4.0.11...homer-4.0.12) (2023-02-22)
+
+### Chore
+
+- update container image tccr.io/truecharts/homer to v23.02.2
+  
+  
+
+
 ## [homer-4.0.11](https://github.com/truecharts/charts/compare/homer-4.0.10...homer-4.0.11) (2023-02-10)
 
 ### Fix
@@ -87,13 +96,4 @@
 
 ## [homer-4.0.2](https://github.com/truecharts/charts/compare/homer-4.0.1...homer-4.0.2) (2022-11-30)
 
-
-
-
-## [homer-4.0.2](https://github.com/truecharts/charts/compare/homer-4.0.1...homer-4.0.2) (2022-11-30)
-
-
-
-
-## [homer-4.0.2](https://github.com/truecharts/charts/compare/homer-4.0.1...homer-4.0.2) (2022-11-30)
 
