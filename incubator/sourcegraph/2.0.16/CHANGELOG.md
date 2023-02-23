@@ -4,6 +4,15 @@
 
 
 
+## [sourcegraph-2.0.16](https://github.com/truecharts/charts/compare/sourcegraph-2.0.15...sourcegraph-2.0.16) (2023-02-23)
+
+### Chore
+
+- update container image tccr.io/truecharts/sourcegraph to v4.5.0
+  
+  
+
+
 ## [sourcegraph-2.0.15](https://github.com/truecharts/charts/compare/sourcegraph-2.0.14...sourcegraph-2.0.15) (2023-02-10)
 
 ### Fix
@@ -86,14 +95,5 @@
 
 
 ## [sourcegraph-2.0.6](https://github.com/truecharts/charts/compare/sourcegraph-2.0.5...sourcegraph-2.0.6) (2022-12-19)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [sourcegraph-2.0.5](https://github.com/truecharts/charts/compare/sourcegraph-2.0.4...sourcegraph-2.0.5) (2022-12-16)
 
 ### Chore
