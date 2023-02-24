@@ -4,6 +4,15 @@
 
 
 
+## [clickhouse-3.0.21](https://github.com/truecharts/charts/compare/clickhouse-3.0.20...clickhouse-3.0.21) (2023-02-24)
+
+### Chore
+
+- update container image tccr.io/truecharts/clickhouse to v23.2.1.2537
+  
+  
+
+
 ## [clickhouse-3.0.20](https://github.com/truecharts/charts/compare/clickhouse-3.0.19...clickhouse-3.0.20) (2023-02-10)
 
 ### Fix
@@ -87,13 +96,4 @@
 
 
 ## [clickhouse-3.0.10](https://github.com/truecharts/charts/compare/clickhouse-3.0.9...clickhouse-3.0.10) (2022-12-16)
-
-### Chore
-
-- update container image tccr.io/truecharts/clickhouse to v22.12.1.1752
-  
-  
-
-
-## [clickhouse-3.0.9](https://github.com/truecharts/charts/compare/clickhouse-3.0.8...clickhouse-3.0.9) (2022-12-14)
 
