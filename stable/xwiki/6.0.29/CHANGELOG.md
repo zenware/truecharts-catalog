@@ -4,6 +4,15 @@
 
 
 
+## [xwiki-6.0.29](https://github.com/truecharts/charts/compare/xwiki-6.0.28...xwiki-6.0.29) (2023-02-24)
+
+### Chore
+
+- update container image tccr.io/truecharts/xwiki to 15.0.0-postgres
+  
+  
+
+
 ## [xwiki-6.0.28](https://github.com/truecharts/charts/compare/xwiki-6.0.27...xwiki-6.0.28) (2023-02-19)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [xwiki-6.0.19](https://github.com/truecharts/charts/compare/xwiki-6.0.18...xwiki-6.0.19) (2022-12-27)
-
-### Chore
-
-- update helm general non-major ([#5856](https://github.com/truecharts/charts/issues/5856))
-  
-  
-
-
-## [xwiki-6.0.18](https://github.com/truecharts/charts/compare/xwiki-6.0.17...xwiki-6.0.18) (2022-12-26)
 
 ### Chore
