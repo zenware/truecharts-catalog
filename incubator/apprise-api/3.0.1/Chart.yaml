@@ -1,5 +1,5 @@
 apiVersion: v2
-appVersion: "0.8.3"
+appVersion: "1.2.0"
 dependencies:
   - name: common
     repository: https://library-charts.truecharts.org
@@ -20,10 +20,10 @@ maintainers:
 name: apprise-api
 sources:
   - https://github.com/truecharts/charts/tree/master/charts/incubator/apprise-api
-  - https://github.com/caronc/apprise-api
   - https://hub.docker.com/r/caronc/apprise
+  - https://github.com/caronc/apprise-api
 type: application
-version: 3.0.0
+version: 3.0.1
 annotations:
   truecharts.org/catagories: |
     - notifications
