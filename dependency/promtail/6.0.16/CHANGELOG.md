@@ -4,6 +4,15 @@
 
 
 
+## [promtail-6.0.16](https://github.com/truecharts/charts/compare/promtail-6.0.15...promtail-6.0.16) (2023-02-24)
+
+### Chore
+
+- update container image ghcr.io/truecharts/promtail to v2.7.4
+  
+  
+
+
 ## [promtail-6.0.15](https://github.com/truecharts/charts/compare/promtail-6.0.14...promtail-6.0.15) (2023-02-10)
 
 ### Fix
@@ -86,14 +95,5 @@
 ### Chore
 
 - update helm chart common to v11.0.8
-  
-  
-
-
-## [promtail-6.0.5](https://github.com/truecharts/charts/compare/promtail-6.0.4...promtail-6.0.5) (2022-12-11)
-
-### Chore
-
-- update helm chart common to v11.0.7 ([#5266](https://github.com/truecharts/charts/issues/5266))
   
   
