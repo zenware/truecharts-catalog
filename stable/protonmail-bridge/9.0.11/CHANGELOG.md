@@ -4,6 +4,15 @@
 
 
 
+## [protonmail-bridge-9.0.11](https://github.com/truecharts/charts/compare/protonmail-bridge-9.0.10...protonmail-bridge-9.0.11) (2023-02-24)
+
+### Chore
+
+- update container image tccr.io/truecharts/protonmail-bridge to v3.0.17
+  
+  
+
+
 ## [protonmail-bridge-9.0.10](https://github.com/truecharts/charts/compare/protonmail-bridge-9.0.9...protonmail-bridge-9.0.10) (2023-02-10)
 
 ### Fix
@@ -85,15 +94,6 @@
 
 ## [protonmail-bridge-9.0.3](https://github.com/truecharts/charts/compare/protonmail-bridge-9.0.2...protonmail-bridge-9.0.3) (2022-11-30)
 
-
-
-
-## [protonmail-bridge-9.0.3](https://github.com/truecharts/charts/compare/protonmail-bridge-9.0.2...protonmail-bridge-9.0.3) (2022-11-30)
-
-
-
-
-## [protonmail-bridge-9.0.3](https://github.com/truecharts/charts/compare/protonmail-bridge-9.0.2...protonmail-bridge-9.0.3) (2022-11-30)
 
 
 
