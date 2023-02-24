@@ -4,6 +4,15 @@
 
 
 
+## [openproject-3.0.26](https://github.com/truecharts/charts/compare/openproject-3.0.25...openproject-3.0.26) (2023-02-23)
+
+### Chore
+
+- update container image tccr.io/truecharts/openproject to v12.4.5
+  
+  
+
+
 ## [openproject-3.0.25](https://github.com/truecharts/charts/compare/openproject-3.0.24...openproject-3.0.25) (2023-02-20)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Chore
 
 - update helm general non-major ([#6121](https://github.com/truecharts/charts/issues/6121))
-  
-  
-
-
-## [openproject-3.0.15](https://github.com/truecharts/charts/compare/openproject-3.0.14...openproject-3.0.15) (2022-12-27)
-
-### Chore
-
-- update helm general non-major ([#5856](https://github.com/truecharts/charts/issues/5856))
   
   
