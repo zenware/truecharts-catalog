@@ -4,6 +4,15 @@
 
 
 
+## [homarr-4.0.13](https://github.com/truecharts/charts/compare/homarr-4.0.12...homarr-4.0.13) (2023-02-25)
+
+### Chore
+
+- update container image tccr.io/truecharts/homarr to v0.11.5
+  
+  
+
+
 ## [homarr-4.0.12](https://github.com/truecharts/charts/compare/homarr-4.0.11...homarr-4.0.12) (2023-02-10)
 
 ### Fix
@@ -87,13 +96,4 @@
 
 ## [homarr-4.0.3](https://github.com/truecharts/charts/compare/homarr-4.0.1...homarr-4.0.3) (2022-11-30)
 
-
-
-
-## [homarr-4.0.3](https://github.com/truecharts/charts/compare/homarr-4.0.1...homarr-4.0.3) (2022-11-30)
-
-
-
-
-## [homarr-4.0.3](https://github.com/truecharts/charts/compare/homarr-4.0.1...homarr-4.0.3) (2022-11-30)
 
