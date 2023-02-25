@@ -4,6 +4,15 @@
 
 
 
+## [wizarr-1.0.7](https://github.com/truecharts/charts/compare/wizarr-1.0.6...wizarr-1.0.7) (2023-02-25)
+
+### Chore
+
+- update container image tccr.io/truecharts/wizarr to v2.0.2
+  
+  
+
+
 ## [wizarr-1.0.6](https://github.com/truecharts/charts/compare/wizarr-1.0.5...wizarr-1.0.6) (2023-02-25)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Fix
 
 - remove non-link sources ([#6826](https://github.com/truecharts/charts/issues/6826))
-  
-  
-
-
-## [wizarr-0.0.5](https://github.com/truecharts/charts/compare/wizarr-0.0.4...wizarr-0.0.5) (2022-12-27)
-
-### Chore
-
-- update helm general non-major ([#5856](https://github.com/truecharts/charts/issues/5856))
   
   
