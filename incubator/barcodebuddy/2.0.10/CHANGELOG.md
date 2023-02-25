@@ -4,6 +4,15 @@
 
 
 
+## [barcodebuddy-2.0.10](https://github.com/truecharts/charts/compare/barcodebuddy-2.0.9...barcodebuddy-2.0.10) (2023-02-25)
+
+### Chore
+
+- update container image tccr.io/truecharts/barcodebuddy to latest
+  
+  
+
+
 ## [barcodebuddy-2.0.9](https://github.com/truecharts/charts/compare/barcodebuddy-2.0.8...barcodebuddy-2.0.9) (2023-02-10)
 
 ### Fix
@@ -88,12 +97,3 @@
 
 
 ## [barcodebuddy-2.0.2](https://github.com/truecharts/charts/compare/barcodebuddy-2.0.1...barcodebuddy-2.0.2) (2022-11-30)
-
-
-
-
-## [barcodebuddy-2.0.2](https://github.com/truecharts/charts/compare/barcodebuddy-2.0.1...barcodebuddy-2.0.2) (2022-11-30)
-
-
-
-
