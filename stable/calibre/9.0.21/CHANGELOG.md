@@ -4,6 +4,15 @@
 
 
 
+## [calibre-9.0.21](https://github.com/truecharts/charts/compare/calibre-9.0.20...calibre-9.0.21) (2023-02-26)
+
+### Chore
+
+- update container image tccr.io/truecharts/calibre to 6.13.0
+  
+  
+
+
 ## [calibre-9.0.20](https://github.com/truecharts/charts/compare/calibre-9.0.19...calibre-9.0.20) (2023-02-20)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [calibre-9.0.11](https://github.com/truecharts/charts/compare/calibre-9.0.10...calibre-9.0.11) (2022-12-25)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [calibre-9.0.10](https://github.com/truecharts/charts/compare/calibre-web-13.0.8...calibre-9.0.10) (2022-12-25)
 
 ### Chore
