@@ -4,6 +4,15 @@
 
 
 
+## [minecraft-java-3.0.29](https://github.com/truecharts/charts/compare/minecraft-java-3.0.28...minecraft-java-3.0.29) (2023-02-26)
+
+### Chore
+
+- update container image tccr.io/truecharts/minecraft-java19 to latest
+  
+  
+
+
 ## [minecraft-java-3.0.28](https://github.com/truecharts/charts/compare/minecraft-java-3.0.27...minecraft-java-3.0.28) (2023-02-15)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 - update minecraft-java
   
-  
-
-
-## [minecraft-java-3.0.18](https://github.com/truecharts/charts/compare/minecraft-java-3.0.17...minecraft-java-3.0.18) (2023-01-14)
-
-### Chore
-
-- update minecraft-java
-  - update container image tccr.io/truecharts/minecraft-java8-openj9 to latest
   
