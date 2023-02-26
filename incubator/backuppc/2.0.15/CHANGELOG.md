@@ -4,6 +4,15 @@
 
 
 
+## [backuppc-2.0.15](https://github.com/truecharts/charts/compare/backuppc-2.0.14...backuppc-2.0.15) (2023-02-26)
+
+### Chore
+
+- update container image tccr.io/truecharts/backuppc to latest
+  
+  
+
+
 ## [backuppc-2.0.14](https://github.com/truecharts/charts/compare/backuppc-2.0.13...backuppc-2.0.14) (2023-02-10)
 
 ### Fix
@@ -86,14 +95,5 @@
 
 
 ## [backuppc-2.0.5](https://github.com/truecharts/charts/compare/backuppc-2.0.4...backuppc-2.0.5) (2022-12-12)
-
-### Chore
-
-- update container image tccr.io/truecharts/backuppc to latest
-  
-  
-
-
-## [backuppc-2.0.4](https://github.com/truecharts/charts/compare/backuppc-2.0.3...backuppc-2.0.4) (2022-12-01)
 
 ### Chore
