@@ -4,6 +4,15 @@
 
 
 
+## [octoprint-8.0.10](https://github.com/truecharts/charts/compare/octoprint-8.0.9...octoprint-8.0.10) (2023-02-26)
+
+### Chore
+
+- update container image tccr.io/truecharts/octoprint to 1.8.6
+  
+  
+
+
 ## [octoprint-8.0.9](https://github.com/truecharts/charts/compare/octoprint-8.0.8...octoprint-8.0.9) (2023-02-10)
 
 ### Fix
@@ -88,12 +97,3 @@
 
 
 ## [octoprint-8.0.2](https://github.com/truecharts/charts/compare/octoprint-8.0.1...octoprint-8.0.2) (2022-11-30)
-
-
-
-
-## [octoprint-8.0.2](https://github.com/truecharts/charts/compare/octoprint-8.0.1...octoprint-8.0.2) (2022-11-30)
-
-
-
-
