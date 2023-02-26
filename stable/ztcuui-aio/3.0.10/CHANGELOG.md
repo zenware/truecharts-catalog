@@ -4,6 +4,15 @@
 
 
 
+## [ztcuui-aio-3.0.10](https://github.com/truecharts/charts/compare/ztcuui-aio-3.0.9...ztcuui-aio-3.0.10) (2023-02-26)
+
+### Chore
+
+- update container image tccr.io/truecharts/ztcuui-aio to v1.2.12
+  
+  
+
+
 ## [ztcuui-aio-3.0.9](https://github.com/truecharts/charts/compare/ztcuui-aio-3.0.8...ztcuui-aio-3.0.9) (2023-02-10)
 
 ### Fix
@@ -88,12 +97,3 @@
 
 
 ## [ztcuui-aio-3.0.2](https://github.com/truecharts/charts/compare/ztcuui-aio-3.0.1...ztcuui-aio-3.0.2) (2022-11-30)
-
-
-
-
-## [ztcuui-aio-3.0.2](https://github.com/truecharts/charts/compare/ztcuui-aio-3.0.1...ztcuui-aio-3.0.2) (2022-11-30)
-
-
-
-
