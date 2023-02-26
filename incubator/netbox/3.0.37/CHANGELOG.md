@@ -4,6 +4,15 @@
 
 
 
+## [netbox-3.0.37](https://github.com/truecharts/charts/compare/netbox-3.0.36...netbox-3.0.37) (2023-02-26)
+
+### Chore
+
+- update container image tccr.io/truecharts/netbox to 3.4.5
+  
+  
+
+
 ## [netbox-3.0.36](https://github.com/truecharts/charts/compare/netbox-3.0.35...netbox-3.0.36) (2023-02-23)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [netbox-3.0.27](https://github.com/truecharts/charts/compare/netbox-3.0.26...netbox-3.0.27) (2023-01-26)
-
-### Chore
-
-- update container image tccr.io/truecharts/netbox to 3.4.3
-  
-  
-
-
-## [netbox-3.0.26](https://github.com/truecharts/charts/compare/netbox-3.0.25...netbox-3.0.26) (2023-01-24)
 
 ### Chore
