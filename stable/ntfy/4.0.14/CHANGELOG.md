@@ -4,6 +4,15 @@
 
 
 
+## [ntfy-4.0.14](https://github.com/truecharts/charts/compare/ntfy-4.0.13...ntfy-4.0.14) (2023-02-26)
+
+### Chore
+
+- update container image tccr.io/truecharts/ntfy to v2.1.0
+  
+  
+
+
 ## [ntfy-4.0.13](https://github.com/truecharts/charts/compare/ntfy-4.0.12...ntfy-4.0.13) (2023-02-20)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [ntfy-4.0.4](https://github.com/truecharts/charts/compare/ntfy-4.0.3...ntfy-4.0.4) (2022-12-13)
 
 ### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [ntfy-4.0.3](https://github.com/truecharts/charts/compare/ntfy-4.0.2...ntfy-4.0.3) (2022-11-30)
-
-
