@@ -4,6 +4,15 @@
 
 
 
+## [jupyter-3.0.17](https://github.com/truecharts/charts/compare/jupyter-3.0.16...jupyter-3.0.17) (2023-02-26)
+
+### Chore
+
+- update jupyter
+  
+  
+
+
 ## [jupyter-3.0.16](https://github.com/truecharts/charts/compare/jupyter-3.0.15...jupyter-3.0.16) (2023-02-10)
 
 ### Fix
@@ -88,12 +97,3 @@
 
 
 ## [jupyter-3.0.7](https://github.com/truecharts/charts/compare/jupyter-3.0.6...jupyter-3.0.7) (2023-01-10)
-
-### Chore
-
-- update container image tccr.io/truecharts/jupyter-base to v2023-01
-  
-  
-
-
-## [jupyter-3.0.6](https://github.com/truecharts/charts/compare/jupyter-3.0.5...jupyter-3.0.6) (2023-01-10)
