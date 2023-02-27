@@ -4,6 +4,15 @@
 
 
 
+## [penpot-2.0.12](https://github.com/truecharts/charts/compare/penpot-2.0.11...penpot-2.0.12) (2023-02-27)
+
+### Chore
+
+- update penpot to v1.17.2
+  
+  
+
+
 ## [penpot-2.0.11](https://github.com/truecharts/charts/compare/penpot-2.0.10...penpot-2.0.11) (2023-02-27)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [penpot-2.0.2](https://github.com/truecharts/charts/compare/penpot-2.0.1...penpot-2.0.2) (2022-12-27)
 
 ### Fix
-
-- fix smtp vars feat(homebox): move to stable
-  
-  
-
-
-## [penpot-2.0.1](https://github.com/truecharts/charts/compare/penpot-2.0.0...penpot-2.0.1) (2022-12-27)
-
-### Chore
