@@ -4,6 +4,15 @@
 
 
 
+## [twonky-server-2.0.18](https://github.com/truecharts/charts/compare/twonky-server-2.0.17...twonky-server-2.0.18) (2023-02-26)
+
+### Chore
+
+- update container image tccr.io/truecharts/twonky-server to latest
+  
+  
+
+
 ## [twonky-server-2.0.17](https://github.com/truecharts/charts/compare/twonky-server-2.0.16...twonky-server-2.0.17) (2023-02-10)
 
 ### Fix
@@ -86,14 +95,5 @@
 
 
 ## [twonky-server-2.0.8](https://github.com/truecharts/charts/compare/twonky-server-2.0.7...twonky-server-2.0.8) (2022-12-26)
-
-### Chore
-
-- update helm general non-major ([#5839](https://github.com/truecharts/charts/issues/5839))
-  
-  
-
-
-## [twonky-server-2.0.7](https://github.com/truecharts/charts/compare/twonky-server-2.0.6...twonky-server-2.0.7) (2022-12-25)
 
 ### Chore
