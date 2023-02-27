@@ -4,6 +4,15 @@
 
 
 
+## [cloudflared-3.0.16](https://github.com/truecharts/charts/compare/cloudflared-3.0.15...cloudflared-3.0.16) (2023-02-27)
+
+### Chore
+
+- update container image tccr.io/truecharts/cloudflared to v2023.2.2
+  
+  
+
+
 ## [cloudflared-3.0.15](https://github.com/truecharts/charts/compare/cloudflared-3.0.14...cloudflared-3.0.15) (2023-02-10)
 
 ### Fix
@@ -86,14 +95,5 @@
 ### Chore
 
 - update container image tccr.io/truecharts/cloudflared to v2022.12.0
-  
-  
-
-
-## [cloudflared-3.0.5](https://github.com/truecharts/charts/compare/cloudflared-3.0.4...cloudflared-3.0.5) (2022-12-13)
-
-### Chore
-
-- update helm general non-major
   
   
