@@ -4,6 +4,15 @@
 
 
 
+## [rimgo-2.0.23](https://github.com/truecharts/charts/compare/rimgo-2.0.22...rimgo-2.0.23) (2023-02-27)
+
+### Chore
+
+- update container image tccr.io/truecharts/rimgo to latest
+  
+  
+
+
 ## [rimgo-2.0.22](https://github.com/truecharts/charts/compare/rimgo-2.0.21...rimgo-2.0.22) (2023-02-27)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [rimgo-2.0.13](https://github.com/truecharts/charts/compare/rimgo-2.0.12...rimgo-2.0.13) (2022-12-26)
-
-### Chore
-
-- update helm general non-major ([#5839](https://github.com/truecharts/charts/issues/5839))
-  
-  
-
-
-## [rimgo-2.0.12](https://github.com/truecharts/charts/compare/rimgo-2.0.11...rimgo-2.0.12) (2022-12-25)
 
 ### Chore
