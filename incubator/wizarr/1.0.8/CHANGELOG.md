@@ -4,6 +4,15 @@
 
 
 
+## [wizarr-1.0.8](https://github.com/truecharts/charts/compare/wizarr-1.0.7...wizarr-1.0.8) (2023-02-27)
+
+### Chore
+
+- update container image tccr.io/truecharts/wizarr to v2.0.3
+  
+  
+
+
 ## [wizarr-1.0.7](https://github.com/truecharts/charts/compare/wizarr-1.0.6...wizarr-1.0.7) (2023-02-25)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Fix
 
 - ensure new helm deps repo is used in latest releases as well.
-  
-  
-
-
-## [wizarr-0.0.6](https://github.com/truecharts/charts/compare/wizarr-0.0.5...wizarr-0.0.6) (2023-02-02)
-
-### Fix
-
-- remove non-link sources ([#6826](https://github.com/truecharts/charts/issues/6826))
   
   
