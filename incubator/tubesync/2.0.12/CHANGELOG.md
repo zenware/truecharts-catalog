@@ -4,6 +4,15 @@
 
 
 
+## [tubesync-2.0.12](https://github.com/truecharts/charts/compare/tubesync-2.0.11...tubesync-2.0.12) (2023-02-26)
+
+### Chore
+
+- update container image tccr.io/truecharts/tubesync to latest
+  
+  
+
+
 ## [tubesync-2.0.11](https://github.com/truecharts/charts/compare/tubesync-2.0.10...tubesync-2.0.11) (2023-02-10)
 
 ### Fix
@@ -87,13 +96,4 @@
 
 ## [tubesync-2.0.2](https://github.com/truecharts/charts/compare/tubesync-2.0.1...tubesync-2.0.2) (2022-11-30)
 
-
-
-
-## [tubesync-2.0.2](https://github.com/truecharts/charts/compare/tubesync-2.0.1...tubesync-2.0.2) (2022-11-30)
-
-
-
-
-## [tubesync-2.0.2](https://github.com/truecharts/charts/compare/tubesync-2.0.1...tubesync-2.0.2) (2022-11-30)
 
