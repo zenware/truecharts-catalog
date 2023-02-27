@@ -4,6 +4,15 @@
 
 
 
+## [red-discordbot-2.0.15](https://github.com/truecharts/charts/compare/red-discordbot-2.0.14...red-discordbot-2.0.15) (2023-02-26)
+
+### Chore
+
+- update container image tccr.io/truecharts/red-discordbot to vfull
+  
+  
+
+
 ## [red-discordbot-2.0.14](https://github.com/truecharts/charts/compare/red-discordbot-2.0.13...red-discordbot-2.0.14) (2023-02-10)
 
 ### Fix
@@ -86,14 +95,5 @@
 ### Chore
 
 - pin dependencies ([#5688](https://github.com/truecharts/charts/issues/5688))
-  
-  
-
-
-## [red-discordbot-2.0.4](https://github.com/truecharts/charts/compare/red-discordbot-2.0.3...red-discordbot-2.0.4) (2022-12-19)
-
-### Chore
-
-- update helm general non-major
   
   
