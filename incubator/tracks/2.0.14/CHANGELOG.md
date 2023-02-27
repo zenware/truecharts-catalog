@@ -4,6 +4,15 @@
 
 
 
+## [tracks-2.0.14](https://github.com/truecharts/charts/compare/tracks-2.0.13...tracks-2.0.14) (2023-02-26)
+
+### Chore
+
+- update container image tccr.io/truecharts/tracks to latest
+  
+  
+
+
 ## [tracks-2.0.13](https://github.com/truecharts/charts/compare/tracks-2.0.12...tracks-2.0.13) (2023-02-10)
 
 ### Fix
@@ -86,14 +95,5 @@
 
 
 ## [tracks-2.0.4](https://github.com/truecharts/charts/compare/tracks-2.0.3...tracks-2.0.4) (2022-12-13)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [tracks-2.0.3](https://github.com/truecharts/charts/compare/tracks-2.0.2...tracks-2.0.3) (2022-12-11)
 
 ### Chore
