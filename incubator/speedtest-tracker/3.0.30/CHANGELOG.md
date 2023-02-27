@@ -4,6 +4,15 @@
 
 
 
+## [speedtest-tracker-3.0.30](https://github.com/truecharts/charts/compare/speedtest-tracker-3.0.29...speedtest-tracker-3.0.30) (2023-02-26)
+
+### Chore
+
+- update container image tccr.io/truecharts/speedtest-tracker to latest
+  
+  
+
+
 ## [speedtest-tracker-3.0.29](https://github.com/truecharts/charts/compare/speedtest-tracker-3.0.28...speedtest-tracker-3.0.29) (2023-02-19)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [speedtest-tracker-3.0.20](https://github.com/truecharts/charts/compare/speedtest-tracker-3.0.19...speedtest-tracker-3.0.20) (2023-01-04)
-
-### Chore
-
-- update container image tccr.io/truecharts/speedtest-tracker to latest
-  
-  
-
-
-## [speedtest-tracker-3.0.19](https://github.com/truecharts/charts/compare/speedtest-tracker-3.0.18...speedtest-tracker-3.0.19) (2022-12-27)
 
 ### Chore
