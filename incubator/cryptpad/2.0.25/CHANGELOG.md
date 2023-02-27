@@ -4,6 +4,15 @@
 
 
 
+## [cryptpad-2.0.25](https://github.com/truecharts/charts/compare/cryptpad-2.0.24...cryptpad-2.0.25) (2023-02-27)
+
+### Chore
+
+- update container image tccr.io/truecharts/cryptpad to latest
+  
+  
+
+
 ## [cryptpad-2.0.24](https://github.com/truecharts/charts/compare/cryptpad-2.0.23...cryptpad-2.0.24) (2023-02-26)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [cryptpad-2.0.15](https://github.com/truecharts/charts/compare/cryptpad-2.0.14...cryptpad-2.0.15) (2023-01-07)
-
-### Chore
-
-- update container image tccr.io/truecharts/cryptpad to latest
-  
-  
-
-
-## [cryptpad-2.0.14](https://github.com/truecharts/charts/compare/cryptpad-2.0.13...cryptpad-2.0.14) (2022-12-27)
 
 ### Chore
