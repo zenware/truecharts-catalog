@@ -4,6 +4,15 @@
 
 
 
+## [sickgear-6.0.4](https://github.com/truecharts/charts/compare/sickgear-6.0.3...sickgear-6.0.4) (2023-02-27)
+
+### Chore
+
+- update container image tccr.io/truecharts/sickgear to latest
+  
+  
+
+
 ## [sickgear-6.0.3](https://github.com/truecharts/charts/compare/sickgear-6.0.2...sickgear-6.0.3) (2023-02-10)
 
 ### Fix
@@ -87,13 +96,4 @@
 
 ## [sickgear-5.0.2](https://github.com/truecharts/charts/compare/sickgear-5.0.1...sickgear-5.0.2) (2022-11-30)
 
-
-
-
-## [sickgear-5.0.2](https://github.com/truecharts/charts/compare/sickgear-5.0.1...sickgear-5.0.2) (2022-11-30)
-
-
-
-
-## [sickgear-5.0.2](https://github.com/truecharts/charts/compare/sickgear-5.0.1...sickgear-5.0.2) (2022-11-30)
 
