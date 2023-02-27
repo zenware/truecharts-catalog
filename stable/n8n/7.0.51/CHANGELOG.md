@@ -4,6 +4,15 @@
 
 
 
+## [n8n-7.0.51](https://github.com/truecharts/charts/compare/n8n-7.0.50...n8n-7.0.51) (2023-02-27)
+
+### Chore
+
+- update container image tccr.io/truecharts/n8n to v0.217.2
+  
+  
+
+
 ## [n8n-7.0.50](https://github.com/truecharts/charts/compare/n8n-7.0.49...n8n-7.0.50) (2023-02-24)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [n8n-7.0.41](https://github.com/truecharts/charts/compare/n8n-7.0.40...n8n-7.0.41) (2023-02-10)
 
 ### Fix
-
-- ensure new helm deps repo is used in latest releases as well.
-  
-  
-
-
-## [n8n-7.0.40](https://github.com/truecharts/charts/compare/n8n-7.0.39...n8n-7.0.40) (2023-02-09)
-
-### Chore
