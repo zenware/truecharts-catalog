@@ -4,6 +4,15 @@
 
 
 
+## [wger-4.0.40](https://github.com/truecharts/charts/compare/wger-4.0.39...wger-4.0.40) (2023-02-26)
+
+### Chore
+
+- update container image tccr.io/truecharts/wger to latest
+  
+  
+
+
 ## [wger-4.0.39](https://github.com/truecharts/charts/compare/wger-4.0.38...wger-4.0.39) (2023-02-19)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 - update helm general non-major
   - update container image tccr.io/truecharts/nginx to 1.23.3
-  
-  
-
-
-## [wger-4.0.30](https://github.com/truecharts/charts/compare/wger-4.0.29...wger-4.0.30) (2023-01-18)
-
-### Chore
-
-- update container image tccr.io/truecharts/wger to latest
   
   
