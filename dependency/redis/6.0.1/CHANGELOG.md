@@ -4,6 +4,15 @@
 
 
 
+## [redis-6.0.1](https://github.com/truecharts/charts/compare/redis-6.0.0...redis-6.0.1) (2023-03-01)
+
+### Fix
+
+- disable manifestmanager
+  
+  
+
+
 ## [redis-6.0.0](https://github.com/truecharts/charts/compare/redis-5.0.33...redis-6.0.0) (2023-03-01)
 
 
@@ -82,15 +91,6 @@
 
 
 ## [redis-5.0.25](https://github.com/truecharts/charts/compare/redis-5.0.24...redis-5.0.25) (2023-01-12)
-
-### Chore
-
-- update container image tccr.io/truecharts/redis to 7.0.7
-  
-  
-
-
-## [redis-5.0.24](https://github.com/truecharts/charts/compare/redis-5.0.23...redis-5.0.24) (2023-01-07)
 
 ### Chore
 
