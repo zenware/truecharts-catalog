@@ -4,6 +4,11 @@
 
 
 
+## [redis-6.0.2](https://github.com/truecharts/charts/compare/redis-6.0.1...redis-6.0.2) (2023-03-02)
+
+
+
+
 ## [redis-6.0.1](https://github.com/truecharts/charts/compare/redis-6.0.0...redis-6.0.1) (2023-03-01)
 
 ### Fix
@@ -92,8 +97,3 @@
 
 ## [redis-5.0.25](https://github.com/truecharts/charts/compare/redis-5.0.24...redis-5.0.25) (2023-01-12)
 
-### Chore
-
-- update container image tccr.io/truecharts/redis to 7.0.7
-  
-  
