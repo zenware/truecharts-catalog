@@ -4,6 +4,11 @@
 
 
 
+## [redis-6.0.3](https://github.com/truecharts/charts/compare/redis-6.0.2...redis-6.0.3) (2023-03-02)
+
+
+
+
 ## [redis-6.0.2](https://github.com/truecharts/charts/compare/redis-6.0.1...redis-6.0.2) (2023-03-02)
 
 
@@ -92,8 +97,3 @@
 
 - don't run manifest Manager on most dependency apps. ([#6384](https://github.com/truecharts/charts/issues/6384))
   
-  
-
-
-## [redis-5.0.25](https://github.com/truecharts/charts/compare/redis-5.0.24...redis-5.0.25) (2023-01-12)
-
