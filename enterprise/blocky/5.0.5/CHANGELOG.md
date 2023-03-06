@@ -4,6 +4,11 @@
 
 
 
+## [blocky-5.0.5](https://github.com/truecharts/charts/compare/blocky-5.0.4...blocky-5.0.5) (2023-03-06)
+
+
+
+
 ## [blocky-5.0.4](https://github.com/truecharts/charts/compare/blocky-5.0.3...blocky-5.0.4) (2023-03-06)
 
 ### Chore
@@ -92,8 +97,3 @@
 - update container image tccr.io/truecharts/k8s_gateway to v0.3.3
   
   
-
-
-## [blocky-4.0.18](https://github.com/truecharts/charts/compare/blocky-4.0.17...blocky-4.0.18) (2023-01-23)
-
-### Chore
