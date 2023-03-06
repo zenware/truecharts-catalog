@@ -88,6 +88,47 @@ questions:
                               additional_attrs: true
                               type: dict
                               attrs:
+                                - variable: env
+                                  group: "App Configuration"
+                                  label: "Image Environment"
+                                  schema:
+                                    additional_attrs: true
+                                    type: dict
+                                    attrs:
+                                      - variable: GF_SECURITY_ADMIN_USER
+                                        label: "Admin User"
+                                        schema:
+                                          type: string
+                                          required: true
+                                          default: "admin"
+                                      - variable: GF_SECURITY_ADMIN_PASSWORD
+                                        label: "Admin Password"
+                                        schema:
+                                          type: string
+                                          required: true
+                                          private: true
+                                          default: "REPLACETHIS"
+                                      - variable: GF_INSTALL_PLUGINS
+                                        label: "Extra Plugins to Install"
+                                        description: "comma seperated"
+                                        schema:
+                                          type: string
+                                          default: ""
+                                      - variable: GF_AUTH_LDAP_ENABLED
+                                        label: "enable LDAP"
+                                        schema:
+                                          type: boolean
+                                          default: false
+                                      - variable: GF_AUTH_LDAP_ALLOW_SIGN_UP
+                                        label: "Allow LDAP Signup"
+                                        schema:
+                                          type: boolean
+                                          default: false
+                                      - variable: GF_AUTH_LDAP_CONFIG_FILE
+                                        label: "LDAP Config Path"
+                                        schema:
+                                          type: string
+                                          default: "/opt/bitnami/grafana/conf/ldap.toml"
                                 - variable: envList
                                   label: Extra Environment Variables
                                   description: "Please be aware that some variables are set in the background, adding duplicates here might cause issues or prevent the app from starting..."
@@ -139,54 +180,7 @@ questions:
                                               schema:
                                                 type: string
 
-  - variable: secretEnv
-    group: "App Configuration"
-    label: "Secret Image Environment"
-    schema:
-      additional_attrs: true
-      type: dict
-      attrs:
-        - variable: GF_SECURITY_ADMIN_USER
-          label: "Admin User"
-          schema:
-            type: string
-            required: true
-            default: "admin"
-        - variable: GF_SECURITY_ADMIN_PASSWORD
-          label: "Admin Password"
-          schema:
-            type: string
-            required: true
-            private: true
-            default: "REPLACETHIS"
-  - variable: env
-    group: "App Configuration"
-    label: "Image Environment"
-    schema:
-      additional_attrs: true
-      type: dict
-      attrs:
-        - variable: GF_INSTALL_PLUGINS
-          label: "Extra Plugins to Install"
-          description: "comma seperated"
-          schema:
-            type: string
-            default: ""
-        - variable: GF_AUTH_LDAP_ENABLED
-          label: "enable LDAP"
-          schema:
-            type: boolean
-            default: false
-        - variable: GF_AUTH_LDAP_ALLOW_SIGN_UP
-          label: "Allow LDAP Signup"
-          schema:
-            type: boolean
-            default: false
-        - variable: GF_AUTH_LDAP_CONFIG_FILE
-          label: "LDAP Config Path"
-          schema:
-            type: string
-            default: "/opt/bitnami/grafana/conf/ldap.toml"
+
   - variable: TZ
     label: Timezone
     group: "General Settings"
