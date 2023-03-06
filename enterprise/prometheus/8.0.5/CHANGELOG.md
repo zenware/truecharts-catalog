@@ -4,6 +4,15 @@
 
 
 
+## [prometheus-8.0.5](https://github.com/truecharts/charts/compare/prometheus-8.0.4...prometheus-8.0.5) (2023-03-06)
+
+### Fix
+
+- fix tpl error ([#7755](https://github.com/truecharts/charts/issues/7755))
+  
+  
+
+
 ## [prometheus-8.0.4](https://github.com/truecharts/charts/compare/prometheus-8.0.3...prometheus-8.0.4) (2023-03-06)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 
 ## [prometheus-7.0.55](https://github.com/truecharts/charts/compare/prometheus-7.0.54...prometheus-7.0.55) (2023-02-15)
-
-### Chore
-
-- update container image tccr.io/truecharts/alertmanager to 0.25.0
-  
-  
-
-
-## [prometheus-7.0.54](https://github.com/truecharts/charts/compare/prometheus-7.0.53...prometheus-7.0.54) (2023-02-14)
 
