@@ -4,6 +4,15 @@
 
 
 
+## [memcached-6.0.5](https://github.com/truecharts/charts/compare/memcached-6.0.4...memcached-6.0.5) (2023-03-06)
+
+### Fix
+
+- update common with vct label fix ([#7750](https://github.com/truecharts/charts/issues/7750))
+  
+  
+
+
 ## [memcached-6.0.4](https://github.com/truecharts/charts/compare/memcached-6.0.3...memcached-6.0.4) (2023-03-06)
 
 ### Chore
@@ -84,15 +93,6 @@
 
 
 ## [memcached-5.0.27](https://github.com/truecharts/charts/compare/memcached-5.0.26...memcached-5.0.27) (2023-02-06)
-
-### Chore
-
-- update container image tccr.io/truecharts/memcached to 1.6.18
-  
-  
-
-
-## [memcached-5.0.26](https://github.com/truecharts/charts/compare/memcached-5.0.25...memcached-5.0.26) (2023-02-03)
 
 ### Chore
 

@@ -4,6 +4,15 @@
 
 
 
+## [mariadb-6.0.5](https://github.com/truecharts/charts/compare/mariadb-6.0.4...mariadb-6.0.5) (2023-03-06)
+
+### Fix
+
+- update common with vct label fix ([#7750](https://github.com/truecharts/charts/issues/7750))
+  
+  
+
+
 ## [mariadb-6.0.4](https://github.com/truecharts/charts/compare/mariadb-6.0.3...mariadb-6.0.4) (2023-03-06)
 
 ### Chore
@@ -88,12 +97,3 @@
 ### Fix
 
 - ensure new helm deps repo is used in latest releases as well.
-  
-  
-
-
-## [mariadb-5.0.30](https://github.com/truecharts/charts/compare/mariadb-5.0.29...mariadb-5.0.30) (2023-02-10)
-
-### Chore
-
-- update container image tccr.io/truecharts/mariadb to 10.10.3

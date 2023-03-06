@@ -4,6 +4,15 @@
 
 
 
+## [clickhouse-4.0.5](https://github.com/truecharts/charts/compare/clickhouse-4.0.4...clickhouse-4.0.5) (2023-03-06)
+
+### Fix
+
+- update common with vct label fix ([#7750](https://github.com/truecharts/charts/issues/7750))
+  
+  
+
+
 ## [clickhouse-4.0.4](https://github.com/truecharts/charts/compare/clickhouse-4.0.3...clickhouse-4.0.4) (2023-03-06)
 
 ### Chore
@@ -84,15 +93,6 @@
 ### Chore
 
 - update container image tccr.io/truecharts/clickhouse to v23.1.2.9
-  
-  
-
-
-## [clickhouse-3.0.16](https://github.com/truecharts/charts/compare/clickhouse-3.0.15...clickhouse-3.0.16) (2023-01-15)
-
-### Fix
-
-- don't run manifest Manager on most dependency apps. ([#6384](https://github.com/truecharts/charts/issues/6384))
   
   
 
