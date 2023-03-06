@@ -4,6 +4,15 @@
 
 
 
+## [mongodb-5.0.6](https://github.com/truecharts/charts/compare/mongodb-5.0.5...mongodb-5.0.6) (2023-03-06)
+
+### Chore
+
+- bump common
+  
+  
+
+
 ## [mongodb-5.0.5](https://github.com/truecharts/charts/compare/mongodb-5.0.4...mongodb-5.0.5) (2023-03-06)
 
 ### Fix
@@ -84,15 +93,6 @@
 
 
 ## [mongodb-4.0.30](https://github.com/truecharts/charts/compare/mongodb-4.0.29...mongodb-4.0.30) (2023-02-06)
-
-### Chore
-
-- update container image tccr.io/truecharts/mongodb to 6.0.4
-  
-  
-
-
-## [mongodb-4.0.29](https://github.com/truecharts/charts/compare/mongodb-4.0.28...mongodb-4.0.29) (2023-02-03)
 
 ### Chore
 
