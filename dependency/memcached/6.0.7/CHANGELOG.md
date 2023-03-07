@@ -4,6 +4,15 @@
 
 
 
+## [memcached-6.0.7](https://github.com/truecharts/charts/compare/memcached-6.0.6...memcached-6.0.7) (2023-03-07)
+
+### Fix
+
+- Fix fsGroup of dependency train ([#7758](https://github.com/truecharts/charts/issues/7758))
+  
+  
+
+
 ## [memcached-6.0.6](https://github.com/truecharts/charts/compare/memcached-6.0.5...memcached-6.0.6) (2023-03-06)
 
 ### Chore
@@ -88,12 +97,3 @@
 ### Chore
 
 - update container image tccr.io/truecharts/memcached to 1.6.18
-  
-  
-
-
-## [memcached-5.0.28](https://github.com/truecharts/charts/compare/memcached-5.0.27...memcached-5.0.28) (2023-02-10)
-
-### Fix
-
-- ensure new helm deps repo is used in latest releases as well.

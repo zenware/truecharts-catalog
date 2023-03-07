@@ -4,6 +4,15 @@
 
 
 
+## [redis-6.0.12](https://github.com/truecharts/charts/compare/redis-6.0.11...redis-6.0.12) (2023-03-07)
+
+### Fix
+
+- Fix fsGroup of dependency train ([#7758](https://github.com/truecharts/charts/issues/7758))
+  
+  
+
+
 ## [redis-6.0.11](https://github.com/truecharts/charts/compare/redis-6.0.10...redis-6.0.11) (2023-03-06)
 
 
@@ -87,13 +96,4 @@
   
   
 
-
-## [redis-6.0.0](https://github.com/truecharts/charts/compare/redis-5.0.33...redis-6.0.0) (2023-03-01)
-
-
-
-
-## [redis-5.0.33](https://github.com/truecharts/charts/compare/redis-5.0.32...redis-5.0.33) (2023-02-26)
-
-### Chore
 

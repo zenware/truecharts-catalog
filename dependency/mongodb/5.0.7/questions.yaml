@@ -139,9 +139,30 @@ questions:
       default: "Etc/UTC"
       $ref:
         - "definitions/timezone"
-  - variable: redisPassword
+  - variable: mongodbDatabase
     group: "App Configuration"
-    label: "Redis Password"
+    label: "Database Name"
+    schema:
+      type: string
+      default: "mydatabase"
+      required: true
+  - variable: mongodbUsername
+    group: "App Configuration"
+    label: "Database User"
+    schema:
+      type: string
+      default: "mydatabaseuser"
+      required: true
+  - variable: mongodbPassword
+    group: "App Configuration"
+    label: "Database Password"
+    schema:
+      type: string
+      default: ""
+      required: true
+  - variable: mongodbRootPassword
+    group: "App Configuration"
+    label: "Root Password"
     schema:
       type: string
       default: ""
@@ -203,7 +224,7 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 6379
+                              default: 27017
                               required: true
   - variable: serviceexpert
     group: Networking and Services
@@ -438,11 +459,11 @@ questions:
       type: dict
       attrs:
         - variable: data
-          label: "App Data Storage"
-          description: "Stores the Application Data."
+          label: "DB Storage"
+          description: "Stores the old Application Database."
           schema:
-            additional_attrs: true
             type: dict
+            hidden: true
             attrs:
               - variable: type
                 label: Type of Storage
@@ -619,7 +640,7 @@ questions:
                   default: 568
               - variable: runAsGroup
                 label: "runAsGroup"
-                description: "The groupID this App of the user running the application"
+                description: "The groupID of the user running the application"
                 schema:
                   type: int
                   default: 0
@@ -661,7 +682,7 @@ questions:
                 description: "The group that should own ALL storage."
                 schema:
                   type: int
-                  default: 568568
+                  default: 568
 
   - variable: resources
     group: Resources and Devices

@@ -4,6 +4,15 @@
 
 
 
+## [mongodb-5.0.7](https://github.com/truecharts/charts/compare/mongodb-5.0.6...mongodb-5.0.7) (2023-03-07)
+
+### Fix
+
+- Fix fsGroup of dependency train ([#7758](https://github.com/truecharts/charts/issues/7758))
+  
+  
+
+
 ## [mongodb-5.0.6](https://github.com/truecharts/charts/compare/mongodb-5.0.5...mongodb-5.0.6) (2023-03-06)
 
 ### Chore
@@ -88,12 +97,3 @@
 ### Fix
 
 - ensure new helm deps repo is used in latest releases as well.
-  
-  
-
-
-## [mongodb-4.0.30](https://github.com/truecharts/charts/compare/mongodb-4.0.29...mongodb-4.0.30) (2023-02-06)
-
-### Chore
-
-- update container image tccr.io/truecharts/mongodb to 6.0.4

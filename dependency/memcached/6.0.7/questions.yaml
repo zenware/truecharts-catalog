@@ -29,14 +29,6 @@ groups:
     description: Postgresql
   - name: Documentation
     description: Documentation
-portals:
-  open:
-    protocols:
-      - "$kubernetes-resource_configmap_tcportal-open_protocol"
-    host:
-      - "$kubernetes-resource_configmap_tcportal-open_host"
-    ports:
-      - "$kubernetes-resource_configmap_tcportal-open_port"
 questions:
 
   - variable: Workload
@@ -62,7 +54,6 @@ questions:
                       description: Deployment
                     - value: Daemonset
                       description: Daemonset
-
               - variable: replicas
                 label: Replicas (Advanced)
                 description: Set the number of Replicas
@@ -138,7 +129,6 @@ questions:
                                               label: Param
                                               schema:
                                                 type: string
-
   - variable: TZ
     label: Timezone
     group: "General Settings"
@@ -147,33 +137,6 @@ questions:
       default: "Etc/UTC"
       $ref:
         - "definitions/timezone"
-  - variable: solrCores
-    group: "App Configuration"
-    label: "Solr Cores"
-    schema:
-      type: string
-      default: "testcore"
-      required: true
-  - variable: solrUsername
-    group: "App Configuration"
-    label: "Solr Admin Username"
-    schema:
-      type: string
-      default: "test"
-      required: true
-  - variable: solrPassword
-    group: "App Configuration"
-    label: "Solr Admin Password"
-    schema:
-      type: string
-      default: ""
-      required: true
-  - variable: solrOpts
-    group: "App Configuration"
-    label: "Solr Opts"
-    schema:
-      type: string
-      default: ""
   - variable: service
     group: Networking and Services
     label: Configure Service(s)
@@ -231,7 +194,7 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 8983
+                              default: 11211
                               required: true
   - variable: serviceexpert
     group: Networking and Services
@@ -457,84 +420,6 @@ questions:
                                   schema:
                                     type: int
                                     required: true
-  - variable: volumeClaimTemplates
-    label: Integrated Persistent Storage
-    description: Integrated Persistent Storage
-    group: Storage and Persistence
-    schema:
-      additional_attrs: true
-      type: dict
-      attrs:
-        - variable: db
-          label: "DB Storage"
-          description: "Stores the old Application Database."
-          schema:
-            type: dict
-            hidden: true
-            attrs:
-              - variable: type
-                label: Type of Storage
-                description: Sets the persistence type, Anything other than PVC could break rollback!
-                schema:
-                  type: string
-                  default: pvc
-                  enum:
-                    - value: pvc
-                      description: PVC
-                    - value: hostPath
-                      description: Host Path
-                    - value: emptyDir
-                      description: emptyDir
-                    - value: nfs
-                      description: NFS Share
-              - variable: server
-                label: NFS Server
-                schema:
-                  show_if: [["type", "=", "nfs"]]
-                  type: string
-                  default: ""
-              - variable: path
-                label: Path on NFS Server
-                schema:
-                  show_if: [["type", "=", "nfs"]]
-                  type: string
-                  default: ""
-              - variable: setPermissions
-                label: Automatic Permissions
-                description: Automatically set permissions on install
-                schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  type: boolean
-                  default: false
-              - variable: readOnly
-                label: Read Only
-                schema:
-                  type: boolean
-                  default: false
-              - variable: hostPath
-                label: Host Path
-                description: Path inside the container the storage is mounted
-                schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  type: hostpath
-              - variable: medium
-                label: EmptyDir Medium
-                schema:
-                  show_if: [["type", "=", "emptyDir"]]
-                  type: string
-                  default: ""
-                  enum:
-                    - value: ""
-                      description: Default
-                    - value: Memory
-                      description: Memory
-              - variable: size
-                label: Size quotum of Storage (Do NOT REDUCE after installation)
-                description: This value can ONLY be INCREASED after the installation
-                schema:
-                  show_if: [["type", "=", "pvc"]]
-                  type: string
-                  default: 256Gi
   - variable: persistenceList
     label: Additional App Storage
     group: Storage and Persistence
@@ -644,13 +529,13 @@ questions:
                 description: "The UserID of the user running the application"
                 schema:
                   type: int
-                  default: 1001
+                  default: 568
               - variable: runAsGroup
                 label: "runAsGroup"
-                description: "The groupID this App of the user running the application"
+                description: "The groupID of the user running the application"
                 schema:
                   type: int
-                  default: 0
+                  default: 568
               # Settings from questions.yaml get appended here on a per-app basis
               - variable: PUID
                 label: Process User ID - PUID
@@ -689,7 +574,7 @@ questions:
                 description: "The group that should own ALL storage."
                 schema:
                   type: int
-                  default: 568568
+                  default: 568
 
   - variable: resources
     group: Resources and Devices
