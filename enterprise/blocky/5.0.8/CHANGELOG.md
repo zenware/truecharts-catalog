@@ -4,6 +4,15 @@
 
 
 
+## [blocky-5.0.8](https://github.com/truecharts/charts/compare/blocky-5.0.7...blocky-5.0.8) (2023-03-07)
+
+### Fix
+
+- fix blocky servicemonitor
+  
+  
+
+
 ## [blocky-5.0.7](https://github.com/truecharts/charts/compare/blocky-5.0.6...blocky-5.0.7) (2023-03-07)
 
 ### Feat
@@ -87,13 +96,4 @@
 
 
 ## [blocky-4.0.21](https://github.com/truecharts/charts/compare/blocky-4.0.20...blocky-4.0.21) (2023-02-10)
-
-### Fix
-
-- ensure new helm deps repo is used in latest releases as well.
-  
-  
-
-
-## [blocky-4.0.20](https://github.com/truecharts/charts/compare/blocky-4.0.19...blocky-4.0.20) (2023-02-03)
 
