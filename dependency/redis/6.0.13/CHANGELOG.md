@@ -4,6 +4,15 @@
 
 
 
+## [redis-6.0.13](https://github.com/truecharts/charts/compare/redis-6.0.12...redis-6.0.13) (2023-03-07)
+
+### Chore
+
+- update common to prevent common version desync
+  
+  
+
+
 ## [redis-6.0.12](https://github.com/truecharts/charts/compare/redis-6.0.11...redis-6.0.12) (2023-03-07)
 
 ### Fix
@@ -86,14 +95,5 @@
 ## [redis-6.0.2](https://github.com/truecharts/charts/compare/redis-6.0.1...redis-6.0.2) (2023-03-02)
 
 
-
-
-## [redis-6.0.1](https://github.com/truecharts/charts/compare/redis-6.0.0...redis-6.0.1) (2023-03-01)
-
-### Fix
-
-- disable manifestmanager
-  
-  
 
 

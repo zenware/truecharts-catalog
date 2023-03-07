@@ -31,7 +31,7 @@ groups:
     description: Documentation
 questions:
 
-  - variable: Workload
+  - variable: workload
     group: "Workload Settings"
     label: ""
     schema:
