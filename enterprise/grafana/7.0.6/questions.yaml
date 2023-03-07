@@ -39,7 +39,7 @@ portals:
       - "$kubernetes-resource_configmap_tcportal-open_port"
 questions:
 
-  - variable: Workload
+  - variable: workload
     group: "Workload Settings"
     label: ""
     schema:

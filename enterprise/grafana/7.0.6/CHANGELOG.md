@@ -4,6 +4,15 @@
 
 
 
+## [grafana-7.0.6](https://github.com/truecharts/charts/compare/grafana-7.0.5...grafana-7.0.6) (2023-03-07)
+
+### Fix
+
+- bump to fix SCALE GUI env-vars not being rendered
+  
+  
+
+
 ## [grafana-7.0.5](https://github.com/truecharts/charts/compare/grafana-7.0.4...grafana-7.0.5) (2023-03-06)
 
 
@@ -86,14 +95,5 @@
 ### Fix
 
 - ensure new helm deps repo is used in latest releases as well.
-  
-  
-
-
-## [grafana-6.0.26](https://github.com/truecharts/charts/compare/grafana-image-renderer-2.0.10...grafana-6.0.26) (2023-02-08)
-
-### Chore
-
-- update container image tccr.io/truecharts/grafana to v9.3.6
   
   
