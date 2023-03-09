@@ -4,6 +4,11 @@
 
 
 
+## [cert-manager-1.0.8](https://github.com/truecharts/charts/compare/cert-manager-1.0.7...cert-manager-1.0.8) (2023-03-09)
+
+
+
+
 ## [cert-manager-1.0.7](https://github.com/truecharts/charts/compare/cert-manager-1.0.6...cert-manager-1.0.7) (2023-03-07)
 
 ### Fix
@@ -92,8 +97,3 @@
 
 ## [cert-manager-0.0.4](https://github.com/truecharts/charts/compare/cert-manager-0.0.3...cert-manager-0.0.4) (2023-01-18)
 
-### Chore
-
-- pin container image tccr.io/truecharts/scratch to latest
-  
-  
