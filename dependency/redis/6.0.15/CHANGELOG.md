@@ -4,6 +4,15 @@
 
 
 
+## [redis-6.0.15](https://github.com/truecharts/charts/compare/redis-6.0.14...redis-6.0.15) (2023-03-09)
+
+### Chore
+
+- bump common
+  
+  
+
+
 ## [redis-6.0.14](https://github.com/truecharts/charts/compare/redis-6.0.13...redis-6.0.14) (2023-03-07)
 
 ### Fix
@@ -88,12 +97,3 @@
 
 - update dependency common linking ([#7746](https://github.com/truecharts/charts/issues/7746))
   
-  
-
-
-## [redis-6.0.4](https://github.com/truecharts/charts/compare/redis-6.0.3...redis-6.0.4) (2023-03-02)
-
-
-
-
-## [redis-6.0.3](https://github.com/truecharts/charts/compare/redis-6.0.2...redis-6.0.3) (2023-03-02)

@@ -52,15 +52,15 @@ questions:
                   enum:
                     - value: Deployment
                       description: Deployment
-                    - value: Daemonset
-                      description: Daemonset
+                    - value: DaemonSet
+                      description: DaemonSet
 
               - variable: replicas
                 label: Replicas (Advanced)
                 description: Set the number of Replicas
                 schema:
                   type: int
-                  show_if: [["type", "!=", "Daemonset"]]
+                  show_if: [["type", "!=", "DaemonSet"]]
                   default: 1
               - variable: podSpec
                 label: ""
@@ -83,7 +83,6 @@ questions:
                                 - variable: envList
                                   label: Extra Environment Variables
                                   description: "Please be aware that some variables are set in the background, adding duplicates here might cause issues or prevent the app from starting..."
-                                  group: "General Settings"
                                   schema:
                                     type: list
                                     default: []
