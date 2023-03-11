@@ -4,6 +4,15 @@
 
 
 
+## [portainer-ce-3.0.14](https://github.com/truecharts/charts/compare/portainer-ce-3.0.13...portainer-ce-3.0.14) (2023-03-11)
+
+### Feat
+
+- add be image ([#7783](https://github.com/truecharts/charts/issues/7783))
+  
+  
+
+
 ## [portainer-ce-3.0.13](https://github.com/truecharts/charts/compare/portainer-ce-3.0.12...portainer-ce-3.0.13) (2023-02-23)
 
 ### Chore
@@ -88,12 +97,3 @@
 - update helm general non-major
   
   
-
-
-## [portainer-ce-3.0.3](https://github.com/truecharts/charts/compare/portainer-ce-3.0.2...portainer-ce-3.0.3) (2022-11-30)
-
-
-
-
-## [portainer-ce-3.0.3](https://github.com/truecharts/charts/compare/portainer-ce-3.0.2...portainer-ce-3.0.3) (2022-11-30)
-
