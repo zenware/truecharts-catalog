@@ -56,6 +56,7 @@ questions:
                       schema:
                         type: string
                         required: true
+                        valid_chars: '^[a-z]+(-?[a-z]){0,63}-?[a-z]+$'
                         default: ""
                     - variable: type
                       label: Type or DNS-Provider
@@ -228,7 +229,7 @@ questions:
                         default: ""
 
         - variable: CA
-          label: Certiticate Authority Issuer
+          label: Certificate Authority Issuer
           schema:
             type: list
             default: []
@@ -245,6 +246,7 @@ questions:
                       schema:
                         type: string
                         required: true
+                        valid_chars: '^[a-z]+(-?[a-z]){0,63}-?[a-z]+$'
                         default: ""
                     - variable: selfSigned
                       label: selfSigned
@@ -295,7 +297,8 @@ questions:
                 schema:
                   type: string
                   required: true
-                  default: "selfSigned"
+                  valid_chars: '^[a-z]+(-?[a-z]){0,63}-?[a-z]+$'
+                  default: "selfsigned"
 
   - variable: customMetrics
     group: Metrics

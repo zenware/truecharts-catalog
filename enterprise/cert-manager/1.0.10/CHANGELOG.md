@@ -4,6 +4,15 @@
 
 
 
+## [cert-manager-1.0.10](https://github.com/truecharts/charts/compare/cert-manager-1.0.9...cert-manager-1.0.10) (2023-03-11)
+
+### Chore
+
+- validate names that are also used for k8s objects ([#7789](https://github.com/truecharts/charts/issues/7789))
+  
+  
+
+
 ## [cert-manager-1.0.9](https://github.com/truecharts/charts/compare/cert-manager-1.0.8...cert-manager-1.0.9) (2023-03-11)
 
 ### Fix
@@ -87,13 +96,4 @@
 
 
 ## [cert-manager-0.0.6](https://github.com/truecharts/charts/compare/cert-manager-0.0.5...cert-manager-0.0.6) (2023-02-10)
-
-### Fix
-
-- ensure new helm deps repo is used in latest releases as well.
-  
-  
-
-
-## [cert-manager-0.0.5](https://github.com/truecharts/charts/compare/cert-manager-0.0.4...cert-manager-0.0.5) (2023-01-18)
 
