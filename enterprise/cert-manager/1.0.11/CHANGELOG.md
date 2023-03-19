@@ -4,6 +4,15 @@
 
 
 
+## [cert-manager-1.0.11](https://github.com/truecharts/charts/compare/cert-manager-1.0.10...cert-manager-1.0.11) (2023-03-19)
+
+### Fix
+
+- add missing providers ([#7813](https://github.com/truecharts/charts/issues/7813))
+  
+  
+
+
 ## [cert-manager-1.0.10](https://github.com/truecharts/charts/compare/cert-manager-1.0.9...cert-manager-1.0.10) (2023-03-11)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 
 ## [cert-manager-0.0.7](https://github.com/truecharts/charts/compare/cert-manager-0.0.6...cert-manager-0.0.7) (2023-02-20)
-
-### Chore
-
-- update container image tccr.io/truecharts/scratch to latest
-  
-  
-
-
-## [cert-manager-0.0.6](https://github.com/truecharts/charts/compare/cert-manager-0.0.5...cert-manager-0.0.6) (2023-02-10)
 
