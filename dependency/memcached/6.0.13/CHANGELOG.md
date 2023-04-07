@@ -4,6 +4,15 @@
 
 
 
+## [memcached-6.0.13](https://github.com/truecharts/charts/compare/memcached-6.0.12...memcached-6.0.13) (2023-04-07)
+
+### Chore
+
+- update helm chart common to 12.3.0 ([#7895](https://github.com/truecharts/charts/issues/7895))
+  
+  
+
+
 ## [memcached-6.0.12](https://github.com/truecharts/charts/compare/memcached-6.0.11...memcached-6.0.12) (2023-04-05)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [memcached-6.0.3](https://github.com/truecharts/charts/compare/memcached-6.0.2...memcached-6.0.3) (2023-03-05)
-
-### Fix
-
-- bump common to fix env rendering mistake
-  
-  
-
-
-## [memcached-6.0.2](https://github.com/truecharts/charts/compare/memcached-6.0.1...memcached-6.0.2) (2023-03-05)
 
 ### Fix

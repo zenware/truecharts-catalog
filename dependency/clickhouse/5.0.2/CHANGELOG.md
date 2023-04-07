@@ -4,6 +4,15 @@
 
 
 
+## [clickhouse-5.0.2](https://github.com/truecharts/charts/compare/clickhouse-5.0.1...clickhouse-5.0.2) (2023-04-07)
+
+### Chore
+
+- update helm chart common to 12.3.0 ([#7895](https://github.com/truecharts/charts/issues/7895))
+  
+  
+
+
 ## [clickhouse-5.0.1](https://github.com/truecharts/charts/compare/clickhouse-5.0.0...clickhouse-5.0.1) (2023-04-05)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [clickhouse-4.0.3](https://github.com/truecharts/charts/compare/clickhouse-4.0.2...clickhouse-4.0.3) (2023-03-05)
-
-### Fix
-
-- bump common to fix env rendering mistake
-  
-  
-
-
-## [clickhouse-4.0.2](https://github.com/truecharts/charts/compare/clickhouse-4.0.1...clickhouse-4.0.2) (2023-03-05)
 
 ### Fix
