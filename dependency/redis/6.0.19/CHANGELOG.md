@@ -4,6 +4,15 @@
 
 
 
+## [redis-6.0.19](https://github.com/truecharts/charts/compare/redis-6.0.18...redis-6.0.19) (2023-04-07)
+
+### Chore
+
+- bump common on redis
+  
+  
+
+
 ## [redis-6.0.18](https://github.com/truecharts/charts/compare/redis-6.0.17...redis-6.0.18) (2023-04-05)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Fix
 
 - update common with vct label fix ([#7750](https://github.com/truecharts/charts/issues/7750))
-  
-  
-
-
-## [redis-6.0.8](https://github.com/truecharts/charts/compare/redis-6.0.7...redis-6.0.8) (2023-03-06)
-
-### Chore
-
-- bump dependency train ([#7748](https://github.com/truecharts/charts/issues/7748))
   
   
