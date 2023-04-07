@@ -4,6 +4,15 @@
 
 
 
+## [metallb-8.0.8](https://github.com/truecharts/charts/compare/metallb-8.0.7...metallb-8.0.8) (2023-04-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/scratch to latest ([#7880](https://github.com/truecharts/charts/issues/7880))
+  
+  
+
+
 ## [metallb-8.0.7](https://github.com/truecharts/charts/compare/metallb-8.0.6...metallb-8.0.7) (2023-04-05)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [metallb-7.0.10](https://github.com/truecharts/charts/compare/metallb-7.0.9...metallb-7.0.10) (2023-01-18)
-
-### Chore
-
-- update container image tccr.io/truecharts/scratch to latest ([#6460](https://github.com/truecharts/charts/issues/6460))
-  
-  
-
-
-## [metallb-7.0.9](https://github.com/truecharts/charts/compare/metallb-7.0.8...metallb-7.0.9) (2023-01-18)
 
 ### Chore
