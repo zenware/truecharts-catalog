@@ -4,6 +4,11 @@
 
 
 
+## [tailscale-4.0.3](https://github.com/truecharts/charts/compare/tailscale-4.0.2...tailscale-4.0.3) (2023-04-11)
+
+
+
+
 ## [tailscale-4.0.2](https://github.com/truecharts/charts/compare/tailscale-4.0.1...tailscale-4.0.2) (2023-04-11)
 
 ### Fix
@@ -92,8 +97,3 @@
 
 - update helm general non-major ([#5856](https://github.com/truecharts/charts/issues/5856))
   
-  
-
-
-## [tailscale-3.0.10](https://github.com/truecharts/charts/compare/tailscale-3.0.9...tailscale-3.0.10) (2022-12-26)
-
