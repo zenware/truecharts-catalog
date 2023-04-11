@@ -4,6 +4,15 @@
 
 
 
+## [external-service-9.0.1](https://github.com/truecharts/charts/compare/external-service-9.0.0...external-service-9.0.1) (2023-04-11)
+
+### Fix
+
+- protocol -> lower ([#7922](https://github.com/truecharts/charts/issues/7922))
+  
+  
+
+
 ## [external-service-9.0.0](https://github.com/truecharts/charts/compare/external-service-8.0.12...external-service-9.0.0) (2023-04-11)
 
 ### Feat
@@ -86,14 +95,5 @@
 
 
 ## [external-service-8.0.4](https://github.com/truecharts/charts/compare/external-service-8.0.3...external-service-8.0.4) (2022-12-19)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [external-service-8.0.3](https://github.com/truecharts/charts/compare/external-service-8.0.2...external-service-8.0.3) (2022-12-13)
 
 ### Chore
