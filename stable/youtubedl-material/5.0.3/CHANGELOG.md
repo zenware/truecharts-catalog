@@ -4,6 +4,15 @@
 
 
 
+## [youtubedl-material-5.0.3](https://github.com/truecharts/charts/compare/youtubedl-material-5.0.2...youtubedl-material-5.0.3) (2023-04-14)
+
+### Fix
+
+- fix identation ([#7979](https://github.com/truecharts/charts/issues/7979))
+  
+  
+
+
 ## [youtubedl-material-5.0.2](https://github.com/truecharts/charts/compare/youtubedl-material-5.0.1...youtubedl-material-5.0.2) (2023-04-12)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [youtubedl-material-4.0.14](https://github.com/truecharts/charts/compare/youtubedl-material-4.0.13...youtubedl-material-4.0.14) (2023-01-07)
-
-### Chore
-
-- update helm general non-major ([#6121](https://github.com/truecharts/charts/issues/6121))
-  
-  
-
-
-## [youtubedl-material-4.0.13](https://github.com/truecharts/charts/compare/youtubedl-material-4.0.12...youtubedl-material-4.0.13) (2022-12-27)
 
 ### Chore
