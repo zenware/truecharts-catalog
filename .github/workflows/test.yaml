@@ -5,8 +5,7 @@ concurrency: catalog-test
 on:
   push:
     branches:
-      - 'staging-go'
-  #     - 'staging'
+      - 'staging'
   workflow_dispatch:
 
 jobs:
