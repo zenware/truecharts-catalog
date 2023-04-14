@@ -234,7 +234,7 @@ questions:
           schema:
             type: boolean
             default: true
-        - variable: externalInterfaces
+        - variable: scaleExternalInterface
           description: Add External Interfaces
           label: Add external Interfaces
           group: Networking
