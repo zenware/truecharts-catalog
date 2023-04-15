@@ -4,6 +4,15 @@
 
 
 
+## [blocky-5.0.16](https://github.com/truecharts/charts/compare/blocky-5.0.15...blocky-5.0.16) (2023-04-15)
+
+### Fix
+
+- fix additional bootstap dns ([#8029](https://github.com/truecharts/charts/issues/8029))
+  
+  
+
+
 ## [blocky-5.0.15](https://github.com/truecharts/charts/compare/blocky-5.0.14...blocky-5.0.15) (2023-04-14)
 
 
@@ -87,13 +96,4 @@
 
 ## [blocky-5.0.6](https://github.com/truecharts/charts/compare/blocky-5.0.5...blocky-5.0.6) (2023-03-06)
 
-
-
-
-## [blocky-5.0.5](https://github.com/truecharts/charts/compare/blocky-5.0.4...blocky-5.0.5) (2023-03-06)
-
-
-
-
-## [blocky-5.0.4](https://github.com/truecharts/charts/compare/blocky-5.0.3...blocky-5.0.4) (2023-03-06)
 
