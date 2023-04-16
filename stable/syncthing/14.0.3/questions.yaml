@@ -88,6 +88,8 @@ questions:
                               additional_attrs: true
                               type: dict
                               attrs:
+
+
                                 - variable: envList
                                   label: Extra Environment Variables
                                   description: "Please be aware that some variables are set in the background, adding duplicates here might cause issues or prevent the app from starting..."
@@ -137,716 +139,6 @@ questions:
                                               label: Param
                                               schema:
                                                 type: string
-
-  - variable: webUI
-    group: App Configuration
-    label: WebUI Configuration
-    schema:
-      additional_attrs: true
-      type: dict
-      attrs:
-        - variable: enabled
-          label: Enable Web UI
-          description: Enables Web UI
-          schema:
-            type: boolean
-            default: true
-        - variable: apiURL
-          label: API URL
-          description: API URL for webUI, including port. Only used when not using ingress
-          schema:
-            type: string
-            default: "http://127.0.0.1:4000"
-  - variable: overrideDefaults
-    group: App Configuration
-    label: Override Default Upstreams
-    description: Overrides the predefined DNS server upstream list
-    schema:
-      type: boolean
-      default: false
-      show_subquestions_if: true
-      subquestions:
-        - variable: defaultUpstreams
-          label: Default Upstreams
-          schema:
-            type: list
-            default: []
-            items:
-              - variable: upstreamEntry
-                label: Upstream Entry
-                schema:
-                  type: string
-                  required: true
-                  default: ""
-  - variable: upstreams
-    group: App Configuration
-    label: Upstreams Groups
-    description: Refer to
-      <br /><a href="https://0xerr0r.github.io/blocky/configuration/#upstream-configuration" target="_blank" rel="noopener noreferrer">https://0xerr0r.github.io/blocky/configuration/#upstream-configuration</a>
-    schema:
-      type: list
-      default: []
-      items:
-        - variable: upstreamsGroupEntry
-          label: Upstreams Group Entry
-          schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-              - variable: name
-                label: Group Name
-                schema:
-                  type: string
-                  required: true
-                  default: ""
-              - variable: upstreams
-                label: Upstreams
-                schema:
-                  type: list
-                  required: true
-                  default: []
-                  items:
-                    - variable: upstreamEntry
-                      label: upstream Entry
-                      schema:
-                        type: string
-                        required: true
-                        default: ""
-  - variable: bootstrapDns
-    group: App Configuration
-    label: Bootstrap DNS
-    description: Used to resolve upstream DoH and DoT servers that are specified as hostnames.
-      <br />Refer to <a href="https://0xerr0r.github.io/blocky/configuration/#bootstrap-dns-configuration" target="_blank" rel="noopener noreferrer">https://0xerr0r.github.io/blocky/configuration/#bootstrap-dns-configuration</a>
-    schema:
-      additional_attrs: true
-      type: dict
-      attrs:
-        - variable: upstream
-          label: Upstream
-          schema:
-            type: string
-            default: ""
-        - variable: ips
-          label: IPs
-          schema:
-            type: list
-            default: []
-            items:
-              - variable: ipEntry
-                label: IP Entry
-                schema:
-                  type: string
-                  required: true
-                  default: ""
-  - variable: additionalBootstrapDns
-    group: App Configuration
-    label: Additional Bootstrap DNS
-    schema:
-      type: list
-      show_if: [[ "bootstrapDns", "!=", {"upstream": "", "ips": []} ]]
-      default: []
-      items:
-        - variable: additionalBootstrapDnsEntry
-          label: Additional Bootstrap DNS Entry
-          schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-              - variable: upstream
-                label: Upstream
-                schema:
-                  type: string
-                  default: ""
-              - variable: ips
-                label: IPs
-                schema:
-                  type: list
-                  default: []
-                  items:
-                    - variable: ipEntry
-                      label: IP Entry
-                      schema:
-                        type: string
-                        required: true
-                        default: ""
-  - variable: filtering
-    group: App Configuration
-    label: Filtering
-    description: Define one or more DNS query types; all queries with these types will be dropped
-      <br />Refer to <a href="https://0xerr0r.github.io/blocky/configuration/#filtering" target="_blank" rel="noopener noreferrer">https://0xerr0r.github.io/blocky/configuration/#filtering</a>
-    schema:
-      additional_attrs: true
-      type: dict
-      attrs:
-        - variable: queryTypes
-          label: Query Types
-          schema:
-            type: list
-            default: []
-            items:
-              - variable: queryTypeEntry
-                label: Query Type Entry
-                schema:
-                  type: string
-                  required: true
-                  default: ""
-  - variable: customDNS
-    group: App Configuration
-    label: Custom DNS
-    description: Define your own domain name to IP mappings.
-      <br />Refer to <a href="https://0xerr0r.github.io/blocky/configuration/#custom-dns" target="_blank" rel="noopener noreferrer">https://0xerr0r.github.io/blocky/configuration/#custom-dns</a>
-    schema:
-      additional_attrs: true
-      type: dict
-      attrs:
-        - variable: customTTL
-          label: Custom TTL
-          schema:
-            type: string
-            default: 1h
-        - variable: filterUnmappedTypes
-          label: Filter Unmapped Types
-          schema:
-            type: boolean
-            default: true
-        - variable: rewrite
-          label: Rewrite
-          schema:
-            type: list
-            default: []
-            items:
-              - variable: rewriteEntry
-                label: Rewrite Entry
-                schema:
-                  type: dict
-                  additional_attrs: true
-                  attrs:
-                    - variable: in
-                      label: In
-                      schema:
-                        type: string
-                        required: true
-                        default: ""
-                    - variable: out
-                      label: Out
-                      schema:
-                        type: string
-                        required: true
-                        default: ""
-        - variable: mapping
-          label: Mapping
-          schema:
-            type: list
-            default: []
-            items:
-              - variable: mappingEntry
-                label: Mapping Entry
-                schema:
-                  type: dict
-                  additional_attrs: true
-                  attrs:
-                    - variable: domain
-                      label: Domain
-                      schema:
-                        type: string
-                        required: true
-                        default: ""
-                    - variable: dnsserver
-                      label: DNS Server
-                      schema:
-                        type: string
-                        required: true
-                        default: ""
-  - variable: clientLookup
-    group: App Configuration
-    label: Client Lookup
-    description: Blocky can try to resolve a user-friendly client name from the IP address or server URL (DoT and DoH)
-      <br />Refer to <a href="https://0xerr0r.github.io/blocky/configuration/#client-name-lookup" target="_blank" rel="noopener noreferrer">https://0xerr0r.github.io/blocky/configuration/#client-name-lookup</a>
-    schema:
-      additional_attrs: true
-      type: dict
-      attrs:
-        - variable: upstream
-          label: Upstream
-          schema:
-            type: string
-            default: ""
-        - variable: singleNameOrder
-          label: Single Name Order
-          schema:
-            type: list
-            default: []
-            items:
-              - variable: singleNameEntry
-                label: Single Name Entry
-                schema:
-                  type: string
-                  required: true
-                  default: ""
-        - variable: clients
-          label: Clients
-          schema:
-            type: list
-            default: []
-            items:
-              - variable: clientEntry
-                label: Client Entry
-                schema:
-                  type: dict
-                  additional_attrs: true
-                  attrs:
-                    - variable: domain
-                      label: Domain
-                      schema:
-                        type: string
-                        required: true
-                        default: ""
-                    - variable: ips
-                      label: IPs
-                      schema:
-                        type: list
-                        default: []
-                        items:
-                          - variable: ipEntry
-                            label: IP Entry
-                            schema:
-                              type: string
-                              required: true
-                              default: ""
-  - variable: caching
-    group: App Configuration
-    label: Caching
-    description: Refer to
-      <br /><a href="https://0xerr0r.github.io/blocky/configuration/#caching" target="_blank" rel="noopener noreferrer">https://0xerr0r.github.io/blocky/configuration/#caching</a>
-    schema:
-      additional_attrs: true
-      type: dict
-      attrs:
-        - variable: minTime
-          label: Min Time
-          schema:
-            type: string
-            default: 5m
-        - variable: maxTime
-          label: Max Time
-          schema:
-            type: string
-            default: 30m
-        - variable: maxItemsCount
-          label: Max Items Count
-          schema:
-            type: int
-            default: 0
-        - variable: prefetching
-          label: Prefetching
-          schema:
-            type: boolean
-            default: false
-        - variable: prefetchExpires
-          label: Prefetch Expires
-          schema:
-            type: string
-            default: 2h
-        - variable: prefetchThreshold
-          label: Prefetch Threshold
-          schema:
-            type: int
-            default: 5
-        - variable: prefetchMaxItemsCount
-          label: Prefetch Max Items Count
-          schema:
-            type: int
-            default: 0
-        - variable: cacheTimeNegative
-          label: Cache Time Negative
-          schema:
-            type: string
-            default: 30m
-  - variable: conditional
-    group: App Configuration
-    label: Conditional
-    description: Define which DNS resolver(s) should be used for queries for the particular domain
-      <br />Refer to <a href="https://0xerr0r.github.io/blocky/configuration/#conditional-dns-resolution" target="_blank" rel="noopener noreferrer">https://0xerr0r.github.io/blocky/configuration/#conditional-dns-resolution</a>
-    schema:
-      additional_attrs: true
-      type: dict
-      attrs:
-        - variable: rewrite
-          label: Rewrite
-          schema:
-            type: list
-            default: []
-            items:
-              - variable: rewriteEntry
-                label: Rewrite Entry
-                schema:
-                  type: dict
-                  additional_attrs: true
-                  attrs:
-                    - variable: in
-                      label: In
-                      schema:
-                        type: string
-                        required: true
-                        default: ""
-                    - variable: out
-                      label: Out
-                      schema:
-                        type: string
-                        required: true
-                        default: ""
-        - variable: mapping
-          label: Mapping
-          schema:
-            type: list
-            default: []
-            items:
-              - variable: mappingEntry
-                label: Mapping Entry
-                schema:
-                  type: dict
-                  additional_attrs: true
-                  attrs:
-                    - variable: domain
-                      label: Domain
-                      schema:
-                        type: string
-                        required: true
-                        default: ""
-                    - variable: dnsserver
-                      label: DNS Server
-                      schema:
-                        type: string
-                        required: true
-                        default: ""
-  - variable: blocking
-    group: App Configuration
-    label: Blocking
-    description: Each black or whitelist can be either a path to the local file or a URL to download. All Urls must be grouped to a group name.
-      <br />Refer to <a href="https://0xerr0r.github.io/blocky/configuration/#blocking-and-whitelisting" target="_blank" rel="noopener noreferrer">https://0xerr0r.github.io/blocky/configuration/#blocking-and-whitelisting</a>
-    schema:
-      additional_attrs: true
-      type: dict
-      attrs:
-        - variable: blockType
-          label: Block Type
-          description: Set the response should be sent to the client, if a requested query is blocked
-          schema:
-            type: string
-            default: nxDomain
-        - variable: blockTTL
-          label: Block TTL
-          description: Set the TTL for answers to blocked domains
-          schema:
-            type: string
-            default: 6h
-        - variable: refreshPeriod
-          label: Refresh Period
-          description: Set how often blocky should refresh list cache
-          schema:
-            type: string
-            default: 4h
-        - variable: downloadTimeout
-          label: Download Timeout
-          description: Download attempt timeout
-          schema:
-            type: string
-            default: 60s
-        - variable: downloadAttempts
-          label: Download Attempts
-          description: How many download attempts should be performed
-          schema:
-            type: int
-            default: 3
-        - variable: downloadCooldown
-          label: Download Cooldown
-          description: Time between the download attempts
-          schema:
-            type: string
-            default: 2s
-        - variable: startStrategy
-          label: Start Strategy
-          description: |
-            blocking: all blocking lists will be loaded before DNS resolution starts.</br>
-            failOnError: like blocking but blocky will shut down if any download fails.</br>
-            fast: DNS resolution starts immediately without blocking which will be enabled after list load is completed
-          schema:
-            type: string
-            default: blocking
-            enum:
-              - value: blocking
-                description: Blocking
-              - value: failOnError
-                description: Fail On Error
-              - value: fast
-                description: Fast
-        - variable: processingConcurrency
-          label: Processing Concurrency
-          description: Sets how many list-groups can be processed at the same time
-          schema:
-            type: int
-            default: 4
-        - variable: whitelist
-          label: Whitelist
-          description: Define whitelists, either URL or file
-          schema:
-            type: list
-            default: []
-            items:
-              - variable: whitelistEntry
-                label: Whitelist Group Entry
-                schema:
-                  additional_attrs: true
-                  type: dict
-                  attrs:
-                    - variable: name
-                      label: Group Name
-                      schema:
-                        type: string
-                        required: true
-                        default: ""
-                    - variable: lists
-                      label: Lists
-                      schema:
-                        type: list
-                        required: true
-                        default: []
-                        items:
-                          - variable: listEntry
-                            label: List Entry
-                            schema:
-                              type: string
-                              required: true
-                              default: ""
-        - variable: blacklist
-          label: Blacklist
-          description: Define blacklists, either URL or file
-          schema:
-            type: list
-            default: []
-            items:
-              - variable: blacklistEntry
-                label: Blacklist Group Entry
-                schema:
-                  additional_attrs: true
-                  type: dict
-                  attrs:
-                    - variable: name
-                      label: Group Name
-                      schema:
-                        type: string
-                        required: true
-                        default: ""
-                    - variable: lists
-                      label: Lists
-                      schema:
-                        type: list
-                        required: true
-                        default: []
-                        items:
-                          - variable: listEntry
-                            label: List Entry
-                            schema:
-                              type: string
-                              required: true
-                              default: ""
-        - variable: clientGroupsBlock
-          label: Client Groups Block
-          description: Define, which blocking group(s) should be used for which client in your network.
-          schema:
-            type: list
-            default: []
-            items:
-              - variable: clientGroupBlockEntry
-                label: Client Group Block Entry
-                schema:
-                  additional_attrs: true
-                  type: dict
-                  attrs:
-                    - variable: name
-                      label: Client Group Name
-                      schema:
-                        type: string
-                        required: true
-                        default: ""
-                    - variable: groups
-                      label: Groups
-                      schema:
-                        type: list
-                        required: true
-                        default: []
-                        items:
-                          - variable: groupEntry
-                            label: Group Entry
-                            schema:
-                              type: string
-                              required: true
-                              default: ""
-  - variable: hostsFile
-    group: App Configuration
-    label: Hosts File
-    description: You can enable resolving of entries, located in local hosts file.
-      <br />Refer to <a href="https://0xerr0r.github.io/blocky/configuration/#hosts-file" target="_blank" rel="noopener noreferrer">https://0xerr0r.github.io/blocky/configuration/#hosts-file</a>
-    schema:
-      additional_attrs: true
-      type: dict
-      attrs:
-        - variable: enabled
-          label: Enabled
-          schema:
-            type: boolean
-            default: false
-            show_subquestions_if: true
-            subquestions:
-              - variable: filePath
-                label: File Path
-                schema:
-                  type: string
-                  default: /etc/hosts
-              - variable: hostsTTL
-                label: Hosts TTL
-                schema:
-                  type: string
-                  default: 60m
-              - variable: refreshPeriod
-                label: Refresh Period
-                schema:
-                  type: string
-                  default: 30m
-  - variable: queryLog
-    group: App Configuration
-    label: Query Logging configuration
-    schema:
-      additional_attrs: true
-      type: dict
-      attrs:
-        - variable: type
-          label: Type
-          schema:
-            type: string
-            default: ""
-            enum:
-              - value: ""
-                description: Console
-              - value: postgresql
-                description: postgresql
-              - value: csv
-                description: csv
-              - value: csv-client
-                description: csv-client
-        - variable: target
-          label: Target
-          schema:
-            type: string
-            show_if: [["type", "!=", "postgresql"]]
-            default: "/var/log/something"
-        - variable: logRetentionDays
-          label: Log Retention Days
-          schema:
-            type: int
-            default: 0
-        - variable: creationAttempts
-          label: Creation Attempts
-          schema:
-            type: int
-            default: 3
-        - variable: creationCooldown
-          label: Creation Cooldown
-          schema:
-            type: string
-            default: 2s
-  - variable: k8sgateway
-    group: App Configuration
-    label: k8s-Gateway Configuration
-    schema:
-      additional_attrs: true
-      type: dict
-      attrs:
-        - variable: enabled
-          label: Enable k8s-Gateway
-          description: Enables k8s-Gateway
-          schema:
-            type: boolean
-            default: true
-            show_subquestions_if: true
-            subquestions:
-              - variable: domains
-                label: Domains
-                description: Please refer to CoreDNS docs for options
-                schema:
-                  type: list
-                  default: []
-                  items:
-                    - variable: domainEntry
-                      label: ""
-                      schema:
-                        additional_attrs: true
-                        type: dict
-                        attrs:
-                          - variable: domain
-                            label: Domain name
-                            schema:
-                              type: string
-                              required: true
-                              default: example.com
-                          - variable: dnsChallenge
-                            label: Forward dnsChallenge
-                            description: Optional configuration option for DNS01 challenge that will redirect all acme
-                            schema:
-                              additional_attrs: true
-                              type: dict
-                              attrs:
-                                - variable: enabled
-                                  label: Enable
-                                  schema:
-                                    type: boolean
-                                    default: false
-                                    show_subquestions_if: true
-                                    subquestions:
-                                      - variable: domain
-                                        label: Forward to Domain
-                                        schema:
-                                          type: string
-                                          required: true
-                                          default: dns01.clouddns.com
-        - variable: advancedOptions
-          label: Advanced Options
-          schema:
-            type: boolean
-            default: false
-            show_if: [["enabled", "=", "true"]]
-            show_subquestions_if: true
-            subquestions:
-              - variable: ttl
-                label: ttl
-                description: TTL for non-apex responses (in seconds)
-                schema:
-                  type: int
-                  default: 300
-              - variable: watchedResources
-                label: Watched Resources
-                description: imit what kind of resources to watch, e.g. Ingress
-                schema:
-                  type: list
-                  default: []
-                  items:
-                    - variable: watchedResource
-                      label: Watched Resource
-                      schema:
-                        type: string
-                        default: ""
-              - variable: secondary
-                label: Secondary DNS Server Service
-                description: Service name of a secondary DNS server (should be serviceName.namespace)
-                schema:
-                  type: string
-                  default: ""
-              - variable: apex
-                label: Apex
-                description: Override the default `serviceName.namespace` domain apex
-                schema:
-                  type: string
-                  default: ""
   - variable: TZ
     label: Timezone
     group: "General Settings"
@@ -863,8 +155,8 @@ questions:
       type: dict
       attrs:
         - variable: main
-          label: Main Service
-          description: The Primary service on which the healthcheck runs, often the webUI
+          label: "Main Service"
+          description: "The Primary service on which the healthcheck runs, often the webUI"
           schema:
             additional_attrs: true
             type: dict
@@ -902,21 +194,21 @@ questions:
                   type: dict
                   attrs:
                     - variable: main
-                      label: Main Service Port Configuration
+                      label: "Main Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict
                         attrs:
                           - variable: port
-                            label: Port
-                            description: This port exposes the container port on the service
+                            label: "Port"
+                            description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 4000
+                              default: 8384
                               required: true
-        - variable: dnstcp
-          label: DNS TCP Service
-          description: The DNS TCP service
+        - variable: listeners
+          label: "Syncthing Listening Service"
+          description: "This service is used to process incoming connections directly to this Syncthing instance"
           schema:
             additional_attrs: true
             type: dict
@@ -953,22 +245,22 @@ questions:
                   additional_attrs: true
                   type: dict
                   attrs:
-                    - variable: dnstcp
-                      label: DNS TCP Port Configuration
+                    - variable: tcp
+                      label: "TCP Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict
                         attrs:
                           - variable: port
-                            label: Port
-                            description: This port exposes the container port on the service
+                            label: "Port"
+                            description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 53
+                              default: 22000
                               required: true
-        - variable: dnsudp
-          label: DNS UDP Service
-          description: The DNS UDP service
+        - variable: listeners-udp
+          label: "Syncthing Listening Service"
+          description: "This service is used to process incoming connections directly to this Syncthing instance"
           schema:
             additional_attrs: true
             type: dict
@@ -1005,22 +297,22 @@ questions:
                   additional_attrs: true
                   type: dict
                   attrs:
-                    - variable: dnsudp
-                      label: DNS UDP Port Configuration
+                    - variable: udp
+                      label: "UDP Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict
                         attrs:
                           - variable: port
-                            label: Port
-                            description: This port exposes the container port on the service
+                            label: "Port"
+                            description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 53
+                              default: 22000
                               required: true
-        - variable: dot
-          label: DoT Service
-          description: "DNS-over-TLS service"
+        - variable: discovery
+          label: "Syncthing Listening Service"
+          description: "This service is used to process incoming connections directly to this Syncthing instance"
           schema:
             additional_attrs: true
             type: dict
@@ -1036,7 +328,7 @@ questions:
                 description: "ClusterIP's are only internally available and Loadbalancer exposes the service using the system loadbalancer"
                 schema:
                   type: string
-                  default: ClusterIP
+                  default: LoadBalancer
                   enum:
                     - value: LoadBalancer
                       description: LoadBalancer (Expose Ports)
@@ -1057,18 +349,18 @@ questions:
                   additional_attrs: true
                   type: dict
                   attrs:
-                    - variable: dot
-                      label: DoT Port Configuration
+                    - variable: discovery
+                      label: "UDP Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict
                         attrs:
                           - variable: port
-                            label: Port
-                            description: This port exposes the container port on the service
+                            label: "Port"
+                            description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 853
+                              default: 21027
                               required: true
   - variable: serviceexpert
     group: Networking and Services
@@ -1125,41 +417,41 @@ questions:
                                   description: Use DHCP
                                 - value: static
                                   description: Use Static IP
-                    - variable: staticIPConfigurations
-                      label: Static IP Addresses
-                      schema:
-                        type: list
-                        show_if: [["ipam", "=", {"type": "static"}]]
-                        items:
-                          - variable: staticIP
-                            label: Static IP
+                          - variable: staticIPConfigurations
+                            label: Static IP Addresses
                             schema:
-                              type: ipaddr
-                              cidr: true
-                    - variable: staticRoutes
-                      label: Static Routes
-                      schema:
-                        type: list
-                        show_if: [["ipam", "=", {"type": "static"}]]
-                        items:
-                          - variable: staticRouteConfiguration
-                            label: Static Route Configuration
-                            schema:
-                              additional_attrs: true
-                              type: dict
-                              attrs:
-                                - variable: destination
-                                  label: Destination
+                              type: list
+                              show_if: [["type", "=", "static"]]
+                              items:
+                                - variable: staticIP
+                                  label: Static IP
                                   schema:
                                     type: ipaddr
                                     cidr: true
-                                    required: true
-                                - variable: gateway
-                                  label: Gateway
+                          - variable: staticRoutes
+                            label: Static Routes
+                            schema:
+                              type: list
+                              show_if: [["type", "=", "static"]]
+                              items:
+                                - variable: staticRouteConfiguration
+                                  label: Static Route Configuration
                                   schema:
-                                    type: ipaddr
-                                    cidr: false
-                                    required: true
+                                    additional_attrs: true
+                                    type: dict
+                                    attrs:
+                                      - variable: destination
+                                        label: Destination
+                                        schema:
+                                          type: ipaddr
+                                          cidr: true
+                                          required: true
+                                      - variable: gateway
+                                        label: Gateway
+                                        schema:
+                                          type: ipaddr
+                                          cidr: false
+                                          required: true
         - variable: serviceList
           label: Add Manual Custom Services
           group: Networking and Services
@@ -1294,6 +586,84 @@ questions:
                                   schema:
                                     type: int
                                     required: true
+  - variable: persistence
+    label: Integrated Persistent Storage
+    description: Integrated Persistent Storage
+    group: Storage and Persistence
+    schema:
+      additional_attrs: true
+      type: dict
+      attrs:
+        - variable: config
+          label: "App Config Storage"
+          description: "Stores the Application Configuration."
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: type
+                label: Type of Storage
+                description: Sets the persistence type, Anything other than PVC could break rollback!
+                schema:
+                  type: string
+                  default: pvc
+                  enum:
+                    - value: pvc
+                      description: PVC
+                    - value: hostPath
+                      description: Host Path
+                    - value: emptyDir
+                      description: emptyDir
+                    - value: nfs
+                      description: NFS Share
+              - variable: server
+                label: NFS Server
+                schema:
+                  show_if: [["type", "=", "nfs"]]
+                  type: string
+                  default: ""
+              - variable: path
+                label: Path on NFS Server
+                schema:
+                  show_if: [["type", "=", "nfs"]]
+                  type: string
+                  default: ""
+              - variable: setPermissions
+                label: Automatic Permissions
+                description: Automatically set permissions on install
+                schema:
+                  show_if: [["type", "=", "hostPath"]]
+                  type: boolean
+                  default: false
+              - variable: readOnly
+                label: Read Only
+                schema:
+                  type: boolean
+                  default: false
+              - variable: hostPath
+                label: Host Path
+                description: Path inside the container the storage is mounted
+                schema:
+                  show_if: [["type", "=", "hostPath"]]
+                  type: hostpath
+              - variable: medium
+                label: EmptyDir Medium
+                schema:
+                  show_if: [["type", "=", "emptyDir"]]
+                  type: string
+                  default: ""
+                  enum:
+                    - value: ""
+                      description: Default
+                    - value: Memory
+                      description: Memory
+              - variable: size
+                label: Size quotum of Storage (Do NOT REDUCE after installation)
+                description: This value can ONLY be INCREASED after the installation
+                schema:
+                  show_if: [["type", "=", "pvc"]]
+                  type: string
+                  default: 256Gi
   - variable: persistenceList
     label: Additional App Storage
     group: Storage and Persistence
@@ -1391,7 +761,7 @@ questions:
       type: dict
       attrs:
         - variable: main
-          label: Main Ingress
+          label: "Main Ingress"
           schema:
             additional_attrs: true
             type: dict
@@ -1691,6 +1061,7 @@ questions:
             type: dict
             attrs:
               # Settings from questions.yaml get appended here on a per-app basis
+
               - variable: runAsUser
                 label: "runAsUser"
                 description: "The UserID of the user running the application"
@@ -1768,6 +1139,7 @@ questions:
                 schema:
                   type: int
                   default: 568
+
   - variable: resources
     group: Resources and Devices
     label: "Resource Limits"
@@ -1886,41 +1258,6 @@ questions:
                   type: string
                   default: workaround
                   hidden: true
-  - variable: metrics
-    group: Metrics
-    label: Prometheus Metrics
-    schema:
-      additional_attrs: true
-      type: dict
-      attrs:
-        - variable: main
-          label: Main Metrics
-          schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-              - variable: enabled
-                label: Enabled
-                description: Enable Prometheus Metrics
-                schema:
-                  type: boolean
-                  default: true
-                  show_subquestions_if: true
-                  subquestions:
-                    - variable: prometheusRule
-                      label: PrometheusRule
-                      description: Enable and configure Prometheus Rules for the App.
-                      schema:
-                        additional_attrs: true
-                        type: dict
-                        attrs:
-                          - variable: enabled
-                            label: Enabled
-                            description: Enable Prometheus Metrics
-                            schema:
-                              type: boolean
-                              default: false
-                          # TODO: Rule List section
 #  - variable: horizontalPodAutoscaler
 #    group: Advanced
 #    label: (Advanced) Horizontal Pod Autoscaler

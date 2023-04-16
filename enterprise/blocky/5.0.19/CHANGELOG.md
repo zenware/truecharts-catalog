@@ -4,6 +4,11 @@
 
 
 
+## [blocky-5.0.19](https://github.com/truecharts/charts/compare/blocky-5.0.18...blocky-5.0.19) (2023-04-16)
+
+
+
+
 ## [blocky-5.0.18](https://github.com/truecharts/charts/compare/blocky-5.0.17...blocky-5.0.18) (2023-04-15)
 
 ### Chore
@@ -92,8 +97,3 @@
 - misc fixes from common and prometheus storageclass patch ([#7762](https://github.com/truecharts/charts/issues/7762))
   
   
-
-
-## [blocky-5.0.8](https://github.com/truecharts/charts/compare/blocky-5.0.7...blocky-5.0.8) (2023-03-07)
-
-### Fix
