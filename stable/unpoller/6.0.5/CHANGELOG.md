@@ -4,6 +4,15 @@
 
 
 
+## [unpoller-6.0.5](https://github.com/truecharts/charts/compare/unpoller-6.0.4...unpoller-6.0.5) (2023-04-17)
+
+### Fix
+
+- do not use /metrics for probes ([#8078](https://github.com/truecharts/charts/issues/8078))
+  
+  
+
+
 ## [unpoller-6.0.4](https://github.com/truecharts/charts/compare/unpoller-6.0.3...unpoller-6.0.4) (2023-04-16)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 
 ## [unpoller-5.0.4](https://github.com/truecharts/charts/compare/unpoller-5.0.3...unpoller-5.0.4) (2022-12-19)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [unpoller-5.0.3](https://github.com/truecharts/charts/compare/unpoller-5.0.2...unpoller-5.0.3) (2022-12-13)
 
