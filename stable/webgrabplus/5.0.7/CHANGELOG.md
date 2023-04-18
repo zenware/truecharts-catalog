@@ -4,6 +4,15 @@
 
 
 
+## [webgrabplus-5.0.7](https://github.com/truecharts/charts/compare/webgrabplus-5.0.6...webgrabplus-5.0.7) (2023-04-18)
+
+### Fix
+
+- Disable probes + update upstream ([#8083](https://github.com/truecharts/charts/issues/8083))
+  
+  
+
+
 ## [webgrabplus-5.0.6](https://github.com/truecharts/charts/compare/webgrabplus-5.0.5...webgrabplus-5.0.6) (2023-04-16)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Fix
 
 - ensure new helm deps repo is used in latest releases as well.
-  
-  
-
-
-## [webgrabplus-4.0.10](https://github.com/truecharts/charts/compare/webgrabplus-4.0.9...webgrabplus-4.0.10) (2022-12-30)
-
-### Chore
-
-- update container image tccr.io/truecharts/webgrabplus to 5.0.1
   
   
