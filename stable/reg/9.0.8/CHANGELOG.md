@@ -4,6 +4,15 @@
 
 
 
+## [reg-9.0.8](https://github.com/truecharts/charts/compare/reg-9.0.7...reg-9.0.8) (2023-04-22)
+
+### Fix
+
+- fix nonexistent image tag ([#8118](https://github.com/truecharts/charts/issues/8118))
+  
+  
+
+
 ## [reg-9.0.7](https://github.com/truecharts/charts/compare/reg-9.0.6...reg-9.0.7) (2023-04-20)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Chore
 
 - update helm general non-major ([#5856](https://github.com/truecharts/charts/issues/5856))
-  
-  
-
-
-## [reg-8.0.6](https://github.com/truecharts/charts/compare/dockerregistry-2.0.6...reg-8.0.6) (2022-12-26)
-
-### Chore
-
-- update helm general non-major ([#5839](https://github.com/truecharts/charts/issues/5839))
   
   
