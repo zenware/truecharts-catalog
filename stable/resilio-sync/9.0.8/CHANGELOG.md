@@ -4,6 +4,16 @@
 
 
 
+## [resilio-sync-9.0.8](https://github.com/truecharts/charts/compare/resilio-sync-9.0.7...resilio-sync-9.0.8) (2023-04-22)
+
+### Fix
+
+- Bump for [#8097](https://github.com/truecharts/charts/issues/8097) ([#8114](https://github.com/truecharts/charts/issues/8114))
+  - Fix probe ([#8097](https://github.com/truecharts/charts/issues/8097))
+  
+  
+
+
 ## [resilio-sync-9.0.7](https://github.com/truecharts/charts/compare/resilio-sync-9.0.6...resilio-sync-9.0.7) (2023-04-20)
 
 ### Chore
@@ -86,14 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#5856](https://github.com/truecharts/charts/issues/5856))
-  
-  
-
-
-## [resilio-sync-8.0.6](https://github.com/truecharts/charts/compare/resilio-sync-8.0.5...resilio-sync-8.0.6) (2022-12-26)
-
-### Chore
-
-- update helm general non-major ([#5839](https://github.com/truecharts/charts/issues/5839))
-  
   
