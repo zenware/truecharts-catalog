@@ -4,6 +4,15 @@
 
 
 
+## [external-service-9.0.8](https://github.com/truecharts/charts/compare/external-service-9.0.7...external-service-9.0.8) (2023-04-23)
+
+### Fix
+
+- don't use slices on scale and dont hardcode ta… ([#8128](https://github.com/truecharts/charts/issues/8128))
+  
+  
+
+
 ## [external-service-9.0.7](https://github.com/truecharts/charts/compare/external-service-9.0.6...external-service-9.0.7) (2023-04-20)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 
 ## [external-service-8.0.11](https://github.com/truecharts/charts/compare/external-service-8.0.10...external-service-8.0.11) (2023-02-10)
-
-### Fix
-
-- ensure new helm deps repo is used in latest releases as well.
-  
-  
-
-
-## [external-service-8.0.10](https://github.com/truecharts/charts/compare/external-service-8.0.9...external-service-8.0.10) (2023-01-12)
 
