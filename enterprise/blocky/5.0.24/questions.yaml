@@ -947,8 +947,6 @@ questions:
                       description: LoadBalancer (Expose Ports)
                     - value: ClusterIP
                       description: ClusterIP (Do Not Expose Ports)
-                    - value: Simple
-                      description: Deprecated CHANGE THIS
               - variable: loadBalancerIP
                 label: LoadBalancer IP
                 description: "MetalLB Only: Selects the Loadbalancer IP to expose on. Required when using PortalButton with MetalLB"
@@ -999,8 +997,6 @@ questions:
                       description: LoadBalancer (Expose Ports)
                     - value: ClusterIP
                       description: ClusterIP (Do Not Expose Ports)
-                    - value: Simple
-                      description: Deprecated CHANGE THIS
               - variable: loadBalancerIP
                 label: LoadBalancer IP
                 description: "MetalLB Only: Selects the Loadbalancer IP to expose on. Required when using PortalButton with MetalLB"
@@ -1051,8 +1047,6 @@ questions:
                       description: LoadBalancer (Expose Ports)
                     - value: ClusterIP
                       description: ClusterIP (Do Not Expose Ports)
-                    - value: Simple
-                      description: Deprecated CHANGE THIS
               - variable: loadBalancerIP
                 label: LoadBalancer IP
                 description: "MetalLB Only: Selects the Loadbalancer IP to expose on. Required when using PortalButton with MetalLB"
@@ -1103,8 +1097,6 @@ questions:
                       description: LoadBalancer (Expose Ports)
                     - value: ClusterIP
                       description: ClusterIP (Do Not Expose Ports)
-                    - value: Simple
-                      description: Deprecated CHANGE THIS
               - variable: loadBalancerIP
                 label: LoadBalancer IP
                 description: "MetalLB Only: Selects the Loadbalancer IP to expose on. Required when using PortalButton with MetalLB"
