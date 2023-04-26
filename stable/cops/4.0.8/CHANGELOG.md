@@ -4,6 +4,15 @@
 
 
 
+## [cops-4.0.8](https://github.com/truecharts/charts/compare/cops-4.0.7...cops-4.0.8) (2023-04-26)
+
+### Chore
+
+- update container image tccr.io/truecharts/cops to latest ([#8194](https://github.com/truecharts/charts/issues/8194))
+  
+  
+
+
 ## [cops-4.0.7](https://github.com/truecharts/charts/compare/cops-4.0.6...cops-4.0.7) (2023-04-25)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Chore
 
 - update container image tccr.io/truecharts/cops to latest
-  
-  
-
-
-## [cops-3.0.2](https://github.com/truecharts/charts/compare/cops-3.0.1...cops-3.0.2) (2023-02-10)
-
-### Fix
-
-- ensure new helm deps repo is used in latest releases as well.
   
   
