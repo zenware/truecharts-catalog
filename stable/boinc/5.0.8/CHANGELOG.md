@@ -4,6 +4,15 @@
 
 
 
+## [boinc-5.0.8](https://github.com/truecharts/charts/compare/boinc-5.0.7...boinc-5.0.8) (2023-04-26)
+
+### Chore
+
+- update container image tccr.io/truecharts/boinc to latest ([#8179](https://github.com/truecharts/charts/issues/8179))
+  
+  
+
+
 ## [boinc-5.0.7](https://github.com/truecharts/charts/compare/boinc-5.0.6...boinc-5.0.7) (2023-04-25)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Chore
 
 - update container image tccr.io/truecharts/boinc to latest
-  
-  
-
-
-## [boinc-4.0.18](https://github.com/truecharts/charts/compare/boinc-4.0.17...boinc-4.0.18) (2023-02-10)
-
-### Fix
-
-- ensure new helm deps repo is used in latest releases as well.
   
   
