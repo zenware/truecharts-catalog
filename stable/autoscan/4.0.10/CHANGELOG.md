@@ -4,6 +4,15 @@
 
 
 
+## [autoscan-4.0.10](https://github.com/truecharts/charts/compare/autoscan-4.0.9...autoscan-4.0.10) (2023-04-26)
+
+### Chore
+
+- update container image tccr.io/truecharts/autoscan to latest ([#8172](https://github.com/truecharts/charts/issues/8172))
+  
+  
+
+
 ## [autoscan-4.0.9](https://github.com/truecharts/charts/compare/autoscan-4.0.8...autoscan-4.0.9) (2023-04-25)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Feat
 
 - BREAKING CHANGE migrate to new common part 1 ([#7900](https://github.com/truecharts/charts/issues/7900))
-  
-  
-
-
-## [autoscan-3.0.10](https://github.com/truecharts/charts/compare/autoscan-3.0.9...autoscan-3.0.10) (2023-02-15)
-
-### Chore
-
-- update container image tccr.io/truecharts/autoscan to latest
   
   
