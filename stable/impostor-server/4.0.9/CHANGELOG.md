@@ -4,6 +4,15 @@
 
 
 
+## [impostor-server-4.0.9](https://github.com/truecharts/charts/compare/impostor-server-4.0.8...impostor-server-4.0.9) (2023-04-27)
+
+### Chore
+
+- update container image tccr.io/truecharts/impostor-server-nightly to vnightly ([#8240](https://github.com/truecharts/charts/issues/8240))
+  
+  
+
+
 ## [impostor-server-4.0.8](https://github.com/truecharts/charts/compare/impostor-server-4.0.7...impostor-server-4.0.8) (2023-04-25)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Chore
 
 - update container image tccr.io/truecharts/impostor-server-nightly to vnightly
-  
-  
-
-
-## [impostor-server-3.0.14](https://github.com/truecharts/charts/compare/impostor-server-3.0.13...impostor-server-3.0.14) (2023-02-10)
-
-### Fix
-
-- ensure new helm deps repo is used in latest releases as well.
   
   
