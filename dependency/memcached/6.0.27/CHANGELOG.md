@@ -4,6 +4,15 @@
 
 
 
+## [memcached-6.0.27](https://github.com/truecharts/charts/compare/memcached-6.0.26...memcached-6.0.27) (2023-04-27)
+
+### Chore
+
+- update container image tccr.io/truecharts/memcached to v ([#8314](https://github.com/truecharts/charts/issues/8314))
+  
+  
+
+
 ## [memcached-6.0.26](https://github.com/truecharts/charts/compare/memcached-6.0.25...memcached-6.0.26) (2023-04-25)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Chore
 
 - update helm chart common to 12.4.10 ([#7996](https://github.com/truecharts/charts/issues/7996))
-  
-  
-
-
-## [memcached-6.0.16](https://github.com/truecharts/charts/compare/memcached-6.0.15...memcached-6.0.16) (2023-04-14)
-
-### Chore
-
-- update helm chart common to 12.4.9 ([#7928](https://github.com/truecharts/charts/issues/7928))
   
   
