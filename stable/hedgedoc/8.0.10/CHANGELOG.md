@@ -4,6 +4,15 @@
 
 
 
+## [hedgedoc-8.0.10](https://github.com/truecharts/charts/compare/hedgedoc-8.0.9...hedgedoc-8.0.10) (2023-04-27)
+
+### Chore
+
+- update container image tccr.io/truecharts/hedgedoc to 1.9.7 ([#8237](https://github.com/truecharts/charts/issues/8237))
+  
+  
+
+
 ## [hedgedoc-8.0.9](https://github.com/truecharts/charts/compare/hedgedoc-8.0.8...hedgedoc-8.0.9) (2023-04-25)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Feat
 
 - BREAKING CHANGE migrate to new common part 1 ([#7900](https://github.com/truecharts/charts/issues/7900))
-  
-  
-
-
-## [hedgedoc-7.0.31](https://github.com/truecharts/charts/compare/hedgedoc-7.0.30...hedgedoc-7.0.31) (2023-02-27)
-
-### Chore
-
-- update helm general non-major ([#7725](https://github.com/truecharts/charts/issues/7725))
   
   
