@@ -4,6 +4,15 @@
 
 
 
+## [metube-7.0.10](https://github.com/truecharts/charts/compare/metube-7.0.9...metube-7.0.10) (2023-04-27)
+
+### Chore
+
+- update container image tccr.io/truecharts/metube to v2023-02 ([#8315](https://github.com/truecharts/charts/issues/8315))
+  
+  
+
+
 ## [metube-7.0.9](https://github.com/truecharts/charts/compare/metube-7.0.8...metube-7.0.9) (2023-04-25)
 
 ### Chore
@@ -88,12 +97,3 @@
 - BREAKING CHANGE migrate to new common part 1 ([#7900](https://github.com/truecharts/charts/issues/7900))
   
   
-
-
-## [metube-6.0.0](https://github.com/truecharts/charts/compare/metube-5.0.2...metube-6.0.0) (2023-02-20)
-
-
-
-
-## [metube-5.0.2](https://github.com/truecharts/charts/compare/metube-5.0.1...metube-5.0.2) (2023-02-10)
-
