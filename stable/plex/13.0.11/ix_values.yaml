@@ -1,0 +1,35 @@
+image:
+  repository: tccr.io/truecharts/plex
+  pullPolicy: IfNotPresent
+  tag: 1.31.1.6733@sha256:69fb6bd4cc0a414ba553f8dc13f748906ae67cfc17d921bb4d7aaa7aea588bcd
+service:
+  main:
+    ports:
+      main:
+        protocol: http
+        port: 32400
+        targetPort: 32400
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+plex:
+  # User Defined
+  serverIP: "127.0.0.1"
+  additionalAdvertiseURL: ""
+  disableGDM: true
+
+portal:
+  open:
+    enabled: true
+
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            PLEX_PREFERENCE_GDM: 'GdmEnabled={{ ternary "0" "1" .Values.plex.disableGDM }}'
+            # User Defined
+            ALLOWED_NETWORKS: "172.16.0.0/12,10.0.0.0/8,192.168.0.0/16"
+            PLEX_CLAIM: ""
