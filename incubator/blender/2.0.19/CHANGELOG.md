@@ -4,6 +4,15 @@
 
 
 
+## [blender-2.0.19](https://github.com/truecharts/charts/compare/blender-2.0.18...blender-2.0.19) (2023-04-27)
+
+### Chore
+
+- update container image tccr.io/truecharts/blender to latest ([#8177](https://github.com/truecharts/charts/issues/8177))
+  
+  
+
+
 ## [blender-2.0.18](https://github.com/truecharts/charts/compare/blender-2.0.17...blender-2.0.18) (2023-02-26)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [blender-2.0.9](https://github.com/truecharts/charts/compare/blender-2.0.8...blender-2.0.9) (2022-12-25)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [blender-2.0.8](https://github.com/truecharts/charts/compare/blender-desktop-g3-2.0.5...blender-2.0.8) (2022-12-25)
 
 ### Chore
