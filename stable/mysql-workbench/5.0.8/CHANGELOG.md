@@ -4,6 +4,15 @@
 
 
 
+## [mysql-workbench-5.0.8](https://github.com/truecharts/charts/compare/mysql-workbench-5.0.7...mysql-workbench-5.0.8) (2023-04-27)
+
+### Chore
+
+- update container image tccr.io/truecharts/mysql-workbench to v ([#8323](https://github.com/truecharts/charts/issues/8323))
+  
+  
+
+
 ## [mysql-workbench-5.0.7](https://github.com/truecharts/charts/compare/mysql-workbench-5.0.6...mysql-workbench-5.0.7) (2023-04-25)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Chore
 
 - update container image tccr.io/truecharts/mysql-workbench to 8.0.32
-  
-  
-
-
-## [mysql-workbench-4.0.14](https://github.com/truecharts/charts/compare/mysql-workbench-4.0.13...mysql-workbench-4.0.14) (2023-02-10)
-
-### Fix
-
-- ensure new helm deps repo is used in latest releases as well.
   
   
