@@ -4,6 +4,15 @@
 
 
 
+## [mstream-6.0.10](https://github.com/truecharts/charts/compare/mstream-6.0.9...mstream-6.0.10) (2023-04-27)
+
+### Chore
+
+- update container image tccr.io/truecharts/mstream to v5.11.4 ([#8320](https://github.com/truecharts/charts/issues/8320))
+  
+  
+
+
 ## [mstream-6.0.9](https://github.com/truecharts/charts/compare/mstream-6.0.8...mstream-6.0.9) (2023-04-25)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Feat
 
 - BREAKING CHANGE migrate to new common part 1 ([#7900](https://github.com/truecharts/charts/issues/7900))
-  
-  
-
-
-## [mstream-5.0.13](https://github.com/truecharts/charts/compare/mstream-5.0.12...mstream-5.0.13) (2023-02-26)
-
-### Chore
-
-- update container image tccr.io/truecharts/mstream to v5.11.4
   
   
