@@ -4,6 +4,15 @@
 
 
 
+## [scrutiny-6.0.10](https://github.com/truecharts/charts/compare/scrutiny-6.0.9...scrutiny-6.0.10) (2023-04-27)
+
+### Chore
+
+- update container image tccr.io/truecharts/scrutiny to v0.7.1 ([#8256](https://github.com/truecharts/charts/issues/8256))
+  
+  
+
+
 ## [scrutiny-6.0.9](https://github.com/truecharts/charts/compare/scrutiny-6.0.8...scrutiny-6.0.9) (2023-04-25)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Feat
 
 - BREAKING CHANGE migrate to new common part 1 ([#7900](https://github.com/truecharts/charts/issues/7900))
-  
-  
-
-
-## [scrutiny-5.0.9](https://github.com/truecharts/charts/compare/scrutiny-5.0.8...scrutiny-5.0.9) (2023-02-10)
-
-### Fix
-
-- ensure new helm deps repo is used in latest releases as well.
   
   

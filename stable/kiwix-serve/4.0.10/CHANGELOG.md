@@ -4,6 +4,15 @@
 
 
 
+## [kiwix-serve-4.0.10](https://github.com/truecharts/charts/compare/kiwix-serve-4.0.9...kiwix-serve-4.0.10) (2023-04-27)
+
+### Chore
+
+- update container image tccr.io/truecharts/kiwix-serve to 3.4.0 ([#8246](https://github.com/truecharts/charts/issues/8246))
+  
+  
+
+
 ## [kiwix-serve-4.0.9](https://github.com/truecharts/charts/compare/kiwix-serve-4.0.8...kiwix-serve-4.0.9) (2023-04-25)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Feat
 
 - BREAKING CHANGE migrate to new common part 1 ([#7900](https://github.com/truecharts/charts/issues/7900))
-  
-  
-
-
-## [kiwix-serve-3.0.10](https://github.com/truecharts/charts/compare/kiwix-serve-3.0.9...kiwix-serve-3.0.10) (2023-02-10)
-
-### Fix
-
-- ensure new helm deps repo is used in latest releases as well.
   
   
