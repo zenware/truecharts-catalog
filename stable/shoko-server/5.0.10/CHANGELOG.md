@@ -4,6 +4,15 @@
 
 
 
+## [shoko-server-5.0.10](https://github.com/truecharts/charts/compare/shoko-server-5.0.9...shoko-server-5.0.10) (2023-04-28)
+
+### Chore
+
+- update container image tccr.io/truecharts/shoko-server to v4.2.2 ([#8258](https://github.com/truecharts/charts/issues/8258))
+  
+  
+
+
 ## [shoko-server-5.0.9](https://github.com/truecharts/charts/compare/shoko-server-5.0.8...shoko-server-5.0.9) (2023-04-25)
 
 ### Chore
@@ -88,7 +97,3 @@
 - BREAKING CHANGE migrate to new common part 1 ([#7900](https://github.com/truecharts/charts/issues/7900))
   
   
-
-
-## [shoko-server-4.0.0](https://github.com/truecharts/charts/compare/shoko-server-3.0.2...shoko-server-4.0.0) (2023-02-21)
-
