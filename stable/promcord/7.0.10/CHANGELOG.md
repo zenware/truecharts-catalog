@@ -4,6 +4,15 @@
 
 
 
+## [promcord-7.0.10](https://github.com/truecharts/charts/compare/promcord-7.0.9...promcord-7.0.10) (2023-04-28)
+
+### Chore
+
+- update container image tccr.io/truecharts/whoami to v1.9.0 ([#8273](https://github.com/truecharts/charts/issues/8273))
+  
+  
+
+
 ## [promcord-7.0.9](https://github.com/truecharts/charts/compare/promcord-7.0.8...promcord-7.0.9) (2023-04-25)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Feat
 
 - BREAKING CHANGE migrate to new common part 1 ([#7900](https://github.com/truecharts/charts/issues/7900))
-  
-  
-
-
-## [promcord-6.0.13](https://github.com/truecharts/charts/compare/promcord-6.0.12...promcord-6.0.13) (2023-02-10)
-
-### Fix
-
-- ensure new helm deps repo is used in latest releases as well.
   
   
