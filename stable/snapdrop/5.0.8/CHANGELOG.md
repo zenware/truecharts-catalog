@@ -4,6 +4,15 @@
 
 
 
+## [snapdrop-5.0.8](https://github.com/truecharts/charts/compare/snapdrop-5.0.7...snapdrop-5.0.8) (2023-04-28)
+
+### Chore
+
+- update container image tccr.io/truecharts/snapdrop to latest ([#8378](https://github.com/truecharts/charts/issues/8378))
+  
+  
+
+
 ## [snapdrop-5.0.7](https://github.com/truecharts/charts/compare/snapdrop-5.0.6...snapdrop-5.0.7) (2023-04-25)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Fix
 
 - ensure new helm deps repo is used in latest releases as well.
-  
-  
-
-
-## [snapdrop-4.0.15](https://github.com/truecharts/charts/compare/snapdrop-4.0.14...snapdrop-4.0.15) (2023-02-06)
-
-### Chore
-
-- update container image tccr.io/truecharts/snapdrop to latest
   
   
