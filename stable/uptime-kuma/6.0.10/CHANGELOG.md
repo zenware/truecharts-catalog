@@ -4,6 +4,15 @@
 
 
 
+## [uptime-kuma-6.0.10](https://github.com/truecharts/charts/compare/uptime-kuma-6.0.9...uptime-kuma-6.0.10) (2023-04-28)
+
+### Chore
+
+- update container image tccr.io/truecharts/uptime-kuma to v1.21.2 ([#8271](https://github.com/truecharts/charts/issues/8271))
+  
+  
+
+
 ## [uptime-kuma-6.0.9](https://github.com/truecharts/charts/compare/uptime-kuma-6.0.8...uptime-kuma-6.0.9) (2023-04-25)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Feat
 
 - BREAKING CHANGE migrate to new common part 1 ([#7900](https://github.com/truecharts/charts/issues/7900))
-  
-  
-
-
-## [uptime-kuma-5.0.21](https://github.com/truecharts/charts/compare/uptime-kuma-5.0.20...uptime-kuma-5.0.21) (2023-02-26)
-
-### Chore
-
-- update container image tccr.io/truecharts/uptime-kuma to v1.20.2
   
   
