@@ -4,6 +4,15 @@
 
 
 
+## [syslog-ng-5.0.8](https://github.com/truecharts/charts/compare/syslog-ng-5.0.7...syslog-ng-5.0.8) (2023-04-28)
+
+### Chore
+
+- update container image tccr.io/truecharts/syslog-ng to v4.1.1 ([#8264](https://github.com/truecharts/charts/issues/8264))
+  
+  
+
+
 ## [syslog-ng-5.0.7](https://github.com/truecharts/charts/compare/syslog-ng-5.0.6...syslog-ng-5.0.7) (2023-04-25)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 
 ## [syslog-ng-4.0.8](https://github.com/truecharts/charts/compare/syslog-ng-4.0.7...syslog-ng-4.0.8) (2022-12-27)
-
-### Chore
-
-- update helm general non-major ([#5856](https://github.com/truecharts/charts/issues/5856))
-  
-  
-
-
-## [syslog-ng-4.0.7](https://github.com/truecharts/charts/compare/syslog-ng-4.0.6...syslog-ng-4.0.7) (2022-12-26)
 
