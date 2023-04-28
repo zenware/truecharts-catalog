@@ -4,6 +4,15 @@
 
 
 
+## [rss-bridge-5.0.8](https://github.com/truecharts/charts/compare/rss-bridge-5.0.7...rss-bridge-5.0.8) (2023-04-28)
+
+### Chore
+
+- update container image tccr.io/truecharts/rss-bridge to v2023-03 ([#8301](https://github.com/truecharts/charts/issues/8301))
+  
+  
+
+
 ## [rss-bridge-5.0.7](https://github.com/truecharts/charts/compare/rss-bridge-5.0.6...rss-bridge-5.0.7) (2023-04-25)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 
 ## [rss-bridge-4.0.7](https://github.com/truecharts/charts/compare/rss-bridge-4.0.6...rss-bridge-4.0.7) (2022-12-27)
-
-### Chore
-
-- update helm general non-major ([#5856](https://github.com/truecharts/charts/issues/5856))
-  
-  
-
-
-## [rss-bridge-4.0.6](https://github.com/truecharts/charts/compare/rss-bridge-4.0.5...rss-bridge-4.0.6) (2022-12-26)
 
