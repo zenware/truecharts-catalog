@@ -4,6 +4,15 @@
 
 
 
+## [pylon-5.0.8](https://github.com/truecharts/charts/compare/pylon-5.0.7...pylon-5.0.8) (2023-04-28)
+
+### Chore
+
+- update container image tccr.io/truecharts/pylon to 2.9.0 ([#8352](https://github.com/truecharts/charts/issues/8352))
+  
+  
+
+
 ## [pylon-5.0.7](https://github.com/truecharts/charts/compare/pylon-5.0.6...pylon-5.0.7) (2023-04-25)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Chore
 
 - update container image tccr.io/truecharts/pylon to 2.9.0
-  
-  
-
-
-## [pylon-4.0.12](https://github.com/truecharts/charts/compare/pylon-4.0.11...pylon-4.0.12) (2023-02-10)
-
-### Fix
-
-- ensure new helm deps repo is used in latest releases as well.
   
   
