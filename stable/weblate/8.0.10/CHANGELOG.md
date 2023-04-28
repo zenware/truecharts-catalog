@@ -4,6 +4,15 @@
 
 
 
+## [weblate-8.0.10](https://github.com/truecharts/charts/compare/weblate-8.0.9...weblate-8.0.10) (2023-04-28)
+
+### Chore
+
+- update container image tccr.io/truecharts/weblate to v4.16.4 ([#8272](https://github.com/truecharts/charts/issues/8272))
+  
+  
+
+
 ## [weblate-8.0.9](https://github.com/truecharts/charts/compare/weblate-8.0.8...weblate-8.0.9) (2023-04-25)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Feat
 
 - BREAKING CHANGE migrate to new common part 1 ([#7900](https://github.com/truecharts/charts/issues/7900))
-  
-  
-
-
-## [weblate-7.0.25](https://github.com/truecharts/charts/compare/weblate-7.0.24...weblate-7.0.25) (2023-02-27)
-
-### Chore
-
-- update helm general non-major ([#7725](https://github.com/truecharts/charts/issues/7725))
   
   
