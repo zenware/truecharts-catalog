@@ -4,6 +4,15 @@
 
 
 
+## [filestash-2.0.16](https://github.com/truecharts/charts/compare/filestash-2.0.15...filestash-2.0.16) (2023-04-28)
+
+### Chore
+
+- update container image tccr.io/truecharts/filestash to latest ([#8220](https://github.com/truecharts/charts/issues/8220))
+  
+  
+
+
 ## [filestash-2.0.15](https://github.com/truecharts/charts/compare/filestash-2.0.14...filestash-2.0.15) (2023-02-10)
 
 ### Fix
@@ -68,15 +77,6 @@
 
 
 ## [filestash-2.0.8](https://github.com/truecharts/charts/compare/filestash-2.0.7...filestash-2.0.8) (2022-12-12)
-
-### Chore
-
-- update container image tccr.io/truecharts/filestash to latest
-  
-  
-
-
-## [filestash-2.0.7](https://github.com/truecharts/charts/compare/filestash-2.0.5...filestash-2.0.7) (2022-11-30)
 
 ### Chore
 
