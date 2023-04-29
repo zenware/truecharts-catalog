@@ -4,6 +4,15 @@
 
 
 
+## [fluidd-5.0.10](https://github.com/truecharts/charts/compare/fluidd-5.0.9...fluidd-5.0.10) (2023-04-29)
+
+### Chore
+
+- update container image tccr.io/truecharts/fluidd to v1.23.3 ([#8448](https://github.com/truecharts/charts/issues/8448))
+  
+  
+
+
 ## [fluidd-5.0.9](https://github.com/truecharts/charts/compare/fluidd-5.0.8...fluidd-5.0.9) (2023-04-25)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Feat
 
 - BREAKING CHANGE migrate to new common part 1 ([#7900](https://github.com/truecharts/charts/issues/7900))
-  
-  
-
-
-## [fluidd-4.0.15](https://github.com/truecharts/charts/compare/fluidd-4.0.14...fluidd-4.0.15) (2023-02-20)
-
-### Chore
-
-- update container image tccr.io/truecharts/fluidd to v1.23.2
   
   
