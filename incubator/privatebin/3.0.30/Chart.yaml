@@ -23,11 +23,10 @@ maintainers:
 name: privatebin
 sources:
   - https://github.com/truecharts/charts/tree/master/charts/incubator/privatebin
-  - https://hub.docker.com/r/privatebin/pdo
   - https://privatebin.info/
   - https://github.com/PrivateBin/PrivateBin
 type: application
-version: 3.0.29
+version: 3.0.30
 annotations:
   truecharts.org/catagories: |
     - productivity
