@@ -1,0 +1,68 @@
+image:
+  repository: tccr.io/truecharts/jupyter-base
+  pullPolicy: IfNotPresent
+  tag: v2023-04@sha256:212839ba1371ad984616b6eef64f6ad8cdc9b5a40b028d12089bfa9643f57fa1
+minimalImage:
+  repository: tccr.io/truecharts/jupyter-minimal
+  pullPolicy: IfNotPresent
+  tag: v2023-04@sha256:37ca0f339d701b053e2c41684c83489598d25ce55205a79dee4ba2b74e57f07a
+rImage:
+  repository: tccr.io/truecharts/jupyter-r
+  pullPolicy: IfNotPresent
+  tag: v2023-04@sha256:814e8937bc36d1a4cef5ed621d5c06d6157564eece8435143d53036f43202fac
+scipyImage:
+  repository: tccr.io/truecharts/jupyter-scipy
+  pullPolicy: IfNotPresent
+  tag: v2023-04@sha256:5b98277b003af729af43bdd8612d8a9542d3a7f56630d2488f529b8987893b9a
+tensorflowImage:
+  repository: tccr.io/truecharts/jupyter-tensorflow
+  pullPolicy: IfNotPresent
+  tag: v2023-04@sha256:e2b79e33f89a816d73e220fe62fa3776a625bd3fad6f29a2ef6ca780ae5da909
+datascienceImage:
+  repository: tccr.io/truecharts/jupyter-datascience
+  pullPolicy: IfNotPresent
+  tag: v2023-04@sha256:dcaa17fcdb680b10883e876f75bf0fd67c841bccfb6941d2fc6fb341b35ccbd2
+pysparkImage:
+  repository: tccr.io/truecharts/jupyter-pyspark
+  pullPolicy: IfNotPresent
+  tag: v2023-04@sha256:a3dcca7496b0d06da2ae35d21c31bee7e5dfcce1cb380854e43a44e10fb43dd6
+allsparkImage:
+  repository: tccr.io/truecharts/jupyter-all-spark
+  pullPolicy: IfNotPresent
+  tag: v2023-04@sha256:6b878d12a56bbcfbea04610c5bf9780a1fd6fd3db66a80e56201378af1b6829d
+jupyter:
+  jupyter_cmd: lab
+  restartable: true
+service:
+  main:
+    ports:
+      main:
+        port: 10300
+        protocol: http
+        targetPort: 8888
+persistence:
+  data:
+    enabled: true
+    mountPath: /home/jovyan/work
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsUser: 0
+    runAsGroup: 0
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          imageSelector: image
+          env:
+            NB_UID: "{{ .Values.securityContext.container.PUID }}"
+            NB_GID: "{{ .Values.securityContext.pod.fsGroup }}"
+            NB_UMASK: "{{ .Values.securityContext.container.UMASK }}"
+            # User Defined
+            DOCKER_STACKS_JUPYTER_CMD: "{{ .Values.jupyter.jupyter_cmd }}"
+            RESTARTABLE: '{{ ternary "yes" "no" .Values.jupyter.restartable }}'

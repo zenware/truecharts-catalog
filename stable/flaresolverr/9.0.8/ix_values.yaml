@@ -1,0 +1,27 @@
+image:
+  repository: tccr.io/truecharts/flaresolverr
+  pullPolicy: IfNotPresent
+  tag: 3.0.3@sha256:dc1f51602b650844b127db2e6a4a6fe94ec1ce0151c59456624a85ff15c69005
+
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsUser: 0
+    runAsGroup: 0
+
+service:
+  main:
+    ports:
+      main:
+        port: 8191
+        targetPort: 8191
+
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+
+portal:
+  open:
+    enabled: true
