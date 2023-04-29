@@ -4,6 +4,15 @@
 
 
 
+## [avidemux-4.0.8](https://github.com/truecharts/charts/compare/avidemux-4.0.7...avidemux-4.0.8) (2023-04-29)
+
+### Fix
+
+- add KILL cap ([#8140](https://github.com/truecharts/charts/issues/8140))
+  
+  
+
+
 ## [avidemux-4.0.7](https://github.com/truecharts/charts/compare/avidemux-4.0.6...avidemux-4.0.7) (2023-04-25)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Fix
 
 - remove non-link sources ([#6826](https://github.com/truecharts/charts/issues/6826))
-  
-  
-
-
-## [avidemux-3.0.7](https://github.com/truecharts/charts/compare/avidemux-3.0.6...avidemux-3.0.7) (2022-12-27)
-
-### Chore
-
-- update helm general non-major ([#5856](https://github.com/truecharts/charts/issues/5856))
   
   

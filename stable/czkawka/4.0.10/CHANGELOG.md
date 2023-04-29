@@ -4,6 +4,15 @@
 
 
 
+## [czkawka-4.0.10](https://github.com/truecharts/charts/compare/czkawka-4.0.9...czkawka-4.0.10) (2023-04-29)
+
+### Fix
+
+- add KILL cap ([#8140](https://github.com/truecharts/charts/issues/8140))
+  
+  
+
+
 ## [czkawka-4.0.9](https://github.com/truecharts/charts/compare/czkawka-4.0.8...czkawka-4.0.9) (2023-04-25)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Feat
 
 - BREAKING CHANGE migrate to new common part 1 ([#7900](https://github.com/truecharts/charts/issues/7900))
-  
-  
-
-
-## [czkawka-3.0.17](https://github.com/truecharts/charts/compare/czkawka-3.0.16...czkawka-3.0.17) (2023-02-21)
-
-### Chore
-
-- update container image tccr.io/truecharts/czkawka to v23.02.3
   
   
