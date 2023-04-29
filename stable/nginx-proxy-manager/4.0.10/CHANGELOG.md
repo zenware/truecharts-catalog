@@ -4,6 +4,15 @@
 
 
 
+## [nginx-proxy-manager-4.0.10](https://github.com/truecharts/charts/compare/nginx-proxy-manager-4.0.9...nginx-proxy-manager-4.0.10) (2023-04-29)
+
+### Chore
+
+- update container image tccr.io/truecharts/nginx-proxy-manager to v2.9.22 ([#8501](https://github.com/truecharts/charts/issues/8501))
+  
+  
+
+
 ## [nginx-proxy-manager-4.0.9](https://github.com/truecharts/charts/compare/nginx-proxy-manager-4.0.8...nginx-proxy-manager-4.0.9) (2023-04-25)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Feat
 
 - BREAKING CHANGE migrate to new common part 1 ([#7900](https://github.com/truecharts/charts/issues/7900))
-  
-  
-
-
-## [nginx-proxy-manager-3.1.12](https://github.com/truecharts/charts/compare/nginx-proxy-manager-3.1.11...nginx-proxy-manager-3.1.12) (2023-02-27)
-
-### Chore
-
-- update helm general non-major ([#7725](https://github.com/truecharts/charts/issues/7725))
   
   
