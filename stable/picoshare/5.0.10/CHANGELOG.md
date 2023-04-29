@@ -4,6 +4,15 @@
 
 
 
+## [picoshare-5.0.10](https://github.com/truecharts/charts/compare/picoshare-5.0.9...picoshare-5.0.10) (2023-04-29)
+
+### Chore
+
+- update container image tccr.io/truecharts/picoshare to v1.3.3 ([#8509](https://github.com/truecharts/charts/issues/8509))
+  
+  
+
+
 ## [picoshare-5.0.9](https://github.com/truecharts/charts/compare/picoshare-5.0.8...picoshare-5.0.9) (2023-04-25)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Feat
 
 - BREAKING CHANGE migrate to new common part 1 ([#7900](https://github.com/truecharts/charts/issues/7900))
-  
-  
-
-
-## [picoshare-4.0.11](https://github.com/truecharts/charts/compare/picoshare-4.0.10...picoshare-4.0.11) (2023-02-10)
-
-### Fix
-
-- ensure new helm deps repo is used in latest releases as well.
   
   
