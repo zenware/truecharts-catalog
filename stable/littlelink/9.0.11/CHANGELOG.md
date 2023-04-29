@@ -4,6 +4,15 @@
 
 
 
+## [littlelink-9.0.11](https://github.com/truecharts/charts/compare/littlelink-9.0.10...littlelink-9.0.11) (2023-04-29)
+
+### Chore
+
+- update container image tccr.io/truecharts/littlelink-server to latest ([#8467](https://github.com/truecharts/charts/issues/8467))
+  
+  
+
+
 ## [littlelink-9.0.10](https://github.com/truecharts/charts/compare/littlelink-9.0.9...littlelink-9.0.10) (2023-04-27)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Fix
 
 - bump common on the 222 ([#7927](https://github.com/truecharts/charts/issues/7927))
-  
-  
-
-
-## [littlelink-9.0.0](https://github.com/truecharts/charts/compare/littlelink-8.0.23...littlelink-9.0.0) (2023-04-11)
-
-### Feat
-
-- BREAKING CHANGE migrate to new common part 1 ([#7900](https://github.com/truecharts/charts/issues/7900))
   
   
