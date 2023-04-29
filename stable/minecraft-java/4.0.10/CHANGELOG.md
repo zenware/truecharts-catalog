@@ -4,6 +4,15 @@
 
 
 
+## [minecraft-java-4.0.10](https://github.com/truecharts/charts/compare/minecraft-java-4.0.9...minecraft-java-4.0.10) (2023-04-29)
+
+### Chore
+
+- update container image tccr.io/truecharts/minecraft-java19 to latest ([#8390](https://github.com/truecharts/charts/issues/8390))
+  
+  
+
+
 ## [minecraft-java-4.0.9](https://github.com/truecharts/charts/compare/minecraft-java-4.0.8...minecraft-java-4.0.9) (2023-04-26)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Chore
 
 - BREAKING CHANGE migrate to new common part 2 ([#7992](https://github.com/truecharts/charts/issues/7992))
-  
-  
-
-
-## [minecraft-java-3.0.29](https://github.com/truecharts/charts/compare/minecraft-java-3.0.28...minecraft-java-3.0.29) (2023-02-26)
-
-### Chore
-
-- update container image tccr.io/truecharts/minecraft-java19 to latest
   
   
