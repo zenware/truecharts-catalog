@@ -4,6 +4,15 @@
 
 
 
+## [thelounge-9.0.10](https://github.com/truecharts/charts/compare/thelounge-9.0.9...thelounge-9.0.10) (2023-04-29)
+
+### Chore
+
+- update container image tccr.io/truecharts/thelounge to v4.3.1 ([#8399](https://github.com/truecharts/charts/issues/8399))
+  
+  
+
+
 ## [thelounge-9.0.9](https://github.com/truecharts/charts/compare/thelounge-9.0.8...thelounge-9.0.9) (2023-04-25)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Feat
 
 - BREAKING CHANGE migrate to new common part 1 ([#7900](https://github.com/truecharts/charts/issues/7900))
-  
-  
-
-
-## [thelounge-8.0.9](https://github.com/truecharts/charts/compare/thelounge-8.0.8...thelounge-8.0.9) (2023-02-10)
-
-### Fix
-
-- ensure new helm deps repo is used in latest releases as well.
   
   
