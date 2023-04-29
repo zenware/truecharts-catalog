@@ -29,14 +29,6 @@ groups:
     description: Postgresql
   - name: Documentation
     description: Documentation
-portals:
-  open:
-    protocols:
-      - "$kubernetes-resource_configmap_tcportal-open_protocol"
-    host:
-      - "$kubernetes-resource_configmap_tcportal-open_host"
-    ports:
-      - "$kubernetes-resource_configmap_tcportal-open_port"
 questions:
 
   - variable: workload
@@ -146,6 +138,101 @@ questions:
       default: "Etc/UTC"
       $ref:
         - "definitions/timezone"
+  - variable: podOptions
+    group: "General Settings"
+    label: "Global Pod Options (Advanced)"
+    schema:
+      additional_attrs: true
+      type: dict
+      attrs:
+        - variable: hostNetwork
+          label: "Host Networking"
+          schema:
+            type: boolean
+            default: false
+        - variable: dnsConfig
+          label: "DNS Configuration"
+          schema:
+            type: dict
+            additional_attrs: true
+            attrs:
+              - variable: options
+                label: "Options"
+                schema:
+                  type: list
+                  default: [{"name": "ndots", "value": "2"}]
+                  items:
+                    - variable: optionsEntry
+                      label: "Option Entry"
+                      schema:
+                        type: dict
+                        additional_attrs: true
+                        attrs:
+                          - variable: name
+                            label: "Name"
+                            schema:
+                              type: string
+                              required: true
+                          - variable: value
+                            label: "Value"
+                            schema:
+                              type: string
+              - variable: nameservers
+                label: "Nameservers"
+                schema:
+                  type: list
+                  default: []
+                  items:
+                    - variable: nsEntry
+                      label: "Nameserver Entry"
+                      schema:
+                        type: string
+                        required: true
+              - variable: searches
+                label: "Searches"
+                schema:
+                  type: list
+                  default: []
+                  items:
+                    - variable: searchEntry
+                      label: "Search Entry"
+                      schema:
+                        type: string
+                        required: true
+  - variable: clickhouseDatabase
+    group: "App Configuration"
+    label: "Database Name"
+    schema:
+      type: string
+      default: "test"
+      required: true
+  - variable: clickhouseUsername
+    group: "App Configuration"
+    label: "Database User"
+    schema:
+      type: string
+      default: "test"
+      required: true
+  - variable: clickhousePassword
+    group: "App Configuration"
+    label: "Database Password"
+    schema:
+      type: string
+      default: ""
+      required: true
+      private: true
+  - variable: clickhouseDefaultAccessManagement
+    group: "App Configuration"
+    label: "Default Access Management"
+    schema:
+      type: int
+      default: 0
+      required: true
+      enum:
+        - value: 0
+          description: "Disabled"
+        - value: 1
+          description: "Enabled"
   - variable: service
     group: Networking and Services
     label: Configure Service(s)
@@ -201,7 +288,7 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 10242
+                              default: 8123
                               required: true
   - variable: serviceexpert
     group: Networking and Services
@@ -436,12 +523,15 @@ questions:
       additional_attrs: true
       type: dict
       attrs:
+      additional_attrs: true
+      type: dict
+      attrs:
         - variable: data
-          label: "App Data Storage"
-          description: "Stores the Application Data."
+          label: Data Storage
+          description: Stores the ClickHouse Data
           schema:
-            additional_attrs: true
             type: dict
+            hidden: true
             attrs:
               - variable: type
                 label: Type of Storage
@@ -506,12 +596,12 @@ questions:
                   show_if: [["type", "=", "pvc"]]
                   type: string
                   default: 256Gi
-        - variable: logs
-          label: "App Logs Storage"
-          description: "Stores the Application Logs."
+        - variable: config-server
+          label: Server Configuration Storage
+          description: Files with Server Settings Adjustments
           schema:
-            additional_attrs: true
             type: dict
+            hidden: true
             attrs:
               - variable: type
                 label: Type of Storage
@@ -576,82 +666,12 @@ questions:
                   show_if: [["type", "=", "pvc"]]
                   type: string
                   default: 256Gi
-        - variable: temp
-          label: "App Temp Storage"
-          description: "Stores the Application Temp."
+        - variable: config-users
+          label: Users Configuration Storage
+          description: Files with Users Settings Adjustments
           schema:
-            additional_attrs: true
             type: dict
-            attrs:
-              - variable: type
-                label: Type of Storage
-                description: Sets the persistence type, Anything other than PVC could break rollback!
-                schema:
-                  type: string
-                  default: pvc
-                  enum:
-                    - value: pvc
-                      description: PVC
-                    - value: hostPath
-                      description: Host Path
-                    - value: emptyDir
-                      description: emptyDir
-                    - value: nfs
-                      description: NFS Share
-              - variable: server
-                label: NFS Server
-                schema:
-                  show_if: [["type", "=", "nfs"]]
-                  type: string
-                  default: ""
-              - variable: path
-                label: Path on NFS Server
-                schema:
-                  show_if: [["type", "=", "nfs"]]
-                  type: string
-                  default: ""
-              - variable: setPermissions
-                label: Automatic Permissions
-                description: Automatically set permissions on install
-                schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  type: boolean
-                  default: false
-              - variable: readOnly
-                label: Read Only
-                schema:
-                  type: boolean
-                  default: false
-              - variable: hostPath
-                label: Host Path
-                description: Path inside the container the storage is mounted
-                schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  type: hostpath
-              - variable: medium
-                label: EmptyDir Medium
-                schema:
-                  show_if: [["type", "=", "emptyDir"]]
-                  type: string
-                  default: ""
-                  enum:
-                    - value: ""
-                      description: Default
-                    - value: Memory
-                      description: Memory
-              - variable: size
-                label: Size quotum of Storage (Do NOT REDUCE after installation)
-                description: This value can ONLY be INCREASED after the installation
-                schema:
-                  show_if: [["type", "=", "pvc"]]
-                  type: string
-                  default: 256Gi
-        - variable: media
-          label: "App Media Storage"
-          description: "Stores the Application Data."
-          schema:
-            additional_attrs: true
-            type: dict
+            hidden: true
             attrs:
               - variable: type
                 label: Type of Storage
@@ -805,300 +825,6 @@ questions:
                   show_if: [["type", "=", "pvc"]]
                   type: string
                   default: 256Gi
-  - variable: ingress
-    label: ""
-    group: Ingress
-    schema:
-      additional_attrs: true
-      type: dict
-      attrs:
-        - variable: main
-          label: "Main Ingress"
-          schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-              - variable: enabled
-                label: Enable Ingress
-                schema:
-                  type: boolean
-                  default: false
-                  show_subquestions_if: true
-                  subquestions:
-                    - variable: hosts
-                      label: Hosts
-                      schema:
-                        type: list
-                        default: []
-                        items:
-                          - variable: hostEntry
-                            label: Host
-                            schema:
-                              additional_attrs: true
-                              type: dict
-                              attrs:
-                                - variable: host
-                                  label: HostName
-                                  schema:
-                                    type: string
-                                    default: ""
-                                    required: true
-                                - variable: paths
-                                  label: Paths
-                                  schema:
-                                    type: list
-                                    default: []
-                                    items:
-                                      - variable: pathEntry
-                                        label: Host
-                                        schema:
-                                          additional_attrs: true
-                                          type: dict
-                                          attrs:
-                                            - variable: path
-                                              label: Path
-                                              schema:
-                                                type: string
-                                                required: true
-                                                default: "/"
-                                            - variable: pathType
-                                              label: Path Type
-                                              schema:
-                                                type: string
-                                                required: true
-                                                default: Prefix
-                    - variable: certificateIssuer
-                      label: Cert-Manager clusterIssuer
-                      description: 'add the name of your cert-manager clusterIssuer here for automatic tls certificates. Cannot be used combined with tls option below'
-                      schema:
-                        type: string
-                        default: ""
-                    - variable: tls
-                      label: TLS-Settings
-                      schema:
-                        type: list
-                        show_if: [["certificateIssuer", "=", ""]]
-                        default: []
-                        items:
-                          - variable: tlsEntry
-                            label: Host
-                            schema:
-                              additional_attrs: true
-                              type: dict
-                              attrs:
-                                - variable: hosts
-                                  label: Certificate Hosts
-                                  schema:
-                                    type: list
-                                    default: []
-                                    items:
-                                      - variable: host
-                                        label: Host
-                                        schema:
-                                          type: string
-                                          default: ""
-                                          required: true
-
-                                - variable: certificateIssuer
-                                  label: Use Cert-Manager clusterIssuer
-                                  description: 'add the name of your cert-manager clusterIssuer here for automatic tls certificates.'
-                                  schema:
-                                    type: string
-                                    default: ""
-                                - variable: scaleCert
-                                  label: Use TrueNAS SCALE Certificate (Deprecated)
-                                  schema:
-                                    show_if: [["certificateIssuer", "=", ""]]
-                                    type: int
-                                    $ref:
-                                      - "definitions/certificate"
-                                - variable: secretName
-                                  label: Use Custom Secret (Advanced)
-                                  schema:
-                                    show_if: [["certificateIssuer", "=", ""]]
-                                    type: string
-                                    default: ""
-                    - variable: entrypoint
-                      label: (Advanced) Traefik Entrypoint
-                      description: Entrypoint used by Traefik when using Traefik as Ingress Provider
-                      schema:
-                        type: string
-                        default: websecure
-                        required: true
-                    - variable: ingressClassName
-                      label: (Advanced/Optional) IngressClass Name
-                      schema:
-                        type: string
-                        default: ""
-                    - variable: middlewares
-                      label: Traefik Middlewares
-                      description: Add previously created Traefik Middlewares to this Ingress
-                      schema:
-                        type: list
-                        default: []
-                        items:
-                          - variable: name
-                            label: Name
-                            schema:
-                              type: string
-                              default: ""
-                              required: true
-  - variable: ingressList
-    label: Add Manual Custom Ingresses
-    group: Ingress
-    schema:
-      type: list
-      default: []
-      items:
-        - variable: ingressListEntry
-          label: Custom Ingress
-          schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-              - variable: enabled
-                label: Enable Ingress
-                schema:
-                  type: boolean
-                  default: true
-                  hidden: true
-              - variable: name
-                label: Name
-                schema:
-                  type: string
-                  default: ""
-              - variable: ingressClassName
-                label: IngressClass Name
-                schema:
-                  type: string
-                  default: ""
-              - variable: hosts
-                label: Hosts
-                schema:
-                  type: list
-                  default: []
-                  items:
-                    - variable: hostEntry
-                      label: Host
-                      schema:
-                        additional_attrs: true
-                        type: dict
-                        attrs:
-                          - variable: host
-                            label: HostName
-                            schema:
-                              type: string
-                              default: ""
-                              required: true
-                          - variable: paths
-                            label: Paths
-                            schema:
-                              type: list
-                              default: []
-                              items:
-                                - variable: pathEntry
-                                  label: Host
-                                  schema:
-                                    additional_attrs: true
-                                    type: dict
-                                    attrs:
-                                      - variable: path
-                                        label: Path
-                                        schema:
-                                          type: string
-                                          required: true
-                                          default: "/"
-                                      - variable: pathType
-                                        label: Path Type
-                                        schema:
-                                          type: string
-                                          required: true
-                                          default: Prefix
-                                      - variable: service
-                                        label: Linked Service
-                                        schema:
-                                          additional_attrs: true
-                                          type: dict
-                                          attrs:
-                                            - variable: name
-                                              label: Service Name
-                                              schema:
-                                                type: string
-                                                default: ""
-                                            - variable: port
-                                              label: Service Port
-                                              schema:
-                                                type: int
-              - variable: clusterIssuer
-                label: clusterIssuer
-                description: 'add the name of your cert-manager clusterIssuer here for automatic tls certificates. Cannot be used combined with tls option below'
-                schema:
-                  type: string
-                  default: ""
-              - variable: tls
-                label: TLS-Settings
-                schema:
-                  type: list
-                  default: []
-                  show_if: [["clusterIssuer", "=", ""]]
-                  items:
-                    - variable: tlsEntry
-                      label: Host
-                      schema:
-                        additional_attrs: true
-                        type: dict
-                        attrs:
-                          - variable: hosts
-                            label: Certificate Hosts
-                            schema:
-                              type: list
-                              default: []
-                              items:
-                                - variable: host
-                                  label: Host
-                                  schema:
-                                    type: string
-                                    default: ""
-                                    required: true
-                          - variable: clusterIssuer
-                            label: Use Cert-Manager clusterIssuer
-                            description: 'add the name of your Cert-Manager clusterIssuer here for automatic tls certificates.'
-                            schema:
-                              type: string
-                              default: ""
-                          - variable: scaleCert
-                            label: Use TrueNAS SCALE Certificate (Deprecated)
-                            schema:
-                              show_if: [["clusterIssuer", "=", ""]]
-                              type: int
-                              $ref:
-                                - "definitions/certificate"
-                          - variable: secretName
-                            label: Use Custom Secret (Advanced)
-                            schema:
-                              type: string
-                              show_if: [["clusterIssuer", "=", ""]]
-                              default: ""
-              - variable: entrypoint
-                label: Traefik Entrypoint
-                description: Entrypoint used by Traefik when using Traefik as Ingress Provider
-                schema:
-                  type: string
-                  default: websecure
-                  required: true
-              - variable: middlewares
-                label: Traefik Middlewares
-                description: Add previously created Traefik Middlewares to this Ingress
-                schema:
-                  type: list
-                  default: []
-                  items:
-                    - variable: name
-                      label: Name
-                      schema:
-                        type: string
-                        default: ""
-                        required: true
   - variable: securityContext
     group: Security and Permissions
     label: Security Context
@@ -1119,20 +845,20 @@ questions:
                 description: "The UserID of the user running the application"
                 schema:
                   type: int
-                  default: 0
+                  default: 568
               - variable: runAsGroup
                 label: "runAsGroup"
-                description: "The groupID this App of the user running the application"
+                description: "The groupID of the user running the application"
                 schema:
                   type: int
-                  default: 0
+                  default: 568
               # Settings from questions.yaml get appended here on a per-app basis
               - variable: PUID
                 label: Process User ID - PUID
                 description: When supported by the container, this sets the User ID running the Application Process. Not supported by all Apps
                 schema:
                   type: int
-                  show_if: [["runAsUser", "=", "0"]]
+                  show_if: [["runAsUser", "=", 0]]
                   default: 568
               - variable: UMASK
                 label: UMASK
