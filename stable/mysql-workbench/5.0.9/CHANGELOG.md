@@ -4,6 +4,15 @@
 
 
 
+## [mysql-workbench-5.0.9](https://github.com/truecharts/charts/compare/mysql-workbench-5.0.8...mysql-workbench-5.0.9) (2023-04-29)
+
+### Chore
+
+- update container image tccr.io/truecharts/mysql-workbench to v8.0.33 ([#8497](https://github.com/truecharts/charts/issues/8497))
+  
+  
+
+
 ## [mysql-workbench-5.0.8](https://github.com/truecharts/charts/compare/mysql-workbench-5.0.7...mysql-workbench-5.0.8) (2023-04-27)
 
 ### Chore
@@ -82,15 +91,6 @@
 
 
 ## [mysql-workbench-4.0.16](https://github.com/truecharts/charts/compare/mysql-workbench-4.0.15...mysql-workbench-4.0.16) (2023-02-26)
-
-### Chore
-
-- update container image tccr.io/truecharts/mysql-workbench to 8.0.32
-  
-  
-
-
-## [mysql-workbench-4.0.15](https://github.com/truecharts/charts/compare/mysql-workbench-4.0.14...mysql-workbench-4.0.15) (2023-02-15)
 
 ### Chore
 
