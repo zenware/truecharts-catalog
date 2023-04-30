@@ -4,6 +4,15 @@
 
 
 
+## [soft-serve-2.0.10](https://github.com/truecharts/charts/compare/soft-serve-2.0.9...soft-serve-2.0.10) (2023-04-30)
+
+### Chore
+
+- update container image tccr.io/truecharts/soft-serve to v0.4.7 ([#8524](https://github.com/truecharts/charts/issues/8524))
+  
+  
+
+
 ## [soft-serve-2.0.9](https://github.com/truecharts/charts/compare/soft-serve-2.0.8...soft-serve-2.0.9) (2023-04-25)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Feat
 
 - BREAKING CHANGE migrate to new common part 1 ([#7900](https://github.com/truecharts/charts/issues/7900))
-  
-  
-
-
-## [soft-serve-1.0.4](https://github.com/truecharts/charts/compare/soft-serve-1.0.3...soft-serve-1.0.4) (2023-02-22)
-
-### Chore
-
-- update container image tccr.io/truecharts/soft-serve to v0.4.6
   
   
