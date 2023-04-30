@@ -1,0 +1,71 @@
+image:
+  repository: tccr.io/truecharts/ipfs
+  pullPolicy: IfNotPresent
+  tag: 0.19.1@sha256:fb1a7bb937103edc1e560c46c98e658ae3e01865e39b9fcba9dca4dbfee77132
+service:
+  main:
+    ports:
+      main:
+        port: 10125
+        targetPort: 5001
+  peer-tcp:
+    enabled: true
+    ports:
+      peer-tcp:
+        enabled: true
+        targetPort: 4001
+        port: 4001
+  peer-udp:
+    enabled: true
+    ports:
+      peer-udp:
+        protocol: udp
+        enabled: true
+        targetPort: 4001
+        port: 4001
+  gateway:
+    enabled: true
+    type: ClusterIP
+    ports:
+      gateway:
+        enabled: true
+        targetPort: 8080
+        port: 10147
+persistence:
+  data:
+    enabled: true
+    mountPath: "/data/ipfs"
+  staging:
+    enabled: true
+    mountPath: "/export"
+  ipfs:
+    enabled: true
+    mountPath: "/ipfs"
+  ipns:
+    enabled: true
+    mountPath: "/ipns"
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    runAsNonRoot: false
+    readOnlyRootFilesystem: false
+    runAsUser: 0
+    runAsGroup: 0
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              path: "/webui"
+            readiness:
+              path: "/webui"
+            startup:
+              path: "/webui"
+          env:
+            IPFS_PROFILE: "server"
+            IPFS_SWARM_KEY: ""
+            IPFS_SWARM_KEY_FILE: ""
