@@ -4,6 +4,15 @@
 
 
 
+## [redmine-7.0.11](https://github.com/truecharts/charts/compare/redmine-7.0.10...redmine-7.0.11) (2023-04-30)
+
+### Chore
+
+- update container image tccr.io/truecharts/redmine to v5.0.5 ([#8520](https://github.com/truecharts/charts/issues/8520))
+  
+  
+
+
 ## [redmine-7.0.10](https://github.com/truecharts/charts/compare/redmine-7.0.9...redmine-7.0.10) (2023-04-28)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Fix
 
 - bump common on the 222 ([#7927](https://github.com/truecharts/charts/issues/7927))
-  
-  
-
-
-## [redmine-7.0.0](https://github.com/truecharts/charts/compare/redmine-6.0.32...redmine-7.0.0) (2023-04-11)
-
-### Feat
-
-- BREAKING CHANGE migrate to new common part 1 ([#7900](https://github.com/truecharts/charts/issues/7900))
   
   
