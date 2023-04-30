@@ -88,28 +88,7 @@ questions:
                               additional_attrs: true
                               type: dict
                               attrs:
-                                - variable: env
-                                  group: "App Configuration"
-                                  label: "Image Environment"
-                                  schema:
-                                    additional_attrs: true
-                                    type: dict
-                                    attrs:
-                                      - variable: internalNode
-                                        label: "internalNode"
-                                        description: "Spawns an internal node (aka worker), disabling this, you will need to have a node separately."
-                                        schema:
-                                          type: boolean
-                                          default: true
-                                          show_subquestions_if: true
-                                          subquestions:
-                                            - variable: nodeID
-                                              label: "nodeID"
-                                              description: "Name of the internal node."
-                                              schema:
-                                                type: string
-                                                required: true
-                                                default: "Internal Node"
+
 
                                 - variable: envList
                                   label: Extra Environment Variables
@@ -160,7 +139,6 @@ questions:
                                               label: Param
                                               schema:
                                                 type: string
-
   - variable: TZ
     label: Timezone
     group: "General Settings"
@@ -224,11 +202,11 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 8265
+                              default: 8384
                               required: true
-        - variable: comm
-          label: "Comm Service"
-          description: "The service on which nodes connect to."
+        - variable: listeners
+          label: "Syncthing Listening Service"
+          description: "This service is used to process incoming connections directly to this Syncthing instance"
           schema:
             additional_attrs: true
             type: dict
@@ -263,8 +241,8 @@ questions:
                   additional_attrs: true
                   type: dict
                   attrs:
-                    - variable: comm
-                      label: "Comm Service Port Configuration"
+                    - variable: tcp
+                      label: "TCP Service Port Configuration"
                       schema:
                         additional_attrs: true
                         type: dict
@@ -274,7 +252,107 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 8266
+                              default: 22000
+                              required: true
+        - variable: listeners-udp
+          label: "Syncthing Listening Service"
+          description: "This service is used to process incoming connections directly to this Syncthing instance"
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: enabled
+                label: Enable the Service
+                schema:
+                  type: boolean
+                  default: true
+                  hidden: true
+              - variable: type
+                label: Service Type
+                description: "ClusterIP's are only internally available and Loadbalancer exposes the service using the system loadbalancer"
+                schema:
+                  type: string
+                  default: LoadBalancer
+                  enum:
+                    - value: LoadBalancer
+                      description: LoadBalancer (Expose Ports)
+                    - value: ClusterIP
+                      description: ClusterIP (Do Not Expose Ports)
+              - variable: loadBalancerIP
+                label: LoadBalancer IP
+                description: "MetalLB Only: Selects the Loadbalancer IP to expose on. Required when using PortalButton with MetalLB"
+                schema:
+                  show_if: [["type", "=", "LoadBalancer"]]
+                  type: string
+                  default: ""
+              - variable: ports
+                label: "Service's Port(s) Configuration"
+                schema:
+                  additional_attrs: true
+                  type: dict
+                  attrs:
+                    - variable: udp
+                      label: "UDP Service Port Configuration"
+                      schema:
+                        additional_attrs: true
+                        type: dict
+                        attrs:
+                          - variable: port
+                            label: "Port"
+                            description: "This port exposes the container port on the service"
+                            schema:
+                              type: int
+                              default: 22000
+                              required: true
+        - variable: discovery
+          label: "Syncthing Listening Service"
+          description: "This service is used to process incoming connections directly to this Syncthing instance"
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: enabled
+                label: Enable the Service
+                schema:
+                  type: boolean
+                  default: true
+                  hidden: true
+              - variable: type
+                label: Service Type
+                description: "ClusterIP's are only internally available and Loadbalancer exposes the service using the system loadbalancer"
+                schema:
+                  type: string
+                  default: LoadBalancer
+                  enum:
+                    - value: LoadBalancer
+                      description: LoadBalancer (Expose Ports)
+                    - value: ClusterIP
+                      description: ClusterIP (Do Not Expose Ports)
+              - variable: loadBalancerIP
+                label: LoadBalancer IP
+                description: "MetalLB Only: Selects the Loadbalancer IP to expose on. Required when using PortalButton with MetalLB"
+                schema:
+                  show_if: [["type", "=", "LoadBalancer"]]
+                  type: string
+                  default: ""
+              - variable: ports
+                label: "Service's Port(s) Configuration"
+                schema:
+                  additional_attrs: true
+                  type: dict
+                  attrs:
+                    - variable: discovery
+                      label: "UDP Service Port Configuration"
+                      schema:
+                        additional_attrs: true
+                        type: dict
+                        attrs:
+                          - variable: port
+                            label: "Port"
+                            description: "This port exposes the container port on the service"
+                            schema:
+                              type: int
+                              default: 21027
                               required: true
   - variable: serviceexpert
     group: Networking and Services
@@ -509,289 +587,9 @@ questions:
       additional_attrs: true
       type: dict
       attrs:
-        - variable: configs
+        - variable: config
           label: "App Config Storage"
           description: "Stores the Application Configuration."
-          schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-              - variable: type
-                label: Type of Storage
-                description: Sets the persistence type, Anything other than PVC could break rollback!
-                schema:
-                  type: string
-                  default: pvc
-                  enum:
-                    - value: pvc
-                      description: PVC
-                    - value: hostPath
-                      description: Host Path
-                    - value: emptyDir
-                      description: emptyDir
-                    - value: nfs
-                      description: NFS Share
-              - variable: server
-                label: NFS Server
-                schema:
-                  show_if: [["type", "=", "nfs"]]
-                  type: string
-                  default: ""
-              - variable: path
-                label: Path on NFS Server
-                schema:
-                  show_if: [["type", "=", "nfs"]]
-                  type: string
-                  default: ""
-              - variable: setPermissions
-                label: Automatic Permissions
-                description: Automatically set permissions on install
-                schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  type: boolean
-                  default: false
-              - variable: readOnly
-                label: Read Only
-                schema:
-                  type: boolean
-                  default: false
-              - variable: hostPath
-                label: Host Path
-                description: Path inside the container the storage is mounted
-                schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  type: hostpath
-              - variable: medium
-                label: EmptyDir Medium
-                schema:
-                  show_if: [["type", "=", "emptyDir"]]
-                  type: string
-                  default: ""
-                  enum:
-                    - value: ""
-                      description: Default
-                    - value: Memory
-                      description: Memory
-              - variable: size
-                label: Size quotum of Storage (Do NOT REDUCE after installation)
-                description: This value can ONLY be INCREASED after the installation
-                schema:
-                  show_if: [["type", "=", "pvc"]]
-                  type: string
-                  default: 256Gi
-        - variable: server
-          label: "App Server Data Storage"
-          description: "Stores the Application's Server Data."
-          schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-              - variable: type
-                label: Type of Storage
-                description: Sets the persistence type, Anything other than PVC could break rollback!
-                schema:
-                  type: string
-                  default: pvc
-                  enum:
-                    - value: pvc
-                      description: PVC
-                    - value: hostPath
-                      description: Host Path
-                    - value: emptyDir
-                      description: emptyDir
-                    - value: nfs
-                      description: NFS Share
-              - variable: server
-                label: NFS Server
-                schema:
-                  show_if: [["type", "=", "nfs"]]
-                  type: string
-                  default: ""
-              - variable: path
-                label: Path on NFS Server
-                schema:
-                  show_if: [["type", "=", "nfs"]]
-                  type: string
-                  default: ""
-              - variable: setPermissions
-                label: Automatic Permissions
-                description: Automatically set permissions on install
-                schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  type: boolean
-                  default: false
-              - variable: readOnly
-                label: Read Only
-                schema:
-                  type: boolean
-                  default: false
-              - variable: hostPath
-                label: Host Path
-                description: Path inside the container the storage is mounted
-                schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  type: hostpath
-              - variable: medium
-                label: EmptyDir Medium
-                schema:
-                  show_if: [["type", "=", "emptyDir"]]
-                  type: string
-                  default: ""
-                  enum:
-                    - value: ""
-                      description: Default
-                    - value: Memory
-                      description: Memory
-              - variable: size
-                label: Size quotum of Storage (Do NOT REDUCE after installation)
-                description: This value can ONLY be INCREASED after the installation
-                schema:
-                  show_if: [["type", "=", "pvc"]]
-                  type: string
-                  default: 256Gi
-        - variable: logs
-          label: "App Logs Storage"
-          description: "Stores the Application Logs."
-          schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-              - variable: type
-                label: Type of Storage
-                description: Sets the persistence type, Anything other than PVC could break rollback!
-                schema:
-                  type: string
-                  default: pvc
-                  enum:
-                    - value: pvc
-                      description: PVC
-                    - value: hostPath
-                      description: Host Path
-                    - value: emptyDir
-                      description: emptyDir
-                    - value: nfs
-                      description: NFS Share
-              - variable: server
-                label: NFS Server
-                schema:
-                  show_if: [["type", "=", "nfs"]]
-                  type: string
-                  default: ""
-              - variable: path
-                label: Path on NFS Server
-                schema:
-                  show_if: [["type", "=", "nfs"]]
-                  type: string
-                  default: ""
-              - variable: setPermissions
-                label: Automatic Permissions
-                description: Automatically set permissions on install
-                schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  type: boolean
-                  default: false
-              - variable: readOnly
-                label: Read Only
-                schema:
-                  type: boolean
-                  default: false
-              - variable: hostPath
-                label: Host Path
-                description: Path inside the container the storage is mounted
-                schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  type: hostpath
-              - variable: medium
-                label: EmptyDir Medium
-                schema:
-                  show_if: [["type", "=", "emptyDir"]]
-                  type: string
-                  default: ""
-                  enum:
-                    - value: ""
-                      description: Default
-                    - value: Memory
-                      description: Memory
-              - variable: size
-                label: Size quotum of Storage (Do NOT REDUCE after installation)
-                description: This value can ONLY be INCREASED after the installation
-                schema:
-                  show_if: [["type", "=", "pvc"]]
-                  type: string
-                  default: 256Gi
-        - variable: transcode-cache
-          label: "App Transcode cache"
-          description: "Stores the Application Transcode cache."
-          schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-              - variable: type
-                label: Type of Storage
-                description: Sets the persistence type, Anything other than PVC could break rollback!
-                schema:
-                  type: string
-                  default: pvc
-                  enum:
-                    - value: pvc
-                      description: PVC
-                    - value: hostPath
-                      description: Host Path
-                    - value: emptyDir
-                      description: emptyDir
-                    - value: nfs
-                      description: NFS Share
-              - variable: server
-                label: NFS Server
-                schema:
-                  show_if: [["type", "=", "nfs"]]
-                  type: string
-                  default: ""
-              - variable: path
-                label: Path on NFS Server
-                schema:
-                  show_if: [["type", "=", "nfs"]]
-                  type: string
-                  default: ""
-              - variable: setPermissions
-                label: Automatic Permissions
-                description: Automatically set permissions on install
-                schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  type: boolean
-                  default: false
-              - variable: readOnly
-                label: Read Only
-                schema:
-                  type: boolean
-                  default: false
-              - variable: hostPath
-                label: Host Path
-                description: Path inside the container the storage is mounted
-                schema:
-                  show_if: [["type", "=", "hostPath"]]
-                  type: hostpath
-              - variable: medium
-                label: EmptyDir Medium
-                schema:
-                  show_if: [["type", "=", "emptyDir"]]
-                  type: string
-                  default: ""
-                  enum:
-                    - value: ""
-                      description: Default
-                    - value: Memory
-                      description: Memory
-              - variable: size
-                label: Size quotum of Storage (Do NOT REDUCE after installation)
-                description: This value can ONLY be INCREASED after the installation
-                schema:
-                  show_if: [["type", "=", "pvc"]]
-                  type: string
-                  default: 256Gi
-        - variable: media
-          label: "App Media"
-          description: "Stores the Application Media."
           schema:
             additional_attrs: true
             type: dict
@@ -1262,20 +1060,20 @@ questions:
                 description: "The UserID of the user running the application"
                 schema:
                   type: int
-                  default: 0
+                  default: 568
               - variable: runAsGroup
                 label: "runAsGroup"
-                description: "The groupID this App of the user running the application"
+                description: "The groupID of the user running the application"
                 schema:
                   type: int
-                  default: 0
+                  default: 568
               # Settings from questions.yaml get appended here on a per-app basis
               - variable: PUID
                 label: Process User ID - PUID
                 description: When supported by the container, this sets the User ID running the Application Process. Not supported by all Apps
                 schema:
                   type: int
-                  show_if: [["runAsUser", "=", "0"]]
+                  show_if: [["runAsUser", "=", 0]]
                   default: 568
               - variable: UMASK
                 label: UMASK
