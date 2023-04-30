@@ -1,42 +1,51 @@
 image:
-  repository: tccr.io/truecharts/tsmuxer
-  tag: 23.02.3@sha256:9b419b4806415d38b9455e0c4513df2234daee5d0696d8b8fb91bb5f54ac2174
+  repository: tccr.io/truecharts/jdownloader-2
   pullPolicy: IfNotPresent
+  tag: 23.03.1@sha256:7dd1eaf32f1530b351c8fc0eee3439010dc2af4e791b660408e7d0d56ec66e4b
 service:
   main:
     ports:
       main:
-        port: 10274
+        port: 10054
         targetPort: 5800
+  myjd:
+    enabled: true
+    ports:
+      myjd:
+        enabled: true
+        port: 3129
+        targetPort: 3129
   vnc:
     enabled: true
     ports:
       vnc:
         enabled: true
-        port: 10275
+        port: 10056
         targetPort: 5900
-tsmuxer:
+jdownloader:
+  # General Settings
   KEEP_APP_RUNNING: false
+  # GUI Settings
   DISPLAY_WIDTH: 1280
   DISPLAY_HEIGHT: 768
   SECURE_CONNECTION: false
   ENABLE_CJK_FONT: false
 configmap:
-  tsmuxer:
+  jdownloader:
     enabled: true
     data:
-      ENABLE_CJK_FONT: '{{ ternary "1" "0" .Values.tsmuxer.ENABLE_CJK_FONT }}'
-      KEEP_APP_RUNNING: '{{ ternary "1" "0" .Values.tsmuxer.KEEP_APP_RUNNING }}'
-      SECURE_CONNECTION: '{{ ternary "1" "0" .Values.tsmuxer.SECURE_CONNECTION }}'
-      DISPLAY_WIDTH: "{{ .Values.tsmuxer.DISPLAY_WIDTH }}"
-      DISPLAY_HEIGHT: "{{ .Values.tsmuxer.DISPLAY_HEIGHT }}"
+      ENABLE_CJK_FONT: '{{ ternary "1" "0" .Values.jdownloader.ENABLE_CJK_FONT }}'
+      KEEP_APP_RUNNING: '{{ ternary "1" "0" .Values.jdownloader.KEEP_APP_RUNNING }}'
+      SECURE_CONNECTION: '{{ ternary "1" "0" .Values.jdownloader.SECURE_CONNECTION }}'
+      DISPLAY_WIDTH: "{{ .Values.jdownloader.DISPLAY_WIDTH }}"
+      DISPLAY_HEIGHT: "{{ .Values.jdownloader.DISPLAY_HEIGHT }}"
 persistence:
   config:
     enabled: true
     mountPath: "/config"
-  storage:
+  output:
     enabled: true
-    mountPath: "/storage"
+    mountPath: "/output"
 portal:
   open:
     enabled: true
@@ -67,4 +76,4 @@ workload:
             VNC_PASSWORD: ""
           envFrom:
             - configMapRef:
-                name: "tsmuxer"
+                name: "jdownloader"

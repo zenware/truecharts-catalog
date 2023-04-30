@@ -4,6 +4,15 @@
 
 
 
+## [filebot-4.0.1](https://github.com/truecharts/charts/compare/filebot-4.0.0...filebot-4.0.1) (2023-04-30)
+
+### Chore
+
+- update container image tccr.io/truecharts/filebot to v23.04.1 ([#8567](https://github.com/truecharts/charts/issues/8567))
+  
+  
+
+
 ## [filebot-4.0.0](https://github.com/truecharts/charts/compare/filebot-3.0.13...filebot-4.0.0) (2023-04-30)
 
 ### Feat
@@ -85,15 +94,6 @@
 ### Chore
 
 - update helm general non-major ([#5839](https://github.com/truecharts/charts/issues/5839))
-  
-  
-
-
-## [filebot-3.0.5](https://github.com/truecharts/charts/compare/filebot-3.0.4...filebot-3.0.5) (2022-12-25)
-
-### Chore
-
-- update helm general non-major
   
   
 
