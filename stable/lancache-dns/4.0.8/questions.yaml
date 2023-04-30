@@ -260,43 +260,6 @@ questions:
                               type: int
                               default: 53
                               required: true
-        - variable: dns
-          label: "DNS Service"
-          description: "The Primary service on which the healthcheck runs, often the webUI"
-          schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-              - variable: enabled
-                label: Enable the Service
-                schema:
-                  type: boolean
-                  default: true
-                  hidden: true
-              - variable: type
-                label: Service Type
-                description: "ClusterIP's are only internally available and Loadbalancer exposes the service using the system loadbalancer"
-                schema:
-                  type: string
-                  default: LoadBalancer
-                  enum:
-                    - value: LoadBalancer
-                      description: LoadBalancer (Expose Ports)
-                    - value: ClusterIP
-                      description: ClusterIP (Do Not Expose Ports)
-              - variable: loadBalancerIP
-                label: LoadBalancer IP
-                description: "MetalLB Only: Selects the Loadbalancer IP to expose on. Required when using PortalButton with MetalLB"
-                schema:
-                  show_if: [["type", "=", "LoadBalancer"]]
-                  type: string
-                  default: ""
-              - variable: ports
-                label: "Service's Port(s) Configuration"
-                schema:
-                  additional_attrs: true
-                  type: dict
-                  attrs:
                     - variable: dns
                       label: "DNS Service Port Configuration"
                       schema:
@@ -951,7 +914,7 @@ questions:
                 description: When supported by the container, this sets the User ID running the Application Process. Not supported by all Apps
                 schema:
                   type: int
-                  show_if: [["runAsUser", "=", "0"]]
+                  show_if: [["runAsUser", "=", 0]]
                   default: 568
               - variable: UMASK
                 label: UMASK
