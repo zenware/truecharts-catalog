@@ -4,6 +4,15 @@
 
 
 
+## [shlink-8.0.10](https://github.com/truecharts/charts/compare/shlink-8.0.9...shlink-8.0.10) (2023-04-30)
+
+### Chore
+
+- update container image tccr.io/truecharts/shlink to v3.5.4 ([#8523](https://github.com/truecharts/charts/issues/8523))
+  
+  
+
+
 ## [shlink-8.0.9](https://github.com/truecharts/charts/compare/shlink-8.0.8...shlink-8.0.9) (2023-04-25)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Feat
 
 - BREAKING CHANGE migrate to new common part 1 ([#7900](https://github.com/truecharts/charts/issues/7900))
-  
-  
-
-
-## [shlink-7.0.27](https://github.com/truecharts/charts/compare/shlink-7.0.26...shlink-7.0.27) (2023-02-27)
-
-### Chore
-
-- update helm general non-major ([#7725](https://github.com/truecharts/charts/issues/7725))
   
   
