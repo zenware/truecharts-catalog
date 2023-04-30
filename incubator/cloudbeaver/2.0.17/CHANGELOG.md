@@ -4,6 +4,19 @@
 
 
 
+## [cloudbeaver-2.0.17](https://github.com/truecharts/charts/compare/cloudbeaver-2.0.16...cloudbeaver-2.0.17) (2023-04-30)
+
+### Chore
+
+- update container image tccr.io/truecharts/cloudbeaver to latest ([#8191](https://github.com/truecharts/charts/issues/8191))
+  
+  ### Fix
+
+- fix indentation ([#8536](https://github.com/truecharts/charts/issues/8536))
+  
+  
+
+
 ## [cloudbeaver-2.0.16](https://github.com/truecharts/charts/compare/cloudbeaver-2.0.15...cloudbeaver-2.0.16) (2023-02-26)
 
 ### Chore
@@ -84,16 +97,3 @@
   
   
 
-
-## [cloudbeaver-2.0.7](https://github.com/truecharts/charts/compare/cloudbeaver-2.0.6...cloudbeaver-2.0.7) (2022-12-25)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [cloudbeaver-2.0.6](https://github.com/truecharts/charts/compare/cloudbeaver-2.0.5...cloudbeaver-2.0.6) (2022-12-19)
-
-### Chore
