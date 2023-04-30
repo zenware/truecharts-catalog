@@ -4,6 +4,15 @@
 
 
 
+## [zerotier-5.0.8](https://github.com/truecharts/charts/compare/zerotier-5.0.7...zerotier-5.0.8) (2023-04-30)
+
+### Chore
+
+- update container image tccr.io/truecharts/zerotier to v1.10.6 ([#8538](https://github.com/truecharts/charts/issues/8538))
+  
+  
+
+
 ## [zerotier-5.0.7](https://github.com/truecharts/charts/compare/zerotier-5.0.6...zerotier-5.0.7) (2023-04-25)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Chore
 
 - update container image tccr.io/truecharts/zerotier to v
-  
-  
-
-
-## [zerotier-4.0.9](https://github.com/truecharts/charts/compare/zerotier-4.0.8...zerotier-4.0.9) (2023-02-10)
-
-### Fix
-
-- ensure new helm deps repo is used in latest releases as well.
   
   
