@@ -4,6 +4,15 @@
 
 
 
+## [satisfactory-5.0.8](https://github.com/truecharts/charts/compare/satisfactory-5.0.7...satisfactory-5.0.8) (2023-04-30)
+
+### Chore
+
+- update container image tccr.io/truecharts/satisfactory to v1.4.8 ([#8522](https://github.com/truecharts/charts/issues/8522))
+  
+  
+
+
 ## [satisfactory-5.0.7](https://github.com/truecharts/charts/compare/satisfactory-5.0.6...satisfactory-5.0.7) (2023-04-25)
 
 ### Chore
@@ -88,12 +97,3 @@
 - ensure new helm deps repo is used in latest releases as well.
   
   
-
-
-## [satisfactory-4.0.13](https://github.com/truecharts/charts/compare/satisfactory-4.0.12...satisfactory-4.0.13) (2023-02-03)
-
-
-
-
-## [satisfactory-4.0.12](https://github.com/truecharts/charts/compare/satisfactory-4.0.11...satisfactory-4.0.12) (2023-01-30)
-
