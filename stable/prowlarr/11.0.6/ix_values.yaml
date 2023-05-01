@@ -1,0 +1,27 @@
+image:
+  repository: tccr.io/truecharts/prowlarr
+  tag: 1.4.0.3230@sha256:ba260c7cd63613434991b8ea6770c6e611565f5cdae9c4109e01f7bd3ac65daf
+  pullPolicy: IfNotPresent
+service:
+  main:
+    ports:
+      main:
+        port: 9696
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            PROWLARR__PORT: "{{ .Values.service.main.ports.main.port }}"
+            PROWLARR__AUTHENTICATION_METHOD: ""
