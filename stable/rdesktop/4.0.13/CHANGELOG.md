@@ -4,6 +4,15 @@
 
 
 
+## [rdesktop-4.0.13](https://github.com/truecharts/charts/compare/rdesktop-4.0.12...rdesktop-4.0.13) (2023-05-01)
+
+### Chore
+
+- update rdesktop ([#8682](https://github.com/truecharts/charts/issues/8682))
+  
+  
+
+
 ## [rdesktop-4.0.12](https://github.com/truecharts/charts/compare/rdesktop-4.0.11...rdesktop-4.0.12) (2023-04-30)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [rdesktop-4.0.3](https://github.com/truecharts/charts/compare/rdesktop-4.0.2...rdesktop-4.0.3) (2023-04-14)
 
 
-
-
-## [rdesktop-4.0.2](https://github.com/truecharts/charts/compare/rdesktop-4.0.1...rdesktop-4.0.2) (2023-04-12)
-
-### Chore
-
-- bump common on the 222 ([#7959](https://github.com/truecharts/charts/issues/7959))
-  
-  
