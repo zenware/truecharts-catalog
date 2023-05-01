@@ -201,7 +201,7 @@ questions:
                             description: "This port exposes the container port on the service"
                             schema:
                               type: int
-                              default: 6555
+                              default: 10143
                               required: true
   - variable: serviceexpert
     group: Networking and Services
@@ -922,7 +922,7 @@ questions:
                 description: When supported by the container, this sets the User ID running the Application Process. Not supported by all Apps
                 schema:
                   type: int
-                  show_if: [["runAsUser", "=", "0"]]
+                  show_if: [["runAsUser", "=", 0]]
                   default: 568
               - variable: UMASK
                 label: UMASK
