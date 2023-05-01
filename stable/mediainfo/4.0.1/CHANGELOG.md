@@ -4,6 +4,15 @@
 
 
 
+## [mediainfo-4.0.1](https://github.com/truecharts/charts/compare/mediainfo-4.0.0...mediainfo-4.0.1) (2023-05-01)
+
+### Chore
+
+- update container image tccr.io/truecharts/mediainfo to v23.04.1 ([#8598](https://github.com/truecharts/charts/issues/8598))
+  
+  
+
+
 ## [mediainfo-4.0.0](https://github.com/truecharts/charts/compare/mediainfo-3.0.14...mediainfo-4.0.0) (2023-05-01)
 
 ### Feat
@@ -85,15 +94,6 @@
 ### Chore
 
 - update helm general non-major
-  
-  
-
-
-## [mediainfo-3.0.6](https://github.com/truecharts/charts/compare/mediainfo-3.0.5...mediainfo-3.0.6) (2022-12-24)
-
-### Chore
-
-- update container image tccr.io/truecharts/mediainfo to v22.12.2
   
   
 

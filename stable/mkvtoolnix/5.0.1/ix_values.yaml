@@ -1,35 +1,40 @@
 image:
-  repository: tccr.io/truecharts/mediainfo
-  tag: 23.02.2@sha256:f2b4e4d9d3c908dbc7a2e6235e77ac0bba22ba00c3be06c340442eaada8b3a30
+  repository: tccr.io/truecharts/mkvtoolnix
+  tag: 23.03.2@sha256:783c7d5df7227a94bed65a152201845af8b19f79070bfaa27048c690a6d0bc36
   pullPolicy: IfNotPresent
 service:
   main:
     ports:
       main:
-        port: 10264
+        port: 10236
         targetPort: 5800
   vnc:
     enabled: true
     ports:
       vnc:
         enabled: true
-        port: 10265
+        port: 10237
         targetPort: 5900
-mediainfo:
+mkvtoolnix:
+  # General Settings
   KEEP_APP_RUNNING: false
+  # GUI Settings
   DISPLAY_WIDTH: 1280
   DISPLAY_HEIGHT: 768
+  DARK_MODE: false
+  # App Settings
   SECURE_CONNECTION: false
   ENABLE_CJK_FONT: false
 configmap:
-  mediainfo:
+  mkvtoolnix:
     enabled: true
     data:
-      ENABLE_CJK_FONT: '{{ ternary "1" "0" .Values.mediainfo.ENABLE_CJK_FONT }}'
-      KEEP_APP_RUNNING: '{{ ternary "1" "0" .Values.mediainfo.KEEP_APP_RUNNING }}'
-      SECURE_CONNECTION: '{{ ternary "1" "0" .Values.mediainfo.SECURE_CONNECTION }}'
-      DISPLAY_WIDTH: "{{ .Values.mediainfo.DISPLAY_WIDTH }}"
-      DISPLAY_HEIGHT: "{{ .Values.mediainfo.DISPLAY_HEIGHT }}"
+      ENABLE_CJK_FONT: '{{ ternary "1" "0" .Values.mkvtoolnix.ENABLE_CJK_FONT }}'
+      KEEP_APP_RUNNING: '{{ ternary "1" "0" .Values.mkvtoolnix.KEEP_APP_RUNNING }}'
+      SECURE_CONNECTION: '{{ ternary "1" "0" .Values.mkvtoolnix.SECURE_CONNECTION }}'
+      DISPLAY_WIDTH: "{{ .Values.mkvtoolnix.DISPLAY_WIDTH }}"
+      DISPLAY_HEIGHT: "{{ .Values.mkvtoolnix.DISPLAY_HEIGHT }}"
+      DARK_MODE: '{{ ternary "1" "0" .Values.mkvtoolnix.DARK_MODE }}'
 persistence:
   config:
     enabled: true
@@ -67,4 +72,4 @@ workload:
             VNC_PASSWORD: ""
           envFrom:
             - configMapRef:
-                name: "mediainfo"
+                name: "mkvtoolnix"
