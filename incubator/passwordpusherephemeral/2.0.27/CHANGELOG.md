@@ -4,6 +4,15 @@
 
 
 
+## [passwordpusherephemeral-2.0.27](https://github.com/truecharts/charts/compare/passwordpusherephemeral-2.0.26...passwordpusherephemeral-2.0.27) (2023-05-01)
+
+### Chore
+
+- update container image tccr.io/truecharts/passwordpusherephemeral to latest ([#8678](https://github.com/truecharts/charts/issues/8678))
+  
+  
+
+
 ## [passwordpusherephemeral-2.0.26](https://github.com/truecharts/charts/compare/passwordpusherephemeral-2.0.25...passwordpusherephemeral-2.0.26) (2023-04-30)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [passwordpusherephemeral-2.0.17](https://github.com/truecharts/charts/compare/passwordpusherephemeral-2.0.16...passwordpusherephemeral-2.0.17) (2023-01-12)
-
-### Chore
-
-- update container image tccr.io/truecharts/passwordpusherephemeral to latest
-  
-  
-
-
-## [passwordpusherephemeral-2.0.16](https://github.com/truecharts/charts/compare/passwordpusherephemeral-2.0.15...passwordpusherephemeral-2.0.16) (2023-01-07)
 
 ### Chore
