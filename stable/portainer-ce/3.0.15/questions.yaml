@@ -225,8 +225,6 @@ questions:
                       description: LoadBalancer (Expose Ports)
                     - value: ClusterIP
                       description: ClusterIP (Do Not Expose Ports)
-                    - value: Simple
-                      description: Deprecated CHANGE THIS
               - variable: loadBalancerIP
                 label: LoadBalancer IP
                 description: "MetalLB Only: Selects the Loadbalancer IP to expose on. Required when using PortalButton with MetalLB"
@@ -277,8 +275,6 @@ questions:
                       description: LoadBalancer (Expose Ports)
                     - value: ClusterIP
                       description: ClusterIP (Do Not Expose Ports)
-                    - value: Simple
-                      description: Deprecated CHANGE THIS
               - variable: loadBalancerIP
                 label: LoadBalancer IP
                 description: "MetalLB Only: Selects the Loadbalancer IP to expose on. Required when using PortalButton with MetalLB"
@@ -317,9 +313,10 @@ questions:
           group: Networking and Services
           label: Host-Networking (Complicated)
           schema:
+            hidden: true
             type: boolean
             default: false
-        - variable: externalInterfaces
+        - variable: scaleExternalInterface
           description: Add External Interfaces
           label: Add external Interfaces
           group: Networking
@@ -360,41 +357,41 @@ questions:
                                   description: Use DHCP
                                 - value: static
                                   description: Use Static IP
-                              show_subquestions_if: static
-                              subquestions:
-                                - variable: staticIPConfigurations
-                                  label: Static IP Addresses
+                          - variable: staticIPConfigurations
+                            label: Static IP Addresses
+                            schema:
+                              type: list
+                              show_if: [["type", "=", "static"]]
+                              items:
+                                - variable: staticIP
+                                  label: Static IP
                                   schema:
-                                    type: list
-                                    items:
-                                      - variable: staticIP
-                                        label: Static IP
+                                    type: ipaddr
+                                    cidr: true
+                          - variable: staticRoutes
+                            label: Static Routes
+                            schema:
+                              type: list
+                              show_if: [["type", "=", "static"]]
+                              items:
+                                - variable: staticRouteConfiguration
+                                  label: Static Route Configuration
+                                  schema:
+                                    additional_attrs: true
+                                    type: dict
+                                    attrs:
+                                      - variable: destination
+                                        label: Destination
                                         schema:
                                           type: ipaddr
                                           cidr: true
-                                - variable: staticRoutes
-                                  label: Static Routes
-                                  schema:
-                                    type: list
-                                    items:
-                                      - variable: staticRouteConfiguration
-                                        label: Static Route Configuration
+                                          required: true
+                                      - variable: gateway
+                                        label: Gateway
                                         schema:
-                                          additional_attrs: true
-                                          type: dict
-                                          attrs:
-                                            - variable: destination
-                                              label: Destination
-                                              schema:
-                                                type: ipaddr
-                                                cidr: true
-                                                required: true
-                                            - variable: gateway
-                                              label: Gateway
-                                              schema:
-                                                type: ipaddr
-                                                cidr: false
-                                                required: true
+                                          type: ipaddr
+                                          cidr: false
+                                          required: true
         - variable: serviceList
           label: Add Manual Custom Services
           group: Networking and Services
@@ -508,15 +505,15 @@ questions:
                                   label: Port Type
                                   schema:
                                     type: string
-                                    default: TCP
+                                    default: tcp
                                     enum:
-                                      - value: HTTP
+                                      - value: http
                                         description: HTTP
-                                      - value: HTTPS
+                                      - value: https
                                         description: HTTPS
-                                      - value: TCP
+                                      - value: tcp
                                         description: TCP
-                                      - value: UDP
+                                      - value: udp
                                         description: UDP
                                 - variable: targetPort
                                   label: Target Port
@@ -768,7 +765,7 @@ questions:
                       label: TLS-Settings
                       schema:
                         type: list
-                        show_if: [["clusterIssuer", "=", ""]]
+                        show_if: [["certificateIssuer", "=", ""]]
                         default: []
                         items:
                           - variable: tlsEntry
@@ -799,14 +796,14 @@ questions:
                                 - variable: scaleCert
                                   label: Use TrueNAS SCALE Certificate (Deprecated)
                                   schema:
-                                    show_if: [["clusterIssuer", "=", ""]]
+                                    show_if: [["certificateIssuer", "=", ""]]
                                     type: int
                                     $ref:
                                       - "definitions/certificate"
                                 - variable: secretName
                                   label: Use Custom Secret (Advanced)
                                   schema:
-                                    show_if: [["clusterIssuer", "=", ""]]
+                                    show_if: [["certificateIssuer", "=", ""]]
                                     type: string
                                     default: ""
                     - variable: entrypoint
@@ -1023,7 +1020,7 @@ questions:
                 description: When supported by the container, this sets the User ID running the Application Process. Not supported by all Apps
                 schema:
                   type: int
-                  show_if: [["runAsUser", "=", "0"]]
+                  show_if: [["runAsUser", "=", 0]]
                   default: 568
               - variable: UMASK
                 label: UMASK
@@ -1049,7 +1046,33 @@ questions:
                       schema:
                         type: boolean
                         default: true
-
+        - variable: pod
+          label: Pod
+          schema:
+            additional_attrs: true
+            type: dict
+            attrs:
+              - variable: fsGroupChangePolicy
+                label: "When should we take ownership?"
+                schema:
+                  type: string
+                  default: OnRootMismatch
+                  enum:
+                    - value: OnRootMismatch
+                      description: OnRootMismatch
+                    - value: Always
+                      description: Always
+              - variable: supplementalGroups
+                label: Supplemental Groups
+                schema:
+                  type: list
+                  default: []
+                  items:
+                    - variable: supplementalGroupsEntry
+                      label: Supplemental Group
+                      schema:
+                        type: int
+              # Settings from questions.yaml get appended here on a per-app basis
               - variable: fsGroup
                 label: "fsGroup"
                 description: "The group that should own ALL storage."
@@ -1130,7 +1153,7 @@ questions:
                 description: Sets the persistence type
                 schema:
                   type: string
-                  default: hostPath
+                  default: device
                   hidden: true
               - variable: readOnly
                 label: readOnly
@@ -1169,6 +1192,12 @@ questions:
                   $ref:
                     - "definitions/gpuConfiguration"
                   attrs: []
+              - variable: workaround
+                label: "Workaround"
+                schema:
+                  type: string
+                  default: workaround
+                  hidden: true
 #  - variable: horizontalPodAutoscaler
 #    group: Advanced
 #    label: (Advanced) Horizontal Pod Autoscaler
@@ -1760,6 +1789,7 @@ questions:
                       description: Authentication Credentials
                       schema:
                         type: string
+                        show_if: [["username", "!=", ""]]
                         default: ""
                         required: true
               - variable: tailscale

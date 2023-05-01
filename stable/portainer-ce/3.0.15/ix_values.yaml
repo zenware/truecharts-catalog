@@ -1,11 +1,11 @@
 image:
   repository: tccr.io/truecharts/portainer-ce
-  tag: 2.17.1@sha256:f788c772e9b9a273f44ea2cf3d365d7120e36a1f8150d77dd79ae4f013b3c6da
+  tag: 2.18.1@sha256:5cf05964150cd20101e793c4cebcd4a28ea3d157c843d3a55843ab7d79278fd1
   pullPolicy: IfNotPresent
 
 imageBe:
   repository: tccr.io/truecharts/portainer-be
-  tag: 2.17.1@sha256:a0f48a17ba6d0e3d95469c304d6986a4c6a33533034ff04a27b8f92a09ae7fcb
+  tag: 2.17.1@sha256:d83c8fa439ce749d4bdc68710b9c8ca2ae6e2a54b963ec47ddba6d97d4a34f36
   pullPolicy: IfNotPresent
 
 imageSelector: image
