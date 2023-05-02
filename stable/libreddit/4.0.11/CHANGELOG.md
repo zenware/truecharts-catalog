@@ -4,6 +4,15 @@
 
 
 
+## [libreddit-4.0.11](https://github.com/truecharts/charts/compare/libreddit-4.0.10...libreddit-4.0.11) (2023-05-02)
+
+### Chore
+
+- update container image tccr.io/truecharts/libreddit to latest ([#8699](https://github.com/truecharts/charts/issues/8699))
+  
+  
+
+
 ## [libreddit-4.0.10](https://github.com/truecharts/charts/compare/libreddit-4.0.9...libreddit-4.0.10) (2023-04-27)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Fix
 
 - bump common on the 222 ([#7927](https://github.com/truecharts/charts/issues/7927))
-  
-  
-
-
-## [libreddit-4.0.0](https://github.com/truecharts/charts/compare/libreddit-3.0.17...libreddit-4.0.0) (2023-04-11)
-
-### Feat
-
-- BREAKING CHANGE migrate to new common part 1 ([#7900](https://github.com/truecharts/charts/issues/7900))
   
   

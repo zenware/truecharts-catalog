@@ -4,6 +4,15 @@
 
 
 
+## [cyberchef-5.0.13](https://github.com/truecharts/charts/compare/cyberchef-5.0.12...cyberchef-5.0.13) (2023-05-02)
+
+### Chore
+
+- update container image tccr.io/truecharts/cyberchef to 10.4.0 ([#8668](https://github.com/truecharts/charts/issues/8668))
+  
+  
+
+
 ## [cyberchef-5.0.12](https://github.com/truecharts/charts/compare/cyberchef-5.0.11...cyberchef-5.0.12) (2023-04-29)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [cyberchef-5.0.3](https://github.com/truecharts/charts/compare/cyberchef-5.0.2...cyberchef-5.0.3) (2023-04-14)
 
 
-
-
-## [cyberchef-5.0.2](https://github.com/truecharts/charts/compare/cyberchef-5.0.1...cyberchef-5.0.2) (2023-04-12)
-
-### Chore
-
-- bump common on the 222 ([#7959](https://github.com/truecharts/charts/issues/7959))
-  
-  
