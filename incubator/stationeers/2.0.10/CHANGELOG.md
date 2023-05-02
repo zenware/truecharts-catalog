@@ -4,6 +4,19 @@
 
 
 
+## [stationeers-2.0.10](https://github.com/truecharts/charts/compare/stationeers-2.0.9...stationeers-2.0.10) (2023-05-02)
+
+### Chore
+
+- update container image tccr.io/truecharts/stationeers to latest ([#8710](https://github.com/truecharts/charts/issues/8710))
+  
+  ### Fix
+
+- fix indentation ([#8536](https://github.com/truecharts/charts/issues/8536))
+  
+  
+
+
 ## [stationeers-2.0.9](https://github.com/truecharts/charts/compare/stationeers-2.0.8...stationeers-2.0.9) (2023-02-10)
 
 ### Fix
@@ -83,17 +96,4 @@
 
 
 ## [stationeers-2.0.2](https://github.com/truecharts/charts/compare/stationeers-2.0.1...stationeers-2.0.2) (2022-11-30)
-
-
-
-
-## [stationeers-2.0.2](https://github.com/truecharts/charts/compare/stationeers-2.0.1...stationeers-2.0.2) (2022-11-30)
-
-
-
-
-## [stationeers-2.0.2](https://github.com/truecharts/charts/compare/stationeers-2.0.1...stationeers-2.0.2) (2022-11-30)
-
-
-
 
