@@ -4,6 +4,15 @@
 
 
 
+## [webtop-5.0.12](https://github.com/truecharts/charts/compare/webtop-5.0.11...webtop-5.0.12) (2023-05-02)
+
+### Chore
+
+- update container image tccr.io/truecharts/webtop-alpine-i3 to latest ([#8696](https://github.com/truecharts/charts/issues/8696))
+  
+  
+
+
 ## [webtop-5.0.11](https://github.com/truecharts/charts/compare/webtop-5.0.10...webtop-5.0.11) (2023-04-29)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Chore
 
 - bump common on the 222 ([#7959](https://github.com/truecharts/charts/issues/7959))
-  
-  
-
-
-## [webtop-5.0.1](https://github.com/truecharts/charts/compare/webtop-5.0.0...webtop-5.0.1) (2023-04-11)
-
-### Fix
-
-- bump common on the 222 ([#7927](https://github.com/truecharts/charts/issues/7927))
   
   
