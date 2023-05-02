@@ -4,6 +4,15 @@
 
 
 
+## [webtop-5.0.13](https://github.com/truecharts/charts/compare/webtop-5.0.12...webtop-5.0.13) (2023-05-02)
+
+### Chore
+
+- update webtop ([#8706](https://github.com/truecharts/charts/issues/8706))
+  
+  
+
+
 ## [webtop-5.0.12](https://github.com/truecharts/charts/compare/webtop-5.0.11...webtop-5.0.12) (2023-05-02)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [webtop-5.0.3](https://github.com/truecharts/charts/compare/webtop-5.0.2...webtop-5.0.3) (2023-04-14)
 
 
-
-
-## [webtop-5.0.2](https://github.com/truecharts/charts/compare/webtop-5.0.1...webtop-5.0.2) (2023-04-12)
-
-### Chore
-
-- bump common on the 222 ([#7959](https://github.com/truecharts/charts/issues/7959))
-  
-  
