@@ -4,6 +4,15 @@
 
 
 
+## [matomo-7.0.13](https://github.com/truecharts/charts/compare/matomo-7.0.12...matomo-7.0.13) (2023-05-03)
+
+### Chore
+
+- update container image tccr.io/truecharts/matomo to 4.14.2 ([#8740](https://github.com/truecharts/charts/issues/8740))
+  
+  
+
+
 ## [matomo-7.0.12](https://github.com/truecharts/charts/compare/matomo-7.0.11...matomo-7.0.12) (2023-05-03)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [matomo-7.0.3](https://github.com/truecharts/charts/compare/matomo-7.0.2...matomo-7.0.3) (2023-04-14)
 
 
-
-
-## [matomo-7.0.2](https://github.com/truecharts/charts/compare/matomo-7.0.1...matomo-7.0.2) (2023-04-12)
-
-### Chore
-
-- bump common on the 222 ([#7959](https://github.com/truecharts/charts/issues/7959))
-  
-  
