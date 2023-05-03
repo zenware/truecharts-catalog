@@ -4,6 +4,16 @@
 
 
 
+## [technitium-3.0.11](https://github.com/truecharts/charts/compare/technitium-3.0.10...technitium-3.0.11) (2023-05-03)
+
+### Fix
+
+- fix some invalid questions.yaml ([#8718](https://github.com/truecharts/charts/issues/8718))
+  - fix questions.yaml ([#8745](https://github.com/truecharts/charts/issues/8745))
+  
+  
+
+
 ## [technitium-3.0.10](https://github.com/truecharts/charts/compare/technitium-3.0.9...technitium-3.0.10) (2023-05-03)
 
 ### Fix
@@ -71,16 +81,6 @@
 - update helm general non-major
   
   
-
-
-## [technitium-3.0.2](https://github.com/truecharts/charts/compare/technitium-3.0.1...technitium-3.0.2) (2022-11-30)
-
-
-
-
-## [technitium-3.0.2](https://github.com/truecharts/charts/compare/technitium-3.0.1...technitium-3.0.2) (2022-11-30)
-
-
 
 
 ## [technitium-3.0.2](https://github.com/truecharts/charts/compare/technitium-3.0.1...technitium-3.0.2) (2022-11-30)

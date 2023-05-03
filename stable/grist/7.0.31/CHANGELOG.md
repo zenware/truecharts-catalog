@@ -4,6 +4,15 @@
 
 
 
+## [grist-7.0.31](https://github.com/truecharts/charts/compare/grist-7.0.29...grist-7.0.31) (2023-05-03)
+
+### Fix
+
+- fix questions.yaml ([#8745](https://github.com/truecharts/charts/issues/8745))
+  
+  
+
+
 ## [grist-7.0.29](https://github.com/truecharts/charts/compare/grist-7.0.28...grist-7.0.29) (2023-05-03)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Chore
 
 - update helm general non-major
-  
-  
-
-
-## [grist-7.0.20](https://github.com/truecharts/charts/compare/grist-7.0.19...grist-7.0.20) (2023-01-17)
-
-### Chore
-
-- update helm general non-major ([#6430](https://github.com/truecharts/charts/issues/6430))
   
   

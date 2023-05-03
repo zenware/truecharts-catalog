@@ -4,6 +4,15 @@
 
 
 
+## [synapse-7.0.32](https://github.com/truecharts/charts/compare/synapse-7.0.31...synapse-7.0.32) (2023-05-03)
+
+### Fix
+
+- fix questions.yaml ([#8745](https://github.com/truecharts/charts/issues/8745))
+  
+  
+
+
 ## [synapse-7.0.31](https://github.com/truecharts/charts/compare/synapse-7.0.30...synapse-7.0.31) (2023-05-03)
 
 ### Chore
@@ -87,13 +96,4 @@
 ### Fix
 
 - remove non-link sources ([#6826](https://github.com/truecharts/charts/issues/6826))
-  
-  
-
-
-## [synapse-7.0.22](https://github.com/truecharts/charts/compare/synapse-7.0.21...synapse-7.0.22) (2023-01-24)
-
-### Chore
-
-- update helm general non-major ([#6689](https://github.com/truecharts/charts/issues/6689))
   
