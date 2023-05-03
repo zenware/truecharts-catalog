@@ -21,11 +21,10 @@ maintainers:
 name: filezilla
 sources:
   - https://github.com/truecharts/charts/tree/master/charts/stable/filezilla
-  - https://ghcr.io/linuxserver/filezilla
   - https://filezilla-project.org/
   - https://github.com/linuxserver/docker-filezilla
 type: application
-version: 6.0.13
+version: 6.0.14
 annotations:
   truecharts.org/catagories: |
     - media
