@@ -113,7 +113,7 @@ questions:
                                         description: "If you are using a single monolithic instance set this to true"
                                         schema:
                                           type: boolean
-                                          default: false
+                                          default: true
                                           show_subquestions_if: true
                                           subquestions:
                                             - variable: LANCACHE_IP
@@ -122,11 +122,10 @@ questions:
                                               schema:
                                                 type: string
                                                 required: true
-                                                default: ""
+                                                default: "192.168.50.202"
                                             - variable: customdisable
                                               label: "Disable Cache DNS Resolvers"
                                               schema:
-                                                show_if: [["USE_GENERIC_CACHE", "=", true]]
                                                 type: boolean
                                                 default: false
                                                 show_subquestions_if: true
